@@ -1,0 +1,22 @@
+
+state={
+	id=697
+	name="STATE_697"
+
+	history={
+		owner = GER
+		add_core_of = AUS
+		add_core_of = GER
+		add_core_of = POL
+		add_claim_by = W20
+
+	}
+	state_category=enclave
+
+	provinces={
+		493 584 3482 9439 9508 9546 11428 11515 
+	}
+	manpower=10
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

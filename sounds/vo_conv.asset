@@ -709,11 +709,11 @@ category = {
 		X94_infantry_neutral_combat
 		X94_infantry_positive_combat
 		X94_infantry_retreat
-		X95_infantry_idle
-		X95_infantry_move_out
-		X95_infantry_neutral_combat
-		X95_infantry_positive_combat
-		X95_infantry_retreat
+		CAN_infantry_idle
+		CAN_infantry_move_out
+		CAN_infantry_neutral_combat
+		CAN_infantry_positive_combat
+		CAN_infantry_retreat
 		X97_infantry_idle
 		X97_infantry_move_out
 		X97_infantry_neutral_combat
@@ -11825,7 +11825,7 @@ soundeffect = {
 }
 
 soundeffect = {
-	name = X95_infantry_idle
+	name = CAN_infantry_idle
 	sounds = {
 		sound = uk_Idle_001
 		sound = uk_Idle_002
@@ -11863,7 +11863,7 @@ soundeffect = {
 }
 
 soundeffect = {
-	name = X95_infantry_move_out
+	name = CAN_infantry_move_out
 	sounds = {
 		sound = uk_Positive_010
 		sound = uk_Positive_011
@@ -11877,7 +11877,7 @@ soundeffect = {
 }
 
 soundeffect = {
-	name = X95_infantry_neutral_combat
+	name = CAN_infantry_neutral_combat
 	sounds = {
 		sound = uk_Neutral_001
 		sound = uk_Neutral_002
@@ -11912,7 +11912,7 @@ soundeffect = {
 }
 
 soundeffect = {
-	name = X95_infantry_positive_combat
+	name = CAN_infantry_positive_combat
 	sounds = {
 		sound = uk_Positive_001
 		sound = uk_Positive_002
@@ -11947,7 +11947,7 @@ soundeffect = {
 }
 
 soundeffect = {
-	name = X95_infantry_retreat
+	name = CAN_infantry_retreat
 	sounds = {
 		sound = uk_Retreat_001
 		sound = uk_Retreat_002

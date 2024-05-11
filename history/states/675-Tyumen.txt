@@ -8,9 +8,22 @@ state={
 	history={
 		owner = SOV
 		add_core_of = SOV
+		victory_points = {
+			1664 2 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+			4669 = {
+				naval_base = 1
+			}
+			air_base = 0
+
+		}
 	}
-	state_category=enclave
-	manpower=0
+	state_category=large_town
+	manpower=10
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }

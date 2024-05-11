@@ -96,13 +96,13 @@ add_opinion_modifier = { target = SPR modifier = negative_45 }
 add_opinion_modifier = { target = SWI modifier = negative_12 }
 add_opinion_modifier = { target = TIB modifier = negative_10 }
 add_opinion_modifier = { target = W16 modifier = negative_10 }
-add_opinion_modifier = { target = W50 modifier = positive_20 }
+add_opinion_modifier = { target = AST modifier = positive_20 }
 add_opinion_modifier = { target = W57 modifier = positive_155 }
 add_opinion_modifier = { target = W59 modifier = negative_10 }
 add_opinion_modifier = { target = X14 modifier = positive_172 }
 give_military_access = X14
 add_opinion_modifier = { target = X72 modifier = positive_120 }
-add_opinion_modifier = { target = X95 modifier = negative_197 }
+add_opinion_modifier = { target = CAN modifier = negative_197 }
 
 
 add_ideas = {

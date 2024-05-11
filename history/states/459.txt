@@ -3,6 +3,9 @@ state={
 	id=459
 	name="STATE_459"
 
+	resources={
+		aluminium=12.000
+	}
 	history={
 		owner = SCA
 		victory_points = {

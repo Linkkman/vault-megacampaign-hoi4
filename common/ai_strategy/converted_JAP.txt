@@ -125,7 +125,7 @@ converted_diplo_strategies_JAP = {
 	}
 	ai_strategy = {
 		type = declare_war
-		id = "X95"
+		id = "CAN"
 		value = 23
 	}
 }

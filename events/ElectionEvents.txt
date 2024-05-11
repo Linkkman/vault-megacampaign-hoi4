@@ -4759,7 +4759,7 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		tag = W50
+		tag = AST
 		OR = {
 			democratic > 0.5
 			neutrality > 0.5
@@ -4768,21 +4768,21 @@ country_event = {
 
 	option = {
 		name = election.116a
-		set_party_name = { ideology = democratic long_name = W50_conservative_party name = W50_conservative_party }
+		set_party_name = { ideology = democratic long_name = AST_conservative_party name = AST_conservative_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = conservatism
 	}
 
 	option = {
 		name = election.116b
-		set_party_name = { ideology = democratic long_name = W50_liberal_party name = W50_liberal_party }
+		set_party_name = { ideology = democratic long_name = AST_liberal_party name = AST_liberal_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = liberalism
 	}
 
 	option = {
 		name = election.116c
-		set_party_name = { ideology = democratic long_name = W50_socialist_party name = W50_socialist_party }
+		set_party_name = { ideology = democratic long_name = AST_socialist_party name = AST_socialist_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = socialism
 	}
@@ -9135,7 +9135,7 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		tag = X95
+		tag = CAN
 		OR = {
 			democratic > 0.5
 			neutrality > 0.5
@@ -9144,21 +9144,21 @@ country_event = {
 
 	option = {
 		name = election.219a
-		set_party_name = { ideology = democratic long_name = X95_conservative_3_party name = X95_conservative_3_party }
+		set_party_name = { ideology = democratic long_name = CAN_conservative_3_party name = CAN_conservative_3_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = conservatism
 	}
 
 	option = {
 		name = election.219b
-		set_party_name = { ideology = democratic long_name = X95_liberal_party name = X95_liberal_party }
+		set_party_name = { ideology = democratic long_name = CAN_liberal_party name = CAN_liberal_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = liberalism
 	}
 
 	option = {
 		name = election.219c
-		set_party_name = { ideology = democratic long_name = X95_socialist_party name = X95_socialist_party }
+		set_party_name = { ideology = democratic long_name = CAN_socialist_party name = CAN_socialist_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = socialism
 	}

@@ -15,6 +15,7 @@ state={
 			dockyard = 2
 			6196 = {
 				naval_base = 1
+
 			}
 			air_base = 4
 
@@ -22,14 +23,14 @@ state={
 		add_core_of = ENG
 		add_core_of = X32
 		add_claim_by = W20
+
 	}
 
 	provinces={
-		6196 
+		131 284 3159 3178 3373 6046 6062 6104 6196 6205 6385 9075 9090 11064 11161 11266 13269 13270 
 	}
 	manpower=699664
 	buildings_max_level_factor=1.000
 	state_category=megalopolis
-
-	local_supplies=10.0
+	local_supplies=10.000
 }

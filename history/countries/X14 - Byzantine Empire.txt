@@ -130,13 +130,13 @@ give_military_access = SPR
 add_opinion_modifier = { target = SWI modifier = positive_102 }
 add_opinion_modifier = { target = UKR modifier = positive_200 }
 add_opinion_modifier = { target = W16 modifier = negative_40 }
-add_opinion_modifier = { target = W50 modifier = negative_24 }
+add_opinion_modifier = { target = AST modifier = negative_24 }
 add_opinion_modifier = { target = W52 modifier = positive_172 }
 give_military_access = W52
 add_opinion_modifier = { target = W57 modifier = negative_117 }
 add_opinion_modifier = { target = W59 modifier = positive_177 }
 add_opinion_modifier = { target = X72 modifier = negative_121 }
-add_opinion_modifier = { target = X95 modifier = negative_199 }
+add_opinion_modifier = { target = CAN modifier = negative_199 }
 
 create_faction = GRE_argos_alliance
 add_to_faction = X14

@@ -32,7 +32,7 @@ add_opinion_modifier = { target = ITA modifier = negative_15 }
 add_opinion_modifier = { target = JAP modifier = negative_10 }
 add_opinion_modifier = { target = SOV modifier = positive_4 }
 add_opinion_modifier = { target = SPR modifier = negative_15 }
-add_opinion_modifier = { target = W50 modifier = positive_30 }
+add_opinion_modifier = { target = AST modifier = positive_30 }
 add_opinion_modifier = { target = W52 modifier = positive_15 }
 add_opinion_modifier = { target = W57 modifier = positive_3 }
 add_opinion_modifier = { target = W59 modifier = negative_10 }

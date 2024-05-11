@@ -18,6 +18,7 @@ state={
 			dockyard = 3
 			540 = {
 				naval_base = 10
+
 			}
 			air_base = 4
 
@@ -26,14 +27,14 @@ state={
 		add_core_of = X32
 		add_claim_by = TIG
 		add_claim_by = WLS
+
 	}
 
 	provinces={
-		540 3369 3422 3463 6351 6378 6526 9484 9562 11406 
+		3369 6221 6351 6378 9484 11471 
 	}
 	manpower=4619684
 	buildings_max_level_factor=1.000
 	state_category=megalopolis
-
-	local_supplies=10.0
+	local_supplies=10.000
 }

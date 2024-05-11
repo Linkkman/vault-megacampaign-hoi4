@@ -103,13 +103,13 @@ add_opinion_modifier = { target = SPR modifier = positive_1 }
 give_military_access = SPR
 add_opinion_modifier = { target = TIB modifier = positive_20 }
 add_opinion_modifier = { target = W16 modifier = positive_20 }
-add_opinion_modifier = { target = W50 modifier = positive_30 }
+add_opinion_modifier = { target = AST modifier = positive_30 }
 add_opinion_modifier = { target = W52 modifier = positive_30 }
 add_opinion_modifier = { target = W57 modifier = positive_93 }
 add_opinion_modifier = { target = W59 modifier = positive_14 }
 add_opinion_modifier = { target = X14 modifier = positive_153 }
 add_opinion_modifier = { target = X72 modifier = positive_40 }
-add_opinion_modifier = { target = X95 modifier = positive_20 }
+add_opinion_modifier = { target = CAN modifier = positive_20 }
 
 
 if = {

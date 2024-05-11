@@ -30,12 +30,12 @@ add_opinion_modifier = { target = HAI modifier = negative_10 }
 add_opinion_modifier = { target = HOL modifier = negative_10 }
 add_opinion_modifier = { target = SOV modifier = negative_10 }
 add_opinion_modifier = { target = SPR modifier = negative_10 }
-add_opinion_modifier = { target = W50 modifier = negative_10 }
+add_opinion_modifier = { target = AST modifier = negative_10 }
 add_opinion_modifier = { target = W52 modifier = negative_10 }
 add_opinion_modifier = { target = W57 modifier = negative_10 }
 add_opinion_modifier = { target = W59 modifier = negative_5 }
 add_opinion_modifier = { target = X72 modifier = negative_10 }
-add_opinion_modifier = { target = X95 modifier = negative_10 }
+add_opinion_modifier = { target = CAN modifier = negative_10 }
 
 
 add_ideas = {

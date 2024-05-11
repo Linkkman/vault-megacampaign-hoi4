@@ -19647,7 +19647,7 @@ W49 = {
 	}
 }
 
-W50 = {
+AST = {
 	army = {
 		male = {
 			"GFX_Portrait_Europe_Generic_land_1"
@@ -38036,7 +38036,7 @@ X94 = {
 	}
 }
 
-X95 = {
+CAN = {
 	army = {
 		male = {
 			"GFX_Portrait_Europe_Generic_land_1"

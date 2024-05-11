@@ -3,6 +3,11 @@ state={
 	id=457
 	name="STATE_457"
 
+	resources={
+		aluminium=30.000
+		chromium=15.000
+	}
+
 	history={
 		owner = SCA
 		victory_points = {
@@ -29,6 +34,6 @@ state={
 	}
 	manpower=552128
 	buildings_max_level_factor=1.000
-	state_category=pastoral
+	state_category=town
 	local_supplies=10.000
 }

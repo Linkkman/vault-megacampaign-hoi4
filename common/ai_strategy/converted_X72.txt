@@ -55,12 +55,12 @@ converted_diplo_strategies_X72 = {
 	}
 	ai_strategy = {
 		type = antagonize
-		id = "X95"
+		id = "CAN"
 		value = 36
 	}
 	ai_strategy = {
 		type = alliance
-		id = "X95"
+		id = "CAN"
 		value = 158
 	}
 	ai_strategy = {
@@ -75,7 +75,7 @@ converted_diplo_strategies_X72 = {
 	}
 	ai_strategy = {
 		type = declare_war
-		id = "X95"
+		id = "CAN"
 		value = 47
 	}
 	ai_strategy = {

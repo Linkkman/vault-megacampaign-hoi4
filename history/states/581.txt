@@ -22,7 +22,7 @@ state={
 		add_core_of = X70
 		add_claim_by = CSA
 		add_claim_by = W20
-		add_claim_by = X95
+		add_claim_by = CAN
 
 	}
 

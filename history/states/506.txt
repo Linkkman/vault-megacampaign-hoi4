@@ -5,14 +5,7 @@ state={
 
 	history={
 		owner = TIB
-		victory_points = {
-			5076 4 
-		}
 		buildings = {
-			infrastructure = 3
-			industrial_complex = 4
-			arms_factory = 3
-			air_base = 2
 
 		}
 		add_core_of = TIB
@@ -25,7 +18,8 @@ state={
 	}
 	manpower=916752
 	buildings_max_level_factor=1.000
-	state_category=large_city
+	impassable = yes
+	state_category=wasteland
 
 	local_supplies=10.0
 }

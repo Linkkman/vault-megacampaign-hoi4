@@ -1,0 +1,285 @@
+units = {
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 7644
+		task_force = {
+			name = "1st Fleet"
+			location = 7644
+			ship = { name = "1st Hopedale Battleship" definition = heavy_cruiser start_experience_factor = 0.15 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CAN version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "2nd Hopedale Battleship" definition = heavy_cruiser start_experience_factor = 0.15 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CAN version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "2nd Truro Battleship" definition = heavy_cruiser start_experience_factor = 0.15 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CAN version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "3rd Hopedale Battleship" definition = heavy_cruiser start_experience_factor = 0.15 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CAN version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "3rd Churchill Battleship" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CAN version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "4th Churchill Battleship" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CAN version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "6th Churchill Battleship" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CAN version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "7th Churchill Battleship" definition = heavy_cruiser start_experience_factor = 0.15 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CAN version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "8th Churchill Battleship" definition = heavy_cruiser start_experience_factor = 0.15 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CAN version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "9th Churchill Battleship" definition = heavy_cruiser start_experience_factor = 0.15 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CAN version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "2nd Sept-Îles Battleship" definition = heavy_cruiser start_experience_factor = 0.14641 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CAN version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "1st Truro Battleship" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CAN version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "3rd Fort Severn Battleship" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CAN version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "3rd Sept-Îles Battleship" definition = heavy_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CAN version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "4th Hopedale Battleship" definition = heavy_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CAN version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "8th Fort Severn Battleship" definition = heavy_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CAN version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "3rd Truro Battleship" definition = heavy_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CAN version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "4th Sept-Îles Battleship" definition = heavy_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CAN version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "5th Hopedale Battleship" definition = heavy_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CAN version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "9th Fort Severn Battleship" definition = heavy_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CAN version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "4th Truro Battleship" definition = heavy_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CAN version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "5th Sept-Îles Battleship" definition = heavy_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CAN version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "6th Hopedale Battleship" definition = heavy_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CAN version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "10th Fort Severn Battleship" definition = heavy_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CAN version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "1st Fort George Battleship" definition = heavy_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CAN version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "5th Truro Battleship" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CAN version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "6th Sept-Îles Battleship" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CAN version_name = "Early Heavy Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "2nd Fleet"
+		naval_base = 3712
+		task_force = {
+			name = "2nd Fleet"
+			location = 4035
+			ship = { name = "7th Hopedale Battleship" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CAN version_name = "Early Heavy Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "4th Fleet"
+		naval_base = 7683
+		task_force = {
+			name = "4th Fleet"
+			location = 7683
+			ship = { name = "7th Sept-Îles Battleship" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CAN version_name = "Early Heavy Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "5th Fleet"
+		naval_base = 7683
+		task_force = {
+			name = "5th Fleet"
+			location = 7683
+			ship = { name = "8th Sept-Îles Battleship" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CAN version_name = "Early Heavy Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "6th Fleet"
+		naval_base = 7683
+		task_force = {
+			name = "6th Fleet"
+			location = 7683
+			ship = { name = "9th Sept-Îles Battleship" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CAN version_name = "Early Heavy Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "7th Fleet"
+		naval_base = 7683
+		task_force = {
+			name = "7th Fleet"
+			location = 7683
+			ship = { name = "10th Sept-Îles Battleship" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CAN version_name = "Early Heavy Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "8th Fleet"
+		naval_base = 7683
+		task_force = {
+			name = "8th Fleet"
+			location = 7683
+			ship = { name = "11th Sept-Îles Battleship" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CAN version_name = "Early Heavy Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "9th Fleet"
+		naval_base = 7683
+		task_force = {
+			name = "9th Fleet"
+			location = 7683
+			ship = { name = "12th Sept-Îles Battleship" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CAN version_name = "Early Heavy Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "10th Fleet"
+		naval_base = 7683
+		task_force = {
+			name = "10th Fleet"
+			location = 7683
+			ship = { name = "13th Sept-Îles Battleship" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CAN version_name = "Early Heavy Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "11th Fleet"
+		naval_base = 7683
+		task_force = {
+			name = "11th Fleet"
+			location = 7683
+			ship = { name = "14th Sept-Îles Battleship" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CAN version_name = "Early Heavy Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "12th Fleet"
+		naval_base = 7683
+		task_force = {
+			name = "12th Fleet"
+			location = 7683
+			ship = { name = "15th Sept-Îles Battleship" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CAN version_name = "Early Heavy Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "13th Fleet"
+		naval_base = 7644
+		task_force = {
+			name = "13th Fleet"
+			location = 7644
+			ship = { name = "6th Truro Battleship" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CAN version_name = "Early Heavy Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "14th Fleet"
+		naval_base = 7644
+		task_force = {
+			name = "14th Fleet"
+			location = 7644
+			ship = { name = "7th Truro Battleship" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CAN version_name = "Early Heavy Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "15th Fleet"
+		naval_base = 7644
+		task_force = {
+			name = "15th Fleet"
+			location = 7644
+			ship = { name = "8th Truro Battleship" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CAN version_name = "Early Heavy Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "16th Fleet"
+		naval_base = 7644
+		task_force = {
+			name = "16th Fleet"
+			location = 7644
+			ship = { name = "9th Truro Battleship" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CAN version_name = "Early Heavy Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "17th Fleet"
+		naval_base = 7644
+		task_force = {
+			name = "17th Fleet"
+			location = 7644
+			ship = { name = "10th Truro Battleship" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CAN version_name = "Early Heavy Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "18th Fleet"
+		naval_base = 7644
+		task_force = {
+			name = "18th Fleet"
+			location = 7644
+			ship = { name = "11th Truro Battleship" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CAN version_name = "Early Heavy Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "19th Fleet"
+		naval_base = 7644
+		task_force = {
+			name = "19th Fleet"
+			location = 7644
+			ship = { name = "12th Truro Battleship" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CAN version_name = "Early Heavy Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "20th Fleet"
+		naval_base = 7644
+		task_force = {
+			name = "20th Fleet"
+			location = 7644
+			ship = { name = "13th Truro Battleship" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CAN version_name = "Early Heavy Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "21st Fleet"
+		naval_base = 1426
+		task_force = {
+			name = "21st Fleet"
+			location = 1426
+			ship = { name = "8th Hopedale Battleship" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CAN version_name = "Early Heavy Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "22nd Fleet"
+		naval_base = 1426
+		task_force = {
+			name = "22nd Fleet"
+			location = 1426
+			ship = { name = "9th Hopedale Battleship" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CAN version_name = "Early Heavy Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "23rd Fleet"
+		naval_base = 1426
+		task_force = {
+			name = "23rd Fleet"
+			location = 1426
+			ship = { name = "10th Hopedale Battleship" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CAN version_name = "Early Heavy Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "24th Fleet"
+		naval_base = 1426
+		task_force = {
+			name = "24th Fleet"
+			location = 1426
+			ship = { name = "11th Hopedale Battleship" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CAN version_name = "Early Heavy Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "25th Fleet"
+		naval_base = 1426
+		task_force = {
+			name = "25th Fleet"
+			location = 1426
+			ship = { name = "12th Hopedale Battleship" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CAN version_name = "Early Heavy Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "26th Fleet"
+		naval_base = 1426
+		task_force = {
+			name = "26th Fleet"
+			location = 1426
+			ship = { name = "13th Hopedale Battleship" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CAN version_name = "Early Heavy Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "27th Fleet"
+		naval_base = 1426
+		task_force = {
+			name = "27th Fleet"
+			location = 1426
+			ship = { name = "14th Hopedale Battleship" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CAN version_name = "Early Heavy Cruiser" } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "CAN"
+			version_name = "Early Destroyer"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_heavy_1
+			creator = "CAN"
+			version_name = "Early Battleship"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

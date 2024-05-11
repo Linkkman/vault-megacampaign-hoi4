@@ -313,7 +313,7 @@ tag_mscne= {
 		tag = W47
 		tag = W48
 		tag = W49
-		tag = W50
+		tag = AST
 		tag = W51
 		tag = W52
 		tag = W53
@@ -388,7 +388,7 @@ tag_mscne= {
 		tag = X91
 		tag = X93
 		tag = X94
-		tag = X95
+		tag = CAN
 		tag = X97
 		tag = X98
 	}

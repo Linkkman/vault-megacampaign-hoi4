@@ -104,7 +104,7 @@ add_opinion_modifier = { target = HOL modifier = positive_20 }
 add_opinion_modifier = { target = ITA modifier = negative_5 }
 add_opinion_modifier = { target = ROM modifier = positive_15 }
 add_opinion_modifier = { target = SPR modifier = negative_15 }
-add_opinion_modifier = { target = W50 modifier = positive_20 }
+add_opinion_modifier = { target = AST modifier = positive_20 }
 add_opinion_modifier = { target = W52 modifier = positive_5 }
 add_opinion_modifier = { target = X14 modifier = positive_12 }
 add_opinion_modifier = { target = X72 modifier = positive_5 }

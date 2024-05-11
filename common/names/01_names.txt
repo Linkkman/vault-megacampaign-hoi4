@@ -2939,7 +2939,7 @@ W49 = {
 		"Oros" "Khyatad" "Mongol" "Manj" "Chinghis Khaan" "Khan" "Khagan"
 	}
 }
-W50 = {
+AST = {
 	male = {
 		names = {
 			"John" "Alf" "Adrian" "Louis" "Hallam" "Henry" "Shane" "Stafford" "William" "Frederick"
@@ -5468,7 +5468,7 @@ X94 = {
 		"Hán" "Yěmán Rén" "Móguǐ" "Mǎnzhōu De" "Huángdì" "Shén"
 	}
 }
-X95 = {
+CAN = {
 	male = {
 		names = {
 			"Charles" "John" "Frederick" "Douglas" "Patrick" "Leonard" "Henry" "Arthur" "Alexander" "Campbell"

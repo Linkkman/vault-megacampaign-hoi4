@@ -1,6 +1,7 @@
 state={
 	id=683
 	name="STATE_683"
+	impassable = yes
 	provinces={
 		1819 2877 4006 4229 4455 6211 12549 12592 12634 13061 
 	}
@@ -8,8 +9,8 @@ state={
 		owner = SOV
 		add_core_of = SOV
 	}
-	state_category=enclave
-	manpower=0
+	state_category=wasteland
+	manpower=10
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }

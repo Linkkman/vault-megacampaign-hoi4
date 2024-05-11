@@ -5,8 +5,8 @@ state={
 	impassable = yes
 
 	history={
-		owner = W50
-		add_core_of = W50
+		owner = AST
+		add_core_of = AST
 		add_claim_by = W20
 	}
 

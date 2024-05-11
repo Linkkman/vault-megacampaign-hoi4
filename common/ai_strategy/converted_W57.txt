@@ -14,7 +14,7 @@
 	}
 	ai_strategy = {
 		type = conquer
-		id = "X95"
+		id = "CAN"
 		value = 300
 	}
 	ai_strategy = {
@@ -90,7 +90,7 @@ converted_diplo_strategies_W57 = {
 	}
 	ai_strategy = {
 		type = antagonize
-		id = "X95"
+		id = "CAN"
 		value = 320
 	}
 	ai_strategy = {
@@ -140,7 +140,7 @@ converted_diplo_strategies_W57 = {
 	}
 	ai_strategy = {
 		type = protect
-		id = "X95"
+		id = "CAN"
 		value = 165
 	}
 	ai_strategy = {

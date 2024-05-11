@@ -75,7 +75,7 @@ converted_diplo_strategies_BRA = {
 	}
 	ai_strategy = {
 		type = declare_war
-		id = "X95"
+		id = "CAN"
 		value = 73
 	}
 	ai_strategy = {

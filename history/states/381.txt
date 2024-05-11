@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = X95
+		owner = CAN
 		victory_points = {
 			6710 1 
 		}
@@ -18,7 +18,7 @@ state={
 			air_base = 0
 
 		}
-		add_core_of = X95
+		add_core_of = CAN
 		add_claim_by = W32
 	}
 

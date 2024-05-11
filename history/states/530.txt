@@ -21,7 +21,7 @@ state={
 
 		}
 		add_core_of = W52
-		add_core_of = X95
+		add_core_of = CAN
 		add_claim_by = W32
 
 	}

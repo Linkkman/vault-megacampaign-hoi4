@@ -3110,31 +3110,31 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			OR = { tag = W50 original_tag = W50 }
+			OR = { tag = AST original_tag = AST }
 			has_government = communism
 		}
-		localization_key = W50_communism_ADJ_MS_PT
+		localization_key = AST_communism_ADJ_MS_PT
 	}
 	text = {
 		trigger = {
-			OR = { tag = W50 original_tag = W50 }
+			OR = { tag = AST original_tag = AST }
 			has_government = democratic
 		}
-		localization_key = W50_democratic_ADJ_MS_PT
+		localization_key = AST_democratic_ADJ_MS_PT
 	}
 	text = {
 		trigger = {
-			OR = { tag = W50 original_tag = W50 }
+			OR = { tag = AST original_tag = AST }
 			has_government = fascism
 		}
-		localization_key = W50_fascism_ADJ_MS_PT
+		localization_key = AST_fascism_ADJ_MS_PT
 	}
 	text = {
 		trigger = {
-			OR = { tag = W50 original_tag = W50 }
+			OR = { tag = AST original_tag = AST }
 			has_government = neutrality
 		}
-		localization_key = W50_neutrality_ADJ_MS_PT
+		localization_key = AST_neutrality_ADJ_MS_PT
 	}
 	text = {
 		trigger = {
@@ -5980,31 +5980,31 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			OR = { tag = X95 original_tag = X95 }
+			OR = { tag = CAN original_tag = CAN }
 			has_government = communism
 		}
-		localization_key = X95_communism_ADJ_MS_PT
+		localization_key = CAN_communism_ADJ_MS_PT
 	}
 	text = {
 		trigger = {
-			OR = { tag = X95 original_tag = X95 }
+			OR = { tag = CAN original_tag = CAN }
 			has_government = democratic
 		}
-		localization_key = X95_democratic_ADJ_MS_PT
+		localization_key = CAN_democratic_ADJ_MS_PT
 	}
 	text = {
 		trigger = {
-			OR = { tag = X95 original_tag = X95 }
+			OR = { tag = CAN original_tag = CAN }
 			has_government = fascism
 		}
-		localization_key = X95_fascism_ADJ_MS_PT
+		localization_key = CAN_fascism_ADJ_MS_PT
 	}
 	text = {
 		trigger = {
-			OR = { tag = X95 original_tag = X95 }
+			OR = { tag = CAN original_tag = CAN }
 			has_government = neutrality
 		}
-		localization_key = X95_neutrality_ADJ_MS_PT
+		localization_key = CAN_neutrality_ADJ_MS_PT
 	}
 	text = {
 		trigger = {
@@ -9259,31 +9259,31 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			OR = { tag = W50 original_tag = W50 }
+			OR = { tag = AST original_tag = AST }
 			has_government = communism
 		}
-		localization_key = W50_communism_ADJ_MP_PT
+		localization_key = AST_communism_ADJ_MP_PT
 	}
 	text = {
 		trigger = {
-			OR = { tag = W50 original_tag = W50 }
+			OR = { tag = AST original_tag = AST }
 			has_government = democratic
 		}
-		localization_key = W50_democratic_ADJ_MP_PT
+		localization_key = AST_democratic_ADJ_MP_PT
 	}
 	text = {
 		trigger = {
-			OR = { tag = W50 original_tag = W50 }
+			OR = { tag = AST original_tag = AST }
 			has_government = fascism
 		}
-		localization_key = W50_fascism_ADJ_MP_PT
+		localization_key = AST_fascism_ADJ_MP_PT
 	}
 	text = {
 		trigger = {
-			OR = { tag = W50 original_tag = W50 }
+			OR = { tag = AST original_tag = AST }
 			has_government = neutrality
 		}
-		localization_key = W50_neutrality_ADJ_MP_PT
+		localization_key = AST_neutrality_ADJ_MP_PT
 	}
 	text = {
 		trigger = {
@@ -12129,31 +12129,31 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			OR = { tag = X95 original_tag = X95 }
+			OR = { tag = CAN original_tag = CAN }
 			has_government = communism
 		}
-		localization_key = X95_communism_ADJ_MP_PT
+		localization_key = CAN_communism_ADJ_MP_PT
 	}
 	text = {
 		trigger = {
-			OR = { tag = X95 original_tag = X95 }
+			OR = { tag = CAN original_tag = CAN }
 			has_government = democratic
 		}
-		localization_key = X95_democratic_ADJ_MP_PT
+		localization_key = CAN_democratic_ADJ_MP_PT
 	}
 	text = {
 		trigger = {
-			OR = { tag = X95 original_tag = X95 }
+			OR = { tag = CAN original_tag = CAN }
 			has_government = fascism
 		}
-		localization_key = X95_fascism_ADJ_MP_PT
+		localization_key = CAN_fascism_ADJ_MP_PT
 	}
 	text = {
 		trigger = {
-			OR = { tag = X95 original_tag = X95 }
+			OR = { tag = CAN original_tag = CAN }
 			has_government = neutrality
 		}
-		localization_key = X95_neutrality_ADJ_MP_PT
+		localization_key = CAN_neutrality_ADJ_MP_PT
 	}
 	text = {
 		trigger = {
@@ -15408,31 +15408,31 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			OR = { tag = W50 original_tag = W50 }
+			OR = { tag = AST original_tag = AST }
 			has_government = communism
 		}
-		localization_key = W50_communism_ADJ_FS_PT
+		localization_key = AST_communism_ADJ_FS_PT
 	}
 	text = {
 		trigger = {
-			OR = { tag = W50 original_tag = W50 }
+			OR = { tag = AST original_tag = AST }
 			has_government = democratic
 		}
-		localization_key = W50_democratic_ADJ_FS_PT
+		localization_key = AST_democratic_ADJ_FS_PT
 	}
 	text = {
 		trigger = {
-			OR = { tag = W50 original_tag = W50 }
+			OR = { tag = AST original_tag = AST }
 			has_government = fascism
 		}
-		localization_key = W50_fascism_ADJ_FS_PT
+		localization_key = AST_fascism_ADJ_FS_PT
 	}
 	text = {
 		trigger = {
-			OR = { tag = W50 original_tag = W50 }
+			OR = { tag = AST original_tag = AST }
 			has_government = neutrality
 		}
-		localization_key = W50_neutrality_ADJ_FS_PT
+		localization_key = AST_neutrality_ADJ_FS_PT
 	}
 	text = {
 		trigger = {
@@ -18278,31 +18278,31 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			OR = { tag = X95 original_tag = X95 }
+			OR = { tag = CAN original_tag = CAN }
 			has_government = communism
 		}
-		localization_key = X95_communism_ADJ_FS_PT
+		localization_key = CAN_communism_ADJ_FS_PT
 	}
 	text = {
 		trigger = {
-			OR = { tag = X95 original_tag = X95 }
+			OR = { tag = CAN original_tag = CAN }
 			has_government = democratic
 		}
-		localization_key = X95_democratic_ADJ_FS_PT
+		localization_key = CAN_democratic_ADJ_FS_PT
 	}
 	text = {
 		trigger = {
-			OR = { tag = X95 original_tag = X95 }
+			OR = { tag = CAN original_tag = CAN }
 			has_government = fascism
 		}
-		localization_key = X95_fascism_ADJ_FS_PT
+		localization_key = CAN_fascism_ADJ_FS_PT
 	}
 	text = {
 		trigger = {
-			OR = { tag = X95 original_tag = X95 }
+			OR = { tag = CAN original_tag = CAN }
 			has_government = neutrality
 		}
-		localization_key = X95_neutrality_ADJ_FS_PT
+		localization_key = CAN_neutrality_ADJ_FS_PT
 	}
 	text = {
 		trigger = {
@@ -21557,31 +21557,31 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			OR = { tag = W50 original_tag = W50 }
+			OR = { tag = AST original_tag = AST }
 			has_government = communism
 		}
-		localization_key = W50_communism_ADJ_FP_PT
+		localization_key = AST_communism_ADJ_FP_PT
 	}
 	text = {
 		trigger = {
-			OR = { tag = W50 original_tag = W50 }
+			OR = { tag = AST original_tag = AST }
 			has_government = democratic
 		}
-		localization_key = W50_democratic_ADJ_FP_PT
+		localization_key = AST_democratic_ADJ_FP_PT
 	}
 	text = {
 		trigger = {
-			OR = { tag = W50 original_tag = W50 }
+			OR = { tag = AST original_tag = AST }
 			has_government = fascism
 		}
-		localization_key = W50_fascism_ADJ_FP_PT
+		localization_key = AST_fascism_ADJ_FP_PT
 	}
 	text = {
 		trigger = {
-			OR = { tag = W50 original_tag = W50 }
+			OR = { tag = AST original_tag = AST }
 			has_government = neutrality
 		}
-		localization_key = W50_neutrality_ADJ_FP_PT
+		localization_key = AST_neutrality_ADJ_FP_PT
 	}
 	text = {
 		trigger = {
@@ -24427,31 +24427,31 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			OR = { tag = X95 original_tag = X95 }
+			OR = { tag = CAN original_tag = CAN }
 			has_government = communism
 		}
-		localization_key = X95_communism_ADJ_FP_PT
+		localization_key = CAN_communism_ADJ_FP_PT
 	}
 	text = {
 		trigger = {
-			OR = { tag = X95 original_tag = X95 }
+			OR = { tag = CAN original_tag = CAN }
 			has_government = democratic
 		}
-		localization_key = X95_democratic_ADJ_FP_PT
+		localization_key = CAN_democratic_ADJ_FP_PT
 	}
 	text = {
 		trigger = {
-			OR = { tag = X95 original_tag = X95 }
+			OR = { tag = CAN original_tag = CAN }
 			has_government = fascism
 		}
-		localization_key = X95_fascism_ADJ_FP_PT
+		localization_key = CAN_fascism_ADJ_FP_PT
 	}
 	text = {
 		trigger = {
-			OR = { tag = X95 original_tag = X95 }
+			OR = { tag = CAN original_tag = CAN }
 			has_government = neutrality
 		}
-		localization_key = X95_neutrality_ADJ_FP_PT
+		localization_key = CAN_neutrality_ADJ_FP_PT
 	}
 	text = {
 		trigger = {

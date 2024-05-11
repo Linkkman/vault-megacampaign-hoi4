@@ -86,13 +86,13 @@ add_opinion_modifier = { target = MOR modifier = positive_5 }
 add_opinion_modifier = { target = SOV modifier = positive_34 }
 add_opinion_modifier = { target = SPR modifier = negative_15 }
 add_opinion_modifier = { target = SWI modifier = positive_20 }
-add_opinion_modifier = { target = W50 modifier = positive_45 }
+add_opinion_modifier = { target = AST modifier = positive_45 }
 add_opinion_modifier = { target = W52 modifier = positive_99 }
 add_opinion_modifier = { target = W57 modifier = negative_200 }
 add_opinion_modifier = { target = W59 modifier = negative_10 }
 add_opinion_modifier = { target = X14 modifier = positive_52 }
 add_opinion_modifier = { target = X72 modifier = positive_9 }
-add_opinion_modifier = { target = X95 modifier = negative_200 }
+add_opinion_modifier = { target = CAN modifier = negative_200 }
 
 
 add_ideas = {

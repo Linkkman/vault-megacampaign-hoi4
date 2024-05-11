@@ -106,12 +106,12 @@ if = {
         has_dlc = "Together for Victory"
     }
     set_autonomy = {
-        target = X95
+        target = CAN
         autonomous_state = autonomy_dominion
         freedom_level = 0.9
     }
     set_autonomy = {
-        target = W50
+        target = AST
         autonomous_state = autonomy_dominion
         freedom_level = 0.4
     }
@@ -151,7 +151,7 @@ if = {
         freedom_level = 0.4
     }
     else = {
-        puppet = W50
+        puppet = AST
         puppet = W65
         puppet = W66
         puppet = W67
@@ -182,22 +182,22 @@ add_opinion_modifier = { target = SOV modifier = negative_18 }
 add_opinion_modifier = { target = SPR modifier = positive_80 }
 give_military_access = SPR
 add_opinion_modifier = { target = SWI modifier = positive_111 }
-add_opinion_modifier = { target = W50 modifier = positive_197 }
-give_military_access = W50
+add_opinion_modifier = { target = AST modifier = positive_197 }
+give_military_access = AST
 add_opinion_modifier = { target = W52 modifier = positive_106 }
 add_opinion_modifier = { target = W57 modifier = negative_195 }
 add_opinion_modifier = { target = W59 modifier = negative_185 }
 add_opinion_modifier = { target = X14 modifier = positive_199 }
 give_military_access = X14
 add_opinion_modifier = { target = X72 modifier = negative_200 }
-add_opinion_modifier = { target = X95 modifier = positive_7 }
-give_military_access = X95
+add_opinion_modifier = { target = CAN modifier = positive_7 }
+give_military_access = CAN
 add_opinion_modifier = { target = YUG modifier = positive_30 }
 
 
 create_faction = ENG_allies
 add_to_faction = ENG
-add_to_faction = X95
+add_to_faction = CAN
 
 add_ideas = {
 	great_power

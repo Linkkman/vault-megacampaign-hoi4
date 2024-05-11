@@ -80,12 +80,12 @@ add_opinion_modifier = { target = ITA modifier = positive_15 }
 add_opinion_modifier = { target = JAP modifier = negative_20 }
 add_opinion_modifier = { target = SOV modifier = negative_37 }
 add_opinion_modifier = { target = SPR modifier = positive_5 }
-add_opinion_modifier = { target = W50 modifier = positive_5 }
+add_opinion_modifier = { target = AST modifier = positive_5 }
 add_opinion_modifier = { target = W52 modifier = positive_5 }
 add_opinion_modifier = { target = W59 modifier = negative_20 }
 add_opinion_modifier = { target = X14 modifier = negative_195 }
 add_opinion_modifier = { target = X72 modifier = positive_5 }
-add_opinion_modifier = { target = X95 modifier = positive_5 }
+add_opinion_modifier = { target = CAN modifier = positive_5 }
 
 
 add_ideas = {

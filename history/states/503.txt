@@ -6,14 +6,14 @@ state={
 	history={
 		owner = SPR
 		victory_points = {
-			8244 0 
+			8244 1
 		}
 		buildings = {
 			infrastructure = 2
-			industrial_complex = 0
-			arms_factory = 0
+			industrial_complex = 1
+			arms_factory = 2
 			8244 = {
-				naval_base = 6
+				naval_base = 15
 			}
 			air_base = 0
 
@@ -26,7 +26,7 @@ state={
 	}
 	manpower=343988
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=industrial_heartland
 
 	local_supplies=10.0
 }

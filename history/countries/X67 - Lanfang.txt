@@ -32,7 +32,7 @@ add_opinion_modifier = { target = SPR modifier = negative_10 }
 add_opinion_modifier = { target = W59 modifier = negative_5 }
 add_opinion_modifier = { target = X14 modifier = negative_10 }
 add_opinion_modifier = { target = X72 modifier = negative_10 }
-add_opinion_modifier = { target = X95 modifier = negative_10 }
+add_opinion_modifier = { target = CAN modifier = negative_10 }
 
 
 add_ideas = {

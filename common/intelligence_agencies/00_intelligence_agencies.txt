@@ -785,8 +785,8 @@ intelligence_agency = {
 intelligence_agency = {
 	picture = GFX_intelligence_agency_logo_ast
 	names = { "Australian Secret Intelligence Service" }
-	default = { tag = W50 }
-	available = { original_tag = W50 }
+	default = { tag = AST }
+	available = { original_tag = AST }
 }
 
 intelligence_agency = {
@@ -1359,8 +1359,8 @@ intelligence_agency = {
 intelligence_agency = {
 	picture = GFX_intelligence_agency_logo_can
 	names = { "Royal Canadian Mounted Police" }
-	default = { tag = X95 }
-	available = { original_tag = X95 }
+	default = { tag = CAN }
+	available = { original_tag = CAN }
 }
 
 intelligence_agency = {
