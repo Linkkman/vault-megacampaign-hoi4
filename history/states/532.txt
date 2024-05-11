@@ -1,0 +1,31 @@
+
+state={
+	id=532
+	name="STATE_532"
+
+	history={
+		owner = W52
+		victory_points = {
+			1836 2 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 1
+
+		}
+		add_core_of = W52
+		add_core_of = X95
+		add_claim_by = W32
+
+	}
+
+	provinces={
+		1752 1836 1870 3719 4759 4772 4880 7862 10569 10595 10685 10709 12620 12667 12685 
+	}
+	manpower=326356
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=10.000
+}

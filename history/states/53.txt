@@ -1,0 +1,38 @@
+
+state={
+	id=53
+	name="STATE_53"
+
+	history={
+		owner = X14
+		victory_points = {
+			4206 15 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 0
+			dockyard = 1
+			4206 = {
+				naval_base = 8
+			}
+			air_base = 6
+
+		}
+		add_core_of = GRE
+		add_core_of = ISR
+		add_core_of = X14
+		add_claim_by = EGY
+		add_claim_by = IRQ
+		add_claim_by = W20
+	}
+
+	provinces={
+		1015 1065 1086 1201 4088 4206 7107 7176 11970 
+	}
+	manpower=1373080
+	buildings_max_level_factor=1.000
+	state_category=large_town
+
+	local_supplies=10.0
+}

@@ -1,0 +1,16 @@
+characters={
+	COG_mfutila_n'gombi={
+		name=COG_mfutila_n'gombi
+		portraits={
+			civilian={
+				large="GFX_CAF_CLR_James"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

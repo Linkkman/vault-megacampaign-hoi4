@@ -1,0 +1,30 @@
+
+state={
+	id=96
+	name="STATE_96"
+
+	history={
+		owner = X14
+		victory_points = {
+			12830 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 1
+
+		}
+		add_core_of = W20
+		add_core_of = CHA
+	}
+
+	provinces={
+		1974 3165 5084 8078 11012 11108 12719 12830 
+	}
+	manpower=1978996
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

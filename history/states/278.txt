@@ -1,0 +1,35 @@
+
+state={
+	id=278
+	name="STATE_278"
+
+	history={
+		owner = HUN
+		victory_points = {
+			11670 2 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 0
+			dockyard = 1
+			11670 = {
+				naval_base = 8
+			}
+			air_base = 1
+
+		}
+		add_core_of = HUN
+		add_core_of = SOV
+		add_claim_by = W20
+	}
+
+	provinces={
+		476 741 754 3575 3738 3757 6455 9423 9435 9576 9698 9714 11670 11703 
+	}
+	manpower=1244576
+	buildings_max_level_factor=1.000
+	state_category=large_town
+
+	local_supplies=10.0
+}

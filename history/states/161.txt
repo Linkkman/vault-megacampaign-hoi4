@@ -1,0 +1,37 @@
+
+state={
+	id=161
+	name="STATE_161"
+	resources={
+		chromium=3.000
+		steel=7.000
+	}
+
+	history={
+		owner = W70
+		victory_points = {
+			10697 0 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			4528 = {
+				naval_base = 4
+			}
+			air_base = 0
+
+		}
+		add_core_of = W70
+		add_claim_by = W20
+	}
+
+	provinces={
+		1509 4528 5203 5231 10442 10668 10697 12419 
+	}
+	manpower=1745892
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

@@ -1,0 +1,36 @@
+
+state={
+	id=49
+	name="STATE_49"
+
+	history={
+		owner = X14
+		victory_points = {
+			11746 3 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+			arms_factory = 1
+			dockyard = 1
+			12029 = {
+				naval_base = 8
+
+			}
+			air_base = 2
+
+		}
+		add_core_of = GRE
+		add_core_of = X14
+		add_claim_by = W20
+
+	}
+
+	provinces={
+		806 886 3889 3921 4124 6813 6956 9893 10056 11746 11810 12029 
+	}
+	manpower=2386396
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=10.000
+}

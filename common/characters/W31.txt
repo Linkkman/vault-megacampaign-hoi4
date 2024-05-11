@@ -1,0 +1,16 @@
+characters={
+	W31_erwin_von_moltke={
+		name=W31_erwin_von_moltke
+		portraits={
+			civilian={
+				large="GFX_Germany_Alfred_Hugenberg"
+			}
+		}
+		country_leader={
+			ideology=neutrality
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

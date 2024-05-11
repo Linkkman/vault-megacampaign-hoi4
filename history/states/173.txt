@@ -1,0 +1,40 @@
+
+state={
+	id=173
+	name="STATE_173"
+	resources={
+		aluminium=1.000
+		chromium=1.000
+		steel=1.000
+	}
+
+	history={
+		owner = W69
+		victory_points = {
+			10171 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 1
+
+		}
+		add_core_of = W69
+		add_core_of = X36
+		add_core_of = X93
+		add_claim_by = PAK
+		add_claim_by = RAJ
+		add_claim_by = X47
+		add_claim_by = X88
+
+	}
+
+	provinces={
+		1510 1579 4557 4883 7430 7497 7574 7619 8120 10030 10171 10401 10872 12375 12420 12480 12490 12781 12854 
+	}
+	manpower=10458072
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+	local_supplies=10.000
+}

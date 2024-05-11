@@ -1,0 +1,36 @@
+
+state={
+	id=545
+	name="STATE_545"
+	resources={
+		oil=10.000
+	}
+
+	history={
+		owner = W57
+		victory_points = {
+			12835 1 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 1
+			13088 = {
+				naval_base = 10
+			}
+			air_base = 0
+
+		}
+		add_core_of = W57
+		add_claim_by = W20
+	}
+
+	provinces={
+		2060 2083 2104 5015 5021 7973 10746 10769 10800 12721 12811 12835 13088 
+	}
+	manpower=856972
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

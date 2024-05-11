@@ -1,0 +1,38 @@
+
+state={
+	id=368
+	name="STATE_368"
+	resources={
+		steel=1.000
+	}
+
+	history={
+		owner = HOL
+		victory_points = {
+			6377 3 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 0
+			dockyard = 1
+			6349 = {
+				naval_base = 8
+
+			}
+			air_base = 1
+
+		}
+		add_core_of = GER
+		add_claim_by = TIG
+
+	}
+
+	provinces={
+		374 425 526 3271 3395 3561 6218 6263 6298 6325 6349 6377 6513 9264 11402 11493 
+	}
+	manpower=3722304
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=10.000
+}

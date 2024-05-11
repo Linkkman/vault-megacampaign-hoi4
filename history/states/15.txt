@@ -1,0 +1,31 @@
+
+state={
+	id=15
+	name="STATE_15"
+
+	history={
+		owner = ARG
+		victory_points = {
+			12973 2 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 0
+
+		}
+		add_core_of = ARG
+		add_core_of = BOL
+		add_claim_by = W20
+
+	}
+
+	provinces={
+		2160 5188 8211 8240 10924 10982 10996 12902 12916 12917 12939 12973 13278 13284 
+	}
+	manpower=839168
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=10.000
+}

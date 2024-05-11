@@ -1,0 +1,36 @@
+
+state={
+	id=561
+	name="STATE_561"
+	resources={
+		aluminium=9.000
+		oil=5.000
+		steel=29.000
+		tungsten=38.000
+	}
+
+	history={
+		owner = W57
+		victory_points = {
+			4865 1 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = W57
+		add_claim_by = W32
+
+	}
+
+	provinces={
+		868 1658 1663 1738 1740 1756 1809 1827 1862 3869 4521 4607 4668 4723 4736 4742 4816 4865 6887 7684 7756 7764 7780 7818 7827 7879 7888 7999 9792 10422 10535 10582 10588 10591 10651 10662 11772 12134 12399 12561 12570 12573 12627 12633 12642 12699 13153
+	}
+	manpower=742836
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=10.000
+}

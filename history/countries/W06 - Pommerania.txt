@@ -1,0 +1,115 @@
+﻿capital = 261
+set_research_slots = 3
+
+oob = "W06_OOB"
+
+# Starting tech
+# Research Bonuses
+
+set_country_flag = conv_germany
+set_convoys = 0
+
+set_politics = {
+    ruling_party = neutrality
+    last_election = "1836.1.1"
+    election_frequency = 48
+    elections_allowed = no
+}
+
+set_popularities = {
+	democratic = 92
+	neutrality = 8
+}
+
+add_opinion_modifier = { target = BRA modifier = positive_5 }
+add_opinion_modifier = { target = FRA modifier = positive_5 }
+add_opinion_modifier = { target = HAI modifier = positive_5 }
+add_opinion_modifier = { target = HOL modifier = positive_5 }
+add_opinion_modifier = { target = ITA modifier = positive_10 }
+add_opinion_modifier = { target = SOV modifier = positive_4 }
+add_opinion_modifier = { target = W50 modifier = positive_5 }
+add_opinion_modifier = { target = W52 modifier = positive_5 }
+add_opinion_modifier = { target = W57 modifier = negative_15 }
+add_opinion_modifier = { target = X14 modifier = positive_12 }
+add_opinion_modifier = { target = X72 modifier = positive_5 }
+add_opinion_modifier = { target = X95 modifier = negative_15 }
+
+
+add_ideas = {
+	limited_conscription
+	civilian_economy
+	export_focus
+	culture_north_german
+}
+
+recruit_character = W06_ruprecht_von_sachsen_coburg_gotha
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_operative_leader = {
+		name = "Sofia Brommy"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { W06 }
+	}
+
+	create_operative_leader = {
+		name = "Marie zur Lippe"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { W06 }
+	}
+
+	create_operative_leader = {
+		name = "Emma von Schlieffen"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { W06 }
+	}
+
+	create_operative_leader = {
+		name = "Dieter von Tirpitz"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { W06 }
+	}
+
+	create_operative_leader = {
+		name = "Johann von Richthofen"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { W06 }
+	}
+
+}
+### VARIANTS ###
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+}
+### PLANE DESIGNS ###
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+}
+### TANK DESIGNS ###
+if = {
+	limit = { has_dlc = "No Step Back" }
+}
+

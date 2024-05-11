@@ -1,0 +1,16 @@
+characters={
+	OMA_abd_allah_ibn_ja'far={
+		name=OMA_abd_allah_ibn_ja'far
+		portraits={
+			civilian={
+				large="GFX_EGY_Sabry_Pasha"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

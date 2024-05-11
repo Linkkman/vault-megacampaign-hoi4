@@ -1,0 +1,30 @@
+
+state={
+	id=97
+	name="STATE_97"
+
+	history={
+		owner = X14
+		victory_points = {
+			4171 0 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = TZN
+		add_claim_by = W32
+
+	}
+
+	provinces={
+		2176 2281 4171 5180 8144 10932 10988 12967 
+	}
+	manpower=747004
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=10.000
+}

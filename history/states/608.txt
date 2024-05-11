@@ -1,0 +1,35 @@
+
+state={
+	id=608
+	name="STATE_608"
+
+	history={
+		owner = W59
+		victory_points = {
+			7137 2 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 2
+			arms_factory = 0
+			10004 = {
+				naval_base = 2
+
+			}
+			air_base = 0
+
+		}
+		add_core_of = W59
+		add_claim_by = CHI
+		add_claim_by = X47
+
+	}
+
+	provinces={
+		1018 1023 1469 1597 1625 4028 4077 4085 4121 4134 4152 4177 4628 4656 7044 7095 7128 7137 7168 7192 7210 7650 10004 10039 10050 10121 10404 10431 10459 11926 11983 12023 12407 12436 
+	}
+	manpower=9388568
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+	local_supplies=10.000
+}

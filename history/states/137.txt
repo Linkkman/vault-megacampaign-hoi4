@@ -1,0 +1,36 @@
+
+state={
+	id=137
+	name="STATE_137"
+
+	history={
+		owner = W69
+		victory_points = {
+			5096 10 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 6
+
+		}
+		add_core_of = PAK
+		add_core_of = W69
+		add_core_of = X13
+		add_claim_by = RAJ
+		add_claim_by = X09
+		add_claim_by = X36
+		add_claim_by = X47
+		add_claim_by = X88
+
+	}
+
+	provinces={
+		1199 1949 2036 2092 2105 4106 4410 4950 4953 5096 7080 7205 8076 10332 10801 10807 10816 11993 11995 12080 12743 12799 
+	}
+	manpower=11467800
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+	local_supplies=10.000
+}

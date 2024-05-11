@@ -1,0 +1,34 @@
+
+state={
+	id=361
+	name="STATE_361"
+	resources={
+		steel=1.000
+	}
+
+	history={
+		owner = W77
+		victory_points = {
+			10966 0 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = W77
+		add_claim_by = COG
+		add_claim_by = W32
+	}
+
+	provinces={
+		1552 2126 4735 7548 8054 10966 
+	}
+	manpower=625400
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	local_supplies=10.0
+}

@@ -1,0 +1,16 @@
+characters={
+	YUG_dejan_sijan={
+		name=YUG_dejan_sijan
+		portraits={
+			civilian={
+				large="GFX_Romania_Sever_Bocu"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

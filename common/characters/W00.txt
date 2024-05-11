@@ -1,0 +1,16 @@
+characters={
+	W00_jimyoin_katsu={
+		name=W00_jimyoin_katsu
+		portraits={
+			civilian={
+				large="gfx/leaders/JAP/Portrait_Japan_Generic_3.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

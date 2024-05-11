@@ -1,0 +1,39 @@
+
+state={
+	id=166
+	name="STATE_166"
+	resources={
+		chromium=2.000
+	}
+
+	history={
+		owner = W67
+		victory_points = {
+			2200 10 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			5185 = {
+				naval_base = 4
+			}
+			air_base = 5
+
+		}
+		add_core_of = MAD
+		add_core_of = W19
+		add_core_of = W67
+		add_claim_by = W20
+		add_claim_by = W27
+	}
+
+	provinces={
+		2200 5185 8180 8246 10993 11015 12956 
+	}
+	manpower=3008032
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=10.0
+}

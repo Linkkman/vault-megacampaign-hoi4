@@ -1,0 +1,76 @@
+﻿converted_war_strategies_BOL = {
+	allowed = {
+		tag = BOL
+	}
+	enable = {
+		always = no
+	}
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = conquer
+		id = "ARG"
+		value = 1553
+	}
+	ai_strategy = {
+		type = conquer
+		id = "W57"
+		value = 1296
+	}
+}
+
+converted_diplo_strategies_BOL = {
+	allowed = {
+		tag = BOL
+	}
+	enable = {
+		always = no
+	}
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = contain
+		id = "W57"
+		value = 400
+	}
+	ai_strategy = {
+		type = contain
+		id = "ARG"
+		value = 361
+	}
+	ai_strategy = {
+		type = contain
+		id = "ENG"
+		value = 227
+	}
+	ai_strategy = {
+		type = contain
+		id = "SOV"
+		value = 63
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "ARG"
+		value = 400
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "W57"
+		value = 178
+	}
+	ai_strategy = {
+		type = alliance
+		id = "BRA"
+		value = 88
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "MOR"
+		value = 63
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X70"
+		value = 62
+	}
+}

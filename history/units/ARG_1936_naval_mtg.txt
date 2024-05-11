@@ -1,0 +1,65 @@
+units = {
+	fleet = {
+		name = "4th Fleet"
+		naval_base = 12364
+		task_force = {
+			name = "4th Fleet"
+			location = 12364
+			ship = { name = "1st Arica Battleship" definition = heavy_cruiser start_experience_factor = 0.09783 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ARG version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "1st La Serena Battleship" definition = heavy_cruiser start_experience_factor = 0.09743 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ARG version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "2nd Arica Battleship" definition = heavy_cruiser start_experience_factor = 0.09841 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ARG version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "3rd Arica Battleship" definition = heavy_cruiser start_experience_factor = 0.19546 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ARG version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "4th Arica Battleship" definition = heavy_cruiser start_experience_factor = 0.19488 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ARG version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "ARA Catamarca" definition = destroyer start_experience_factor = 0.0995 equipment = { ship_hull_light_1 = { amount = 1 owner = ARG version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "2nd Fleet"
+		naval_base = 2225
+		task_force = {
+			name = "2nd Fleet"
+			location = 2225
+			ship = { name = "1st Ica Battleship" definition = heavy_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ARG version_name = "Early Heavy Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "3rd Fleet"
+		naval_base = 5131
+		task_force = {
+			name = "3rd Fleet"
+			location = 5131
+			ship = { name = "5th Arica Battleship" definition = heavy_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ARG version_name = "Early Heavy Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "5th Fleet"
+		naval_base = 8194
+		task_force = {
+			name = "5th Fleet"
+			location = 8194
+			ship = { name = "2nd La Serena Battleship" definition = heavy_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ARG version_name = "Early Heavy Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "6th Fleet"
+		naval_base = 5121
+		task_force = {
+			name = "6th Fleet"
+			location = 5121
+			ship = { name = "1st Valdivia Battleship" definition = heavy_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ARG version_name = "Early Heavy Cruiser" } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "ARG"
+			version_name = "Early Destroyer"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+}

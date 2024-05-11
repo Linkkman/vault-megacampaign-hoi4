@@ -1,0 +1,36 @@
+
+state={
+	id=153
+	name="STATE_153"
+	resources={
+		tungsten=10.000
+	}
+
+	history={
+		owner = W69
+		victory_points = {
+			12730 0 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = W69
+		add_core_of = X05
+		add_claim_by = RAJ
+		add_claim_by = W14
+		add_claim_by = W32
+	}
+
+	provinces={
+		1116 1996 10810 12730 
+	}
+	manpower=428756
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

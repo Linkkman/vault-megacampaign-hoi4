@@ -1,0 +1,38 @@
+
+state={
+	id=124
+	name="STATE_124"
+	resources={
+		steel=32.000
+	}
+
+	history={
+		owner = ENG
+		victory_points = {
+			351 7 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 6
+			arms_factory = 3
+			dockyard = 3
+			11317 = {
+				naval_base = 10
+			}
+			air_base = 4
+
+		}
+		add_core_of = ENG
+		add_core_of = X32
+		add_claim_by = X47
+	}
+
+	provinces={
+		351 6268 9269 9315 9332 9379 9397 11270 11297 11299 11317 
+	}
+	manpower=9175004
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

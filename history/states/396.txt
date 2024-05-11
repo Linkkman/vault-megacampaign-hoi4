@@ -1,0 +1,35 @@
+
+state={
+	id=396
+	name="STATE_396"
+	resources={
+		tungsten=1.000
+	}
+
+	history={
+		owner = PER
+		victory_points = {
+			2101 2 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 0
+
+		}
+		add_core_of = PER
+		add_claim_by = TIG
+		add_claim_by = W33
+		add_claim_by = X62
+
+	}
+
+	provinces={
+		1948 2017 2062 2078 2101 4949 5020 5064 5082 8090 10789 12769 12831 
+	}
+	manpower=3495980
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=10.000
+}

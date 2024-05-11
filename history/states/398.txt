@@ -1,0 +1,36 @@
+
+state={
+	id=398
+	name="STATE_398"
+
+	history={
+		owner = W12
+		victory_points = {
+			9340 15 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 6
+			arms_factory = 3
+			dockyard = 3
+			9340 = {
+				naval_base = 8
+			}
+			air_base = 9
+
+		}
+		add_core_of = GER
+		add_core_of = W12
+		add_core_of = W31
+		add_claim_by = TIG
+	}
+
+	provinces={
+		265 327 530 3194 3255 3272 3296 3319 3337 3354 3525 6222 6229 6281 6296 6314 6322 6342 6360 6376 6407 9246 9262 9340 9357 9374 9404 9438 9483 9499 9731 11226 11246 11312 11358 11498 
+	}
+	manpower=3264760
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

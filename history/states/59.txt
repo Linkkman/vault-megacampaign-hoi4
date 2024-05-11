@@ -1,0 +1,38 @@
+
+state={
+	id=59
+	name="STATE_59"
+	resources={
+		steel=1.000
+	}
+
+	history={
+		owner = X14
+		victory_points = {
+			1145 10 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 3
+			arms_factory = 0
+			4046 = {
+				naval_base = 8
+
+			}
+			air_base = 6
+
+		}
+		add_core_of = ALG
+		add_core_of = X14
+		add_claim_by = W20
+
+	}
+
+	provinces={
+		1145 1160 4046 4131 7081 7166 10078 11939 12051 
+	}
+	manpower=2290424
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=10.000
+}

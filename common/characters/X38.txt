@@ -1,0 +1,16 @@
+characters={
+	X38_isbjorn_claw={
+		name=X38_isbjorn_claw
+		portraits={
+			civilian={
+				large="GFX_bear_buisnessman_leader"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

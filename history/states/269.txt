@@ -1,0 +1,36 @@
+
+state={
+	id=269
+	name="STATE_269"
+
+	history={
+		owner = W75
+		victory_points = {
+			4379 0 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			4379 = {
+				naval_base = 8
+			}
+			air_base = 0
+
+		}
+		add_core_of = VIN
+		add_core_of = W75
+		add_core_of = X16
+		add_claim_by = W20
+		add_claim_by = X50
+	}
+
+	provinces={
+		1248 1300 1302 1328 1400 1605 4255 4334 4363 4379 4397 4405 7229 7280 7380 10137 10162 10180 10309 12109 12297 
+	}
+	manpower=2818788
+	buildings_max_level_factor=1.000
+	state_category=large_town
+
+	local_supplies=10.0
+}

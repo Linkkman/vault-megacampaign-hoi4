@@ -1,0 +1,36 @@
+
+state={
+	id=279
+	name="STATE_279"
+
+	history={
+		owner = HUN
+		victory_points = {
+			3707 0 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			3701 = {
+				naval_base = 1
+			}
+			air_base = 0
+
+		}
+		add_core_of = GER
+		add_claim_by = AUS
+		add_claim_by = HUN
+		add_claim_by = W32
+		add_claim_by = X14
+	}
+
+	provinces={
+		414 565 3407 3577 3701 3704 3707 3724 6600 6727 6743 9683 11686 11705 
+	}
+	manpower=666048
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	local_supplies=10.0
+}

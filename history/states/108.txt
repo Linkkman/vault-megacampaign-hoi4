@@ -1,0 +1,22 @@
+
+state={
+	id=108
+	name="STATE_108"
+	impassable = yes
+
+	history={
+		owner = X14
+		add_core_of = X14
+		add_claim_by = W15
+		add_claim_by = W20
+	}
+
+	provinces={
+		1994 4962 5004 7985 10754 10884 12022 12082 12866 
+	}
+	manpower=151315
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+
+	local_supplies=10.0
+}

@@ -1,0 +1,32 @@
+
+state={
+	id=615
+	name="STATE_615"
+
+	history={
+		owner = W59
+		victory_points = {
+			12017 1 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = W59
+		add_claim_by = CHI
+		add_claim_by = X17
+		add_claim_by = X47
+	}
+
+	provinces={
+		1448 4125 4480 7159 7502 9982 10377 11918 12017 12053 12310 12350 12378 
+	}
+	manpower=11305568
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

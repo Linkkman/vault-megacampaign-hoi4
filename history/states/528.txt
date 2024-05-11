@@ -1,0 +1,32 @@
+
+state={
+	id=528
+	name="STATE_528"
+
+	history={
+		owner = W50
+		victory_points = {
+			13050 0 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			13050 = {
+				naval_base = 1
+			}
+			air_base = 0
+
+		}
+		add_core_of = W32
+	}
+
+	provinces={
+		13050 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

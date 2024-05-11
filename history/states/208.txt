@@ -1,0 +1,33 @@
+
+state={
+	id=208
+	name="STATE_208"
+	resources={
+		steel=2.000
+	}
+
+	history={
+		owner = FRA
+		victory_points = {
+			13011 5 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 6
+			arms_factory = 3
+			air_base = 3
+
+		}
+		add_core_of = FRA
+		add_claim_by = TIG
+
+	}
+
+	provinces={
+		551 3506 3533 3546 3560 5291 6545 9472 9490 11732 13011 
+	}
+	manpower=4479548
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+	local_supplies=10.000
+}

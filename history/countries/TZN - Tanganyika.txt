@@ -1,0 +1,122 @@
+﻿capital = 87
+set_research_slots = 2
+
+oob = "TZN_OOB"
+
+# Starting tech
+# Research Bonuses
+
+set_country_flag = conv_east_africa
+set_convoys = 0
+
+set_politics = {
+    ruling_party = democratic
+    last_election = "1836.1.1"
+    election_frequency = 48
+    elections_allowed = yes
+}
+
+set_popularities = {
+	democratic = 89
+	neutrality = 11
+}
+
+add_opinion_modifier = { target = ARG modifier = positive_5 }
+add_opinion_modifier = { target = BRA modifier = positive_30 }
+add_opinion_modifier = { target = ENG modifier = positive_17 }
+add_opinion_modifier = { target = FRA modifier = positive_20 }
+add_opinion_modifier = { target = GER modifier = positive_5 }
+add_opinion_modifier = { target = HAI modifier = positive_30 }
+add_opinion_modifier = { target = HOL modifier = positive_20 }
+add_opinion_modifier = { target = ITA modifier = positive_5 }
+add_opinion_modifier = { target = JAP modifier = negative_30 }
+add_opinion_modifier = { target = SOV modifier = positive_5 }
+add_opinion_modifier = { target = SPR modifier = positive_5 }
+add_opinion_modifier = { target = W50 modifier = positive_30 }
+add_opinion_modifier = { target = W52 modifier = positive_15 }
+add_opinion_modifier = { target = W57 modifier = positive_23 }
+add_opinion_modifier = { target = W59 modifier = negative_30 }
+add_opinion_modifier = { target = X14 modifier = positive_2 }
+add_opinion_modifier = { target = X72 modifier = positive_5 }
+add_opinion_modifier = { target = X95 modifier = positive_20 }
+
+
+add_ideas = {
+	uncivilized
+	volunteer_only
+	civilian_economy
+	export_focus
+	culture_greek
+}
+
+recruit_character = TZN_andreas_tsakalotos
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_operative_leader = {
+		name = "Aiketerine Kanári"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { TZN }
+	}
+
+	create_operative_leader = {
+		name = "Anastasia Paláska"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { TZN }
+	}
+
+	create_operative_leader = {
+		name = "Eleni Spyromílio"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { TZN }
+	}
+
+	create_operative_leader = {
+		name = "Zinóvios Manos"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { TZN }
+	}
+
+	create_operative_leader = {
+		name = "Charilaos Tsakalótos"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { TZN }
+	}
+
+}
+### VARIANTS ###
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+}
+### PLANE DESIGNS ###
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+}
+### TANK DESIGNS ###
+if = {
+	limit = { has_dlc = "No Step Back" }
+}
+

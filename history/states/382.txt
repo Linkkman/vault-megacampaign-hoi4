@@ -1,0 +1,34 @@
+
+state={
+	id=382
+	name="STATE_382"
+
+	history={
+		owner = X95
+		victory_points = {
+			6732 3 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+			arms_factory = 1
+			dockyard = 1
+			9832 = {
+				naval_base = 6
+			}
+			air_base = 2
+
+		}
+		add_core_of = X95
+		add_claim_by = W20
+	}
+
+	provinces={
+		715 718 905 908 3710 3906 6732 6909 9832 9847 9850 11830 
+	}
+	manpower=1854064
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=10.0
+}

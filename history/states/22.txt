@@ -1,0 +1,30 @@
+
+state={
+	id=22
+	name="STATE_22"
+
+	history={
+		owner = BRA
+		victory_points = {
+			5115 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 1
+
+		}
+		add_core_of = BRA
+		add_claim_by = W20
+
+	}
+
+	provinces={
+		2167 2168 2190 2218 5115 5151 5174 5208 8129 8140 10945 12923 12959 12977 12987 13281 13282 
+	}
+	manpower=1427804
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=10.000
+}

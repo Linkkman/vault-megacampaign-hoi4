@@ -1,0 +1,36 @@
+
+state={
+	id=80
+	name="STATE_80"
+
+	history={
+		owner = X14
+		victory_points = {
+			12759 0 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			4985 = {
+				naval_base = 4
+			}
+			air_base = 0
+
+		}
+		add_core_of = SOM
+		add_core_of = X00
+		add_core_of = X02
+		add_claim_by = AFA
+		add_claim_by = W32
+	}
+
+	provinces={
+		1905 4985 5068 8094 8124 10777 10833 10921 12759 12814 
+	}
+	manpower=455540
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

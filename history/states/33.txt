@@ -1,0 +1,40 @@
+
+state={
+	id=33
+	name="STATE_33"
+	resources={
+		aluminium=5.000
+		chromium=25.000
+		steel=2.000
+	}
+
+	history={
+		owner = X14
+		victory_points = {
+			11818 3 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 1
+			11818 = {
+				naval_base = 8
+			}
+			air_base = 1
+
+		}
+		add_core_of = GRE
+		add_core_of = X14
+		add_claim_by = W20
+	}
+
+	provinces={
+		841 895 907 936 966 974 3526 3833 3844 3865 3882 3936 3980 6857 6886 6990 9791 9818 9837 9930 10163 11774 11818 11856 
+	}
+	manpower=3048056
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=10.0
+}

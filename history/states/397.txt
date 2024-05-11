@@ -1,0 +1,30 @@
+
+state={
+	id=397
+	name="STATE_397"
+
+	history={
+		owner = PER
+		victory_points = {
+			5075 0 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = PER
+		add_claim_by = W32
+	}
+
+	provinces={
+		5075 8013 12761 
+	}
+	manpower=162344
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

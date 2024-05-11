@@ -1,0 +1,37 @@
+
+state={
+	id=525
+	name="STATE_525"
+	resources={
+		tungsten=1.000
+	}
+
+	history={
+		owner = W50
+		victory_points = {
+			12632 1 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			dockyard = 1
+			8204 = {
+				naval_base = 8
+			}
+			air_base = 0
+
+		}
+		add_core_of = W50
+		add_claim_by = W32
+	}
+
+	provinces={
+		2197 2203 2211 4819 5195 7839 8204 8212 8232 8241 10650 12632 12966 12974 12980 12988 
+	}
+	manpower=490308
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

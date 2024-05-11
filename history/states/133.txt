@@ -1,0 +1,41 @@
+
+state={
+	id=133
+	name="STATE_133"
+	resources={
+		steel=3.000
+		tungsten=2.000
+	}
+
+	history={
+		owner = W69
+		victory_points = {
+			7565 10 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+			arms_factory = 0
+			4245 = {
+				naval_base = 4
+
+			}
+			air_base = 10
+
+		}
+		add_core_of = BAN
+		add_core_of = RAJ
+		add_core_of = W69
+		add_core_of = X59
+		add_claim_by = X47
+
+	}
+
+	provinces={
+		1159 1444 1609 4062 4204 4245 4644 7220 7565 7593 10077 12050 
+	}
+	manpower=12256424
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+	local_supplies=10.000
+}

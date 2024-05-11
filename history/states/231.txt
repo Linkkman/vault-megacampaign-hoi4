@@ -1,0 +1,33 @@
+
+state={
+	id=231
+	name="STATE_231"
+
+	history={
+		owner = W73
+		victory_points = {
+			13015 0 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			13015 = {
+				naval_base = 1
+			}
+			air_base = 0
+
+		}
+		add_core_of = W73
+		add_claim_by = W32
+	}
+
+	provinces={
+		13015 
+	}
+	manpower=58520
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

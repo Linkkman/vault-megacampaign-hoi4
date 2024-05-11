@@ -1,0 +1,34 @@
+
+state={
+	id=481
+	name="STATE_481"
+
+	history={
+		owner = SPR
+		victory_points = {
+			10070 2 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			arms_factory = 0
+			10070 = {
+				naval_base = 4
+			}
+			air_base = 0
+
+		}
+		add_core_of = MOR
+		add_core_of = SPR
+		add_claim_by = W20
+	}
+
+	provinces={
+		1079 1194 4084 7100 10013 10070 11987 12042 
+	}
+	manpower=1185764
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

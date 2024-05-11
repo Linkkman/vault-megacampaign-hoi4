@@ -1,0 +1,35 @@
+
+state={
+	id=497
+	name="STATE_497"
+
+	history={
+		owner = W81
+		victory_points = {
+			1070 0 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			1070 = {
+				naval_base = 8
+			}
+			air_base = 0
+
+		}
+		add_core_of = W81
+		add_claim_by = CHI
+		add_claim_by = TIG
+		add_claim_by = W59
+	}
+
+	provinces={
+		994 1038 1070 11963 11990 
+	}
+	manpower=3721704
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=10.0
+}

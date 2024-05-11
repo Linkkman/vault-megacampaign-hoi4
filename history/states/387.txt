@@ -1,0 +1,31 @@
+
+state={
+	id=387
+	name="STATE_387"
+
+	history={
+		owner = PER
+		victory_points = {
+			4609 3 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+			arms_factory = 1
+			air_base = 2
+
+		}
+		add_core_of = AZR
+		add_core_of = PER
+		add_claim_by = W20
+	}
+
+	provinces={
+		4580 4609 4637 10385 10768 
+	}
+	manpower=3191840
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=10.0
+}

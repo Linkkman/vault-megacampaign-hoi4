@@ -1,0 +1,35 @@
+
+state={
+	id=185
+	name="STATE_185"
+
+	history={
+		owner = W69
+		victory_points = {
+			12708 10 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 0
+			air_base = 10
+
+		}
+		add_core_of = W69
+		add_core_of = X29
+		add_core_of = X39
+		add_claim_by = PAK
+		add_claim_by = RAJ
+		add_claim_by = X56
+		add_claim_by = X71
+
+	}
+
+	provinces={
+		1129 2002 2076 4979 7106 8007 8022 8106 9084 10066 10139 10173 10729 10772 10843 10887 10898 12005 12708 12792 12822 
+	}
+	manpower=7161672
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+	local_supplies=10.000
+}

@@ -1,0 +1,116 @@
+﻿capital = 267
+set_research_slots = 3
+
+oob = "W31_OOB"
+
+# Starting tech
+# Research Bonuses
+
+set_country_flag = conv_germany
+set_convoys = 0
+
+set_politics = {
+    ruling_party = neutrality
+    last_election = "1836.1.1"
+    election_frequency = 48
+    elections_allowed = no
+}
+
+set_popularities = {
+	democratic = 93
+	neutrality = 7
+}
+
+add_opinion_modifier = { target = BRA modifier = positive_5 }
+add_opinion_modifier = { target = FRA modifier = positive_5 }
+add_opinion_modifier = { target = GER modifier = positive_1 }
+add_opinion_modifier = { target = HAI modifier = positive_5 }
+add_opinion_modifier = { target = HOL modifier = positive_5 }
+add_opinion_modifier = { target = JAP modifier = negative_10 }
+add_opinion_modifier = { target = W50 modifier = positive_5 }
+add_opinion_modifier = { target = W52 modifier = positive_5 }
+add_opinion_modifier = { target = W57 modifier = negative_15 }
+add_opinion_modifier = { target = W59 modifier = negative_10 }
+add_opinion_modifier = { target = X14 modifier = positive_2 }
+add_opinion_modifier = { target = X72 modifier = positive_5 }
+add_opinion_modifier = { target = X95 modifier = negative_15 }
+
+
+add_ideas = {
+	volunteer_only
+	civilian_economy
+	export_focus
+	culture_north_german
+}
+
+recruit_character = W31_erwin_von_moltke
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_operative_leader = {
+		name = "Marie von Gebser"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { W31 }
+	}
+
+	create_operative_leader = {
+		name = "Sofia von Hohenzollern"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { W31 }
+	}
+
+	create_operative_leader = {
+		name = "Sofia von Roon"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { W31 }
+	}
+
+	create_operative_leader = {
+		name = "Leopold von Roon"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { W31 }
+	}
+
+	create_operative_leader = {
+		name = "Adolf von Bülow"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { W31 }
+	}
+
+}
+### VARIANTS ###
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+}
+### PLANE DESIGNS ###
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+}
+### TANK DESIGNS ###
+if = {
+	limit = { has_dlc = "No Step Back" }
+}
+

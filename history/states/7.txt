@@ -1,0 +1,36 @@
+
+state={
+	id=7
+	name="STATE_7"
+	resources={
+		oil=1.000
+	}
+
+	history={
+		owner = ARG
+		victory_points = {
+			10515 3 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 3
+			arms_factory = 1
+			10515 = {
+				naval_base = 10
+			}
+			air_base = 1
+
+		}
+		add_core_of = ARG
+		add_claim_by = W20
+	}
+
+	provinces={
+		1449 2172 5163 5213 7500 8169 8187 8238 10515 10943 11007 12453 12964 13000 
+	}
+	manpower=2106076
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=10.0
+}

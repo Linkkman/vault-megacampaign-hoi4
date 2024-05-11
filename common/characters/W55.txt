@@ -1,0 +1,16 @@
+characters={
+	W55_dheeran_krishnamachari={
+		name=W55_dheeran_krishnamachari
+		portraits={
+			civilian={
+				large="GFX_DEH_Muhammad_Ali_Jinnah"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

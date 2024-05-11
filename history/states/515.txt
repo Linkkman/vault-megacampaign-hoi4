@@ -1,0 +1,39 @@
+
+state={
+	id=515
+	name="STATE_515"
+	resources={
+		aluminium=2.000
+		chromium=1.000
+		steel=2.000
+	}
+
+	history={
+		owner = W50
+		victory_points = {
+			7798 2 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 1
+			7798 = {
+				naval_base = 10
+			}
+			air_base = 1
+
+		}
+		add_core_of = W50
+		add_claim_by = W20
+	}
+
+	provinces={
+		1759 2130 2155 2183 2189 4763 4776 4791 5181 5187 7755 7798 7811 10553 10581 10622 10637 10665 12576 12645 12932 
+	}
+	manpower=978176
+	buildings_max_level_factor=1.000
+	state_category=large_town
+
+	local_supplies=10.0
+}

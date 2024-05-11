@@ -1,0 +1,16 @@
+characters={
+	CSA_malvin_hampton={
+		name=CSA_malvin_hampton
+		portraits={
+			civilian={
+				large="gfx/leaders/ENG/Portrait_Britain_Generic_3.dds"
+			}
+		}
+		country_leader={
+			ideology=minarchism_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

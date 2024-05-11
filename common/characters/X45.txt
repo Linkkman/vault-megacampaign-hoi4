@@ -1,0 +1,16 @@
+characters={
+	X45_sun_min={
+		name=X45_sun_min
+		portraits={
+			civilian={
+				large="GFX_Siam_Sanya_Thammasak"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

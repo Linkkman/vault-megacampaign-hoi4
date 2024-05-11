@@ -1,0 +1,1169 @@
+units = {
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 3878
+		task_force = {
+			name = "1st Fleet"
+			location = 8546
+			ship = { name = "Zaragoza" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "Altamira" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "San Fernando" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "Río Bravo" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "1st Sacramento Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "Los Ramones" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "Tuxpan" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "Loma Alta" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "1st Tallahassee Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "El Lobo" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "1st Charleston Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "Candela" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "2nd Wilmington Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "2nd Sacramento Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "1st Rosarito Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "1st San Antonio Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "1st Cololo Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "2nd Tallahassee Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "Villadama" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "2nd Charleston Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "Santo Domingo" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "1st Wilmington Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "3rd Sacramento Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "1st Savannah Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "2nd Rosarito Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "2nd San Antonio Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "2nd Cololo Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "3rd Tallahassee Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "1st Cumaná Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "3rd Charleston Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "1st Maracaibo Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "1st Ciudad Victoria Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "3rd Wilmington Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "4th Sacramento Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "1st Tepic Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "1st Veracruz Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "2nd Savannah Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "1st Bluefields Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "3rd Rosarito Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "3rd San Antonio Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "3rd Cololo Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "4th Tallahassee Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "2nd Cumaná Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "4th Charleston Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "2nd Maracaibo Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "2nd Ciudad Victoria Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "4th Wilmington Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "5th Sacramento Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "2nd Tepic Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "2nd Veracruz Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "3rd Savannah Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "4th Rosarito Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "4th San Antonio Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "5th Tallahassee Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "3rd Cumaná Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "5th Charleston Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "3rd Maracaibo Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "3rd Ciudad Victoria Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "5th Wilmington Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "6th Sacramento Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "3rd Tepic Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "7th Rosarito Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "4th Ciudad Victoria Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "4th Tepic Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "8th Rosarito Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "1st Mérida Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "7th San Antonio Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "5th Ciudad Victoria Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "8th Tallahassee Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "3rd Veracruz Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "4th Savannah Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "8th Charleston Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "7th Wilmington Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "2nd Bluefields Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "1st Barranquilla Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "4th Maracaibo Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "4th Cumaná Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "1st Güiria Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "1st Trinidad Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "8th Cololo Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "5th Tepic Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "1st Mazatlán Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "7th Sacramento Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "6th Rosarito Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "2nd Mérida Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "6th San Antonio Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "6th Ciudad Victoria Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "7th Tallahassee Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "4th Veracruz Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "5th Savannah Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "7th Charleston Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "6th Wilmington Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "3rd Bluefields Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "2nd Barranquilla Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "5th Maracaibo Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "5th Cumaná Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "2nd Güiria Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "2nd Trinidad Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "6th Cololo Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "6th Tepic Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "2nd Mazatlán Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "8th Sacramento Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "5th Rosarito Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "3rd Mérida Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "5th San Antonio Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "7th Ciudad Victoria Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "5th Veracruz Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "4th Bluefields Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "1st Lake Charles Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "1st Mobile Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "6th Tallahassee Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "1st Belize Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "7th Cololo Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "1st Puerto Lempira Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "7th Tepic Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "6th Savannah Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "6th Charleston Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "3rd Barranquilla Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "1st Norfolk Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "8th Wilmington Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "3rd Mazatlán Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "6th Maracaibo Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "6th Cumaná Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "3rd Güiria Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "1st Panama City Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "1st Limón Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "9th Rosarito Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "9th Sacramento Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "1st Essequibo Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "1st Buenaventura Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "1st Esmeraldas Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "1st Piura Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "1st Huaraz Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "4th Mérida Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "8th San Antonio Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "8th Ciudad Victoria Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "6th Veracruz Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "5th Bluefields Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "4th Cololo Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "8th Tepic Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "4th Barranquilla Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "4th Mazatlán Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "7th Maracaibo Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "7th Cumaná Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "2nd Lake Charles Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "4th Güiria Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "2nd Mobile Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "10th Rosarito Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "9th Tallahassee Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "2nd Belize Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "10th Sacramento Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "2nd Puerto Lempira Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "7th Savannah Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "9th Charleston Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "2nd Norfolk Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "9th Wilmington Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "2nd Panama City Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "2nd Limón Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "2nd Essequibo Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "2nd Buenaventura Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "2nd Esmeraldas Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "2nd Piura Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "2nd Huaraz Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "5th Mérida Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "9th San Antonio Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "9th Ciudad Victoria Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "7th Veracruz Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "6th Bluefields Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "5th Cololo Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "9th Tepic Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "5th Barranquilla Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "5th Mazatlán Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "8th Maracaibo Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "8th Cumaná Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "5th Güiria Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "11th Rosarito Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "11th Sacramento Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "3rd Lake Charles Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "3rd Mobile Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "10th Tallahassee Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "3rd Belize Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "3rd Puerto Lempira Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "8th Savannah Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "10th Charleston Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "3rd Norfolk Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "10th Wilmington Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "3rd Panama City Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "3rd Limón Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "3rd Essequibo Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "3rd Buenaventura Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "3rd Esmeraldas Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "3rd Piura Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "3rd Huaraz Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "6th Mérida Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "10th San Antonio Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "10th Ciudad Victoria Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "8th Veracruz Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "7th Bluefields Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "4th Lake Charles Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "4th Mobile Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "11th Tallahassee Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "6th Barranquilla Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "6th Trinidad Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "9th Cumaná Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "9th Savannah Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "11th Charleston Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "9th Cololo Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "4th Belize Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "9th Maracaibo Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "4th Norfolk Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "10th Tepic Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "11th Wilmington Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "4th Puerto Lempira Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "6th Güiria Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "4th Limón Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "4th Panama City Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "6th Mazatlán Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "12th Rosarito Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "12th Sacramento Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "4th Buenaventura Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "4th Essequibo Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "4th Esmeraldas Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "4th Piura Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "4th Huaraz Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "7th Mérida Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "11th San Antonio Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "11th Ciudad Victoria Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "9th Veracruz Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "8th Bluefields Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "7th Barranquilla Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "7th Trinidad Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "10th Cumaná Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "10th Cololo Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "10th Maracaibo Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "11th Tepic Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "7th Güiria Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "5th Lake Charles Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "7th Mazatlán Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "5th Mobile Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "13th Rosarito Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "12th Tallahassee Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "13th Sacramento Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "10th Savannah Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "12th Charleston Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "5th Belize Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "5th Norfolk Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "12th Wilmington Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "5th Puerto Lempira Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "5th Limón Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "5th Panama City Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "5th Buenaventura Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "5th Essequibo Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "5th Esmeraldas Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "5th Piura Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "5th Huaraz Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "8th Mérida Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "6th Piura Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "6th Huaraz Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "12th San Antonio Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "12th Ciudad Victoria Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "10th Veracruz Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "9th Bluefields Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "8th Barranquilla Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "8th Trinidad Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "11th Cumaná Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "11th Cololo Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "11th Maracaibo Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "12th Tepic Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "8th Güiria Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "8th Mazatlán Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "14th Rosarito Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "14th Sacramento Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "6th Lake Charles Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "6th Mobile Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "13th Tallahassee Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "13th Charleston Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "11th Savannah Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "6th Belize Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "13th Wilmington Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "6th Norfolk Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "6th Puerto Lempira Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "6th Limón Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "6th Panama City Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "6th Buenaventura Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "6th Essequibo Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "6th Esmeraldas Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+		}
+	}
+	fleet = {
+		name = "3rd Fleet"
+		naval_base = 3878
+		task_force = {
+			name = "3rd Fleet"
+			location = 2646
+			ship = { name = "9th Mérida Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "13th San Antonio Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "13th Ciudad Victoria Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "11th Veracruz Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "10th Bluefields Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "9th Barranquilla Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "9th Trinidad Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "12th Cumaná Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "12th Cololo Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "13th Tepic Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "12th Maracaibo Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "9th Güiria Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "9th Mazatlán Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "15th Rosarito Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "15th Sacramento Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "7th Lake Charles Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "7th Mobile Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "14th Tallahassee Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "14th Charleston Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "12th Savannah Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "7th Belize Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "14th Wilmington Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "7th Norfolk Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "7th Puerto Lempira Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "7th Limón Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "7th Panama City Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "7th Buenaventura Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "7th Essequibo Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "7th Esmeraldas Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "7th Piura Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "7th Huaraz Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "10th Mérida Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+		}
+	}
+	fleet = {
+		name = "4th Fleet"
+		naval_base = 9713
+		task_force = {
+			name = "4th Fleet"
+			location = 9713
+			ship = { name = "16th Sacramento Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+		}
+	}
+	fleet = {
+		name = "5th Fleet"
+		naval_base = 9713
+		task_force = {
+			name = "5th Fleet"
+			location = 9713
+			ship = { name = "17th Sacramento Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+		}
+	}
+	fleet = {
+		name = "6th Fleet"
+		naval_base = 9713
+		task_force = {
+			name = "6th Fleet"
+			location = 9713
+			ship = { name = "18th Sacramento Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+		}
+	}
+	fleet = {
+		name = "9th Fleet"
+		naval_base = 2042
+		task_force = {
+			name = "9th Fleet"
+			location = 2042
+			ship = { name = "16th San Antonio Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "15th San Antonio Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+			ship = { name = "14th San Antonio Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+		}
+	}
+	fleet = {
+		name = "10th Fleet"
+		naval_base = 12313
+		task_force = {
+			name = "10th Fleet"
+			location = 12313
+			ship = { name = "8th Lake Charles Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+		}
+	}
+	fleet = {
+		name = "11th Fleet"
+		naval_base = 12313
+		task_force = {
+			name = "11th Fleet"
+			location = 12313
+			ship = { name = "9th Lake Charles Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+		}
+	}
+	fleet = {
+		name = "12th Fleet"
+		naval_base = 12313
+		task_force = {
+			name = "12th Fleet"
+			location = 12313
+			ship = { name = "10th Lake Charles Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+		}
+	}
+	fleet = {
+		name = "13th Fleet"
+		naval_base = 7480
+		task_force = {
+			name = "13th Fleet"
+			location = 7480
+			ship = { name = "8th Mobile Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+		}
+	}
+	fleet = {
+		name = "14th Fleet"
+		naval_base = 7480
+		task_force = {
+			name = "14th Fleet"
+			location = 7480
+			ship = { name = "9th Mobile Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+		}
+	}
+	fleet = {
+		name = "15th Fleet"
+		naval_base = 7480
+		task_force = {
+			name = "15th Fleet"
+			location = 7480
+			ship = { name = "10th Mobile Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+		}
+	}
+	fleet = {
+		name = "16th Fleet"
+		naval_base = 10380
+		task_force = {
+			name = "16th Fleet"
+			location = 10380
+			ship = { name = "15th Tallahassee Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+		}
+	}
+	fleet = {
+		name = "17th Fleet"
+		naval_base = 10380
+		task_force = {
+			name = "17th Fleet"
+			location = 10380
+			ship = { name = "16th Tallahassee Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+		}
+	}
+	fleet = {
+		name = "18th Fleet"
+		naval_base = 10380
+		task_force = {
+			name = "18th Fleet"
+			location = 10380
+			ship = { name = "17th Tallahassee Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+		}
+	}
+	fleet = {
+		name = "19th Fleet"
+		naval_base = 1480
+		task_force = {
+			name = "19th Fleet"
+			location = 1480
+			ship = { name = "13th Savannah Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+		}
+	}
+	fleet = {
+		name = "20th Fleet"
+		naval_base = 1480
+		task_force = {
+			name = "20th Fleet"
+			location = 1480
+			ship = { name = "14th Savannah Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+		}
+	}
+	fleet = {
+		name = "21st Fleet"
+		naval_base = 1480
+		task_force = {
+			name = "21st Fleet"
+			location = 1480
+			ship = { name = "15th Savannah Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+		}
+	}
+	fleet = {
+		name = "22nd Fleet"
+		naval_base = 7202
+		task_force = {
+			name = "22nd Fleet"
+			location = 7202
+			ship = { name = "15th Charleston Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+		}
+	}
+	fleet = {
+		name = "23rd Fleet"
+		naval_base = 7202
+		task_force = {
+			name = "23rd Fleet"
+			location = 7202
+			ship = { name = "16th Charleston Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+		}
+	}
+	fleet = {
+		name = "24th Fleet"
+		naval_base = 7202
+		task_force = {
+			name = "24th Fleet"
+			location = 7202
+			ship = { name = "17th Charleston Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+		}
+	}
+	fleet = {
+		name = "25th Fleet"
+		naval_base = 1132
+		task_force = {
+			name = "25th Fleet"
+			location = 1132
+			ship = { name = "15th Wilmington Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+		}
+	}
+	fleet = {
+		name = "26th Fleet"
+		naval_base = 1132
+		task_force = {
+			name = "26th Fleet"
+			location = 1132
+			ship = { name = "16th Wilmington Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+		}
+	}
+	fleet = {
+		name = "27th Fleet"
+		naval_base = 1132
+		task_force = {
+			name = "27th Fleet"
+			location = 1132
+			ship = { name = "17th Wilmington Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+		}
+	}
+	fleet = {
+		name = "28th Fleet"
+		naval_base = 788
+		task_force = {
+			name = "28th Fleet"
+			location = 788
+			ship = { name = "8th Norfolk Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+		}
+	}
+	fleet = {
+		name = "29th Fleet"
+		naval_base = 788
+		task_force = {
+			name = "29th Fleet"
+			location = 788
+			ship = { name = "9th Norfolk Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+		}
+	}
+	fleet = {
+		name = "30th Fleet"
+		naval_base = 788
+		task_force = {
+			name = "30th Fleet"
+			location = 788
+			ship = { name = "10th Norfolk Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+		}
+	}
+	fleet = {
+		name = "31st Fleet"
+		naval_base = 12859
+		task_force = {
+			name = "31st Fleet"
+			location = 12859
+			ship = { name = "16th Rosarito Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+		}
+	}
+	fleet = {
+		name = "32nd Fleet"
+		naval_base = 12859
+		task_force = {
+			name = "32nd Fleet"
+			location = 12859
+			ship = { name = "17th Rosarito Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+		}
+	}
+	fleet = {
+		name = "33rd Fleet"
+		naval_base = 12859
+		task_force = {
+			name = "33rd Fleet"
+			location = 12859
+			ship = { name = "18th Rosarito Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+		}
+	}
+	fleet = {
+		name = "34th Fleet"
+		naval_base = 13088
+		task_force = {
+			name = "34th Fleet"
+			location = 13088
+			ship = { name = "14th Ciudad Victoria Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+		}
+	}
+	fleet = {
+		name = "35th Fleet"
+		naval_base = 13088
+		task_force = {
+			name = "35th Fleet"
+			location = 13088
+			ship = { name = "15th Ciudad Victoria Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+		}
+	}
+	fleet = {
+		name = "36th Fleet"
+		naval_base = 13088
+		task_force = {
+			name = "36th Fleet"
+			location = 13088
+			ship = { name = "16th Ciudad Victoria Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+		}
+	}
+	fleet = {
+		name = "37th Fleet"
+		naval_base = 10895
+		task_force = {
+			name = "37th Fleet"
+			location = 10895
+			ship = { name = "10th Mazatlán Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+		}
+	}
+	fleet = {
+		name = "38th Fleet"
+		naval_base = 10895
+		task_force = {
+			name = "38th Fleet"
+			location = 10895
+			ship = { name = "11th Mazatlán Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+		}
+	}
+	fleet = {
+		name = "39th Fleet"
+		naval_base = 10895
+		task_force = {
+			name = "39th Fleet"
+			location = 10895
+			ship = { name = "12th Mazatlán Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+		}
+	}
+	fleet = {
+		name = "40th Fleet"
+		naval_base = 12873
+		task_force = {
+			name = "40th Fleet"
+			location = 12873
+			ship = { name = "14th Tepic Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+		}
+	}
+	fleet = {
+		name = "41st Fleet"
+		naval_base = 12873
+		task_force = {
+			name = "41st Fleet"
+			location = 12873
+			ship = { name = "15th Tepic Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+		}
+	}
+	fleet = {
+		name = "42nd Fleet"
+		naval_base = 12873
+		task_force = {
+			name = "42nd Fleet"
+			location = 12873
+			ship = { name = "16th Tepic Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+		}
+	}
+	fleet = {
+		name = "43rd Fleet"
+		naval_base = 12810
+		task_force = {
+			name = "43rd Fleet"
+			location = 12810
+			ship = { name = "12th Veracruz Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+		}
+	}
+	fleet = {
+		name = "44th Fleet"
+		naval_base = 12810
+		task_force = {
+			name = "44th Fleet"
+			location = 12810
+			ship = { name = "13th Veracruz Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+		}
+	}
+	fleet = {
+		name = "45th Fleet"
+		naval_base = 12810
+		task_force = {
+			name = "45th Fleet"
+			location = 12810
+			ship = { name = "14th Veracruz Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+		}
+	}
+	fleet = {
+		name = "46th Fleet"
+		naval_base = 8032
+		task_force = {
+			name = "46th Fleet"
+			location = 8032
+			ship = { name = "13th Cololo Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+		}
+	}
+	fleet = {
+		name = "47th Fleet"
+		naval_base = 8032
+		task_force = {
+			name = "47th Fleet"
+			location = 8032
+			ship = { name = "14th Cololo Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+		}
+	}
+	fleet = {
+		name = "48th Fleet"
+		naval_base = 8032
+		task_force = {
+			name = "48th Fleet"
+			location = 8032
+			ship = { name = "15th Cololo Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+		}
+	}
+	fleet = {
+		name = "49th Fleet"
+		naval_base = 12715
+		task_force = {
+			name = "49th Fleet"
+			location = 12715
+			ship = { name = "11th Mérida Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+		}
+	}
+	fleet = {
+		name = "50th Fleet"
+		naval_base = 12715
+		task_force = {
+			name = "50th Fleet"
+			location = 12715
+			ship = { name = "12th Mérida Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+		}
+	}
+	fleet = {
+		name = "51st Fleet"
+		naval_base = 2077
+		task_force = {
+			name = "51st Fleet"
+			location = 2077
+			ship = { name = "8th Belize Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+		}
+	}
+	fleet = {
+		name = "52nd Fleet"
+		naval_base = 2077
+		task_force = {
+			name = "52nd Fleet"
+			location = 2077
+			ship = { name = "9th Belize Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+		}
+	}
+	fleet = {
+		name = "53rd Fleet"
+		naval_base = 2077
+		task_force = {
+			name = "53rd Fleet"
+			location = 2077
+			ship = { name = "10th Belize Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+		}
+	}
+	fleet = {
+		name = "54th Fleet"
+		naval_base = 2031
+		task_force = {
+			name = "54th Fleet"
+			location = 2031
+			ship = { name = "8th Puerto Lempira Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+		}
+	}
+	fleet = {
+		name = "55th Fleet"
+		naval_base = 2031
+		task_force = {
+			name = "55th Fleet"
+			location = 2031
+			ship = { name = "9th Puerto Lempira Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+		}
+	}
+	fleet = {
+		name = "56th Fleet"
+		naval_base = 2031
+		task_force = {
+			name = "56th Fleet"
+			location = 2031
+			ship = { name = "10th Puerto Lempira Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+		}
+	}
+	fleet = {
+		name = "57th Fleet"
+		naval_base = 2075
+		task_force = {
+			name = "57th Fleet"
+			location = 2075
+			ship = { name = "11th Bluefields Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+		}
+	}
+	fleet = {
+		name = "58th Fleet"
+		naval_base = 2075
+		task_force = {
+			name = "58th Fleet"
+			location = 2075
+			ship = { name = "12th Bluefields Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+		}
+	}
+	fleet = {
+		name = "59th Fleet"
+		naval_base = 2075
+		task_force = {
+			name = "59th Fleet"
+			location = 2075
+			ship = { name = "13th Bluefields Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+		}
+	}
+	fleet = {
+		name = "60th Fleet"
+		naval_base = 12878
+		task_force = {
+			name = "60th Fleet"
+			location = 12878
+			ship = { name = "8th Limón Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+		}
+	}
+	fleet = {
+		name = "61st Fleet"
+		naval_base = 12878
+		task_force = {
+			name = "61st Fleet"
+			location = 12878
+			ship = { name = "9th Limón Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+		}
+	}
+	fleet = {
+		name = "62nd Fleet"
+		naval_base = 12878
+		task_force = {
+			name = "62nd Fleet"
+			location = 12878
+			ship = { name = "10th Limón Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+		}
+	}
+	fleet = {
+		name = "63rd Fleet"
+		naval_base = 7630
+		task_force = {
+			name = "63rd Fleet"
+			location = 7630
+			ship = { name = "8th Panama City Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+		}
+	}
+	fleet = {
+		name = "64th Fleet"
+		naval_base = 7630
+		task_force = {
+			name = "64th Fleet"
+			location = 7630
+			ship = { name = "9th Panama City Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+		}
+	}
+	fleet = {
+		name = "65th Fleet"
+		naval_base = 7630
+		task_force = {
+			name = "65th Fleet"
+			location = 7630
+			ship = { name = "10th Panama City Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+		}
+	}
+	fleet = {
+		name = "66th Fleet"
+		naval_base = 3284
+		task_force = {
+			name = "66th Fleet"
+			location = 3284
+			ship = { name = "10th Trinidad Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+		}
+	}
+	fleet = {
+		name = "67th Fleet"
+		naval_base = 3284
+		task_force = {
+			name = "67th Fleet"
+			location = 3284
+			ship = { name = "11th Trinidad Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+		}
+	}
+	fleet = {
+		name = "68th Fleet"
+		naval_base = 3284
+		task_force = {
+			name = "68th Fleet"
+			location = 3284
+			ship = { name = "12th Trinidad Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+		}
+	}
+	fleet = {
+		name = "69th Fleet"
+		naval_base = 12716
+		task_force = {
+			name = "69th Fleet"
+			location = 12716
+			ship = { name = "8th Essequibo Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+		}
+	}
+	fleet = {
+		name = "70th Fleet"
+		naval_base = 12716
+		task_force = {
+			name = "70th Fleet"
+			location = 12716
+			ship = { name = "9th Essequibo Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+		}
+	}
+	fleet = {
+		name = "71st Fleet"
+		naval_base = 12716
+		task_force = {
+			name = "71st Fleet"
+			location = 12716
+			ship = { name = "10th Essequibo Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+		}
+	}
+	fleet = {
+		name = "72nd Fleet"
+		naval_base = 8056
+		task_force = {
+			name = "72nd Fleet"
+			location = 8056
+			ship = { name = "10th Barranquilla Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+		}
+	}
+	fleet = {
+		name = "73rd Fleet"
+		naval_base = 8056
+		task_force = {
+			name = "73rd Fleet"
+			location = 8056
+			ship = { name = "11th Barranquilla Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+		}
+	}
+	fleet = {
+		name = "74th Fleet"
+		naval_base = 8056
+		task_force = {
+			name = "74th Fleet"
+			location = 8056
+			ship = { name = "12th Barranquilla Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+		}
+	}
+	fleet = {
+		name = "75th Fleet"
+		naval_base = 7991
+		task_force = {
+			name = "75th Fleet"
+			location = 7991
+			ship = { name = "8th Buenaventura Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+		}
+	}
+	fleet = {
+		name = "76th Fleet"
+		naval_base = 7991
+		task_force = {
+			name = "76th Fleet"
+			location = 7991
+			ship = { name = "9th Buenaventura Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+		}
+	}
+	fleet = {
+		name = "77th Fleet"
+		naval_base = 7991
+		task_force = {
+			name = "77th Fleet"
+			location = 7991
+			ship = { name = "10th Buenaventura Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+		}
+	}
+	fleet = {
+		name = "78th Fleet"
+		naval_base = 7968
+		task_force = {
+			name = "78th Fleet"
+			location = 7968
+			ship = { name = "13th Cumaná Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+		}
+	}
+	fleet = {
+		name = "79th Fleet"
+		naval_base = 7968
+		task_force = {
+			name = "79th Fleet"
+			location = 7968
+			ship = { name = "14th Cumaná Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+		}
+	}
+	fleet = {
+		name = "80th Fleet"
+		naval_base = 7968
+		task_force = {
+			name = "80th Fleet"
+			location = 7968
+			ship = { name = "15th Cumaná Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+		}
+	}
+	fleet = {
+		name = "81st Fleet"
+		naval_base = 10912
+		task_force = {
+			name = "81st Fleet"
+			location = 10912
+			ship = { name = "10th Güiria Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+		}
+	}
+	fleet = {
+		name = "82nd Fleet"
+		naval_base = 10912
+		task_force = {
+			name = "82nd Fleet"
+			location = 10912
+			ship = { name = "11th Güiria Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+		}
+	}
+	fleet = {
+		name = "83rd Fleet"
+		naval_base = 10912
+		task_force = {
+			name = "83rd Fleet"
+			location = 10912
+			ship = { name = "12th Güiria Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+		}
+	}
+	fleet = {
+		name = "84th Fleet"
+		naval_base = 12772
+		task_force = {
+			name = "84th Fleet"
+			location = 12772
+			ship = { name = "13th Maracaibo Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+		}
+	}
+	fleet = {
+		name = "85th Fleet"
+		naval_base = 12772
+		task_force = {
+			name = "85th Fleet"
+			location = 12772
+			ship = { name = "14th Maracaibo Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+		}
+	}
+	fleet = {
+		name = "86th Fleet"
+		naval_base = 12772
+		task_force = {
+			name = "86th Fleet"
+			location = 12772
+			ship = { name = "15th Maracaibo Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+		}
+	}
+	fleet = {
+		name = "87th Fleet"
+		naval_base = 8047
+		task_force = {
+			name = "87th Fleet"
+			location = 8047
+			ship = { name = "8th Esmeraldas Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+		}
+	}
+	fleet = {
+		name = "88th Fleet"
+		naval_base = 8047
+		task_force = {
+			name = "88th Fleet"
+			location = 8047
+			ship = { name = "9th Esmeraldas Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+		}
+	}
+	fleet = {
+		name = "89th Fleet"
+		naval_base = 8047
+		task_force = {
+			name = "89th Fleet"
+			location = 8047
+			ship = { name = "10th Esmeraldas Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+		}
+	}
+	fleet = {
+		name = "90th Fleet"
+		naval_base = 2156
+		task_force = {
+			name = "90th Fleet"
+			location = 2156
+			ship = { name = "8th Piura Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+		}
+	}
+	fleet = {
+		name = "91st Fleet"
+		naval_base = 2156
+		task_force = {
+			name = "91st Fleet"
+			location = 2156
+			ship = { name = "9th Piura Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+		}
+	}
+	fleet = {
+		name = "92nd Fleet"
+		naval_base = 2156
+		task_force = {
+			name = "92nd Fleet"
+			location = 2156
+			ship = { name = "10th Piura Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+		}
+	}
+	fleet = {
+		name = "93rd Fleet"
+		naval_base = 5190
+		task_force = {
+			name = "93rd Fleet"
+			location = 5190
+			ship = { name = "8th Huaraz Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+		}
+	}
+	fleet = {
+		name = "94th Fleet"
+		naval_base = 5190
+		task_force = {
+			name = "94th Fleet"
+			location = 5190
+			ship = { name = "9th Huaraz Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+		}
+	}
+	fleet = {
+		name = "95th Fleet"
+		naval_base = 5190
+		task_force = {
+			name = "95th Fleet"
+			location = 5190
+			ship = { name = "10th Huaraz Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W57 } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_1
+			creator = "W57"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_1
+			creator = "W57"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

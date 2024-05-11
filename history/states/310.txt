@@ -1,0 +1,34 @@
+
+state={
+	id=310
+	name="STATE_310"
+
+	history={
+		owner = X72
+		victory_points = {
+			7442 10 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 3
+			arms_factory = 0
+			505 = {
+				naval_base = 1
+			}
+			air_base = 5
+
+		}
+		add_core_of = W51
+		add_core_of = X72
+		add_claim_by = W32
+	}
+
+	provinces={
+		505 528 1320 1414 1690 3471 3513 4274 4296 4328 4347 4380 4398 4747 4826 7255 7315 7386 7398 7414 7442 7721 7865 10151 10155 10157 10183 10198 10242 10271 10305 10327 10625 10687 10690 10693 11495 11733 12155 12183 12211 12214 12281 12553 12673 
+	}
+	manpower=458940
+	buildings_max_level_factor=1.000
+	state_category=large_town
+
+	local_supplies=10.0
+}

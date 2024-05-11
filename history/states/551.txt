@@ -1,0 +1,30 @@
+
+state={
+	id=551
+	name="STATE_551"
+
+	history={
+		owner = W57
+		victory_points = {
+			1965 4 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 4
+			arms_factory = 2
+			air_base = 2
+
+		}
+		add_core_of = W57
+		add_claim_by = TIG
+	}
+
+	provinces={
+		1965 2011 7913 8089 12755 
+	}
+	manpower=3401240
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=10.0
+}

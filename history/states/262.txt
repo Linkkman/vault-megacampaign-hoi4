@@ -1,0 +1,35 @@
+
+state={
+	id=262
+	name="STATE_262"
+
+	history={
+		owner = GER
+		victory_points = {
+			3206 3 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 1
+			3206 = {
+				naval_base = 6
+			}
+			air_base = 2
+
+		}
+		add_core_of = GER
+		add_claim_by = SCA
+		add_claim_by = TIG
+	}
+
+	provinces={
+		316 394 399 3206 3277 3341 6235 6364 13259 13262 13263 
+	}
+	manpower=3416888
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=10.0
+}

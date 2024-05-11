@@ -1,0 +1,31 @@
+
+state={
+	id=412
+	name="STATE_412"
+
+	history={
+		owner = SOV
+		victory_points = {
+			9247 2 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 1
+
+		}
+		add_core_of = SOV
+		add_claim_by = UKR
+		add_claim_by = W20
+
+	}
+
+	provinces={
+		289 323 342 3219 3331 6233 6249 6326 6344 6354 9241 9247 9288 9289 9323 9342 9371 9396 11220 11230 11241 11271 11355 11383 
+	}
+	manpower=1892628
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=10.000
+}

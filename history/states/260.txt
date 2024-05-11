@@ -1,0 +1,30 @@
+
+state={
+	id=260
+	name="STATE_260"
+
+	history={
+		owner = GER
+		victory_points = {
+			6521 3 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 3
+			arms_factory = 1
+			air_base = 1
+
+		}
+		add_core_of = GER
+		add_claim_by = W20
+	}
+
+	provinces={
+		375 478 3207 3312 3367 3499 6521 9428 9496 11219 11415 11444 11505 
+	}
+	manpower=2598192
+	buildings_max_level_factor=1.000
+	state_category=large_town
+
+	local_supplies=10.0
+}

@@ -1,0 +1,114 @@
+﻿capital = 505
+set_research_slots = 2
+
+oob = "TIB_OOB"
+
+# Starting tech
+# Research Bonuses
+
+set_country_flag = conv_china
+set_convoys = 0
+
+set_politics = {
+    ruling_party = democratic
+    last_election = "1907.7.29"
+    election_frequency = 48
+    elections_allowed = yes
+}
+
+set_popularities = {
+	democratic = 100
+}
+
+add_opinion_modifier = { target = ARG modifier = positive_20 }
+add_opinion_modifier = { target = SOV modifier = negative_8 }
+add_opinion_modifier = { target = W16 modifier = negative_10 }
+add_opinion_modifier = { target = W50 modifier = negative_10 }
+add_opinion_modifier = { target = W52 modifier = negative_10 }
+add_opinion_modifier = { target = W57 modifier = negative_10 }
+add_opinion_modifier = { target = W59 modifier = negative_200 }
+
+
+add_ideas = {
+	uncivilized
+	volunteer_only
+	civilian_economy
+	export_focus
+	culture_tibetan
+}
+set_stability = 0.60
+set_war_support = 0.68
+
+recruit_character = TIB_tsepon_tashi
+recruit_character = TIB_mipham_chophel
+recruit_character = TIB_mipham_dzasa
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_operative_leader = {
+		name = "Dohna Rinpoche"
+		GFX = "gfx/leaders/India/portrait_india_generic_operative_female_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { TIB }
+	}
+
+	create_operative_leader = {
+		name = "Sangmu Tashi"
+		GFX = "gfx/leaders/India/portrait_india_generic_operative_female_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { TIB }
+	}
+
+	create_operative_leader = {
+		name = "Dechen Wangyal"
+		GFX = "gfx/leaders/India/portrait_india_generic_operative_female_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { TIB }
+	}
+
+	create_operative_leader = {
+		name = "Gendün Lungshar"
+		GFX = "gfx/leaders/India/portrait_india_generic_operative_male_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { TIB }
+	}
+
+	create_operative_leader = {
+		name = "Chamba Chöphel"
+		GFX = "gfx/leaders/India/portrait_india_generic_operative_male_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { TIB }
+	}
+
+}
+### VARIANTS ###
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+}
+### PLANE DESIGNS ###
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+}
+### TANK DESIGNS ###
+if = {
+	limit = { has_dlc = "No Step Back" }
+}
+

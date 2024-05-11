@@ -1,0 +1,31 @@
+
+state={
+	id=506
+	name="STATE_506"
+
+	history={
+		owner = TIB
+		victory_points = {
+			5076 4 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 4
+			arms_factory = 3
+			air_base = 2
+
+		}
+		add_core_of = TIB
+		add_core_of = W41
+		add_claim_by = W20
+	}
+
+	provinces={
+		1698 1778 2028 5076 5100 7971 12596 12820 
+	}
+	manpower=916752
+	buildings_max_level_factor=1.000
+	state_category=large_city
+
+	local_supplies=10.0
+}

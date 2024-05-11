@@ -1,0 +1,34 @@
+
+state={
+	id=356
+	name="STATE_356"
+	resources={
+		chromium=4.000
+		tungsten=1.000
+	}
+
+	history={
+		owner = W77
+		victory_points = {
+			12504 0 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = W77
+		add_claim_by = W20
+	}
+
+	provinces={
+		697 5199 7872 10538 12504 12677 
+	}
+	manpower=1290368
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

@@ -1,0 +1,32 @@
+
+state={
+	id=129
+	name="STATE_129"
+
+	history={
+		owner = ENG
+		victory_points = {
+			4180 0 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			4180 = {
+				naval_base = 4
+			}
+			air_base = 0
+
+		}
+		add_core_of = W32
+	}
+
+	provinces={
+		4180 7112 7195 10048 12021 
+	}
+	manpower=222276
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

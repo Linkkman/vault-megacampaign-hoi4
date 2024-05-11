@@ -1,0 +1,16 @@
+characters={
+	X12_manuel_jacinto={
+		name=X12_manuel_jacinto
+		portraits={
+			civilian={
+				large="GFX_Sarawak_Abang_Haji_Abdillah"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

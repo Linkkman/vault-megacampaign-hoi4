@@ -1,0 +1,38 @@
+
+state={
+	id=148
+	name="STATE_148"
+	resources={
+		rubber=29.000
+	}
+
+	history={
+		owner = W69
+		victory_points = {
+			7344 15 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 0
+			7344 = {
+				naval_base = 6
+			}
+			air_base = 6
+
+		}
+		add_core_of = SRL
+		add_core_of = W69
+		add_claim_by = RAJ
+		add_claim_by = W20
+	}
+
+	provinces={
+		1213 4219 7260 7344 10201 10229 10287 12258 
+	}
+	manpower=1497860
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

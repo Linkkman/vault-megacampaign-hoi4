@@ -1,0 +1,16 @@
+characters={
+	X88_shambhaji_baji_rao={
+		name=X88_shambhaji_baji_rao
+		portraits={
+			civilian={
+				large="GFX_DEH_Muhammad_Ali_Jinnah"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

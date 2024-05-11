@@ -1,0 +1,31 @@
+
+state={
+	id=401
+	name="STATE_401"
+
+	history={
+		owner = ROM
+		victory_points = {
+			11639 2 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			arms_factory = 1
+			air_base = 0
+
+		}
+		add_core_of = ROM
+		add_claim_by = AUS
+		add_claim_by = W32
+
+	}
+
+	provinces={
+		676 690 711 3676 3689 6679 6709 9668 9670 9685 11639 
+	}
+	manpower=572292
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=10.000
+}

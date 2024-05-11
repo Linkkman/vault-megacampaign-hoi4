@@ -1,0 +1,34 @@
+
+state={
+	id=276
+	name="STATE_276"
+
+	history={
+		owner = HUN
+		victory_points = {
+			3496 15 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+			arms_factory = 0
+			air_base = 6
+
+		}
+		add_core_of = HUN
+		add_core_of = SOV
+		add_core_of = UKR
+		add_claim_by = AUS
+		add_claim_by = GER
+		add_claim_by = W20
+	}
+
+	provinces={
+		422 462 474 513 535 572 3412 3430 3457 3496 3511 6429 6435 6509 6520 6546 6557 9520 11441 11503 11543 
+	}
+	manpower=1808984
+	buildings_max_level_factor=1.000
+	state_category=large_town
+
+	local_supplies=10.0
+}

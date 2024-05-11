@@ -1,0 +1,38 @@
+
+state={
+	id=588
+	name="STATE_588"
+	resources={
+		aluminium=1.000
+		steel=6.000
+	}
+
+	history={
+		owner = W57
+		victory_points = {
+			3878 3 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 1
+			3878 = {
+				naval_base = 8
+			}
+			air_base = 1
+
+		}
+		add_core_of = X95
+		add_claim_by = TIG
+	}
+
+	provinces={
+		598 706 734 859 1436 3602 3702 3733 3747 3806 3878 3894 6707 6717 6778 6795 6911 6916 9664 9673 9693 9708 9721 9754 9774 10381 11650 11654 11660 11662 11665 11680 11722 
+	}
+	manpower=4480836
+	buildings_max_level_factor=1.000
+	state_category=large_city
+
+	local_supplies=10.0
+}

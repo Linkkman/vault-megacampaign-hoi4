@@ -1,0 +1,39 @@
+
+state={
+	id=138
+	name="STATE_138"
+	resources={
+		chromium=2.000
+		tungsten=4.000
+	}
+
+	history={
+		owner = W69
+		victory_points = {
+			1317 10 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 6
+
+		}
+		add_core_of = RAJ
+		add_core_of = W69
+		add_core_of = X40
+		add_core_of = X88
+		add_claim_by = PAK
+		add_claim_by = X71
+		add_claim_by = X90
+
+	}
+
+	provinces={
+		1275 1317 1359 4280 4472 5019 5063 5104 7411 8087 10259 10311 10324 10511 10799 11950 12114 12226 
+	}
+	manpower=6070264
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+	local_supplies=10.000
+}

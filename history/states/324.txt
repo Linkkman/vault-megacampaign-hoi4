@@ -1,0 +1,38 @@
+
+state={
+	id=324
+	name="STATE_324"
+	resources={
+		rubber=8.000
+	}
+
+	history={
+		owner = W78
+		victory_points = {
+			4297 0 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			1279 = {
+				naval_base = 2
+			}
+			air_base = 0
+
+		}
+		add_core_of = MAL
+		add_core_of = W01
+		add_core_of = W78
+		add_claim_by = W32
+	}
+
+	provinces={
+		1279 4297 12131 
+	}
+	manpower=333348
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

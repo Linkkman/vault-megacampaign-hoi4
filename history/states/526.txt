@@ -1,0 +1,35 @@
+
+state={
+	id=526
+	name="STATE_526"
+	resources={
+		chromium=44.000
+	}
+
+	history={
+		owner = W50
+		victory_points = {
+			4268 0 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			4247 = {
+				naval_base = 8
+			}
+			air_base = 0
+
+		}
+		add_core_of = W32
+	}
+
+	provinces={
+		1237 1263 4231 4247 4268 7264 10160 12120 12132 
+	}
+	manpower=45928
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

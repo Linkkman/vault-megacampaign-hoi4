@@ -1,0 +1,32 @@
+
+state={
+	id=313
+	name="STATE_313"
+	resources={
+		tungsten=1.000
+	}
+
+	history={
+		owner = X72
+		victory_points = {
+			13075 0 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = W32
+
+	}
+
+	provinces={
+		2407 3606 4272 7696 7891 7901 8653 10527 10703 13075 13167 13189 2976
+	}
+	manpower=84912
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=10.000
+}

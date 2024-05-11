@@ -1,0 +1,16 @@
+characters={
+	W05_tuanku_al_marhum={
+		name=W05_tuanku_al_marhum
+		portraits={
+			civilian={
+				large="GFX_Indonesia_Sukarno"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

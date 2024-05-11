@@ -1,0 +1,37 @@
+
+state={
+	id=8
+	name="STATE_8"
+	resources={
+		aluminium=4.000
+	}
+
+	history={
+		owner = ARG
+		victory_points = {
+			5219 3 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 1
+			12494 = {
+				naval_base = 1
+			}
+			air_base = 1
+
+		}
+		add_core_of = ARG
+		add_claim_by = W20
+	}
+
+	provinces={
+		2149 2215 5152 5184 5219 7550 8192 8208 8215 10935 10975 10985 10992 11021 11022 12306 12494 12942 12970 12998 
+	}
+	manpower=1840344
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=10.0
+}

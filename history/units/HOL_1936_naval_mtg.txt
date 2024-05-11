@@ -1,0 +1,1152 @@
+units = {
+	fleet = {
+		name = "2nd Fleet"
+		naval_base = 6349
+		task_force = {
+			name = "2nd Fleet"
+			location = 4225
+			ship = { name = "Java" definition = light_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HOL version_name = "Early Light Cruiser" } } }
+			ship = { name = "Banckert" definition = light_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HOL version_name = "Early Light Cruiser" } } }
+			ship = { name = "Callenburgh" definition = light_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HOL version_name = "Early Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "11th Fleet"
+		naval_base = 6349
+		task_force = {
+			name = "11th Fleet"
+			location = 2729
+			ship = { name = "Gelderland" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = HOL version_name = "Early Destroyer" } } }
+			ship = { name = "Van Speijck" definition = light_cruiser start_experience_factor = 0.1714 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HOL version_name = "Early Light Cruiser" } } }
+			ship = { name = "Johan Willem Friso" definition = light_cruiser start_experience_factor = 0.16548 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HOL version_name = "Early Light Cruiser" } } }
+			ship = { name = "Bloys van Treslong" definition = light_cruiser start_experience_factor = 0.16883 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HOL version_name = "Early Light Cruiser" } } }
+			ship = { name = "1st Middelburg Cruiser" definition = light_cruiser start_experience_factor = 0.22085 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HOL version_name = "Early Light Cruiser" } } }
+			ship = { name = "2nd Middelburg Cruiser" definition = light_cruiser start_experience_factor = 0.2338 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HOL version_name = "Early Light Cruiser" } } }
+			ship = { name = "Van Amstel" definition = light_cruiser start_experience_factor = 0.18423 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HOL version_name = "Early Light Cruiser" } } }
+			ship = { name = "1st Duinkerke Cruiser" definition = light_cruiser start_experience_factor = 0.24285 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HOL version_name = "Early Light Cruiser" } } }
+			ship = { name = "Van Ghent" definition = light_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HOL version_name = "Early Light Cruiser" } } }
+			ship = { name = "Abraham van der Hulst" definition = light_cruiser start_experience_factor = 0.19137 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HOL version_name = "Early Light Cruiser" } } }
+			ship = { name = "Zoutman" definition = light_cruiser start_experience_factor = 0.18475 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HOL version_name = "Early Light Cruiser" } } }
+			ship = { name = "Philips van Almonde" definition = light_cruiser start_experience_factor = 0.18569 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HOL version_name = "Early Light Cruiser" } } }
+			ship = { name = "Willem van der Zaan" definition = light_cruiser start_experience_factor = 0.19428 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HOL version_name = "Early Light Cruiser" } } }
+			ship = { name = "Isaac Sweers" definition = light_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HOL version_name = "Early Light Cruiser" } } }
+			ship = { name = "Tjerk Hiddes" definition = light_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HOL version_name = "Early Light Cruiser" } } }
+			ship = { name = "Van Galen" definition = light_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HOL version_name = "Early Light Cruiser" } } }
+			ship = { name = "Isaac Sweers 2" definition = light_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HOL version_name = "Early Light Cruiser" } } }
+			ship = { name = "Anna Paulowna" definition = light_cruiser start_experience_factor = 0.19466 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HOL version_name = "Early Light Cruiser" } } }
+			ship = { name = "Pieter Florisz" definition = light_cruiser start_experience_factor = 0.1978 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HOL version_name = "Early Light Cruiser" } } }
+			ship = { name = "Johan Willem Friso 2" definition = light_cruiser start_experience_factor = 0.199 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HOL version_name = "Early Light Cruiser" } } }
+			ship = { name = "Aert van Nes" definition = light_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HOL version_name = "Early Light Cruiser" } } }
+			ship = { name = "Adolf Hertog van Nassau" definition = light_cruiser start_experience_factor = 0.19137 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HOL version_name = "Early Light Cruiser" } } }
+			ship = { name = "Van Kinsbergen" definition = light_cruiser start_experience_factor = 0.18475 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HOL version_name = "Early Light Cruiser" } } }
+			ship = { name = "Jan van Brakel" definition = light_cruiser start_experience_factor = 0.1904 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HOL version_name = "Early Light Cruiser" } } }
+			ship = { name = "1st Brugge Cruiser" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HOL version_name = "Early Light Cruiser" } } }
+			ship = { name = "2nd Brugge Cruiser" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HOL version_name = "Early Light Cruiser" } } }
+			ship = { name = "2nd Duinkerke Cruiser" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HOL version_name = "Early Light Cruiser" } } }
+			ship = { name = "Banckert 2" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HOL version_name = "Early Light Cruiser" } } }
+			ship = { name = "Callenburgh 2" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HOL version_name = "Early Light Cruiser" } } }
+			ship = { name = "Van Ghent 2" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HOL version_name = "Early Light Cruiser" } } }
+			ship = { name = "1st Rotterdam Cruiser" definition = light_cruiser start_experience_factor = 0.23031 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HOL version_name = "Early Light Cruiser" } } }
+			ship = { name = "Aert van Nes 2" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HOL version_name = "Early Light Cruiser" } } }
+			ship = { name = "Anna Paulowna 2" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HOL version_name = "Early Light Cruiser" } } }
+			ship = { name = "Zoutman 2" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HOL version_name = "Early Light Cruiser" } } }
+			ship = { name = "Philips van Almonde 2" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HOL version_name = "Early Light Cruiser" } } }
+			ship = { name = "Bloys van Treslong 2" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HOL version_name = "Early Light Cruiser" } } }
+			ship = { name = "2nd Rotterdam Cruiser" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HOL version_name = "Early Light Cruiser" } } }
+			ship = { name = "3rd Middelburg Cruiser" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HOL version_name = "Early Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 9498
+		task_force = {
+			name = "1st Fleet"
+			location = 9498
+			ship = { name = "3rd Rotterdam Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HOL version_name = "Early Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "3rd Fleet"
+		naval_base = 9498
+		task_force = {
+			name = "3rd Fleet"
+			location = 9498
+			ship = { name = "4th Rotterdam Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HOL version_name = "Early Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "4th Fleet"
+		naval_base = 9498
+		task_force = {
+			name = "4th Fleet"
+			location = 9498
+			ship = { name = "5th Rotterdam Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HOL version_name = "Early Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "5th Fleet"
+		naval_base = 9498
+		task_force = {
+			name = "5th Fleet"
+			location = 9498
+			ship = { name = "6th Rotterdam Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HOL version_name = "Early Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "6th Fleet"
+		naval_base = 9498
+		task_force = {
+			name = "6th Fleet"
+			location = 9498
+			ship = { name = "7th Rotterdam Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HOL version_name = "Early Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "7th Fleet"
+		naval_base = 9498
+		task_force = {
+			name = "7th Fleet"
+			location = 9498
+			ship = { name = "Groningen" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = HOL version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "8th Fleet"
+		naval_base = 9498
+		task_force = {
+			name = "8th Fleet"
+			location = 9498
+			ship = { name = "1st Rotterdam Commerce Raider" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = HOL version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "9th Fleet"
+		naval_base = 9498
+		task_force = {
+			name = "9th Fleet"
+			location = 9498
+			ship = { name = "2nd Rotterdam Commerce Raider" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = HOL version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "10th Fleet"
+		naval_base = 9498
+		task_force = {
+			name = "10th Fleet"
+			location = 9498
+			ship = { name = "3rd Rotterdam Commerce Raider" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = HOL version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "12th Fleet"
+		naval_base = 9431
+		task_force = {
+			name = "12th Fleet"
+			location = 9431
+			ship = { name = "4th Middelburg Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HOL version_name = "Early Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "13th Fleet"
+		naval_base = 9431
+		task_force = {
+			name = "13th Fleet"
+			location = 9431
+			ship = { name = "5th Middelburg Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HOL version_name = "Early Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "14th Fleet"
+		naval_base = 9431
+		task_force = {
+			name = "14th Fleet"
+			location = 9431
+			ship = { name = "6th Middelburg Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HOL version_name = "Early Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "15th Fleet"
+		naval_base = 9431
+		task_force = {
+			name = "15th Fleet"
+			location = 9431
+			ship = { name = "7th Middelburg Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HOL version_name = "Early Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "16th Fleet"
+		naval_base = 9431
+		task_force = {
+			name = "16th Fleet"
+			location = 9431
+			ship = { name = "8th Middelburg Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HOL version_name = "Early Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "17th Fleet"
+		naval_base = 9431
+		task_force = {
+			name = "17th Fleet"
+			location = 9431
+			ship = { name = "Holland" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = HOL version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "18th Fleet"
+		naval_base = 9431
+		task_force = {
+			name = "18th Fleet"
+			location = 9431
+			ship = { name = "Utrecht" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = HOL version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "19th Fleet"
+		naval_base = 9431
+		task_force = {
+			name = "19th Fleet"
+			location = 9431
+			ship = { name = "1st Middelburg Commerce Raider" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = HOL version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "20th Fleet"
+		naval_base = 9431
+		task_force = {
+			name = "20th Fleet"
+			location = 9431
+			ship = { name = "2nd Middelburg Commerce Raider" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = HOL version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "21st Fleet"
+		naval_base = 11318
+		task_force = {
+			name = "21st Fleet"
+			location = 11318
+			ship = { name = "Jan van Brakel 2" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HOL version_name = "Early Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "22nd Fleet"
+		naval_base = 11318
+		task_force = {
+			name = "22nd Fleet"
+			location = 11318
+			ship = { name = "1st Groningen Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HOL version_name = "Early Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "23rd Fleet"
+		naval_base = 11318
+		task_force = {
+			name = "23rd Fleet"
+			location = 11318
+			ship = { name = "2nd Groningen Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HOL version_name = "Early Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "24th Fleet"
+		naval_base = 11318
+		task_force = {
+			name = "24th Fleet"
+			location = 11318
+			ship = { name = "3rd Groningen Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HOL version_name = "Early Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "25th Fleet"
+		naval_base = 11318
+		task_force = {
+			name = "25th Fleet"
+			location = 11318
+			ship = { name = "4th Groningen Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HOL version_name = "Early Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "26th Fleet"
+		naval_base = 11318
+		task_force = {
+			name = "26th Fleet"
+			location = 11318
+			ship = { name = "5th Groningen Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HOL version_name = "Early Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "27th Fleet"
+		naval_base = 11318
+		task_force = {
+			name = "27th Fleet"
+			location = 11318
+			ship = { name = "6th Groningen Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HOL version_name = "Early Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "28th Fleet"
+		naval_base = 11318
+		task_force = {
+			name = "28th Fleet"
+			location = 11318
+			ship = { name = "Curacao" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = HOL version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "29th Fleet"
+		naval_base = 11318
+		task_force = {
+			name = "29th Fleet"
+			location = 11318
+			ship = { name = "Suriname" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = HOL version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "30th Fleet"
+		naval_base = 11318
+		task_force = {
+			name = "30th Fleet"
+			location = 11318
+			ship = { name = "1st Groningen Commerce Raider" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = HOL version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "31st Fleet"
+		naval_base = 11318
+		task_force = {
+			name = "31st Fleet"
+			location = 11318
+			ship = { name = "2nd Groningen Commerce Raider" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = HOL version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "32nd Fleet"
+		naval_base = 6446
+		task_force = {
+			name = "32nd Fleet"
+			location = 6446
+			ship = { name = "Van Kinsbergen 2" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HOL version_name = "Early Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "33rd Fleet"
+		naval_base = 6446
+		task_force = {
+			name = "33rd Fleet"
+			location = 6446
+			ship = { name = "Van Amstel 2" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HOL version_name = "Early Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "34th Fleet"
+		naval_base = 6446
+		task_force = {
+			name = "34th Fleet"
+			location = 6446
+			ship = { name = "3rd Brugge Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HOL version_name = "Early Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "35th Fleet"
+		naval_base = 6446
+		task_force = {
+			name = "35th Fleet"
+			location = 6446
+			ship = { name = "4th Brugge Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HOL version_name = "Early Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "36th Fleet"
+		naval_base = 6446
+		task_force = {
+			name = "36th Fleet"
+			location = 6446
+			ship = { name = "5th Brugge Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HOL version_name = "Early Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "37th Fleet"
+		naval_base = 6446
+		task_force = {
+			name = "37th Fleet"
+			location = 6446
+			ship = { name = "6th Brugge Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HOL version_name = "Early Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "38th Fleet"
+		naval_base = 6446
+		task_force = {
+			name = "38th Fleet"
+			location = 6446
+			ship = { name = "7th Brugge Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HOL version_name = "Early Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "39th Fleet"
+		naval_base = 6446
+		task_force = {
+			name = "39th Fleet"
+			location = 6446
+			ship = { name = "8th Brugge Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HOL version_name = "Early Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "40th Fleet"
+		naval_base = 6446
+		task_force = {
+			name = "40th Fleet"
+			location = 6446
+			ship = { name = "Brabant" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = HOL version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "41st Fleet"
+		naval_base = 6446
+		task_force = {
+			name = "41st Fleet"
+			location = 6446
+			ship = { name = "Overijssel" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = HOL version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "42nd Fleet"
+		naval_base = 6446
+		task_force = {
+			name = "42nd Fleet"
+			location = 6446
+			ship = { name = "1st Brugge Commerce Raider" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = HOL version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "43rd Fleet"
+		naval_base = 6446
+		task_force = {
+			name = "43rd Fleet"
+			location = 6446
+			ship = { name = "2nd Brugge Commerce Raider" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = HOL version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "44th Fleet"
+		naval_base = 575
+		task_force = {
+			name = "44th Fleet"
+			location = 575
+			ship = { name = "Pieter Florisz 2" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HOL version_name = "Early Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "45th Fleet"
+		naval_base = 575
+		task_force = {
+			name = "45th Fleet"
+			location = 575
+			ship = { name = "Willem van der Zaan 2" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HOL version_name = "Early Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "46th Fleet"
+		naval_base = 575
+		task_force = {
+			name = "46th Fleet"
+			location = 575
+			ship = { name = "3rd Duinkerke Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HOL version_name = "Early Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "47th Fleet"
+		naval_base = 575
+		task_force = {
+			name = "47th Fleet"
+			location = 575
+			ship = { name = "4th Duinkerke Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HOL version_name = "Early Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "48th Fleet"
+		naval_base = 575
+		task_force = {
+			name = "48th Fleet"
+			location = 575
+			ship = { name = "5th Duinkerke Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HOL version_name = "Early Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "49th Fleet"
+		naval_base = 575
+		task_force = {
+			name = "49th Fleet"
+			location = 575
+			ship = { name = "6th Duinkerke Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HOL version_name = "Early Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "50th Fleet"
+		naval_base = 575
+		task_force = {
+			name = "50th Fleet"
+			location = 575
+			ship = { name = "7th Duinkerke Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HOL version_name = "Early Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "51st Fleet"
+		naval_base = 575
+		task_force = {
+			name = "51st Fleet"
+			location = 575
+			ship = { name = "8th Duinkerke Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HOL version_name = "Early Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "52nd Fleet"
+		naval_base = 575
+		task_force = {
+			name = "52nd Fleet"
+			location = 575
+			ship = { name = "Atjeh" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = HOL version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "53rd Fleet"
+		naval_base = 575
+		task_force = {
+			name = "53rd Fleet"
+			location = 575
+			ship = { name = "Limburg" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = HOL version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "54th Fleet"
+		naval_base = 575
+		task_force = {
+			name = "54th Fleet"
+			location = 575
+			ship = { name = "1st Duinkerke Commerce Raider" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = HOL version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "55th Fleet"
+		naval_base = 575
+		task_force = {
+			name = "55th Fleet"
+			location = 575
+			ship = { name = "2nd Duinkerke Commerce Raider" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = HOL version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "56th Fleet"
+		naval_base = 6349
+		task_force = {
+			name = "56th Fleet"
+			location = 6349
+			ship = { name = "1st Stade Commerce Raider" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = HOL version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "57th Fleet"
+		naval_base = 6349
+		task_force = {
+			name = "57th Fleet"
+			location = 6349
+			ship = { name = "2nd Stade Commerce Raider" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = HOL version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "58th Fleet"
+		naval_base = 6349
+		task_force = {
+			name = "58th Fleet"
+			location = 6349
+			ship = { name = "3rd Stade Commerce Raider" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = HOL version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "59th Fleet"
+		naval_base = 3326
+		task_force = {
+			name = "59th Fleet"
+			location = 3326
+			ship = { name = "Friesland" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = HOL version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "60th Fleet"
+		naval_base = 3326
+		task_force = {
+			name = "60th Fleet"
+			location = 3326
+			ship = { name = "Zeeland" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = HOL version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "61st Fleet"
+		naval_base = 3326
+		task_force = {
+			name = "61st Fleet"
+			location = 3326
+			ship = { name = "1st Bremen Commerce Raider" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = HOL version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "62nd Fleet"
+		naval_base = 3326
+		task_force = {
+			name = "62nd Fleet"
+			location = 3326
+			ship = { name = "2nd Bremen Commerce Raider" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = HOL version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "63rd Fleet"
+		naval_base = 10313
+		task_force = {
+			name = "63rd Fleet"
+			location = 10313
+			ship = { name = "2nd Tanjung Puteri Commerce Raider" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = HOL version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "64th Fleet"
+		naval_base = 10313
+		task_force = {
+			name = "64th Fleet"
+			location = 10313
+			ship = { name = "3rd Tanjung Puteri Commerce Raider" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = HOL version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "65th Fleet"
+		naval_base = 10313
+		task_force = {
+			name = "65th Fleet"
+			location = 10313
+			ship = { name = "4th Tanjung Puteri Commerce Raider" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = HOL version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "66th Fleet"
+		naval_base = 12271
+		task_force = {
+			name = "66th Fleet"
+			location = 12271
+			ship = { name = "2nd Kuantan Commerce Raider" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = HOL version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "67th Fleet"
+		naval_base = 12271
+		task_force = {
+			name = "67th Fleet"
+			location = 12271
+			ship = { name = "3rd Kuantan Commerce Raider" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = HOL version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "68th Fleet"
+		naval_base = 12271
+		task_force = {
+			name = "68th Fleet"
+			location = 12271
+			ship = { name = "4th Kuantan Commerce Raider" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = HOL version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "69th Fleet"
+		naval_base = 1279
+		task_force = {
+			name = "69th Fleet"
+			location = 1279
+			ship = { name = "2nd Pattani Commerce Raider" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = HOL version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "70th Fleet"
+		naval_base = 1279
+		task_force = {
+			name = "70th Fleet"
+			location = 1279
+			ship = { name = "3rd Pattani Commerce Raider" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = HOL version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "71st Fleet"
+		naval_base = 1279
+		task_force = {
+			name = "71st Fleet"
+			location = 1279
+			ship = { name = "4th Pattani Commerce Raider" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = HOL version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "72nd Fleet"
+		naval_base = 7387
+		task_force = {
+			name = "72nd Fleet"
+			location = 7387
+			ship = { name = "2nd Brunei Commerce Raider" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = HOL version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "73rd Fleet"
+		naval_base = 7387
+		task_force = {
+			name = "73rd Fleet"
+			location = 7387
+			ship = { name = "3rd Brunei Commerce Raider" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = HOL version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "74th Fleet"
+		naval_base = 7387
+		task_force = {
+			name = "74th Fleet"
+			location = 7387
+			ship = { name = "4th Brunei Commerce Raider" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = HOL version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "75th Fleet"
+		naval_base = 1345
+		task_force = {
+			name = "75th Fleet"
+			location = 1345
+			ship = { name = "2nd Jambi Commerce Raider" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = HOL version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "76th Fleet"
+		naval_base = 1345
+		task_force = {
+			name = "76th Fleet"
+			location = 1345
+			ship = { name = "3rd Jambi Commerce Raider" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = HOL version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "77th Fleet"
+		naval_base = 1345
+		task_force = {
+			name = "77th Fleet"
+			location = 1345
+			ship = { name = "4th Jambi Commerce Raider" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = HOL version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "78th Fleet"
+		naval_base = 12113
+		task_force = {
+			name = "78th Fleet"
+			location = 12113
+			ship = { name = "1st Tanjungpinang Commerce Raider" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = HOL version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "79th Fleet"
+		naval_base = 12113
+		task_force = {
+			name = "79th Fleet"
+			location = 12113
+			ship = { name = "2nd Tanjungpinang Commerce Raider" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = HOL version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "80th Fleet"
+		naval_base = 12113
+		task_force = {
+			name = "80th Fleet"
+			location = 12113
+			ship = { name = "3rd Tanjungpinang Commerce Raider" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = HOL version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "81st Fleet"
+		naval_base = 10509
+		task_force = {
+			name = "81st Fleet"
+			location = 10509
+			ship = { name = "1st Banda Aceh Commerce Raider" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = HOL version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "82nd Fleet"
+		naval_base = 10509
+		task_force = {
+			name = "82nd Fleet"
+			location = 10509
+			ship = { name = "2nd Banda Aceh Commerce Raider" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = HOL version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "83rd Fleet"
+		naval_base = 10509
+		task_force = {
+			name = "83rd Fleet"
+			location = 10509
+			ship = { name = "3rd Banda Aceh Commerce Raider" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = HOL version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "84th Fleet"
+		naval_base = 7223
+		task_force = {
+			name = "84th Fleet"
+			location = 7223
+			ship = { name = "1st Cirebon Commerce Raider" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = HOL version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "85th Fleet"
+		naval_base = 7223
+		task_force = {
+			name = "85th Fleet"
+			location = 7223
+			ship = { name = "2nd Cirebon Commerce Raider" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = HOL version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "86th Fleet"
+		naval_base = 7223
+		task_force = {
+			name = "86th Fleet"
+			location = 7223
+			ship = { name = "3rd Cirebon Commerce Raider" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = HOL version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "87th Fleet"
+		naval_base = 4608
+		task_force = {
+			name = "87th Fleet"
+			location = 4608
+			ship = { name = "1st Surabaya Commerce Raider" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = HOL version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "88th Fleet"
+		naval_base = 4608
+		task_force = {
+			name = "88th Fleet"
+			location = 4608
+			ship = { name = "2nd Surabaya Commerce Raider" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = HOL version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "89th Fleet"
+		naval_base = 4608
+		task_force = {
+			name = "89th Fleet"
+			location = 4608
+			ship = { name = "3rd Surabaya Commerce Raider" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = HOL version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "90th Fleet"
+		naval_base = 12110
+		task_force = {
+			name = "90th Fleet"
+			location = 12110
+			ship = { name = "1st Banjarmasin Commerce Raider" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = HOL version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "91st Fleet"
+		naval_base = 12110
+		task_force = {
+			name = "91st Fleet"
+			location = 12110
+			ship = { name = "2nd Banjarmasin Commerce Raider" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = HOL version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "92nd Fleet"
+		naval_base = 12110
+		task_force = {
+			name = "92nd Fleet"
+			location = 12110
+			ship = { name = "3rd Banjarmasin Commerce Raider" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = HOL version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "93rd Fleet"
+		naval_base = 12129
+		task_force = {
+			name = "93rd Fleet"
+			location = 12129
+			ship = { name = "1st Pontianak Commerce Raider" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = HOL version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "94th Fleet"
+		naval_base = 12129
+		task_force = {
+			name = "94th Fleet"
+			location = 12129
+			ship = { name = "2nd Pontianak Commerce Raider" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = HOL version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "95th Fleet"
+		naval_base = 12129
+		task_force = {
+			name = "95th Fleet"
+			location = 12129
+			ship = { name = "3rd Pontianak Commerce Raider" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = HOL version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "96th Fleet"
+		naval_base = 7598
+		task_force = {
+			name = "96th Fleet"
+			location = 7598
+			ship = { name = "2nd Mamuju Commerce Raider" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = HOL version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "97th Fleet"
+		naval_base = 7598
+		task_force = {
+			name = "97th Fleet"
+			location = 7598
+			ship = { name = "3rd Mamuju Commerce Raider" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = HOL version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "98th Fleet"
+		naval_base = 7598
+		task_force = {
+			name = "98th Fleet"
+			location = 7598
+			ship = { name = "4th Mamuju Commerce Raider" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = HOL version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "99th Fleet"
+		naval_base = 10191
+		task_force = {
+			name = "99th Fleet"
+			location = 10191
+			ship = { name = "2nd Sumbawa Commerce Raider" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = HOL version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "100th Fleet"
+		naval_base = 10191
+		task_force = {
+			name = "100th Fleet"
+			location = 10191
+			ship = { name = "3rd Sumbawa Commerce Raider" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = HOL version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "101st Fleet"
+		naval_base = 10191
+		task_force = {
+			name = "101st Fleet"
+			location = 10191
+			ship = { name = "4th Sumbawa Commerce Raider" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = HOL version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "102nd Fleet"
+		naval_base = 1339
+		task_force = {
+			name = "102nd Fleet"
+			location = 1339
+			ship = { name = "2nd Rote Commerce Raider" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = HOL version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "103rd Fleet"
+		naval_base = 1339
+		task_force = {
+			name = "103rd Fleet"
+			location = 1339
+			ship = { name = "3rd Rote Commerce Raider" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = HOL version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "104th Fleet"
+		naval_base = 1339
+		task_force = {
+			name = "104th Fleet"
+			location = 1339
+			ship = { name = "4th Rote Commerce Raider" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = HOL version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "105th Fleet"
+		naval_base = 1419
+		task_force = {
+			name = "105th Fleet"
+			location = 1419
+			ship = { name = "1st Ternate Commerce Raider" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = HOL version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "106th Fleet"
+		naval_base = 1419
+		task_force = {
+			name = "106th Fleet"
+			location = 1419
+			ship = { name = "2nd Ternate Commerce Raider" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = HOL version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "107th Fleet"
+		naval_base = 1419
+		task_force = {
+			name = "107th Fleet"
+			location = 1419
+			ship = { name = "3rd Ternate Commerce Raider" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = HOL version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "108th Fleet"
+		naval_base = 4593
+		task_force = {
+			name = "108th Fleet"
+			location = 4593
+			ship = { name = "1st Merauke Commerce Raider" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = HOL version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "109th Fleet"
+		naval_base = 5139
+		task_force = {
+			name = "109th Fleet"
+			location = 5139
+			ship = { name = "1st Baraka Commerce Raider" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = HOL version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "110th Fleet"
+		naval_base = 2115
+		task_force = {
+			name = "110th Fleet"
+			location = 2115
+			ship = { name = "1st Boma Commerce Raider" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = HOL version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "111st Fleet"
+		naval_base = 8248
+		task_force = {
+			name = "111st Fleet"
+			location = 8248
+			ship = { name = "1st Luanda Commerce Raider" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = HOL version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "112nd Fleet"
+		naval_base = 12958
+		task_force = {
+			name = "112nd Fleet"
+			location = 12958
+			ship = { name = "1st Benguela Commerce Raider" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = HOL version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "113rd Fleet"
+		naval_base = 8245
+		task_force = {
+			name = "113rd Fleet"
+			location = 8245
+			ship = { name = "1st Inkomati Commerce Raider" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = HOL version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "114th Fleet"
+		naval_base = 2120
+		task_force = {
+			name = "114th Fleet"
+			location = 2120
+			ship = { name = "1st Sofala Commerce Raider" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = HOL version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "115th Fleet"
+		naval_base = 12971
+		task_force = {
+			name = "115th Fleet"
+			location = 12971
+			ship = { name = "1st Quelimane Commerce Raider" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = HOL version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "116th Fleet"
+		naval_base = 5164
+		task_force = {
+			name = "116th Fleet"
+			location = 5164
+			ship = { name = "1st Angoche Commerce Raider" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = HOL version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "117th Fleet"
+		naval_base = 5222
+		task_force = {
+			name = "117th Fleet"
+			location = 5222
+			ship = { name = "1st Antsiranana Commerce Raider" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = HOL version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "118th Fleet"
+		naval_base = 13028
+		task_force = {
+			name = "118th Fleet"
+			location = 13028
+			ship = { name = "1st Yap Commerce Raider" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = HOL version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "119th Fleet"
+		naval_base = 3995
+		task_force = {
+			name = "119th Fleet"
+			location = 3995
+			ship = { name = "1st Saipan Commerce Raider" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = HOL version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "120th Fleet"
+		naval_base = 10147
+		task_force = {
+			name = "120th Fleet"
+			location = 10147
+			ship = { name = "1st Kerema Commerce Raider" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = HOL version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "121st Fleet"
+		naval_base = 12237
+		task_force = {
+			name = "121st Fleet"
+			location = 12237
+			ship = { name = "1st Lae Commerce Raider" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = HOL version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "122nd Fleet"
+		naval_base = 12975
+		task_force = {
+			name = "122nd Fleet"
+			location = 12975
+			ship = { name = "1st Loango Commerce Raider" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = HOL version_name = "Early Destroyer" } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "HOL"
+			version_name = "Early Destroyer"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+}

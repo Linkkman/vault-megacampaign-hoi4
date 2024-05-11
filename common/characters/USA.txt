@@ -1,0 +1,56 @@
+characters={
+	USA_racheltjie_theron={
+		name=USA_racheltjie_theron
+		portraits={
+			army={
+				large="GFX_Portrait_France_Generic_land_2"
+			}
+			army={
+				small="GFX_Portrait_France_Generic_land_2"
+			}
+		}
+		corps_commander={
+			skill=3
+			attack_skill=3
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+
+	USA_christiaan_van_rensburg={
+		name=USA_christiaan_van_rensburg
+		portraits={
+			army={
+				large="GFX_portrait_FRA_jean_de_lattre_de_tassigny"
+			}
+			army={
+				small="GFX_portrait_FRA_jean_de_lattre_de_tassigny"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=2
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	USA_joubert_de_wet={
+		name=USA_joubert_de_wet
+		portraits={
+			civilian={
+				large="gfx/leaders/FRA/portrait_fra_leon_blum.dds"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

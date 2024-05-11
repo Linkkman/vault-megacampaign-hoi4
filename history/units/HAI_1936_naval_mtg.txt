@@ -1,0 +1,96 @@
+units = {
+	fleet = {
+		name = "51st Fleet"
+		naval_base = 7660
+		task_force = {
+			name = "51st Fleet"
+			location = 7660
+			ship = { name = "1st Santo Domingo Battleship" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HAI version_name = "Early Heavy Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "53rd Fleet"
+		naval_base = 7660
+		task_force = {
+			name = "53rd Fleet"
+			location = 7660
+			ship = { name = "2nd Santo Domingo Battleship" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HAI version_name = "Early Heavy Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "54th Fleet"
+		naval_base = 7660
+		task_force = {
+			name = "54th Fleet"
+			location = 7660
+			ship = { name = "3rd Santo Domingo Battleship" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HAI version_name = "Early Heavy Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "56th Fleet"
+		naval_base = 7660
+		task_force = {
+			name = "56th Fleet"
+			location = 7660
+			ship = { name = "4th Santo Domingo Battleship" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HAI version_name = "Early Heavy Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "57th Fleet"
+		naval_base = 7660
+		task_force = {
+			name = "57th Fleet"
+			location = 7660
+			ship = { name = "5th Santo Domingo Battleship" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HAI version_name = "Early Heavy Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "58th Fleet"
+		naval_base = 7660
+		task_force = {
+			name = "58th Fleet"
+			location = 7660
+			ship = { name = "6th Santo Domingo Battleship" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HAI version_name = "Early Heavy Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "59th Fleet"
+		naval_base = 7660
+		task_force = {
+			name = "59th Fleet"
+			location = 7660
+			ship = { name = "7th Santo Domingo Battleship" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HAI version_name = "Early Heavy Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "61st Fleet"
+		naval_base = 7660
+		task_force = {
+			name = "61st Fleet"
+			location = 7660
+			ship = { name = "8th Santo Domingo Battleship" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HAI version_name = "Early Heavy Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "63rd Fleet"
+		naval_base = 7660
+		task_force = {
+			name = "63rd Fleet"
+			location = 7660
+			ship = { name = "9th Santo Domingo Battleship" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HAI version_name = "Early Heavy Cruiser" } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "HAI"
+			version_name = "Early Destroyer"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+}

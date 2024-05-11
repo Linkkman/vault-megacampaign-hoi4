@@ -1,0 +1,16 @@
+characters={
+	X90_kempe_rani={
+		name=X90_kempe_rani
+		portraits={
+			civilian={
+				large="GFX_DEH_Sir_Chhotu_Ram"
+			}
+		}
+		country_leader={
+			ideology=minarchism_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

@@ -1,0 +1,33 @@
+
+state={
+	id=89
+	name="STATE_89"
+	resources={
+		chromium=1.000
+	}
+
+	history={
+		owner = X14
+		victory_points = {
+			10908 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 1
+
+		}
+		add_core_of = ETH
+		add_claim_by = W20
+	}
+
+	provinces={
+		1953 2096 4033 7996 10764 10857 10859 10877 10908 12800 
+	}
+	manpower=2610364
+	buildings_max_level_factor=1.000
+	state_category=large_town
+
+	local_supplies=10.0
+}

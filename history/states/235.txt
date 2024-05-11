@@ -1,0 +1,33 @@
+
+state={
+	id=235
+	name="STATE_235"
+
+	history={
+		owner = W74
+		victory_points = {
+			4879 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			12921 = {
+				naval_base = 4
+			}
+			air_base = 1
+
+		}
+		add_core_of = W74
+		add_claim_by = W20
+	}
+
+	provinces={
+		4879 7770 8136 10957 10978 12519 12921 13217 
+	}
+	manpower=3118176
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=10.0
+}

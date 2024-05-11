@@ -1,0 +1,39 @@
+
+state={
+	id=29
+	name="STATE_29"
+	resources={
+		aluminium=3.000
+		chromium=1.000
+	}
+
+	history={
+		owner = BRA
+		victory_points = {
+			10980 6 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 6
+			arms_factory = 2
+			dockyard = 2
+			12996 = {
+				naval_base = 10
+			}
+			air_base = 3
+
+		}
+		add_core_of = BRA
+		add_claim_by = TIG
+		add_claim_by = W53
+	}
+
+	provinces={
+		2153 2185 4570 5172 7476 7589 8148 8190 8196 8210 8226 10980 10999 12334 12479 12938 12996 
+	}
+	manpower=4137564
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

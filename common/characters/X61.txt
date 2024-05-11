@@ -1,0 +1,16 @@
+characters={
+	X61_gonchigjalzangiin_genden={
+		name=X61_gonchigjalzangiin_genden
+		portraits={
+			civilian={
+				large="GFX_XSM_Ma_Lin"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

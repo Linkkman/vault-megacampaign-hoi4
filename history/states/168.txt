@@ -1,0 +1,33 @@
+
+state={
+	id=168
+	name="STATE_168"
+
+	history={
+		owner = W68
+		victory_points = {
+			13016 10 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			13013 = {
+				naval_base = 1
+			}
+			air_base = 5
+
+		}
+		add_core_of = W68
+		add_claim_by = W32
+	}
+
+	provinces={
+		13013 13016 
+	}
+	manpower=96984
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

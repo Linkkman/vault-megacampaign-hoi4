@@ -1,0 +1,37 @@
+
+state={
+	id=552
+	name="STATE_552"
+	resources={
+		chromium=1.000
+		rubber=2.000
+	}
+
+	history={
+		owner = W57
+		victory_points = {
+			10886 2 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			arms_factory = 0
+			2077 = {
+				naval_base = 8
+			}
+			air_base = 0
+
+		}
+		add_core_of = W57
+		add_claim_by = W20
+	}
+
+	provinces={
+		2077 4991 10842 10886 13085 
+	}
+	manpower=1257832
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

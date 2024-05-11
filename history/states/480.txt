@@ -1,0 +1,35 @@
+
+state={
+	id=480
+	name="STATE_480"
+
+	history={
+		owner = W83
+		victory_points = {
+			4429 15 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			1224 = {
+				naval_base = 1
+			}
+			air_base = 6
+
+		}
+		add_core_of = BRU
+		add_core_of = PHI
+		add_core_of = W83
+		add_claim_by = W20
+	}
+
+	provinces={
+		1224 1261 1311 1340 1368 4269 4373 4429 7307 7385 7419 7423 10145 10186 10302 12112 12118 12153 
+	}
+	manpower=1880220
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

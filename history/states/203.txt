@@ -1,0 +1,39 @@
+
+state={
+	id=203
+	name="STATE_203"
+	resources={
+		rubber=49.000
+	}
+
+	history={
+		owner = W69
+		victory_points = {
+			10158 0 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			12122 = {
+				naval_base = 10
+			}
+			air_base = 0
+
+		}
+		add_core_of = SIA
+		add_core_of = W69
+		add_claim_by = MAL
+		add_claim_by = W32
+		add_claim_by = X50
+	}
+
+	provinces={
+		1281 1308 1337 1366 1394 4312 4319 4348 4371 4388 4392 7236 7587 10156 10158 10193 12122 12201 12220 12230 12286 
+	}
+	manpower=693564
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	local_supplies=10.0
+}

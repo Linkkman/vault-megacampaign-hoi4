@@ -1,0 +1,16 @@
+characters={
+	X34_ambrogio_fanti={
+		name=X34_ambrogio_fanti
+		portraits={
+			civilian={
+				large="gfx/leaders/ITA/Portrait_Italy_Generic_3.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

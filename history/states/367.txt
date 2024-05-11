@@ -1,0 +1,35 @@
+
+state={
+	id=367
+	name="STATE_367"
+
+	history={
+		owner = HOL
+		victory_points = {
+			3326 2 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+			3326 = {
+				naval_base = 8
+
+			}
+			air_base = 1
+
+		}
+		add_core_of = GER
+		add_claim_by = HOL
+		add_claim_by = W20
+
+	}
+
+	provinces={
+		241 247 309 336 405 3234 3326 11233 11264 11388 
+	}
+	manpower=2252500
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=10.000
+}

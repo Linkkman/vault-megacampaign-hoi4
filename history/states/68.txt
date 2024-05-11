@@ -1,0 +1,23 @@
+
+state={
+	id=68
+	name="STATE_68"
+	impassable = yes
+
+	history={
+		owner = X14
+		add_core_of = X14
+		add_claim_by = EGY
+		add_claim_by = W32
+		add_claim_by = X20
+	}
+
+	provinces={
+		1143 2064 7216 10127 10869 10907 12099 12733 12764 12816 
+	}
+	manpower=336618
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+
+	local_supplies=10.0
+}

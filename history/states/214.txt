@@ -1,0 +1,39 @@
+
+state={
+	id=214
+	name="STATE_214"
+	resources={
+		steel=1.000
+	}
+
+	history={
+		owner = FRA
+		victory_points = {
+			3495 2 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			dockyard = 1
+			11600 = {
+				naval_base = 4
+
+			}
+			air_base = 1
+
+		}
+		add_core_of = FRA
+		add_core_of = X96
+		add_claim_by = W20
+
+	}
+
+	provinces={
+		503 527 3495 3523 3659 9631 9867 11600 11613 11616 
+	}
+	manpower=1896092
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=10.000
+}

@@ -1,0 +1,16 @@
+characters={
+	X53_abadula_demissie={
+		name=X53_abadula_demissie
+		portraits={
+			civilian={
+				large="GFX_SUD_Ali_Latif"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

@@ -1,0 +1,185 @@
+units = {
+	fleet = {
+		name = "2nd Fleet"
+		naval_base = 819
+		task_force = {
+			name = "2nd Fleet"
+			location = 819
+			ship = { name = "2nd Nicosia Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X14 } } }
+			ship = { name = "1st Sidon Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X14 } } }
+			ship = { name = "3rd Burgas Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X14 } } }
+			ship = { name = "2nd Constantinopolis Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X14 } } }
+			ship = { name = "1st Jaffa Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X14 } } }
+			ship = { name = "3rd Corcyra Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X14 } } }
+			ship = { name = "Navarhos Miaoulis" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X14 } } }
+			ship = { name = "2nd Bursa Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X14 } } }
+			ship = { name = "Georgios Averof" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X14 } } }
+			ship = { name = "3rd Athens Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X14 } } }
+			ship = { name = "2nd Smyrne Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X14 } } }
+			ship = { name = "Elli" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X14 } } }
+			ship = { name = "2nd Attalia Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X14 } } }
+			ship = { name = "3rd Chania Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X14 } } }
+			ship = { name = "2nd Trabzon Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X14 } } }
+			ship = { name = "4th Tulcea Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X14 } } }
+			ship = { name = "2nd Sinop Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X14 } } }
+			ship = { name = "3rd Vlore Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X14 } } }
+			ship = { name = "2nd Antioch Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X14 } } }
+			ship = { name = "3rd Nicosia Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X14 } } }
+			ship = { name = "2nd Sidon Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X14 } } }
+			ship = { name = "4th Burgas Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X14 } } }
+			ship = { name = "3rd Constantinopolis Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X14 } } }
+			ship = { name = "2nd Jaffa Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X14 } } }
+			ship = { name = "4th Corcyra Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X14 } } }
+			ship = { name = "3rd Bursa Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X14 } } }
+			ship = { name = "4th Athens Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X14 } } }
+			ship = { name = "3rd Attalia Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X14 } } }
+			ship = { name = "4th Chania Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X14 } } }
+			ship = { name = "3rd Trabzon Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X14 } } }
+			ship = { name = "5th Tulcea Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X14 } } }
+			ship = { name = "Gyáros" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X14 } } }
+			ship = { name = "3rd Sinop Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X14 } } }
+			ship = { name = "4th Vlore Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X14 } } }
+			ship = { name = "3rd Antioch Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X14 } } }
+			ship = { name = "3rd Sidon Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X14 } } }
+			ship = { name = "5th Burgas Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X14 } } }
+			ship = { name = "4th Constantinopolis Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X14 } } }
+			ship = { name = "3rd Jaffa Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X14 } } }
+			ship = { name = "5th Corcyra Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X14 } } }
+			ship = { name = "Delfoí" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X14 } } }
+			ship = { name = "5th Athens Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X14 } } }
+			ship = { name = "1st Tripoli Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X14 } } }
+			ship = { name = "5th Chania Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X14 } } }
+			ship = { name = "1st Alexandria Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X14 } } }
+			ship = { name = "1st Tulcea Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X14 } } }
+			ship = { name = "1st Burgas Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X14 } } }
+			ship = { name = "1st Corcyra Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X14 } } }
+			ship = { name = "1st Athens Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X14 } } }
+			ship = { name = "1st Chania Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X14 } } }
+			ship = { name = "2nd Tulcea Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X14 } } }
+			ship = { name = "1st Vlore Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X14 } } }
+			ship = { name = "2nd Salonika Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X14 } } }
+			ship = { name = "1st Nicosia Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X14 } } }
+			ship = { name = "2nd Burgas Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X14 } } }
+			ship = { name = "1st Constantinopolis Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X14 } } }
+			ship = { name = "2nd Corcyra Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X14 } } }
+			ship = { name = "2nd Athens Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X14 } } }
+			ship = { name = "1st Smyrne Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X14 } } }
+			ship = { name = "1st Attalia Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X14 } } }
+			ship = { name = "2nd Chania Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X14 } } }
+			ship = { name = "1st Trabzon Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X14 } } }
+			ship = { name = "3rd Tulcea Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X14 } } }
+			ship = { name = "1st Sinop Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X14 } } }
+			ship = { name = "2nd Vlore Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X14 } } }
+			ship = { name = "3rd Salonika Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X14 } } }
+			ship = { name = "1st Antioch Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X14 } } }
+			ship = { name = "5th Vlore Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X14 } } }
+			ship = { name = "5th Constantinopolis Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X14 } } }
+		}
+	}
+	fleet = {
+		name = "3rd Fleet"
+		naval_base = 819
+		task_force = {
+			name = "3rd Fleet"
+			location = 5838
+			ship = { name = "Árgos" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X14 } } }
+		}
+	}
+	fleet = {
+		name = "4th Fleet"
+		naval_base = 819
+		task_force = {
+			name = "4th Fleet"
+			location = 7678
+			ship = { name = "1st Bougie Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X14 } } }
+			ship = { name = "1st Tunis Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X14 } } }
+			ship = { name = "2nd Tripoli Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X14 } } }
+			ship = { name = "2nd Alexandria Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X14 } } }
+			ship = { name = "1st Pescara Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X14 } } }
+			ship = { name = "6th Tulcea Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X14 } } }
+			ship = { name = "1st Palermo Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X14 } } }
+			ship = { name = "6th Salonika Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X14 } } }
+			ship = { name = "6th Burgas Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X14 } } }
+			ship = { name = "6th Corcyra Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X14 } } }
+			ship = { name = "6th Athens Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X14 } } }
+			ship = { name = "6th Chania Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X14 } } }
+			ship = { name = "6th Vlore Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X14 } } }
+			ship = { name = "6th Constantinopolis Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X14 } } }
+			ship = { name = "13th Sukhumi Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X14 } } }
+		}
+	}
+	fleet = {
+		name = "5th Fleet"
+		naval_base = 9833
+		task_force = {
+			name = "5th Fleet"
+			location = 9833
+			ship = { name = "Antinaurkos Condoriotis" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X14 } } }
+			ship = { name = "Lambros Katsonis" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X14 } } }
+			ship = { name = "Agamemnon" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X14 } } }
+			ship = { name = "Tilemachos" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X14 } } }
+			ship = { name = "2nd Pescara Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X14 } } }
+			ship = { name = "7th Tulcea Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X14 } } }
+			ship = { name = "2nd Palermo Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X14 } } }
+			ship = { name = "7th Salonika Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X14 } } }
+			ship = { name = "7th Burgas Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X14 } } }
+		}
+	}
+	fleet = {
+		name = "7th Fleet"
+		naval_base = 9833
+		task_force = {
+			name = "7th Fleet"
+			location = 9833
+			ship = { name = "7th Corcyra Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X14 } } }
+			ship = { name = "7th Athens Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X14 } } }
+			ship = { name = "7th Chania Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X14 } } }
+			ship = { name = "7th Vlore Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X14 } } }
+			ship = { name = "7th Constantinopolis Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X14 } } }
+			ship = { name = "4th Nicosia Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X14 } } }
+			ship = { name = "4th Bursa Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X14 } } }
+			ship = { name = "4th Smyrne Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X14 } } }
+			ship = { name = "4th Attalia Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X14 } } }
+			ship = { name = "4th Trabzon Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X14 } } }
+			ship = { name = "8th Tulcea Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X14 } } }
+			ship = { name = "4th Sinop Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X14 } } }
+			ship = { name = "8th Salonika Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X14 } } }
+			ship = { name = "8th Burgas Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X14 } } }
+			ship = { name = "8th Corcyra Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X14 } } }
+			ship = { name = "4th Antioch Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X14 } } }
+			ship = { name = "4th Sidon Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X14 } } }
+			ship = { name = "8th Athens Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X14 } } }
+			ship = { name = "8th Chania Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X14 } } }
+			ship = { name = "4th Jaffa Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X14 } } }
+			ship = { name = "8th Vlore Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X14 } } }
+			ship = { name = "8th Constantinopolis Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X14 } } }
+			ship = { name = "14th Sukhumi Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X14 } } }
+			ship = { name = "2nd Bougie Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X14 } } }
+			ship = { name = "3rd Tripoli Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X14 } } }
+			ship = { name = "3rd Alexandria Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X14 } } }
+			ship = { name = "1st Churchill Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X14 } } }
+			ship = { name = "15th Sukhumi Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X14 } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_1
+			creator = "X14"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_1
+			creator = "X14"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

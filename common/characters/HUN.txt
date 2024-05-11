@@ -1,0 +1,16 @@
+characters={
+	HUN_jozsef_manes_baross={
+		name=HUN_jozsef_manes_baross
+		portraits={
+			civilian={
+				large="gfx/leaders/DEN/Portrait_Denmark_Thorvald_Stauning.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

@@ -1,0 +1,46 @@
+﻿converted_war_strategies_X08 = {
+	allowed = {
+		tag = X08
+	}
+	enable = {
+		always = no
+	}
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = conquer
+		id = "HOL"
+		value = 215
+	}
+}
+
+converted_diplo_strategies_X08 = {
+	allowed = {
+		tag = X08
+	}
+	enable = {
+		always = no
+	}
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = contain
+		id = "HOL"
+		value = 400
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "HOL"
+		value = 400
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X42"
+		value = 100
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X38"
+		value = 94
+	}
+}

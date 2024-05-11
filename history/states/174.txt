@@ -1,0 +1,37 @@
+
+state={
+	id=174
+	name="STATE_174"
+
+	history={
+		owner = W69
+		victory_points = {
+			10751 10 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 3
+			arms_factory = 1
+			air_base = 10
+
+		}
+		add_core_of = PAK
+		add_core_of = W69
+		add_core_of = X07
+		add_core_of = X29
+		add_core_of = X31
+		add_claim_by = RAJ
+		add_claim_by = W38
+		add_claim_by = X42
+		add_claim_by = X47
+	}
+
+	provinces={
+		1377 1898 1983 2005 2032 2086 3989 4045 4299 4915 5002 5040 5055 5086 5157 7064 7334 7938 8082 8114 9951 9973 10021 10751 10794 11955 12137 12777 12786 12868 
+	}
+	manpower=28873004
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

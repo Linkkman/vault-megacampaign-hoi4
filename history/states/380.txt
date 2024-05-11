@@ -1,0 +1,34 @@
+
+state={
+	id=380
+	name="STATE_380"
+
+	history={
+		owner = X95
+		victory_points = {
+			12680 1 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 0
+			1426 = {
+				naval_base = 8
+
+			}
+			air_base = 0
+
+		}
+		add_core_of = X95
+		add_claim_by = W32
+
+	}
+
+	provinces={
+		373 1426 1785 4720 4787 7758 7788 12503 12505 12680 12698 13165 13180
+	}
+	manpower=339004
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=10.000
+}

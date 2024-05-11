@@ -1,0 +1,119 @@
+﻿capital = 81
+set_research_slots = 2
+
+oob = "X55_OOB"
+
+# Starting tech
+# Research Bonuses
+
+set_country_flag = conv_abyssinia
+set_convoys = 0
+
+set_politics = {
+    ruling_party = neutrality
+    last_election = "1836.1.1"
+    election_frequency = 48
+    elections_allowed = no
+}
+
+set_popularities = {
+	democratic = 94
+	neutrality = 6
+}
+
+add_opinion_modifier = { target = ARG modifier = positive_5 }
+add_opinion_modifier = { target = BRA modifier = positive_5 }
+add_opinion_modifier = { target = FRA modifier = positive_5 }
+add_opinion_modifier = { target = GER modifier = positive_5 }
+add_opinion_modifier = { target = HAI modifier = positive_5 }
+add_opinion_modifier = { target = HOL modifier = positive_5 }
+add_opinion_modifier = { target = ITA modifier = positive_15 }
+add_opinion_modifier = { target = JAP modifier = negative_20 }
+add_opinion_modifier = { target = SOV modifier = positive_4 }
+add_opinion_modifier = { target = SPR modifier = positive_5 }
+add_opinion_modifier = { target = W50 modifier = positive_5 }
+add_opinion_modifier = { target = W52 modifier = positive_5 }
+add_opinion_modifier = { target = W59 modifier = negative_20 }
+add_opinion_modifier = { target = X72 modifier = positive_5 }
+add_opinion_modifier = { target = X95 modifier = positive_5 }
+
+
+add_ideas = {
+	uncivilized
+	limited_conscription
+	civilian_economy
+	export_focus
+	culture_sidama
+}
+
+recruit_character = X55_tekle_gomol
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_operative_leader = {
+		name = "Dararro Nechocho"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_female_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X55 }
+	}
+
+	create_operative_leader = {
+		name = "Caalttu Bulgu"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_female_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X55 }
+	}
+
+	create_operative_leader = {
+		name = "Dararro Gomol"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_female_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X55 }
+	}
+
+	create_operative_leader = {
+		name = "Gunji Sherocho"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_male_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X55 }
+	}
+
+	create_operative_leader = {
+		name = "Gaki Bulgu"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_male_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X55 }
+	}
+
+}
+### VARIANTS ###
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+}
+### PLANE DESIGNS ###
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+}
+### TANK DESIGNS ###
+if = {
+	limit = { has_dlc = "No Step Back" }
+}
+

@@ -1,0 +1,38 @@
+
+state={
+	id=393
+	name="STATE_393"
+	resources={
+		aluminium=1.000
+		oil=1.000
+	}
+
+	history={
+		owner = PER
+		victory_points = {
+			7982 3 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 3
+			arms_factory = 1
+			dockyard = 1
+			1889 = {
+				naval_base = 2
+			}
+			air_base = 1
+
+		}
+		add_core_of = PER
+		add_claim_by = TIG
+	}
+
+	provinces={
+		1889 1986 2039 2070 4891 7982 10782 10913 11249 12780 12809 12863 12895 13082 13312
+	}
+	manpower=3810432
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=10.0
+}

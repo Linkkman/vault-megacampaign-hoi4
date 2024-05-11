@@ -1,0 +1,40 @@
+
+state={
+	id=44
+	name="STATE_44"
+	resources={
+		steel=2.000
+	}
+
+	history={
+		owner = X14
+		victory_points = {
+			9932 15 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 1
+			9932 = {
+				naval_base = 8
+
+			}
+			air_base = 7
+
+		}
+		add_core_of = GRE
+		add_core_of = W29
+		add_core_of = X14
+		add_claim_by = W20
+
+	}
+
+	provinces={
+		933 960 975 3714 3903 3935 3950 3965 3979 6919 6950 6976 9761 9777 9868 9886 9915 9932 9954 11797 11894 
+	}
+	manpower=2493148
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=10.000
+}

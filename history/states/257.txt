@@ -1,0 +1,31 @@
+
+state={
+	id=257
+	name="STATE_257"
+
+	history={
+		owner = GER
+		victory_points = {
+			596 2 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = GER
+		add_claim_by = AUS
+		add_claim_by = W20
+	}
+
+	provinces={
+		596 665 3631 3654 6650 6672 9596 9627 
+	}
+	manpower=1432252
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

@@ -1,0 +1,35 @@
+
+state={
+	id=284
+	name="STATE_284"
+
+	history={
+		owner = ITA
+		victory_points = {
+			9907 15 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 6
+			arms_factory = 2
+			dockyard = 2
+			11833 = {
+				naval_base = 10
+			}
+			air_base = 8
+
+		}
+		add_core_of = ITA
+		add_core_of = TOS
+		add_claim_by = TIG
+	}
+
+	provinces={
+		910 1616 6875 6946 9750 9879 9907 11833 11889 
+	}
+	manpower=4276984
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

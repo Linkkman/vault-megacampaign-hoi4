@@ -1,0 +1,41 @@
+
+state={
+	id=141
+	name="STATE_141"
+	resources={
+		aluminium=1.000
+		tungsten=8.000
+	}
+
+	history={
+		owner = W69
+		victory_points = {
+			1349 10 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			arms_factory = 0
+			1349 = {
+				naval_base = 4
+
+			}
+			air_base = 6
+
+		}
+		add_core_of = RAJ
+		add_core_of = W69
+		add_core_of = X88
+		add_core_of = X91
+		add_claim_by = X47
+
+	}
+
+	provinces={
+		1273 1349 1405 4072 4353 4395 7013 7060 7119 7177 7232 10019 10210 10270 12142 12182 12269 12295 
+	}
+	manpower=8597320
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+	local_supplies=10.000
+}

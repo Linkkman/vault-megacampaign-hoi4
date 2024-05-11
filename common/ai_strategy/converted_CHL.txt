@@ -1,0 +1,71 @@
+﻿converted_war_strategies_CHL = {
+	allowed = {
+		tag = CHL
+	}
+	enable = {
+		always = no
+	}
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = conquer
+		id = "ARG"
+		value = 198
+	}
+}
+
+converted_diplo_strategies_CHL = {
+	allowed = {
+		tag = CHL
+	}
+	enable = {
+		always = no
+	}
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = contain
+		id = "ARG"
+		value = 400
+	}
+	ai_strategy = {
+		type = contain
+		id = "W53"
+		value = 83
+	}
+	ai_strategy = {
+		type = contain
+		id = "BOL"
+		value = 33
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "ARG"
+		value = 292
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "W53"
+		value = 54
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "BRA"
+		value = 14
+	}
+	ai_strategy = {
+		type = alliance
+		id = "BRA"
+		value = 97
+	}
+	ai_strategy = {
+		type = alliance
+		id = "W53"
+		value = 86
+	}
+	ai_strategy = {
+		type = alliance
+		id = "BOL"
+		value = 54
+	}
+}

@@ -1,0 +1,35 @@
+
+state={
+	id=233
+	name="STATE_233"
+
+	history={
+		owner = W72
+		victory_points = {
+			1513 10 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 0
+			dockyard = 1
+			1440 = {
+				naval_base = 1
+			}
+			air_base = 6
+
+		}
+		add_core_of = W72
+		add_claim_by = TIG
+		add_claim_by = X97
+	}
+
+	provinces={
+		1440 1513 10440 
+	}
+	manpower=2451567
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=10.0
+}

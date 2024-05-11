@@ -1,0 +1,35 @@
+
+state={
+	id=496
+	name="STATE_496"
+
+	history={
+		owner = W81
+		victory_points = {
+			4189 0 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			4189 = {
+				naval_base = 2
+			}
+			air_base = 0
+
+		}
+		add_core_of = W58
+		add_core_of = W59
+		add_core_of = W81
+		add_claim_by = W32
+	}
+
+	provinces={
+		4189 
+	}
+	manpower=295596
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

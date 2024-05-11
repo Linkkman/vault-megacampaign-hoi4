@@ -1,0 +1,33 @@
+
+state={
+	id=338
+	name="STATE_338"
+
+	history={
+		owner = W78
+		victory_points = {
+			4579 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			4579 = {
+				naval_base = 1
+			}
+			air_base = 1
+
+		}
+		add_core_of = W78
+		add_claim_by = W32
+	}
+
+	provinces={
+		4579 
+	}
+	manpower=92724
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	local_supplies=10.0
+}

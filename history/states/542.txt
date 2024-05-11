@@ -1,0 +1,36 @@
+
+state={
+	id=542
+	name="STATE_542"
+	resources={
+		aluminium=75.000
+	}
+
+	history={
+		owner = W57
+		victory_points = {
+			4982 0 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			12716 = {
+				naval_base = 10
+			}
+			air_base = 0
+
+		}
+		add_core_of = COL
+		add_claim_by = W20
+	}
+
+	provinces={
+		1928 4934 4982 8107 10906 12716 12828 12885 
+	}
+	manpower=918836
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

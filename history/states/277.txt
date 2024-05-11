@@ -1,0 +1,32 @@
+
+state={
+	id=277
+	name="STATE_277"
+
+	history={
+		owner = HUN
+		victory_points = {
+			525 1 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 1
+			air_base = 0
+
+		}
+		add_core_of = SOV
+		add_claim_by = HUN
+		add_claim_by = UKR
+		add_claim_by = W20
+
+	}
+
+	provinces={
+		441 504 525 550 3470 3494 3543 3570 6480 6497 6593 9451 9465 9466 9481 9493 9533 9568 11409 11424 11464 11477 11490 11514 
+	}
+	manpower=2274540
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=10.000
+}

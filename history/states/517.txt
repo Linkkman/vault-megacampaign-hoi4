@@ -1,0 +1,21 @@
+
+state={
+	id=517
+	name="STATE_517"
+	impassable = yes
+
+	history={
+		owner = W50
+		add_core_of = W50
+		add_claim_by = W20
+	}
+
+	provinces={
+		5206 10336 10936 10955 
+	}
+	manpower=80763
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+
+	local_supplies=10.0
+}

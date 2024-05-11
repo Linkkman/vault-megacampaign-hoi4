@@ -1,0 +1,33 @@
+
+state={
+	id=57
+	name="STATE_57"
+
+	history={
+		owner = X14
+		victory_points = {
+			10840 10 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 0
+			1920 = {
+				naval_base = 1
+			}
+			air_base = 6
+
+		}
+		add_core_of = YEM
+		add_claim_by = W20
+	}
+
+	provinces={
+		1920 1973 4924 10752 10840 
+	}
+	manpower=2170576
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

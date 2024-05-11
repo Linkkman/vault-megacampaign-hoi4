@@ -1,0 +1,32 @@
+
+state={
+	id=249
+	name="STATE_249"
+
+	history={
+		owner = GER
+		victory_points = {
+			3414 2 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 0
+
+		}
+		add_core_of = GER
+		add_claim_by = AUS
+		add_claim_by = SLO
+		add_claim_by = W20
+
+	}
+
+	provinces={
+		421 3414 3583 6485 9567 
+	}
+	manpower=1798436
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=10.000
+}

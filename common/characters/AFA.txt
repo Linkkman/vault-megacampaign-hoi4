@@ -1,0 +1,16 @@
+characters={
+	AFA_umar_hanfadhe={
+		name=AFA_umar_hanfadhe
+		portraits={
+			civilian={
+				large="GFX_Africa_Generic_new_2"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

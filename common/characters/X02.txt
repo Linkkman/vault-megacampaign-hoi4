@@ -1,0 +1,16 @@
+characters={
+	X02_aul_dekiye={
+		name=X02_aul_dekiye
+		portraits={
+			civilian={
+				large="GFX_SOM_Haji_Bashir_Ismail_Yusuf"
+			}
+		}
+		country_leader={
+			ideology=neutrality
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

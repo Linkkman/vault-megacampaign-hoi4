@@ -1,0 +1,22 @@
+
+state={
+	id=20
+	name="STATE_20"
+	impassable = yes
+
+	history={
+		owner = ARG
+		add_core_of = BRA
+		add_claim_by = ARG
+		add_claim_by = W32
+
+	}
+
+	provinces={
+		2147 13283 
+	}
+	manpower=32856
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=10.000
+}

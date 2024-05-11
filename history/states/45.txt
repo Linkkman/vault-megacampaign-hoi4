@@ -1,0 +1,39 @@
+
+state={
+	id=45
+	name="STATE_45"
+	resources={
+		chromium=5.000
+	}
+
+	history={
+		owner = X14
+		victory_points = {
+			979 3 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 1
+			6995 = {
+				naval_base = 8
+
+			}
+			air_base = 1
+
+		}
+		add_core_of = GRE
+		add_core_of = X14
+		add_claim_by = W20
+
+	}
+
+	provinces={
+		890 904 979 3905 3919 3967 3982 6920 6938 6995 11866 11881 11883 
+	}
+	manpower=2382652
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=10.000
+}

@@ -1,0 +1,384 @@
+units = {
+	fleet = {
+		name = "2nd Fleet"
+		naval_base = 3151
+		task_force = {
+			name = "2nd Fleet"
+			location = 3151
+			ship = { name = "Tsesarevich" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Borodino" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Imperator Aleksandr III" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Oryol" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Kniaz’ Suvorov" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Slava" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Evstafi" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "1st Yekaterinodar Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Ioann Zlatoust" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Retvizan" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Pobeda" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Peresvet" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Osliabia" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Imperator Pavel I" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Potemkin" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Rostislav" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Andrey Pervozvanny" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Georgii Pobedonosits" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Dvenadsat Apostolov" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Petropavlovsk" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Tri Sviatitelia" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Sissoi Veliky" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Poltava" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Sinop" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Chesma" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Ekaterina II" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Sevastopol" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Alexander Nevski" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Kinburn" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Dnepr" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "1st Yekaterinodar Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "1st Helsinki Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "2nd Riga Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "3rd Arkhangelsk Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "2nd Simferopol Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "2nd Odessa Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "3rd Turku Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "4th Turku Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "4th Oulu Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "5th Arkhangelsk Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "5th St Petersburg Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "5th Nikolaev Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "6th Rostov Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "6th Simferopol Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "6th Odessa Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "7th Nikolaev Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "7th Mariupol Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "7th Rostov Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "7th Yekaterinodar Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "7th Sukhumi Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "7th Simferopol Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "7th Odessa Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "8th Nikolaev Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "8th Mariupol Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "8th Rostov Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "8th Yekaterinodar Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "8th Sukhumi Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "8th Simferopol Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "8th Odessa Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "9th Nikolaev Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "9th Mariupol Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "9th Rostov Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "9th Yekaterinodar Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "9th Sukhumi Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "9th Simferopol Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "9th Odessa Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "10th Nikolaev Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "10th Mariupol Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "10th Rostov Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "10th Yekaterinodar Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "6th St Petersburg Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "6th Viipuri Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "6th Reval Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "6th Turku Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "6th Oulu Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "7th Arkhangelsk Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "7th St Petersburg Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Desna" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Volga" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "7th Reval Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "7th Turku Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Gromoboi" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "8th Riga Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "8th Arkhangelsk Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "8th St Petersburg Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "3rd Vladivostok Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "3rd Chumikan Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "3rd Petropavlovsk Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "3rd Mukden Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "3rd Kwangju Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "3rd Lüshun Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "3rd Talaya Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "3rd Pyongyang Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Vityaz" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Oleg" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Bogatyr" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Pamiyat Azova" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Almaz" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Bayan" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Aurora" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Admiral Kornilov" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Pallada" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Diana" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Nakhimov" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Rurik" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "8th Reval Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "8th Turku Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Boyarin" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "9th Riga Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "9th Arkhangelsk Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "9th St Petersburg Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "10th Simferopol Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "10th Odessa Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "11th Nikolaev Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "11th Mariupol Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "11th Rostov Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "11th Yekaterinodar Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "7th Helsinki Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "7th Viipuri Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "9th Reval Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "9th Turku Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "7th Oulu Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "10th Riga Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "10th Arkhangelsk Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "10th St Petersburg Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "11th St Petersburg Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "11th Simferopol Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "11th Odessa Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "12th Nikolaev Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "12th Mariupol Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "12th Rostov Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "12th Yekaterinodar Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "6th Kwangju Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "6th Mukden Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "6th Lüshun Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "6th Pyongyang Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "6th Vladivostok Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "6th Chumikan Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "General-Admiral" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "6th Talaya Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "11th Turku Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "9th Viipuri Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "12th Riga Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "9th Helsinki Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "11th Reval Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "9th Oulu Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "12th Arkhangelsk Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "4th Haeju Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "4th Inchon Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "12th St Petersburg Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "12th Simferopol Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "12th Odessa Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "13th Nikolaev Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "13th Mariupol Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "13th Rostov Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "13th Yekaterinodar Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "7th Kwangju Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "7th Mukden Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "7th Lüshun Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "7th Pyongyang Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "7th Vladivostok Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "7th Chumikan Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "5th Petropavlovsk Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "7th Talaya Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "12th Turku Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "10th Viipuri Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "13th Riga Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "10th Helsinki Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "12th Reval Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "10th Oulu Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "13th Arkhangelsk Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "5th Haeju Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "5th Inchon Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "13th St Petersburg Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Navarin" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Izmail" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Varyag" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Asia" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Askold" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Novaya Zemlya" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Novik" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Zarya" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "1st Haeju Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "1st Inchon Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "4th Vladivostok Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "4th Chumikan Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "4th Petropavlovsk Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "4th Mukden Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "4th Kwangju Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "4th Lüshun Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "4th Talaya Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "4th Pyongyang Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "2nd Haeju Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "2nd Inchon Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "5th Vladivostok Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "5th Chumikan Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "General-Admiral 2" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "5th Mukden Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "5th Kwangju Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "5th Lüshun Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "5th Talaya Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "5th Pyongyang Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "3rd Haeju Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "3rd Inchon Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "8th Helsinki Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "8th Viipuri Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "10th Reval Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "10th Turku Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "8th Oulu Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "11th Riga Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "11th Arkhangelsk Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "13th Simferopol Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "13th Odessa Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "14th Nikolaev Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "14th Mariupol Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "14th Rostov Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "14th Yekaterinodar Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "8th Kwangju Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "8th Mukden Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "8th Lüshun Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "8th Pyongyang Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "8th Vladivostok Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "8th Chumikan Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "6th Petropavlovsk Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "8th Talaya Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "13th Turku Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "11th Viipuri Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "14th Riga Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "11th Helsinki Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "13th Reval Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "11th Oulu Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "14th Arkhangelsk Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "14th St Petersburg Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "14th Simferopol Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "14th Odessa Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "15th Nikolaev Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "15th Mariupol Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "15th Rostov Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "15th Yekaterinodar Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "15th Riga Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "14th Turku Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "12th Viipuri Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "15th St Petersburg Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "12th Helsinki Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "14th Reval Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "12th Oulu Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "15th Arkhangelsk Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "9th Lüshun Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "9th Kwangju Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "9th Mukden Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "9th Pyongyang Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "6th Haeju Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "6th Inchon Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "9th Vladivostok Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "9th Chumikan Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "7th Petropavlovsk Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "9th Talaya Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "15th Simferopol Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "15th Odessa Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "16th Nikolaev Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "16th Mariupol Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "16th Rostov Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "16th Yekaterinodar Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "16th Riga Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "15th Turku Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "13th Viipuri Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "16th St Petersburg Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "13th Helsinki Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "15th Reval Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "13th Oulu Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "16th Arkhangelsk Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "10th Lüshun Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "10th Kwangju Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "10th Mukden Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "10th Pyongyang Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "7th Haeju Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "7th Inchon Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "10th Vladivostok Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "10th Chumikan Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "8th Petropavlovsk Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "10th Talaya Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "16th Simferopol Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "16th Odessa Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "17th Nikolaev Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "17th Mariupol Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "17th Rostov Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "17th Yekaterinodar Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "17th Riga Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "16th Turku Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "14th Viipuri Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "14th Helsinki Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "17th St Petersburg Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "16th Reval Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "14th Oulu Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "17th Arkhangelsk Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "11th Lüshun Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "11th Kwangju Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "11th Mukden Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "11th Pyongyang Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "8th Haeju Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "8th Inchon Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "11th Vladivostok Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "11th Chumikan Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "9th Petropavlovsk Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "11th Talaya Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "17th Simferopol Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "17th Odessa Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "18th Nikolaev Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "18th Mariupol Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "18th Rostov Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "18th Yekaterinodar Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "18th Riga Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "17th Turku Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "15th Viipuri Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "18th St Petersburg Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "15th Helsinki Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "17th Reval Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "15th Oulu Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "18th Arkhangelsk Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "12th Mukden Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "12th Lüshun Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "12th Kwangju Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "12th Pyongyang Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "9th Haeju Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "9th Inchon Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "12th Vladivostok Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "12th Chumikan Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "10th Petropavlovsk Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "12th Talaya Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "18th Simferopol Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "18th Odessa Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "19th Nikolaev Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "19th Mariupol Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "19th Yekaterinodar Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "19th Rostov Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "19th Riga Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "18th Turku Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "16th Viipuri Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "19th St Petersburg Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "16th Helsinki Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "18th Reval Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "16th Oulu Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "19th Arkhangelsk Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "13th Mukden Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "13th Lüshun Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "13th Kwangju Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "13th Pyongyang Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "10th Haeju Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "10th Inchon Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "13th Vladivostok Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "13th Chumikan Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "11th Petropavlovsk Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "13th Talaya Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_1
+			creator = "SOV"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_1
+			creator = "SOV"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

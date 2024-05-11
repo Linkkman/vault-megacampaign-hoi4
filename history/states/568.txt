@@ -1,0 +1,40 @@
+
+state={
+	id=568
+	name="STATE_568"
+	resources={
+		oil=2.000
+	}
+
+	history={
+		owner = W57
+		victory_points = {
+			10942 10 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 0
+			2156 = {
+				naval_base = 10
+			}
+			air_base = 10
+
+		}
+		add_core_of = COL
+		add_core_of = X19
+		add_core_of = X28
+		add_core_of = X43
+		add_claim_by = BOL
+		add_claim_by = W20
+	}
+
+	provinces={
+		2156 5162 8199 8213 10942 10970 12969 
+	}
+	manpower=864036
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

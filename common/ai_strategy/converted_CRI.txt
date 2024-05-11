@@ -1,0 +1,21 @@
+﻿converted_war_strategies_CRI = {
+	allowed = {
+		tag = CRI
+	}
+	enable = {
+		always = no
+	}
+	abort_when_not_enabled = yes
+	
+}
+
+converted_diplo_strategies_CRI = {
+	allowed = {
+		tag = CRI
+	}
+	enable = {
+		always = no
+	}
+	abort_when_not_enabled = yes
+	
+}

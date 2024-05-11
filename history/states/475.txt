@@ -1,0 +1,37 @@
+
+state={
+	id=475
+	name="STATE_475"
+	resources={
+		steel=1.000
+	}
+
+	history={
+		owner = SPR
+		victory_points = {
+			1176 30 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+			arms_factory = 1
+			dockyard = 1
+			10063 = {
+				naval_base = 8
+			}
+			air_base = 7
+
+		}
+		add_core_of = SPR
+		add_claim_by = TIG
+	}
+
+	provinces={
+		747 950 1090 1176 1192 4065 4095 7068 7196 9979 10009 10063 10111 11956 12038 12083 
+	}
+	manpower=3451064
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=10.0
+}

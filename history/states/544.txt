@@ -1,0 +1,33 @@
+
+state={
+	id=544
+	name="STATE_544"
+	resources={
+		steel=2.000
+	}
+
+	history={
+		owner = W57
+		victory_points = {
+			12827 1 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = W57
+		add_claim_by = W32
+	}
+
+	provinces={
+		2037 4898 7935 8097 10809 10830 10916 12745 12827 12850 12897 
+	}
+	manpower=529796
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	local_supplies=10.0
+}

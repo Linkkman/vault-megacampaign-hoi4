@@ -1,0 +1,34 @@
+
+state={
+	id=359
+	name="STATE_359"
+	resources={
+		chromium=3.000
+		tungsten=1.000
+	}
+
+	history={
+		owner = W77
+		victory_points = {
+			10930 0 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = W77
+		add_claim_by = W32
+
+	}
+
+	provinces={
+		1846 5221 10594 10930 13173 
+	}
+	manpower=707576
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=10.000
+}

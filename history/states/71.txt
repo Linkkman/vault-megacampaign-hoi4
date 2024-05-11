@@ -1,0 +1,38 @@
+
+state={
+	id=71
+	name="STATE_71"
+	resources={
+		steel=3.000
+	}
+
+	history={
+		owner = X14
+		victory_points = {
+			1151 1 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			4068 = {
+				naval_base = 1
+			}
+			air_base = 0
+
+		}
+		add_core_of = X14
+		add_claim_by = EGY
+		add_claim_by = W32
+		add_claim_by = X20
+	}
+
+	provinces={
+		1028 1064 1151 1206 4068 4910 5069 7073 7156 10097 10844 11999 12002 12071 12771 12889 
+	}
+	manpower=465772
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

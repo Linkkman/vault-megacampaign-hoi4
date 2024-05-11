@@ -1,0 +1,41 @@
+
+state={
+	id=450
+	name="STATE_450"
+	resources={
+		steel=4.000
+	}
+
+	history={
+		owner = SOV
+		victory_points = {
+			1802 15 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			arms_factory = 0
+			4844 = {
+				naval_base = 1
+			}
+			air_base = 5
+
+		}
+		add_core_of = MAN
+		add_core_of = SOV
+		add_core_of = W22
+		add_claim_by = CHI
+		add_claim_by = SIB
+		add_claim_by = W32
+		add_claim_by = W59
+	}
+
+	provinces={
+		675 1724 1802 1842 3664 4246 4290 4701 4725 4779 4805 4829 4844 7616 7672 7748 7763 7801 7871 9659 10571 10577 10655 10722 12192 12261 12263 12559 12569 12638 12654 12657 12678 
+	}
+	manpower=750020
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

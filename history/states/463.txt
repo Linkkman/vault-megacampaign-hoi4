@@ -1,0 +1,33 @@
+
+state={
+	id=463
+	name="STATE_463"
+
+	history={
+		owner = SCA
+		victory_points = {
+			9228 2 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+			9228 = {
+				naval_base = 1
+			}
+			air_base = 1
+
+		}
+		add_core_of = SCA
+		add_claim_by = W20
+	}
+
+	provinces={
+		9228 
+	}
+	manpower=602368
+	buildings_max_level_factor=1.000
+	state_category=large_town
+
+	local_supplies=10.0
+}

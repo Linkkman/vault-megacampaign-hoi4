@@ -1,0 +1,36 @@
+
+state={
+	id=292
+	name="STATE_292"
+
+	history={
+		owner = JAP
+		victory_points = {
+			10020 10 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+			arms_factory = 1
+			dockyard = 1
+			1025 = {
+				naval_base = 4
+			}
+			air_base = 10
+
+		}
+		add_core_of = JAP
+		add_core_of = W00
+		add_core_of = X63
+		add_claim_by = TIG
+	}
+
+	provinces={
+		1020 1025 1158 1183 4027 4102 4164 4198 7110 7178 9950 10011 10020 10092 11925 11949 12006 12032 
+	}
+	manpower=4449732
+	buildings_max_level_factor=1.000
+	state_category=large_city
+
+	local_supplies=10.0
+}

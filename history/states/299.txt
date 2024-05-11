@@ -1,0 +1,33 @@
+
+state={
+	id=299
+	name="STATE_299"
+
+	history={
+		owner = JAP
+		victory_points = {
+			7125 15 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			arms_factory = 0
+			7221 = {
+				naval_base = 8
+			}
+			air_base = 6
+
+		}
+		add_core_of = KOR
+		add_claim_by = X71
+	}
+
+	provinces={
+		1100 1148 4004 4103 7021 7125 7175 7204 7221 9936 10036 10115 11912 11977 11992 12011 
+	}
+	manpower=5932384
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

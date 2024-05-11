@@ -1,0 +1,35 @@
+
+state={
+	id=164
+	name="STATE_164"
+	resources={
+		chromium=16.000
+		steel=3.000
+	}
+
+	history={
+		owner = W70
+		victory_points = {
+			10400 1 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 1
+			air_base = 0
+
+		}
+		add_core_of = W70
+		add_claim_by = TIG
+		add_claim_by = W61
+	}
+
+	provinces={
+		1688 2171 2213 5106 5217 7900 10400 10566 
+	}
+	manpower=3267356
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=10.0
+}

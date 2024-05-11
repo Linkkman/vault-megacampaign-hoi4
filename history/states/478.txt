@@ -1,0 +1,35 @@
+
+state={
+	id=478
+	name="STATE_478"
+
+	history={
+		owner = SPR
+		victory_points = {
+			6986 2 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 1
+			dockyard = 1
+			3790 = {
+				naval_base = 8
+			}
+			air_base = 0
+
+		}
+		add_core_of = POR
+		add_core_of = SPR
+		add_claim_by = W20
+	}
+
+	provinces={
+		3790 3846 3866 3886 3926 6880 6884 6933 6986 9765 9819 9869 
+	}
+	manpower=1692120
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

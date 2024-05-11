@@ -1,0 +1,33 @@
+
+state={
+	id=360
+	name="STATE_360"
+	resources={
+		chromium=1.000
+	}
+
+	history={
+		owner = W77
+		victory_points = {
+			12986 0 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = W77
+		add_claim_by = W32
+
+	}
+
+	provinces={
+		2255 12908 12986 13209 
+	}
+	manpower=246864
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=10.000
+}

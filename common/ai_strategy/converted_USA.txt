@@ -1,0 +1,66 @@
+﻿converted_war_strategies_USA = {
+	allowed = {
+		tag = USA
+	}
+	enable = {
+		always = no
+	}
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = conquer
+		id = "W57"
+		value = 4537
+	}
+}
+
+converted_diplo_strategies_USA = {
+	allowed = {
+		tag = USA
+	}
+	enable = {
+		always = no
+	}
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = contain
+		id = "W57"
+		value = 400
+	}
+	ai_strategy = {
+		type = contain
+		id = "X95"
+		value = 145
+	}
+	ai_strategy = {
+		type = contain
+		id = "X70"
+		value = 61
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "W57"
+		value = 400
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X95"
+		value = 260
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X42"
+		value = 125
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X70"
+		value = 68
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "MOR"
+		value = 52
+	}
+}

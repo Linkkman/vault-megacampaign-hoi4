@@ -1,0 +1,40 @@
+
+state={
+	id=331
+	name="STATE_331"
+	resources={
+		oil=1.000
+		rubber=21.000
+	}
+
+	history={
+		owner = W78
+		victory_points = {
+			4608 10 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 0
+			4608 = {
+				naval_base = 2
+			}
+			air_base = 10
+
+		}
+		add_core_of = INS
+		add_core_of = W78
+		add_core_of = X10
+		add_core_of = X79
+		add_claim_by = TIG
+	}
+
+	provinces={
+		1209 4306 4390 4608 7654 10479 10491 12293 12472 
+	}
+	manpower=3540716
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=10.0
+}

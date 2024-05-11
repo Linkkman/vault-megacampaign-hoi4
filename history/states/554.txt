@@ -1,0 +1,33 @@
+
+state={
+	id=554
+	name="STATE_554"
+
+	history={
+		owner = W57
+		victory_points = {
+			10728 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			2075 = {
+				naval_base = 10
+			}
+			air_base = 1
+
+		}
+		add_core_of = W57
+		add_claim_by = W20
+	}
+
+	provinces={
+		1988 2075 10728 12738 13139
+	}
+	manpower=867192
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

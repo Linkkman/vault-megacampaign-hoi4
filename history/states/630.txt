@@ -1,0 +1,35 @@
+
+state={
+	id=630
+	name="STATE_630"
+
+	history={
+		owner = W59
+		victory_points = {
+			9974 1 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			9974 = {
+				naval_base = 2
+			}
+			air_base = 0
+
+		}
+		add_core_of = W59
+		add_claim_by = CHI
+		add_claim_by = W32
+		add_claim_by = X26
+	}
+
+	provinces={
+		7058 9974 
+	}
+	manpower=750180
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	local_supplies=10.0
+}

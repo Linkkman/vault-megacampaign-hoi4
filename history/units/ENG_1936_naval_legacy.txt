@@ -1,0 +1,569 @@
+units = {
+	fleet = {
+		name = "More Transports"
+		naval_base = 9975
+		task_force = {
+			name = "More Transports"
+			location = 9975
+			ship = { name = "2nd Southampton Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "2nd Plymouth Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Undaunted" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Narcissus" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+		}
+	}
+	fleet = {
+		name = "Transports"
+		naval_base = 13005
+		task_force = {
+			name = "Transports"
+			location = 2871
+			ship = { name = "1st Chelmsford Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "1st Southampton Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "1st Plymouth Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "1st Aberdeen Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+		}
+	}
+	fleet = {
+		name = "2nd Fleet"
+		naval_base = 13005
+		task_force = {
+			name = "2nd Fleet"
+			location = 5479
+			ship = { name = "Europa" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Andromeda" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Cumberland" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Lancaster" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Powerful" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Aboukir" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Hogue" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Euryalus" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Drake" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Good Hope" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "King Alfred" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Leviathan" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Monmouth" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Essex" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Kent" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "1st Malta Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Terrible" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Niobe" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Leviathan 2" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Suffolk" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Devonshire" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Hampshire" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Carnarvon" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Roxburgh" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Argyll" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Duke of Edinburgh" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Defence" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Plymouth Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Southampton Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Monmouth 2" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Essex 2" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Duke of Edinburgh 2" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Europa 2" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Andromeda 2" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Ariadne" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Cressy" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Aboukir 2" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Hogue 2" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Euryalus 2" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+		}
+	}
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 13005
+		task_force = {
+			name = "1st Fleet"
+			location = 8450
+			ship = { name = "Drake 2" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Good Hope 2" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "King Alfred 2" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Defence 2" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "2nd Belfast Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "1st Iceland Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "2nd Cork Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Kent 2" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Cornwall" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Cumberland 2" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Lancaster 2" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Suffolk 2" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Devonshire 2" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Hampshire 2" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Carnarvon 2" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Roxburgh 2" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Argyll 2" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "2nd Galway Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "3rd Cork Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "2nd Dublin Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "2nd Aberdeen Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "2nd Edinburgh Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "2nd Cardiff Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "2nd Hull Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "2nd Chester Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "2nd Lincoln Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Chelmsford Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "5th Plymouth Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "5th Southampton Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "3rd Dublin Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "3rd Aberdeen Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "3rd Edinburgh Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "3rd Cardiff Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "3rd Hull Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+		}
+	}
+	fleet = {
+		name = "5th Fleet"
+		naval_base = 13005
+		task_force = {
+			name = "5th Fleet"
+			location = 5431
+			ship = { name = "2nd Malta Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+		}
+	}
+	fleet = {
+		name = "3rd Fleet"
+		naval_base = 13005
+		task_force = {
+			name = "3rd Fleet"
+			location = 8450
+			ship = { name = "1st Dong Quai Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Galatea" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Donegal" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Grafton" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "St George" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Diadem" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "3rd Chelmsford Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "3rd Southampton Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "3rd Plymouth Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Australia" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Aurora" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Edgar" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Endymion" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Royal Arthur" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Cresent" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Amphitrite" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Spartiate" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Sutlej" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Bacchante" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Bedford" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Blenheim" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Hawke" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Gibraltar" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Grafton 2" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "St George 2" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Theseus" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Powerful 2" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Terrible 2" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Diadem 2" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Ariadne 2" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Cressy 2" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Cornwall 2" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Blake" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Blenheim 2" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Hawke 2" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Gibraltar 2" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Theseus 2" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Powerful 3" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Terrible 3" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Niobe 2" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Berwick" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Antrim" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Cochrane" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Natal" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "1st Dublin Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "1st Moulmein Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Northampton" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "1st Chester Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Imperieuse" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "1st Lincoln Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Warspite" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "2nd Chelmsford Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "1st Cardiff Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Nelson" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "1st Hull Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Shannon" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Orlando" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Immortalite" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Argonaut" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Blake 2" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Shannon 2" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Immortalite 2" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Orlando 2" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "1st Edinburgh Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "3rd Chester Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "3rd Lincoln Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "5th Chelmsford Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "6th Plymouth Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "6th Southampton Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "7th Southampton Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "6th Chelmsford Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "7th Plymouth Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Hull Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Lincoln Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Cardiff Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Edinburgh Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "3rd Belfast Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Cork Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Dublin Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Chester Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Aberdeen Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "3rd Galway Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+		}
+	}
+	fleet = {
+		name = "4th Fleet"
+		naval_base = 13005
+		task_force = {
+			name = "4th Fleet"
+			location = 7468
+			ship = { name = "2nd Iceland Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+		}
+	}
+	fleet = {
+		name = "16th Fleet"
+		naval_base = 13005
+		task_force = {
+			name = "16th Fleet"
+			location = 6825
+			ship = { name = "2nd Moulmein Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+		}
+	}
+	fleet = {
+		name = "17th Fleet"
+		naval_base = 13005
+		task_force = {
+			name = "17th Fleet"
+			location = 5984
+			ship = { name = "1st Ratchaburi Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+		}
+	}
+	fleet = {
+		name = "13th Fleet"
+		naval_base = 13005
+		task_force = {
+			name = "13th Fleet"
+			location = 5984
+			ship = { name = "1st Bangkok Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+		}
+	}
+	fleet = {
+		name = "6th Fleet"
+		naval_base = 12003
+		task_force = {
+			name = "6th Fleet"
+			location = 12003
+			ship = { name = "3rd Malta Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+		}
+	}
+	fleet = {
+		name = "7th Fleet"
+		naval_base = 12674
+		task_force = {
+			name = "7th Fleet"
+			location = 12674
+			ship = { name = "3rd Iceland Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+		}
+	}
+	fleet = {
+		name = "8th Fleet"
+		naval_base = 12674
+		task_force = {
+			name = "8th Fleet"
+			location = 12674
+			ship = { name = "4th Iceland Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+		}
+	}
+	fleet = {
+		name = "9th Fleet"
+		naval_base = 3379
+		task_force = {
+			name = "9th Fleet"
+			location = 3379
+			ship = { name = "4th Belfast Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+		}
+	}
+	fleet = {
+		name = "10th Fleet"
+		naval_base = 3379
+		task_force = {
+			name = "10th Fleet"
+			location = 3379
+			ship = { name = "5th Belfast Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+		}
+	}
+	fleet = {
+		name = "12th Fleet"
+		naval_base = 9303
+		task_force = {
+			name = "12th Fleet"
+			location = 9303
+			ship = { name = "4th Galway Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+		}
+	}
+	fleet = {
+		name = "14th Fleet"
+		naval_base = 9303
+		task_force = {
+			name = "14th Fleet"
+			location = 9303
+			ship = { name = "5th Galway Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+		}
+	}
+	fleet = {
+		name = "15th Fleet"
+		naval_base = 7394
+		task_force = {
+			name = "15th Fleet"
+			location = 7394
+			ship = { name = "5th Cork Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+		}
+	}
+	fleet = {
+		name = "18th Fleet"
+		naval_base = 7394
+		task_force = {
+			name = "18th Fleet"
+			location = 7394
+			ship = { name = "6th Cork Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+		}
+	}
+	fleet = {
+		name = "19th Fleet"
+		naval_base = 11293
+		task_force = {
+			name = "19th Fleet"
+			location = 11293
+			ship = { name = "5th Dublin Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+		}
+	}
+	fleet = {
+		name = "20th Fleet"
+		naval_base = 11293
+		task_force = {
+			name = "20th Fleet"
+			location = 11293
+			ship = { name = "6th Dublin Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+		}
+	}
+	fleet = {
+		name = "21st Fleet"
+		naval_base = 11207
+		task_force = {
+			name = "21st Fleet"
+			location = 11207
+			ship = { name = "5th Aberdeen Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+		}
+	}
+	fleet = {
+		name = "22nd Fleet"
+		naval_base = 11207
+		task_force = {
+			name = "22nd Fleet"
+			location = 11207
+			ship = { name = "6th Aberdeen Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+		}
+	}
+	fleet = {
+		name = "24th Fleet"
+		naval_base = 9392
+		task_force = {
+			name = "24th Fleet"
+			location = 9392
+			ship = { name = "5th Edinburgh Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+		}
+	}
+	fleet = {
+		name = "25th Fleet"
+		naval_base = 9392
+		task_force = {
+			name = "25th Fleet"
+			location = 9392
+			ship = { name = "6th Edinburgh Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+		}
+	}
+	fleet = {
+		name = "26th Fleet"
+		naval_base = 377
+		task_force = {
+			name = "26th Fleet"
+			location = 377
+			ship = { name = "5th Cardiff Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+		}
+	}
+	fleet = {
+		name = "27th Fleet"
+		naval_base = 377
+		task_force = {
+			name = "27th Fleet"
+			location = 377
+			ship = { name = "6th Cardiff Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+		}
+	}
+	fleet = {
+		name = "28th Fleet"
+		naval_base = 11317
+		task_force = {
+			name = "28th Fleet"
+			location = 11317
+			ship = { name = "5th Hull Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+		}
+	}
+	fleet = {
+		name = "29th Fleet"
+		naval_base = 11317
+		task_force = {
+			name = "29th Fleet"
+			location = 11317
+			ship = { name = "6th Hull Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+		}
+	}
+	fleet = {
+		name = "30th Fleet"
+		naval_base = 3205
+		task_force = {
+			name = "30th Fleet"
+			location = 3205
+			ship = { name = "5th Chester Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+		}
+	}
+	fleet = {
+		name = "31st Fleet"
+		naval_base = 3205
+		task_force = {
+			name = "31st Fleet"
+			location = 3205
+			ship = { name = "6th Chester Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+		}
+	}
+	fleet = {
+		name = "32nd Fleet"
+		naval_base = 9250
+		task_force = {
+			name = "32nd Fleet"
+			location = 9250
+			ship = { name = "5th Lincoln Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+		}
+	}
+	fleet = {
+		name = "33rd Fleet"
+		naval_base = 9250
+		task_force = {
+			name = "33rd Fleet"
+			location = 9250
+			ship = { name = "6th Lincoln Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+		}
+	}
+	fleet = {
+		name = "34th Fleet"
+		naval_base = 11374
+		task_force = {
+			name = "34th Fleet"
+			location = 11374
+			ship = { name = "7th Chelmsford Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+		}
+	}
+	fleet = {
+		name = "35th Fleet"
+		naval_base = 11374
+		task_force = {
+			name = "35th Fleet"
+			location = 11374
+			ship = { name = "8th Chelmsford Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+		}
+	}
+	fleet = {
+		name = "36th Fleet"
+		naval_base = 540
+		task_force = {
+			name = "36th Fleet"
+			location = 540
+			ship = { name = "8th Plymouth Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+		}
+	}
+	fleet = {
+		name = "37th Fleet"
+		naval_base = 540
+		task_force = {
+			name = "37th Fleet"
+			location = 540
+			ship = { name = "9th Plymouth Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+		}
+	}
+	fleet = {
+		name = "39th Fleet"
+		naval_base = 6489
+		task_force = {
+			name = "39th Fleet"
+			location = 6489
+			ship = { name = "9th Southampton Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "8th Southampton Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+		}
+	}
+	fleet = {
+		name = "40th Fleet"
+		naval_base = 12003
+		task_force = {
+			name = "40th Fleet"
+			location = 12003
+			ship = { name = "4th Malta Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+		}
+	}
+	fleet = {
+		name = "41st Fleet"
+		naval_base = 12003
+		task_force = {
+			name = "41st Fleet"
+			location = 12003
+			ship = { name = "5th Malta Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+		}
+	}
+	fleet = {
+		name = "42nd Fleet"
+		naval_base = 1244
+		task_force = {
+			name = "42nd Fleet"
+			location = 1244
+			ship = { name = "1st Chanthaburi Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+		}
+	}
+	fleet = {
+		name = "43rd Fleet"
+		naval_base = 7404
+		task_force = {
+			name = "43rd Fleet"
+			location = 7404
+			ship = { name = "1st Kampot Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+		}
+	}
+	fleet = {
+		name = "44th Fleet"
+		naval_base = 10232
+		task_force = {
+			name = "44th Fleet"
+			location = 10232
+			ship = { name = "2nd Dong Quai Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_1
+			creator = "ENG"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_1
+			creator = "ENG"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

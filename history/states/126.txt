@@ -1,0 +1,36 @@
+
+state={
+	id=126
+	name="STATE_126"
+
+	history={
+		owner = ENG
+		victory_points = {
+			296 3 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+			arms_factory = 1
+			dockyard = 1
+			11374 = {
+				naval_base = 10
+
+			}
+			air_base = 2
+
+		}
+		add_core_of = ENG
+		add_core_of = X32
+		add_claim_by = TIG
+
+	}
+
+	provinces={
+		221 271 296 322 3287 11221 11253 
+	}
+	manpower=3964860
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=10.000
+}

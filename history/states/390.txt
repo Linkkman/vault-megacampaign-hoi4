@@ -1,0 +1,30 @@
+
+state={
+	id=390
+	name="STATE_390"
+
+	history={
+		owner = PER
+		victory_points = {
+			10837 3 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+			arms_factory = 2
+			air_base = 2
+
+		}
+		add_core_of = PER
+		add_claim_by = TIG
+
+	}
+
+	provinces={
+		4553 7969 8093 10523 10837 10922 12704 12818 
+	}
+	manpower=4234028
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=10.000
+}

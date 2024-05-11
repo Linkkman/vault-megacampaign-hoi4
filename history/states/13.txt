@@ -1,0 +1,38 @@
+
+state={
+	id=13
+	name="STATE_13"
+	resources={
+		aluminium=2.000
+	}
+
+	history={
+		owner = ARG
+		victory_points = {
+			4548 2 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 0
+			dockyard = 1
+			8181 = {
+				naval_base = 10
+			}
+			air_base = 0
+
+		}
+		add_core_of = ARG
+		add_core_of = W53
+		add_claim_by = W20
+	}
+
+	provinces={
+		1529 2109 4533 4548 4587 5156 5178 8181 8239 10405 12466 
+	}
+	manpower=1524016
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

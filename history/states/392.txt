@@ -1,0 +1,40 @@
+
+state={
+	id=392
+	name="STATE_392"
+	resources={
+		oil=8.000
+		steel=1.000
+	}
+
+	history={
+		owner = PER
+		victory_points = {
+			5005 2 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 1
+			dockyard = 1
+			5005 = {
+				naval_base = 2
+
+			}
+			air_base = 1
+
+		}
+		add_core_of = IRQ
+		add_core_of = PER
+		add_claim_by = W20
+
+	}
+
+	provinces={
+		78 5005 7953 10774 
+	}
+	manpower=1354292
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=10.000
+}

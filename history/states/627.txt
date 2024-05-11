@@ -1,0 +1,31 @@
+
+state={
+	id=627
+	name="STATE_627"
+
+	history={
+		owner = W59
+		victory_points = {
+			1319 0 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = CHI
+		add_claim_by = W20
+		add_claim_by = W59
+	}
+
+	provinces={
+		1319 4192 5072 7446 7606 12841 
+	}
+	manpower=1904856
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

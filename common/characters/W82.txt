@@ -1,0 +1,16 @@
+characters={
+	W82_antonio_maria_lopez={
+		name=W82_antonio_maria_lopez
+		portraits={
+			civilian={
+				large="gfx/leaders/CHL/portrait_chl_arturo_alessandri.dds"
+			}
+		}
+		country_leader={
+			ideology=fascism_ideology
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

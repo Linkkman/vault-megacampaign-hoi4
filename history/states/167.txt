@@ -1,0 +1,33 @@
+
+state={
+	id=167
+	name="STATE_167"
+
+	history={
+		owner = W67
+		victory_points = {
+			13017 0 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			2165 = {
+				naval_base = 1
+			}
+			air_base = 0
+
+		}
+		add_core_of = W67
+		add_claim_by = W32
+	}
+
+	provinces={
+		2165 13017 
+	}
+	manpower=155116
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

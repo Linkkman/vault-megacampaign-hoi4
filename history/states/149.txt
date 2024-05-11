@@ -1,0 +1,36 @@
+
+state={
+	id=149
+	name="STATE_149"
+
+	history={
+		owner = W69
+		victory_points = {
+			4967 15 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			arms_factory = 0
+			4967 = {
+				naval_base = 1
+			}
+			air_base = 6
+
+		}
+		add_core_of = MLD
+		add_core_of = W69
+		add_claim_by = ENG
+		add_claim_by = RAJ
+		add_claim_by = W20
+	}
+
+	provinces={
+		4967 13019 
+	}
+	manpower=359020
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

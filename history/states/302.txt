@@ -1,0 +1,36 @@
+
+state={
+	id=302
+	name="STATE_302"
+
+	history={
+		owner = JAP
+		victory_points = {
+			1150 0 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			1150 = {
+				naval_base = 8
+			}
+			air_base = 1
+
+		}
+		add_core_of = CHI
+		add_claim_by = MAN
+		add_claim_by = W32
+		add_claim_by = W59
+		add_claim_by = X80
+	}
+
+	provinces={
+		1150 
+	}
+	manpower=764236
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

@@ -1,0 +1,39 @@
+
+state={
+	id=50
+	name="STATE_50"
+	resources={
+		steel=2.000
+	}
+
+	history={
+		owner = X14
+		victory_points = {
+			12473 3 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 1
+			11919 = {
+				naval_base = 8
+			}
+			air_base = 2
+
+		}
+		add_core_of = GRE
+		add_core_of = IRQ
+		add_core_of = X14
+		add_claim_by = TIG
+	}
+
+	provinces={
+		792 1056 1072 1074 1088 1108 4111 4550 7140 7671 10087 11919 12473 
+	}
+	manpower=3618856
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=10.0
+}

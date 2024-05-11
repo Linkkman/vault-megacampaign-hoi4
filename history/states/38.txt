@@ -1,0 +1,38 @@
+
+state={
+	id=38
+	name="STATE_38"
+	resources={
+		chromium=30.000
+	}
+
+	history={
+		owner = X14
+		victory_points = {
+			4112 7 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 7
+			arms_factory = 3
+			dockyard = 2
+			4112 = {
+				naval_base = 8
+			}
+			air_base = 4
+
+		}
+		add_core_of = GRE
+		add_core_of = X14
+		add_claim_by = TIG
+	}
+
+	provinces={
+		928 3927 4112 6550 6945 6992 7003 7130 8435 9921 9929 9941 10007 10038 10041 10122 11796 11848 11898 11917 12096 
+	}
+	manpower=5591060
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

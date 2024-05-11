@@ -1,0 +1,35 @@
+
+state={
+	id=560
+	name="STATE_560"
+
+	history={
+		owner = W57
+		victory_points = {
+			1633 10 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			7630 = {
+				naval_base = 10
+			}
+			air_base = 6
+
+		}
+		add_core_of = COL
+		add_core_of = W54
+		add_core_of = W57
+		add_claim_by = W32
+	}
+
+	provinces={
+		1633 4611 4624 7617 7630 10482 
+	}
+	manpower=510764
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

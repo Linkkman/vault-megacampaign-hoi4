@@ -1,0 +1,16 @@
+characters={
+	W83_antonio_maria_lopez={
+		name=W83_antonio_maria_lopez
+		portraits={
+			civilian={
+				large="gfx/leaders/DOM/portrait_dom_rafael_trujillo.dds"
+			}
+		}
+		country_leader={
+			ideology=fascism_ideology
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

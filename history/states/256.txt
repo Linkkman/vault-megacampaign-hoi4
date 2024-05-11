@@ -1,0 +1,36 @@
+
+state={
+	id=256
+	name="STATE_256"
+
+	history={
+		owner = GER
+		victory_points = {
+			599 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			dockyard = 1
+			6626 = {
+				naval_base = 1
+			}
+			air_base = 1
+
+		}
+		add_core_of = GER
+		add_claim_by = AUS
+		add_claim_by = ITA
+		add_claim_by = W20
+	}
+
+	provinces={
+		599 6626 9613 11595 11735 
+	}
+	manpower=1477348
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

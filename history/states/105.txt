@@ -1,0 +1,41 @@
+
+state={
+	id=105
+	name="STATE_105"
+	resources={
+		aluminium=1.000
+		steel=2.000
+	}
+
+	history={
+		owner = X14
+		victory_points = {
+			6843 3 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 1
+			3966 = {
+				naval_base = 10
+			}
+			air_base = 1
+
+		}
+		add_core_of = ITA
+		add_core_of = TTS
+		add_core_of = W40
+		add_core_of = X92
+		add_claim_by = TIG
+		add_claim_by = X14
+	}
+
+	provinces={
+		883 963 3910 3923 3966 6831 6843 6939 6979 6980 9784 9838 11803 11837 11882 11998 
+	}
+	manpower=3327016
+	buildings_max_level_factor=1.000
+	state_category=large_city
+
+	local_supplies=10.0
+}

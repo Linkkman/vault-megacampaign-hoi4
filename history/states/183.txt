@@ -1,0 +1,43 @@
+
+state={
+	id=183
+	name="STATE_183"
+	resources={
+		chromium=1.000
+		steel=1.000
+	}
+
+	history={
+		owner = W69
+		victory_points = {
+			5043 1 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			dockyard = 1
+			7917 = {
+				naval_base = 4
+
+			}
+			air_base = 0
+
+		}
+		add_core_of = W69
+		add_claim_by = PAK
+		add_claim_by = PER
+		add_claim_by = SAU
+		add_claim_by = TIB
+		add_claim_by = W20
+
+	}
+
+	provinces={
+		1107 1179 1978 2084 4558 4990 4998 5043 5105 7847 7903 7917 7975 8044 8066 8098 10813 12717 12763 12774 
+	}
+	manpower=2000880
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=10.000
+}

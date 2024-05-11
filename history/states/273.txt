@@ -1,0 +1,35 @@
+
+state={
+	id=273
+	name="STATE_273"
+
+	history={
+		owner = HAI
+		victory_points = {
+			177 5 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 5
+			arms_factory = 1
+			dockyard = 2
+			177 = {
+				naval_base = 1
+			}
+			air_base = 3
+
+		}
+		add_core_of = HAI
+		add_claim_by = TIG
+		add_claim_by = W32
+	}
+
+	provinces={
+		177 4155 4450 7123 9377 13084 
+	}
+	manpower=2747392
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+
+	local_supplies=10.0
+}

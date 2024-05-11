@@ -1,0 +1,38 @@
+
+state={
+	id=271
+	name="STATE_271"
+	resources={
+		chromium=40.000
+		steel=1.000
+	}
+
+	history={
+		owner = HAI
+		victory_points = {
+			7622 5 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 4
+			arms_factory = 3
+			dockyard = 2
+			7451 = {
+				naval_base = 10
+			}
+			air_base = 2
+
+		}
+		add_core_of = HAI
+		add_claim_by = W20
+	}
+
+	provinces={
+		1550 4476 4600 7451 7546 7590 7622 10374 10498 12347 
+	}
+	manpower=2684352
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+
+	local_supplies=10.0
+}

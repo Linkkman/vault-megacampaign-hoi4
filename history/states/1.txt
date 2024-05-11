@@ -1,0 +1,34 @@
+
+state={
+	id=1
+	name="STATE_1"
+	resources={
+		tungsten=3.000
+	}
+
+	history={
+		owner = ARG
+		victory_points = {
+			2224 2 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			arms_factory = 1
+			air_base = 0
+
+		}
+		add_core_of = ARG
+		add_claim_by = W20
+		add_claim_by = X15
+
+	}
+
+	provinces={
+		2106 2208 2224 5143 8216 8255 10944 10965 10986 11001 12922 12943 13308 13310 13311 
+	}
+	manpower=1607876
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=10.000
+}

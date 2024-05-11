@@ -1,0 +1,34 @@
+
+state={
+	id=494
+	name="STATE_494"
+
+	history={
+		owner = W81
+		victory_points = {
+			7186 10 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			1091 = {
+				naval_base = 8
+			}
+			air_base = 5
+
+		}
+		add_core_of = W81
+		add_claim_by = W59
+		add_claim_by = X71
+	}
+
+	provinces={
+		1091 1175 4096 7186 7214 9955 11914 11959 12027 12068 
+	}
+	manpower=5691892
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+
+	local_supplies=10.0
+}

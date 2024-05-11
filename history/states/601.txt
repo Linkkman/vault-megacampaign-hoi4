@@ -1,0 +1,33 @@
+
+state={
+	id=601
+	name="STATE_601"
+
+	history={
+		owner = YUG
+		victory_points = {
+			619 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 1
+
+		}
+		add_core_of = AUS
+		add_claim_by = BOS
+		add_claim_by = CRO
+		add_claim_by = W20
+		add_claim_by = YUG
+
+	}
+
+	provinces={
+		614 619 3614 3617 3623 6643 9608 9621 11787 
+	}
+	manpower=1722816
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=10.000
+}

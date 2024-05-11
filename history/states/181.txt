@@ -1,0 +1,36 @@
+
+state={
+	id=181
+	name="STATE_181"
+	resources={
+		aluminium=1.000
+	}
+
+	history={
+		owner = W71
+		victory_points = {
+			12785 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			12785 = {
+				naval_base = 4
+			}
+			air_base = 1
+
+		}
+		add_core_of = W71
+		add_claim_by = W20
+	}
+
+	provinces={
+		10862 12742 12785 12787 13136
+	}
+	manpower=2084936
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

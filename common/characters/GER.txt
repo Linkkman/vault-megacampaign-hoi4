@@ -1,0 +1,224 @@
+characters={
+	GER_paul_von_hindenburg={
+		name=GER_paul_von_hindenburg
+		portraits={
+			army={
+				large="GFX_Portrait_Europe_Generic_land_1"
+			}
+			army={
+				small="GFX_Portrait_Europe_Generic_land_1"
+			}
+		}
+		corps_commander={
+			skill=5
+			attack_skill=5
+			defense_skill=5
+			planning_skill=1
+			logistics_skill=4
+			legacy_id=0
+		}
+	}
+
+	GER_leonhard_haus={
+		name=GER_leonhard_haus
+		portraits={
+			army={
+				large="GFX_portrait_GER_alfred_jodl"
+			}
+			army={
+				small="GFX_portrait_GER_alfred_jodl"
+			}
+		}
+		corps_commander={
+			skill=3
+			attack_skill=4
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+
+	GER_gottfried_held={
+		name=GER_gottfried_held
+		portraits={
+			army={
+				large="GFX_Portrait_Germany_Generic_land_3"
+			}
+			army={
+				small="GFX_Portrait_Germany_Generic_land_3"
+			}
+		}
+		corps_commander={
+			skill=4
+			attack_skill=6
+			defense_skill=4
+			planning_skill=1
+			logistics_skill=3
+			legacy_id=0
+		}
+	}
+
+	GER_alois_von_kobratin={
+		name=GER_alois_von_kobratin
+		portraits={
+			army={
+				large="GFX_portrait_europe_generic_land_13"
+			}
+			army={
+				small="GFX_portrait_europe_generic_land_13"
+			}
+		}
+		corps_commander={
+			skill=3
+			attack_skill=3
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	GER_otto_von_benedek={
+		name=GER_otto_von_benedek
+		portraits={
+			army={
+				large="gfx/leaders/GER/Portrait_Germany_Erhard_Milch.dds"
+			}
+			army={
+				small="gfx/leaders/GER/Portrait_Germany_Erhard_Milch.dds"
+			}
+		}
+		corps_commander={
+			skill=3
+			attack_skill=5
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=4
+			legacy_id=0
+		}
+	}
+
+	GER_horst_von_benedek={
+		name=GER_horst_von_benedek
+		portraits={
+			navy={
+				large="GFX_Portrait_Germany_Generic_navy_1"
+			}
+			navy={
+				small="GFX_Portrait_Germany_Generic_navy_1"
+			}
+		}
+		navy_leader={
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=0
+		}
+	}
+
+	GER_gerhard_von_brudermann={
+		name=GER_gerhard_von_brudermann
+		portraits={
+			civilian={
+				large="gfx/leaders/GER/Portrait_Germany_Konrad_Adenauer.dds"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+	UTI_maurice_gamelin={
+		advisor={
+			slot = army_chief
+			idea_token = maurice_gamelin
+			available = {
+                has_completed_focus = FRA_aggressive_focus
+            }
+			allowed = {
+                original_tag = event_target:FRA_begin_rearmament_FRA
+            }
+			traits = {
+				army_chief_offensive_2
+			}
+			cost = 100
+			ai_will_do = {
+                factor = 1.000
+            }
+		}
+		field_marshal={
+			traits={ old_guard inflexible_strategist career_officer defensive_doctrine }
+			skill=2
+			attack_skill=1
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	UTI_maxime_weygand={
+		advisor={
+			slot = army_chief
+			idea_token = maxime_weygand
+			available = {
+                has_completed_focus = FRA_defensive_focus
+            }
+			allowed = {
+                original_tag = event_target:FRA_begin_rearmament_FRA
+            }
+			traits = {
+				army_chief_defensive_2
+			}
+			cost = 100
+			ai_will_do = {
+                factor = 1.000
+            }
+		}
+		field_marshal={
+			traits={ old_guard inflexible_strategist career_officer defensive_doctrine }
+			skill=3
+			attack_skill=3
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+
+	UTI_charles_de_gaulle={
+		advisor={
+			slot = theorist
+			idea_token = charles_de_gaulle
+			ledger = army
+			available = {
+                has_completed_focus = FRA_battle_of_maneuver
+            }
+			allowed = {
+                original_tag = event_target:FRA_begin_rearmament_FRA
+            }
+			traits = {
+				blitzkrieg_theorist
+			}
+			cost = 100
+			ai_will_do = {
+                factor = 1.000
+            }
+		}
+		corps_commander={
+			traits={ media_personality harsh_leader armor_officer }
+			skill=4
+			attack_skill=4
+			defense_skill=4
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+
+}

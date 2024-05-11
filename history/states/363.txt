@@ -1,0 +1,35 @@
+
+state={
+	id=363
+	name="STATE_363"
+	resources={
+		rubber=2.000
+		tungsten=1.000
+	}
+
+	history={
+		owner = W77
+		victory_points = {
+			191 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 1
+
+		}
+		add_core_of = W77
+		add_claim_by = COG
+		add_claim_by = W20
+	}
+
+	provinces={
+		191 1516 1817 1929 1968 4515 12795 12907 
+	}
+	manpower=2045660
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

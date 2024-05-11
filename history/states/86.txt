@@ -1,0 +1,33 @@
+
+state={
+	id=86
+	name="STATE_86"
+
+	history={
+		owner = X14
+		victory_points = {
+			1939 15 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 0
+			5210 = {
+				naval_base = 1
+			}
+			air_base = 6
+
+		}
+		add_core_of = KEN
+		add_claim_by = W20
+	}
+
+	provinces={
+		1939 5196 5210 6020 10761 10962 10976 
+	}
+	manpower=2090092
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

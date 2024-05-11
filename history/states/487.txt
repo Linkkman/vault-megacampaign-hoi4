@@ -1,0 +1,34 @@
+
+state={
+	id=487
+	name="STATE_487"
+
+	history={
+		owner = W84
+		victory_points = {
+			2038 10 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			2038 = {
+				naval_base = 1
+			}
+			air_base = 5
+
+		}
+		add_core_of = W84
+		add_claim_by = W20
+		add_claim_by = X65
+	}
+
+	provinces={
+		2038 2094 
+	}
+	manpower=1163084
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

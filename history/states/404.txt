@@ -1,0 +1,33 @@
+
+state={
+	id=404
+	name="STATE_404"
+	resources={
+		chromium=1.000
+	}
+
+	history={
+		owner = SOV
+		victory_points = {
+			1614 3 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+			arms_factory = 1
+			air_base = 2
+
+		}
+		add_core_of = SOV
+		add_claim_by = TIG
+
+	}
+
+	provinces={
+		1216 1459 1479 1532 1554 1573 1576 1614 1623 1721 1919 4488 4499 4618 4629 7541 7639 7682 7775 10187 10205 10395 10420 10435 10470 10488 10671 11687 12161 12233 12239 12454 12474 12722 13207 
+	}
+	manpower=3260580
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=10.000
+}

@@ -1,0 +1,34 @@
+
+state={
+	id=379
+	name="STATE_379"
+
+	history={
+		owner = X95
+		victory_points = {
+			12289 20 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 1
+			7644 = {
+				naval_base = 8
+			}
+			air_base = 7
+
+		}
+		add_core_of = X95
+		add_claim_by = W32
+	}
+
+	provinces={
+		634 1354 1424 4285 4342 4360 4362 4430 4432 4623 7304 7361 7379 7644 10244 12289 
+	}
+	manpower=769004
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=10.0
+}

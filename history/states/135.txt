@@ -1,0 +1,41 @@
+
+state={
+	id=135
+	name="STATE_135"
+	resources={
+		oil=1.000
+		tungsten=2.000
+	}
+
+	history={
+		owner = W69
+		victory_points = {
+			10514 10 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 4
+			arms_factory = 0
+			air_base = 10
+
+		}
+		add_core_of = W14
+		add_core_of = W36
+		add_core_of = W69
+		add_core_of = X05
+		add_core_of = X85
+		add_claim_by = BAN
+		add_claim_by = RAJ
+		add_claim_by = TIG
+		add_claim_by = X57
+
+	}
+
+	provinces={
+		997 1075 1497 1525 1553 1581 7455 7634 10090 10349 10514 12322 12366 12395 
+	}
+	manpower=4307160
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=10.000
+}
