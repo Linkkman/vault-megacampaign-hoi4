@@ -1,6 +1,9 @@
 state={
 	id=669
 	name="STATE_669"
+	resources={
+		chromium=30.000
+	}
 	provinces={
 		7824 10551 10677 12393 12502 
 	}
