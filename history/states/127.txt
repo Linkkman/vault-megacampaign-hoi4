@@ -34,6 +34,6 @@ state={
 	}
 	manpower=6875168
 	buildings_max_level_factor=1.000
-	state_category=megalopolis
+	state_category=industrial_heartland
 	local_supplies=10.000
 }
