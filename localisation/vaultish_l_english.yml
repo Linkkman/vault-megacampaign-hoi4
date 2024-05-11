@@ -1,0 +1,11 @@
+﻿l_english:
+enclave:0 "Subsistence Region"
+pastoral:0 "Pastoral Region"
+rural:0 "Rural Region"
+town:0 "Developed Rural Region"
+large_town:0 "Emerging Urban Region"
+city:0 "Urban Region"
+large_city:0 "Developed Urban Region"
+metropolis:0 "Industrial Region"
+megalopolis:0 "Developed Industrial Region"
+industrial_heartland:0 "Indutrial Heartland"

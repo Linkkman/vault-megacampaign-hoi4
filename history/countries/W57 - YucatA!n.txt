@@ -121,24 +121,6 @@ if = {
     add_to_tech_sharing_group = W57_research
 }
 
-give_guarantee = FRA
-if = {
-	limit = { NOT = { has_non_aggression_pact_with = FRA } }
-	diplomatic_relation = { country = FRA relation = non_aggression_pact }
-}
-
-give_guarantee = HOL
-if = {
-	limit = { NOT = { has_non_aggression_pact_with = HOL } }
-	diplomatic_relation = { country = HOL relation = non_aggression_pact }
-}
-
-give_guarantee = SOV
-if = {
-	limit = { NOT = { has_non_aggression_pact_with = SOV } }
-	diplomatic_relation = { country = SOV relation = non_aggression_pact }
-}
-
 add_opinion_modifier = { target = ARG modifier = positive_93 }
 add_opinion_modifier = { target = BRA modifier = positive_59 }
 add_opinion_modifier = { target = ENG modifier = negative_195 }
