@@ -1,0 +1,15 @@
+state={
+	id=658
+	name="STATE_658"
+	provinces={
+		269 275 314 330 396 397 3257 3302 6230 6279 6398 9245 9273 9367 9376 9394 11227 11248 11258 11294 11314 11323 11351 11363 11379 11381 
+	}
+	history={
+		owner = SOV
+		add_core_of = SOV
+	}
+	state_category=enclave
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}
