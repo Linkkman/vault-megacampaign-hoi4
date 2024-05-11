@@ -1,11 +1,12 @@
-SWE_OPERATIVE_CODENAME_HISTORICAL = {
+﻿SWE_OPERATIVE_CODENAME_HISTORICAL = {
 	name = SWE_OPERATIVE_CODENAME_HISTORICAL
 
-	for_countries = { BRU X50 }
+	for_countries = { SWE }
 
 	type = codename
 
 	fallback_name = "Agent %d"
+
 	unique = {
 		"Getingen"
 		"Örnen"

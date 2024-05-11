@@ -1,11 +1,12 @@
-CHI_OPERATIVE_CODENAME_HISTORICAL = {
+﻿CHI_OPERATIVE_CODENAME_HISTORICAL = {
 	name = CHI_OPERATIVE_CODENAME_HISTORICAL
 
-	for_countries = { CHI MAN SIK W17 W22 W59 X27 X46 X54 X67 X78 X80 X94 }
+	for_countries = { CHI PRC MAN }
 
 	type = codename
 
 	fallback_name = "Agent %d"
+
 	unique = {
 		"Zhou"
 		"Qin"

@@ -1,11 +1,14 @@
+﻿#Generic Operative list
 GENERIC_GER_OPERATIVE_CODENAME_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_OPERATIVES
 
-	for_countries = { GER SWI W06 W12 W31 W47 W48 W75 X98 }
+	# for all English speaking countries
+	for_countries = { GER AUS }
 
 	type = codename
 
 	fallback_name = "Agent %d"
+
 	unique = {
 		"Wolf"
 		"Cicero"

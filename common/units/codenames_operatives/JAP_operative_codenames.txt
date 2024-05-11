@@ -1,11 +1,12 @@
-JAP_OPERATIVE_CODENAME_HISTORICAL = {
+﻿JAP_OPERATIVE_CODENAME_HISTORICAL = {
 	name = JAP_OPERATIVE_CODENAME_HISTORICAL
 
-	for_countries = { JAP W00 W13 X01 X63 }
+	for_countries = { JAP }
 
 	type = codename
 
 	fallback_name = "Agent %d"
+
 	unique = {
 		"Tenno"
 		"Tso"

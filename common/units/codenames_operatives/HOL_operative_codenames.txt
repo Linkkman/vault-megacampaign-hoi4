@@ -1,11 +1,12 @@
-HOL_OPERATIVE_CODENAME_HISTORICAL = {
+﻿HOL_OPERATIVE_CODENAME_HISTORICAL = {
 	name = HOL_OPERATIVE_CODENAME_HISTORICAL
 
-	for_countries = { HAI HOL USA W35 W76 W77 W78 W79 W80 }
+	for_countries = { HOL }
 
 	type = codename
 
 	fallback_name = "Agent %d"
+
 	unique = {
 		"Bossche Bollen"
 		"Banketstaaf"

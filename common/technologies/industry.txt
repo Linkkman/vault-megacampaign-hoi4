@@ -1,22 +1,177 @@
 technologies = {
+	 fuel_silos = {
 
+		enable_building = {
+			building = fuel_silo
+			level = 3
+		}
+				
+		path = {
+			leads_to_tech = synth_oil_experiments 
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = fuel_refining 
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1
+		start_year = 1936
+		folder = {
+			name = industry_folder
+			position = { x = 6 y = 0 }
+		}
+		
+		categories = {
+			industry
+			synth_resources
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	fuel_refining = {
+
+		fuel_gain_factor = 0.1
+		fuel_gain_factor_from_states = 0.1
+					
+		path = {
+			leads_to_tech = fuel_refining2 
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = industry_folder
+			position = { x = 4 y = 2 }
+		}
+		
+		categories = {
+			industry
+			synth_resources
+		}
+		
+		ai_will_do = {
+			factor = 5
+		}
+		
+	}
+
+	fuel_refining2 = {
+		
+		fuel_gain_factor = 0.1
+		fuel_gain_factor_from_states = 0.1
+
+		path = {
+			leads_to_tech = fuel_refining3 
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1937
+		folder = {
+			name = industry_folder
+			position = { x = 4 y = 4 }
+		}
+		
+		categories = {
+			industry
+			synth_resources
+		}
+		
+		ai_will_do = {
+			factor = 5			
+		}
+		
+	}
+
+	fuel_refining3 = {
+		
+		fuel_gain_factor = 0.1
+		fuel_gain_factor_from_states = 0.1
+
+		path = {
+			leads_to_tech = fuel_refining4 
+			research_cost_coeff = 1
+		}
+		research_cost = 2
+		start_year = 1939
+		folder = {
+			name = industry_folder
+			position = { x = 4 y = 6 }
+		}
+		
+		categories = {
+			industry
+			synth_resources
+		}
+		
+		ai_will_do = {
+			factor = 5			
+		}		
+	}
+
+	fuel_refining4 = {
+		
+		fuel_gain_factor = 0.1
+		fuel_gain_factor_from_states = 0.1
+
+		path = {
+			leads_to_tech = fuel_refining5
+			research_cost_coeff = 1
+		}
+		research_cost = 2
+		start_year = 1941
+		folder = {
+			name = industry_folder
+			position = { x = 4 y = 8 }
+		}
+		
+		categories = {
+			industry
+			synth_resources
+		}
+		
+		ai_will_do = {
+			factor = 5				
+		}		
+	}
+
+	fuel_refining5 = {
+		
+		fuel_gain_factor = 0.1
+		fuel_gain_factor_from_states = 0.1
+
+		research_cost = 2
+		start_year = 1943
+		folder = {
+			name = industry_folder
+			position = { x = 4 y = 10 }
+		}
+		
+		categories = {
+			industry
+			synth_resources
+		}
+		
+		ai_will_do = {
+			factor = 5			
+		}		
+	}	
 	basic_machine_tools = {
 	
-		production_factory_max_efficiency_factor = 0.1
+		production_factory_max_efficiency_factor = 0.05
 
 		
 		path = {
 			leads_to_tech = improved_machine_tools 
 			research_cost_coeff = 1
 		}
-		
 		path = {
-			leads_to_tech = concentrated_industry 
-			research_cost_coeff = 1
-		}
-
-		path = {
-			leads_to_tech = dispersed_industry
+			leads_to_tech = basic_skills
 			research_cost_coeff = 1
 		}
 		
@@ -29,18 +184,127 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 50
+			modifier = {
+				is_major = yes
+				factor = 75
+			}
 		}
 		
 		categories = {
 			industry
-			cat_production
 		}
 	}
+	
+	#skills
+	basic_skills = {
+		
+		production_factory_efficiency_gain_factor = 0.05
+		line_change_production_efficiency_factor = 0.05
 
+		path = {
+			leads_to_tech = specialized_skills
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1936
+		
+		folder = {
+			name = industry_folder
+			position = { x = 2 y = 2 }
+		}
+		
+		ai_will_do = {
+			factor = 50
+								
+		}
+		
+		categories = {
+			industry
+		}
+	}
+	specialized_skills = {
+		
+		conversion_cost_civ_to_mil_factor = -0.05
+		production_factory_efficiency_gain_factor = 0.075
+		line_change_production_efficiency_factor = 0.075
+
+		path = {
+			leads_to_tech = streamlined_skills
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1937
+		
+		folder = {
+			name = industry_folder
+			position = { x = 2 y = 4 }
+		}
+		
+		ai_will_do = {
+			factor = 5
+								
+		}
+		
+		categories = {
+			industry
+		}
+	}
+	streamlined_skills = {
+		
+		conversion_cost_civ_to_mil_factor = -0.05
+		production_factory_efficiency_gain_factor = 0.1
+		line_change_production_efficiency_factor = 0.1
+
+		path = {
+			leads_to_tech = expanded_workforce
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1939
+		
+		folder = {
+			name = industry_folder
+			position = { x = 2 y = 6 }
+		}
+		
+		ai_will_do = {
+			factor = 5					
+			
+		}
+		
+		categories = {
+			industry
+		}
+	}
+	expanded_workforce = {
+		
+		production_factory_efficiency_gain_factor = 0.15
+		line_change_production_efficiency_factor = 0.1
+		
+		research_cost = 1.5
+		start_year = 1941
+		
+		folder = {
+			name = industry_folder
+			position = { x = 2 y = 8 }
+		}
+		
+		ai_will_do = {
+			factor = 5
+								
+		}
+		
+		categories = {
+			industry
+		}
+	}
 	#Machine tools branch	
 	improved_machine_tools = {
 	
-		production_factory_max_efficiency_factor = 0.1
+		production_factory_max_efficiency_factor = 0.05
 
 		path = {
 			leads_to_tech = advanced_machine_tools 
@@ -59,63 +323,86 @@ technologies = {
 			name = industry_folder
 			position = { x = 0 y = 4 }
 		}
-		
+		folder = {
+			name = armour_folder
+			position = { x = 0 y = 4 }
+		}
 		ai_will_do = {
-			factor = 40
-						
+			factor = 10
 			modifier = {
-				factor = 10
-				date > "1937.1.1"
-			}
+				is_major = yes
+				factor = 75
+			}					
 		}
 		
 		categories = {
 			industry
-			cat_production
 		}
 	}
 	
 	advanced_machine_tools = {
 	
-		production_factory_max_efficiency_factor = 0.1
+		production_factory_max_efficiency_factor = 0.06
 		
 		path = {
 			leads_to_tech = assembly_line_production 
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 2
+		research_cost = 2.25
 		start_year = 1939
 		
 		folder = {
 			name = industry_folder
 			position = { x = 0 y = 6 }
 		}
-		
+
 		ai_will_do = {
-			factor = 15
-						
+			factor = 10
 			modifier = {
-				factor = 10
-				date > "1939.1.1"
+				is_major = yes
+				factor = 75
 			}
 		}
 		
 		categories = {
 			industry
-			cat_production
 		}
 	}
 	
 	assembly_line_production = {
 	
-		production_factory_max_efficiency_factor = 0.1
+		production_factory_max_efficiency_factor = 0.07
 		
-		#path = {
-		#	leads_to_tech = improved_machine_tools 
-		#	research_cost_coeff = 1
-		#}
+				
+		path = {
+			leads_to_tech = modern_tools
+			research_cost_coeff = 1
+		}
 		
+		research_cost = 2.5
+		start_year = 1941
+		
+		folder = {
+			name = industry_folder
+			position = { x = 0 y = 8 }
+		}
+		ai_will_do = {
+			factor = 10		
+			modifier = {
+				is_major = yes
+				factor = 75
+			}
+		}
+		
+		categories = {
+			industry
+		}
+	}
+	modern_tools = {
+	
+		production_factory_max_efficiency_factor = 0.08
+				
 		path = {
 			leads_to_tech = flexible_line
 			research_cost_coeff = 1
@@ -127,36 +414,34 @@ technologies = {
 		}
 		
 		
-		research_cost = 2
-		start_year = 1941
+		research_cost = 2.5
+		start_year = 1943
 		
 		folder = {
 			name = industry_folder
-			position = { x = 0 y = 8 }
+			position = { x = 0 y = 10 }
 		}
-		
+
 		ai_will_do = {
-			factor = 15
-			
+			factor = 10
 			modifier = {
-				factor = 10
-				date > "1941.1.1"
-			}			
+				is_major = yes
+				factor = 75
+			}
 		}
 		
 		categories = {
 			industry
-			cat_production
 		}
 	}
 	
 	flexible_line = {
 
-		production_factory_max_efficiency_factor = 0.1
+		production_factory_start_efficiency_factor = 0.1
 		line_change_production_efficiency_factor = 0.2
 		
-		research_cost = 2.5
-		start_year = 1943
+		research_cost = 3
+		start_year = 1944
 		
 		XOR = {
 			streamlined_line
@@ -164,31 +449,26 @@ technologies = {
 		
 		folder = {
 			name = industry_folder
-			position = { x = -1 y = 10 }
+			position = { x = -1 y = 11 }
 		}
 		
 		ai_will_do = {
-			factor = 15
-						
-			modifier = {
-				factor = 10
-				date > "1943.1.1"
-			}
+			factor = 10
+
 		}
 		
 		categories = {
 			industry
-			cat_production
 		}
 	}
 	
 	streamlined_line = {
 
-		production_factory_max_efficiency_factor = 0.1
+		production_factory_start_efficiency_factor = 0.15
 		production_factory_efficiency_gain_factor = 0.1
 			
-		research_cost = 2.5
-		start_year = 1943
+		research_cost = 3
+		start_year = 1944
 		
 		XOR = {
 			flexible_line
@@ -196,96 +476,3649 @@ technologies = {
 		
 		folder = {
 			name = industry_folder
-			position = { x = 1 y = 10 }
+			position = { x = 1 y = 11 }
 		}
 		
 		ai_will_do = {
-			factor = 15
-			
-			modifier = {
-				factor = 10
-				date > "1943.1.1"
-			}
+			factor = 10
 			
 		}
 		
 		categories = {
 			industry
-			cat_production
 		}
 	}
 
 	#Conversion branch - Enabled in DoD
 	improved_equipment_conversion = {
 	
-		equipment_conversion_speed = 0.40
-
-		allow_branch = {
-			has_dlc = "Death or Dishonor"
-		}
+			
+		production_factory_start_efficiency_factor = 0.025
+			
 
 		path = {
 			leads_to_tech = advanced_equipment_conversion
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 2
+		research_cost = 0.9
 		start_year = 1937
 		
 		folder = {
 			name = industry_folder
-			position = { x = 2 y = 4 }
+			position = { x = -2 y = 4 }
 		}
 
 		ai_will_do = {
-			factor = 1
-
+			factor = 0
 			modifier = {
-				factor = 2
-				date > "1937.1.1"
+				add = 50
+				tag = ROM
 			}
 		}
 		
 		categories = {
 			industry
-			cat_production
 		}
 	}
 	
 	advanced_equipment_conversion = {
 		
-		equipment_conversion_speed = 0.40
+		production_factory_start_efficiency_factor = 0.025	
 
-		research_cost = 2
+		research_cost = 0.9
 		start_year = 1939
 		
 		folder = {
 			name = industry_folder
-			position = { x = 2 y = 6 }
+			position = { x = -2 y = 6 }
 		}
 		
 		ai_will_do = {
-			factor = 1
+			factor = 0
 
-			modifier = {
-				factor = 2
-				date > "1937.1.1"
-			}
 		}
 		
 		categories = {
 			industry
-			cat_production
+		}
+	} 
+	#quality
+	factory_management = {
+ 
+		industrial_capacity_factory = 0.05
+		industrial_capacity_dockyard = 0.05
+		
+		path = {
+			leads_to_tech = quality1 
+			research_cost_coeff = 1
+		}
+		start_year = 1938
+		path = {
+			leads_to_tech = massed1
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.4
+		
+		folder = {
+			name = industry_folder
+			position = { x = 6 y = 5 }
+		}
+		
+		ai_will_do = {
+			factor = 10
+					
+		}
+		
+		categories = {
+			industry
+		}
+		
+	}
+	##massed
+	massed1 = { 
+		supply_consumption_factor = -0.02
+
+		category_army = { 
+			soft_attack = -0.03
+			hard_attack = -0.03
+			defense = -0.03
+			breakthrough = -0.03
+		}
+		
+
+		light_tank_destroyer_brigade = {
+			need = {
+			   	light_tank_destroyer_chassis = -1
+			}
+		}
+		medium_tank_destroyer_brigade = {
+			need = {
+			   	medium_tank_destroyer_chassis = -1
+			}
+		}
+		heavy_tank_destroyer_brigade = {
+			need = {
+			   	heavy_tank_destroyer_chassis = -1
+			}
+		}
+		super_heavy_tank_destroyer_brigade = {
+			need = {
+			   	super_heavy_tank_destroyer_chassis = -1
+			}
+		}
+		light_sp_artillery_brigade = {
+			need = {
+			   	light_tank_artillery_chassis = -1
+			}
+		}
+		medium_sp_artillery_brigade = {
+			need = {
+			   	medium_tank_artillery_chassis = -1
+			}
+		}
+		heavy_sp_artillery_brigade = {
+			need = {
+			   	heavy_tank_artillery_chassis = -1
+			}
+		}
+		super_heavy_sp_artillery_brigade = {
+			need = {
+			   	super_heavy_tank_artillery_chassis = -1
+			}
+		}
+		light_sp_anti_air_brigade = {
+			need = {
+			   	light_tank_aa_chassis = -1
+			}
+		}
+		medium_sp_anti_air_brigade = {
+			need = {
+			   	medium_tank_aa_chassis = -1
+			}
+		}
+		heavy_sp_anti_air_brigade = {
+			need = {
+			   	heavy_tank_aa_chassis = -1
+			}
+		}
+		super_heavy_sp_anti_air_brigade = {
+			need = {
+			   	super_heavy_tank_aa_chassis = -1
+			}
+		}
+		light_sp_anti_air_company = {
+			need = {
+			   	light_tank_aa_chassis = -1
+			}
+		}
+		medium_sp_anti_air_company = {
+			need = {
+			   	medium_tank_aa_chassis = -1
+			}
+		}
+		heavy_sp_anti_air_company = {
+			need = {
+			   	heavy_tank_aa_chassis = -1
+			}
+		}
+		super_heavy_sp_anti_air_company = {
+			need = {
+			   	super_heavy_tank_aa_chassis = -1
+			}
+		}
+		signal_company = {
+			need = {
+			   	support_equipment = -1
+				motorized_equipment = -1
+				radio_equipment = -1
+			}
+		}
+		recon = {
+			need = {
+			   	infantry_equipment = -2
+				horse_equipment = -1
+				support_equipment = -1
+			}
+		}
+		recon_ac = {
+			need = {
+			   	armored_cars_equipment = -1
+				support_equipment = -1
+			}
+		}
+		light_armor_recon = {
+			need = {
+			   	light_tank_chassis = -1
+				support_equipment = -1
+			}
+		}
+		military_police = {
+			need = {
+			   	infantry_equipment = -1
+				support_equipment = -1
+			}
+		}
+		maintenance_company = {
+			need = {
+			   	motorized_equipment = -1
+				support_equipment = -1
+			}
+		}
+		salvage_company = {
+			need = {
+			   	motorized_equipment = -2
+				support_equipment = -2
+			}
+		}
+		logistics_company = {
+			need = {
+			   	horse_equipment = -1
+				support_equipment = -1
+			}
+		}
+		logistics_company_mot = {
+			need = {
+			   	motorized_equipment = -1
+				support_equipment = -1
+			}
+		}
+		logistics_company_mech = {
+			need = {
+			   	mechanized_equipment = -1
+				support_equipment = -1
+			}
+		}
+		field_hospital = {
+			need = {
+			   	motorized_equipment = -1
+				support_equipment = -1
+			}
+		}
+		engineer = {
+			need = {
+			   	infantry_equipment = -1
+				support_equipment = -3
+			}
+		}
+		mobile_engineer = {
+			need = {
+			   	infantry_equipment = -4
+				support_equipment = -2
+			}
+		}
+		construction_engineer = {
+			need = {
+			   	infantry_equipment = -2
+				support_equipment = -4
+			}
+		}
+		
+		light_flame_tank = {
+			need = {
+				light_tank_flame_chassis = -1
+			}
+		}
+		medium_flame_tank = {
+			need = {
+				medium_tank_flame_chassis = -1
+			}
+		}
+		heavy_flame_tank = {
+			need = {
+				heavy_tank_flame_chassis = -1
+			}
+		}
+		super_heavy_flame_tank = {
+			need = {
+				super_heavy_tank_flame_chassis = -1
+			}
+		}
+		medium_armor = {
+			need = {
+			   	medium_tank_chassis = -2
+			}
+		}
+		ss_panzer_iii = {
+			need = {
+			   	medium_tank_chassis = -2
+			}
+		}
+		guards_medium = {
+			need = {
+			   	medium_tank_chassis = -2
+			}
+		}
+		guards_heavy = {
+			need = {
+			   	heavy_tank_chassis = -2
+			}
+		}
+		guards_mech = {
+			need = {
+			   	infantry_equipment = -5
+				mechanized_equipment = -2
+			}
+		}
+		light_armor = {
+			need = {
+			   	light_tank_chassis = -2
+			}
+		}
+		light_armor_para = {
+			need = {
+			   	light_tank_chassis = -1
+				special_equipment = -5
+			}
+		}
+		heavy_armor = {
+			need = {
+			   	heavy_tank_chassis = -2
+			}
+		}
+		ss_panzer_vi = {
+			need = {
+			   	heavy_tank_chassis = -2
+			}
+		}
+		super_heavy_armor = {
+			need = {
+			   	super_heavy_tank_chassis = -2
+			}
+		}
+		light_assault_gun_brigade = {
+			need = {
+			   	light_tank_rocket_chassis = -1
+			}
+		}
+		medium_assault_gun_brigade = {
+			need = {
+			   	medium_tank_rocket_chassis = -1
+			}
+		}
+		heavy_assaut_gun_brigade = {
+			need = {
+			   	heavy_tank_rocket_chassis = -1
+			}
+		}
+		super_heavy_assault_gun_brigade = {
+			need = {
+			   	super_heavy_tank_rocket_chassis = -1
+			}
+		}
+		light_assault_gun_company = {
+			need = {
+			   	light_tank_rocket_chassis = -1
+			}
+		}
+		medium_assault_gun_company = {
+			need = {
+			   	medium_tank_rocket_chassis = -1
+			}
+		}
+		heavy_assaut_gun_company = {
+			need = {
+			   	heavy_tank_rocket_chassis = -1
+			}
+		}
+		super_heavy_assault_gun_company = {
+			need = {
+			   	super_heavy_tank_rocket_chassis = -1
+			}
+		}
+		cavalry = {
+			need = {
+			   	horse_equipment = -2
+				infantry_equipment = -5
+			}
+		}
+		armored_car = {
+			need = {
+			   	armored_cars_equipment = -2
+			}
+		}
+		amphibious_mechanized = {
+			need = {
+			   	amphibious_mechanized_equipment = -2
+				infantry_equipment = -6
+			}
+		}
+		amphibious_armor = {
+			need = {
+			   	amphibious_tank_chassis = -2
+			}
+		}
+		amphibious_light_armor = {
+			need = {
+				light_tank_amphibious_chassis = -2
+			}
+		}
+		amphibious_medium_armor = {
+			need = {
+				medium_tank_amphibious_chassis = -2
+			}
+		}
+		amphibious_heavy_armor = {
+			need = {
+				heavy_tank_amphibious_chassis = -2
+			}
+		}
+		amphibious_super_heavy_armor = {
+			need = {
+				super_heavy_tank_amphibious_chassis = -2
+			}
+		}
+		infantry = {
+			need = {
+			   	infantry_equipment = -5
+				horse_equipment = -1
+			}
+		}
+		ss_infantry = {
+			need = {
+			   	infantry_equipment = -5
+				horse_equipment = -1
+			}
+		}
+		militia = {
+			need = {
+				infantry_equipment = -5
+			}
+		}
+		volkssturm_infantry = {
+			need = {
+			   	infantry_equipment = -4
+				horse_equipment = -1
+			}
+		}
+		infantry_spain = {
+			need = {
+			   	infantry_equipment = -4
+				horse_equipment = -1
+			}
+		}
+		garrison = {
+			need = {
+			   	infantry_equipment = -3
+				horse_equipment = -1
+			}
+		}
+		truck_infantry = {
+			need = {
+				infantry_equipment = -5
+				motorized_equipment = -1
+			}
+		}
+		truck_garrison = {
+			need = {
+			   	infantry_equipment = -3
+			}
+		}
+		bicycle_battalion = {
+			need = {
+			   	infantry_equipment = -5
+				support_equipment = -1
+			}
+		}
+		motorized = {
+			need = {
+			   	infantry_equipment = -5
+				motorized_equipment = -2
+			}
+		}
+		ss_motorized = {
+			need = {
+			   	infantry_equipment = -5
+				motorized_equipment = -2
+			}
+		}
+		mechanized = {
+			need = {
+			   	infantry_equipment = -5
+				mechanized_equipment = -2
+			}
+		}
+		ss_mechanized = {
+			need = {
+			   	infantry_equipment = -5
+				mechanized_equipment = -2
+			}
+		}
+		marine = {
+			need = {
+			   	infantry_equipment = -7
+				special_equipment = -3
+			}
+		}
+		mountaineers = {
+			need = {
+			   	infantry_equipment = -7
+				special_equipment = -3
+			}
+		}
+		light_infantry = {
+			need = {
+			   	infantry_equipment = -7
+				special_equipment = -3
+			}
+		}
+		paratrooper = {
+			need = {
+			   	infantry_equipment = -7
+				special_equipment = -6
+			}
+		}
+		commando_unit = {
+			need = {
+			   	special_equipment = -5
+			}
+		}
+		artillery_brigade = {
+			need = {
+			   	artillery_equipment = -1
+			}
+		}
+		artillery_brigade_mot = {
+			need = {
+			   	artillery_equipment = -1
+			}
+		}
+		mountain_artillery_brigade = {
+			need = {
+			   	artillery_equipment = -1
+			}
+		}
+		mountain_gun_brigade = {
+			need = {
+			   	pack_artillery_equipment = -1
+			}
+		}
+		pack_artillery_brigade = {
+			need = {
+			   	pack_artillery_equipment = -1
+			}
+		}
+		pack_artillery_brigade_mot = {
+			need = {
+			   	pack_artillery_equipment = -1
+			}
+		}
+		artillery_heavy = {
+			need = {
+				heavy_artillery_equipment = -1
+			}
+		}
+		artillery_heavy_mot = {
+			need = {
+			   	heavy_artillery_equipment = -1
+			}
+		}
+		rocket_artillery_brigade = {
+			need = {
+			   	rocket_artillery_equipment = -1
+			}
+		}
+		motorized_rocket_brigade = {
+			need = {
+			   	rocket_artillery_equipment = -1
+			}
+		}
+		field_gun_brigade = {
+			need = {
+			   	field_gun_equipment = -1
+			}
+		}
+		field_gun_brigade_mot = {
+			need = {
+			   	field_gun_equipment = -1
+			}
+		}
+		artillery = {
+			need = {
+				artillery_equipment = -1
+			}
+		}
+		rocket_artillery = {
+			need = {
+				rocket_artillery_equipment = -1
+			}
+		}
+		pack_artillery = {
+			need = {
+				pack_artillery_equipment = -1
+			}
+		}
+		artillery_heavy_support = {
+			need = {
+				heavy_artillery_equipment = -1
+			}
+		}
+		field_gun_support = {
+			need = {
+				field_gun_equipment = -1
+			}
+		}
+		anti_tank_brigade = {
+			need = {
+				anti_tank_equipment = -1
+			}
+		}
+		anti_tank_brigade_mot = {
+			need = {
+				anti_tank_equipment = -1
+			}
+		}
+		anti_tank = {
+			need = {
+				anti_tank_equipment = -1
+			}
+		}
+		anti_air = {
+			need = {
+				anti_air_equipment = -1
+			}
+		}
+		anti_air_mot = {
+			need = {
+				anti_air_equipment = -1
+			}
+		}
+		anti_air_company = {
+			need = {
+				anti_air_equipment = -1
+			}
+		}
+		anti_air_heavy = {
+			need = {
+				heavy_anti_air_equipment = -1
+			}
+		}
+		anti_air_heavy_mot = {
+			need = {
+				heavy_anti_air_equipment = -1
+			}
+		}
+		anti_air_heavy_support = {
+			need = {
+				heavy_anti_air_equipment = -1
+			}
+		}
+		
+		on_research_complete = {
+			custom_effect_tooltip = quantity_1_tt
+		}
+		path = {
+			leads_to_tech = massed2 
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.8
+
+		xor = {
+			quality1
+		}
+		folder = {
+			name = industry_folder
+			position = { x = 7 y = 7 }
+		}
+		start_year = 1940
+		ai_will_do = {
+			factor = 10
+
+			modifier = {
+				factor = 50
+				tag = SOV
+			}
+
+			modifier = {
+				factor = 50
+				tag = JAP
+			}
+
+			modifier = {
+				factor = 50
+				tag = GER
+			}
+			
+			modifier = {
+				factor = 0
+				has_tech = quality1
+			}
+			
+			modifier = {
+				factor = 0
+				is_researching_technology = quality1
+			}
+
+		}
+		
+		categories = {
+			industry
+		}
+		
+	}
+	massed2 = {
+		supply_consumption_factor = -0.02
+		category_army = { 
+			soft_attack = -0.03
+			hard_attack = -0.03
+			defense = -0.03
+			breakthrough = -0.03
+		}
+		light_tank_destroyer_brigade = {
+			need = {
+			   	light_tank_destroyer_chassis = -2
+			}
+		}
+		medium_tank_destroyer_brigade = {
+			need = {
+			   	medium_tank_destroyer_chassis = -2
+			}
+		}
+		heavy_tank_destroyer_brigade = {
+			need = {
+			   	heavy_tank_destroyer_chassis = -2
+			}
+		}
+		guards_medium = {
+			need = {
+			   	medium_tank_chassis = -2
+			}
+		}
+		guards_heavy = {
+			need = {
+			   	heavy_tank_chassis = -2
+			}
+		}
+		guards_mech = {
+			need = {
+			   	infantry_equipment = -5
+				mechanized_equipment = -2
+			}
+		}
+		super_heavy_tank_destroyer_brigade = {
+			need = {
+			   	super_heavy_tank_destroyer_chassis = -2
+			}
+		}
+		light_sp_artillery_brigade = {
+			need = {
+			   	light_tank_artillery_chassis = -2
+			}
+		}
+		medium_sp_artillery_brigade = {
+			need = {
+			   	medium_tank_artillery_chassis = -2
+			}
+		}
+		heavy_sp_artillery_brigade = {
+			need = {
+			   	heavy_tank_artillery_chassis = -2
+			}
+		}
+		super_heavy_sp_artillery_brigade = {
+			need = {
+			   	super_heavy_tank_artillery_chassis = -2
+			}
+		}
+		light_sp_anti_air_brigade = {
+			need = {
+			   	light_tank_aa_chassis = -2
+			}
+		}
+		medium_sp_anti_air_brigade = {
+			need = {
+			   	medium_tank_aa_chassis = -2
+			}
+		}
+		heavy_sp_anti_air_brigade = {
+			need = {
+			   	heavy_tank_aa_chassis = -2
+			}
+		}
+		super_heavy_sp_anti_air_brigade = {
+			need = {
+			   	super_heavy_tank_aa_chassis = -2
+			}
+		}
+		light_sp_anti_air_company = {
+			need = {
+			   	light_tank_aa_chassis = -2
+			}
+		}
+		medium_sp_anti_air_company = {
+			need = {
+			   	medium_tank_aa_chassis = -2
+			}
+		}
+		heavy_sp_anti_air_company = {
+			need = {
+			   	heavy_tank_aa_chassis = -2
+			}
+		}
+		super_heavy_sp_anti_air_company = {
+			need = {
+			   	super_heavy_tank_aa_chassis = -2
+			}
+		}
+		signal_company = {
+			need = {
+			   	support_equipment = -1
+				motorized_equipment = -2
+				radio_equipment = -1
+			}
+		}
+		recon = {
+			need = {
+			   	infantry_equipment = -2
+			}
+		}
+		recon_ac = {
+			need = {
+			   	armored_cars_equipment = -1
+			}
+		}
+		light_armor_recon = {
+			need = {
+			   	light_tank_chassis = -1
+			}
+		}
+		military_police = {
+			need = {
+			   	infantry_equipment = -1
+				support_equipment = -1
+			}
+		}
+		maintenance_company = {
+			need = {
+			   	motorized_equipment = -1
+				support_equipment = -1
+			}
+		}
+		salvage_company = {
+			need = {
+			   	motorized_equipment = -1
+				support_equipment = -1
+			}
+		}
+		logistics_company = {
+			need = {
+			   	horse_equipment = -1
+				support_equipment = -1
+			}
+		}
+		logistics_company_mot = {
+			need = {
+			   	motorized_equipment = -1
+				support_equipment = -1
+			}
+		}
+		logistics_company_mech = {
+			need = {
+				support_equipment = -1
+			}
+		}
+		field_hospital = {
+			need = {
+			   	motorized_equipment = -1
+				support_equipment = -1
+			}
+		}
+		engineer = {
+			need = {
+			   	infantry_equipment = -1
+				support_equipment = -2
+			}
+		}
+		mobile_engineer = {
+			need = {
+			   	infantry_equipment = -4
+				support_equipment = -2
+			}
+		}
+		construction_engineer = {
+			need = {
+			   	infantry_equipment = -2
+				support_equipment = -4
+			}
+		}
+	
+		light_flame_tank = {
+			need = {
+				light_tank_flame_chassis = -2
+			}
+		}
+		medium_flame_tank = {
+			need = {
+				medium_tank_flame_chassis = -2
+			}
+		}
+		heavy_flame_tank = {
+			need = {
+				heavy_tank_flame_chassis = -2
+			}
+		}
+		super_heavy_flame_tank = {
+			need = {
+				super_heavy_tank_flame_chassis = -2
+			}
+		}
+		medium_armor = {
+			need = {
+			   	medium_tank_chassis = -1
+			}
+		}
+		ss_panzer_iii = {
+			need = {
+			   	medium_tank_chassis = -1
+			}
+		}
+		light_armor = {
+			need = {
+			   	light_tank_chassis = -1
+			}
+		}
+		light_armor_para = {
+			need = {
+			   	light_tank_chassis = -1
+				special_equipment = -5
+			}
+		}
+		heavy_armor = {
+			need = {
+			   	heavy_tank_chassis = -1
+			}
+		}
+		ss_panzer_vi = {
+			need = {
+			   	heavy_tank_chassis = -1
+			}
+		}
+		super_heavy_armor = {
+			need = {
+			   	super_heavy_tank_chassis = -1
+			}
+		}
+		light_assault_gun_brigade = {
+			need = {
+			   	light_tank_rocket_chassis = -2
+			}
+		}
+		medium_assault_gun_brigade = {
+			need = {
+			   	medium_tank_rocket_chassis = -2
+			}
+		}
+		heavy_assaut_gun_brigade = {
+			need = {
+			   	heavy_tank_rocket_chassis = -2
+			}
+		}
+		super_heavy_assault_gun_brigade = {
+			need = {
+			   	super_heavy_tank_rocket_chassis = -2
+			}
+		}
+		light_assault_gun_company = {
+			need = {
+			   	light_tank_rocket_chassis = -2
+			}
+		}
+		medium_assault_gun_company = {
+			need = {
+			   	medium_tank_rocket_chassis = -2
+			}
+		}
+		heavy_assaut_gun_company = {
+			need = {
+			   	heavy_tank_rocket_chassis = -2
+			}
+		}
+		super_heavy_assault_gun_company = {
+			need = {
+			   	super_heavy_tank_rocket_chassis = -2
+			}
+		}
+		cavalry = {
+			need = {
+			   	horse_equipment = -1
+				infantry_equipment = -5
+			}
+		}
+		armored_car = {
+			need = {
+			   	armored_cars_equipment = -1
+			}
+		}
+		amphibious_mechanized = {
+			need = {
+			   	amphibious_mechanized_equipment = -2
+				infantry_equipment = -5
+			}
+		}
+		amphibious_armor = {
+			need = {
+			   	amphibious_tank_chassis = -1
+			}
+		}
+		amphibious_light_armor = {
+			need = {
+				light_tank_amphibious_chassis = -1
+			}
+		}
+		amphibious_medium_armor = {
+			need = {
+				medium_tank_amphibious_chassis = -1
+			}
+		}
+		amphibious_heavy_armor = {
+			need = {
+				heavy_tank_amphibious_chassis = -1
+			}
+		}
+		amphibious_super_heavy_armor = {
+			need = {
+				super_heavy_tank_amphibious_chassis = -1
+			}
+		}
+		infantry = {
+			need = {
+			   	infantry_equipment = -5
+				horse_equipment = -1
+			}
+		}
+		ss_infantry = {
+			need = {
+			   	infantry_equipment = -5
+				horse_equipment = -1
+			}
+		}
+		militia = {
+			need = {
+				infantry_equipment = -4
+			}
+		}
+		volkssturm_infantry = {
+			need = {
+			   	infantry_equipment = -4
+			}
+		}
+		infantry_spain = {
+			need = {
+			   	infantry_equipment = -4
+			}
+		}
+		garrison = {
+			need = {
+			   	infantry_equipment = -4
+			}
+		}
+		truck_infantry = {
+			need = {
+				infantry_equipment = -5
+			}
+		}
+		truck_garrison = {
+			need = {
+			   	infantry_equipment = -4
+			}
+		}
+		bicycle_battalion = {
+			need = {
+			   	infantry_equipment = -5
+			}
+		}
+		motorized = {
+			need = {
+			   	infantry_equipment = -5
+				motorized_equipment = -2
+			}
+		}
+		ss_motorized = {
+			need = {
+			   	infantry_equipment = -5
+				motorized_equipment = -2
+			}
+		}
+		mechanized = {
+			need = {
+			   	infantry_equipment = -5
+				mechanized_equipment = -2
+			}
+		}
+		ss_mechanized = {
+			need = {
+			   	infantry_equipment = -5
+				mechanized_equipment = -2
+			}
+		}
+		marine = {
+			need = {
+			   	infantry_equipment = -7
+				special_equipment = -2
+			}
+		}
+		mountaineers = {
+			need = {
+			   	infantry_equipment = -7
+				special_equipment = -2
+			}
+		}
+		light_infantry = {
+			need = {
+			   	infantry_equipment = -7
+				special_equipment = -2
+			}
+		}
+		paratrooper = {
+			need = {
+			   	infantry_equipment = -7
+				special_equipment = -6
+			}
+		}
+		commando_unit = {
+			need = {
+			   	special_equipment = -5
+			}
+		}
+		artillery_brigade = {
+			need = {
+				horse_equipment = -3
+			}
+		}
+		artillery_brigade_mot = {
+			need = {
+				motorized_equipment = -4
+			}
+		}
+		mountain_artillery_brigade = {
+			need = {
+				special_equipment = -7
+			}
+		}
+		mountain_gun_brigade = {
+			need = {
+			    special_equipment = -6
+			}
+		}
+		pack_artillery_brigade = {
+			need = {
+				horse_equipment = -3
+			}
+		}
+		pack_artillery_brigade_mot = {
+			need = {
+				motorized_equipment = -3
+			}
+		}
+		artillery_heavy = {
+			need = {
+				horse_equipment = -6
+			}
+		}
+		artillery_heavy_mot = {
+			need = {
+				motorized_equipment = -6
+			}
+		}
+		rocket_artillery_brigade = {
+			need = {
+				horse_equipment = -3
+			}
+		}
+		motorized_rocket_brigade = {
+			need = {
+				motorized_equipment = -4
+			}
+		}
+		field_gun_brigade = {
+			need = {
+			   	horse_equipment = -3
+			}
+		}
+		field_gun_brigade_mot = {
+			need = {
+			   	motorized_equipment = -4
+			}
+		}
+		anti_tank_brigade = {
+			need = {
+				horse_equipment = -3
+			}
+		}
+		anti_tank_brigade_mot = {
+			need = {
+				motorized_equipment = -4
+			}
+		}
+		anti_air = {
+			need = {
+				horse_equipment = -3
+			}
+		}
+		anti_air_mot = {
+			need = {
+				motorized_equipment = -3
+			}
+		}
+		anti_air_heavy = {
+			need = {
+				motorized_equipment = -3
+			}
+		}
+		anti_air_heavy_mot = {
+			need = {
+				motorized_equipment = -6
+			}
+		}
+		on_research_complete = {
+			custom_effect_tooltip = quantity_2_tt
+		}
+		path = {
+			leads_to_tech = massed3 
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.8
+		
+		folder = {
+			name = industry_folder
+			position = { x = 7 y = 9 }
+		}
+		start_year = 1942
+		ai_will_do = {
+			factor = 10
+		}
+		
+		categories = {
+			industry
+		}
+		
+	}
+	massed3 = {
+		supply_consumption_factor = -0.02
+		category_army = { 
+			soft_attack = -0.03
+			hard_attack = -0.03 
+			defense = -0.03
+			breakthrough = -0.03
+		}
+		light_tank_destroyer_brigade = {
+			need = {
+			   	light_tank_destroyer_chassis = -1
+			}
+		}
+		medium_tank_destroyer_brigade = {
+			need = {
+			   	medium_tank_destroyer_chassis = -1
+			}
+		}
+		heavy_tank_destroyer_brigade = {
+			need = {
+			   	heavy_tank_destroyer_chassis = -1
+			}
+		}
+		super_heavy_tank_destroyer_brigade = {
+			need = {
+			   	super_heavy_tank_destroyer_chassis = -1
+			}
+		}
+		light_sp_artillery_brigade = {
+			need = {
+			   	light_tank_artillery_chassis = -1
+			}
+		}
+		medium_sp_artillery_brigade = {
+			need = {
+			   	medium_tank_artillery_chassis = -1
+			}
+		}
+
+		heavy_sp_artillery_brigade = {
+			need = {
+			   	heavy_tank_artillery_chassis = -1
+			}
+		}
+		super_heavy_sp_artillery_brigade = {
+			need = {
+			   	super_heavy_tank_artillery_chassis = -1
+			}
+		}
+		light_sp_anti_air_brigade = {
+			need = {
+			   	light_tank_aa_chassis = -1
+			}
+		}
+		medium_sp_anti_air_brigade = {
+			need = {
+			   	medium_tank_aa_chassis = -1
+			}
+		}
+		heavy_sp_anti_air_brigade = {
+			need = {
+			   	heavy_tank_aa_chassis = -1
+			}
+		}
+		super_heavy_sp_anti_air_brigade = {
+			need = {
+			   	super_heavy_tank_aa_chassis = -1
+			}
+		}
+		light_sp_anti_air_company = {
+			need = {
+			   	light_tank_aa_chassis = -1
+			}
+		}
+		medium_sp_anti_air_company = {
+			need = {
+			   	medium_tank_aa_chassis = -1
+			}
+		}
+		heavy_sp_anti_air_company = {
+			need = {
+			   	heavy_tank_aa_chassis = -1
+			}
+		}
+		super_heavy_sp_anti_air_company = {
+			need = {
+			   	super_heavy_tank_aa_chassis = -1
+			}
+		}
+		signal_company = {
+			need = {
+			   	support_equipment = -1
+				motorized_equipment = -1
+				radio_equipment = -1
+			}
+		}
+		recon = {
+			need = {
+			   	infantry_equipment = -1
+				support_equipment = -1
+				horse_equipment = -1
+			}
+		}
+		recon_ac = {
+			need = {
+				support_equipment = -1
+			}
+		}
+		light_armor_recon = {
+			need = {
+				support_equipment = -1
+			}
+		}
+		military_police = {
+			need = {
+			   	infantry_equipment = -1
+			}
+		}
+		maintenance_company = {
+			need = {
+			   	motorized_equipment = -1
+				support_equipment = -1
+			}
+		}
+		salvage_company = {
+			need = {
+			   	motorized_equipment = -2
+				support_equipment = -2
+			}
+		}
+		logistics_company = {
+			need = {
+			   	horse_equipment = -1
+				support_equipment = -1
+			}
+		}
+		logistics_company_mot = {
+			need = {
+				support_equipment = -1
+			}
+		}
+		logistics_company_mech = {
+			need = {
+			   	mechanized_equipment = -1
+				support_equipment = -1
+			}
+		}
+		field_hospital = {
+			need = {
+			   	motorized_equipment = -1
+				support_equipment = -1
+			}
+		}
+		engineer = {
+			need = {
+			   	infantry_equipment = -1
+				support_equipment = -3
+			}
+		}
+		mobile_engineer = {
+			need = {
+			   	infantry_equipment = -4
+				support_equipment = -2
+			}
+		}
+		construction_engineer = {
+			need = {
+			   	infantry_equipment = -2
+				support_equipment = -4
+			}
+		}
+	
+		light_flame_tank = {
+			need = {
+				light_tank_flame_chassis = -1
+			}
+		}
+		medium_flame_tank = {
+			need = {
+				medium_tank_flame_chassis = -1
+			}
+		}
+		heavy_flame_tank = {
+			need = {
+				heavy_tank_flame_chassis = -1
+			}
+		}
+		super_heavy_flame_tank = {
+			need = {
+				super_heavy_tank_flame_chassis = -1
+			}
+		}
+		medium_armor = {
+			need = {
+			   	medium_tank_chassis = -2
+			}
+		}
+		ss_panzer_iii = {
+			need = {
+			   	medium_tank_chassis = -2
+			}
+		}
+		guards_medium = {
+			need = {
+			   	medium_tank_chassis = -2
+			}
+		}
+		guards_heavy = {
+			need = {
+			   	heavy_tank_chassis = -2
+			}
+		}
+		guards_mech = {
+			need = {
+			   	infantry_equipment = -5
+				mechanized_equipment = -2
+			}
+		}
+		light_armor = {
+			need = {
+			   	light_tank_chassis = -2
+			}
+		}
+		light_armor_para = {
+			need = {
+			   	light_tank_chassis = -1
+				special_equipment = -5
+			}
+		}
+		heavy_armor = {
+			need = {
+			   	heavy_tank_chassis = -2
+			}
+		}
+		ss_panzer_vi = {
+			need = {
+			   	heavy_tank_chassis = -2
+			}
+		}
+		super_heavy_armor = {
+			need = {
+			   	super_heavy_tank_chassis = -2
+			}
+		}
+		light_assault_gun_brigade = {
+			need = {
+			   	light_tank_rocket_chassis = -1
+			}
+		}
+		medium_assault_gun_brigade = {
+			need = {
+			   	medium_tank_rocket_chassis = -1
+			}
+		}
+		heavy_assaut_gun_brigade = {
+			need = {
+			   	heavy_tank_rocket_chassis = -1
+			}
+		}
+		super_heavy_assault_gun_brigade = {
+			need = {
+			   	super_heavy_tank_rocket_chassis = -1
+			}
+		}
+		light_assault_gun_company = {
+			need = {
+			   	light_tank_rocket_chassis = -1
+			}
+		}
+		medium_assault_gun_company = {
+			need = {
+			   	medium_tank_rocket_chassis = -1
+			}
+		}
+		heavy_assaut_gun_company = {
+			need = {
+			   	heavy_tank_rocket_chassis = -1
+			}
+		}
+		super_heavy_assault_gun_company = {
+			need = {
+			   	super_heavy_tank_rocket_chassis = -1
+			}
+		}
+		cavalry = {
+			need = {
+			   	horse_equipment = -2
+				infantry_equipment = -5
+			}
+		}
+		armored_car = {
+			need = {
+			   	armored_cars_equipment = -2
+			}
+		}
+		amphibious_mechanized = {
+			need = {
+			   	amphibious_mechanized_equipment = -2
+				infantry_equipment = -6
+			}
+		}
+		amphibious_armor = {
+			need = {
+			   	amphibious_tank_chassis = -2
+			}
+		}
+		amphibious_light_armor = {
+			need = {
+				light_tank_amphibious_chassis = -2
+			}
+		}
+		amphibious_medium_armor = {
+			need = {
+				medium_tank_amphibious_chassis = -2
+			}
+		}
+		amphibious_heavy_armor = {
+			need = {
+				heavy_tank_amphibious_chassis = -2
+			}
+		}
+		amphibious_super_heavy_armor = {
+			need = {
+				super_heavy_tank_amphibious_chassis = -2
+			}
+		}
+		infantry = {
+			need = {
+			   	infantry_equipment = -5
+			}
+		}
+		ss_infantry = {
+			need = {
+			   	infantry_equipment = -5
+			}
+		}
+		militia = {
+			need = {
+				infantry_equipment = -5
+			}
+		}
+		volkssturm_infantry = {
+			need = {
+			   	infantry_equipment = -4
+				horse_equipment = -1
+			}
+		}
+		infantry_spain = {
+			need = {
+			   	infantry_equipment = -4
+				horse_equipment = -1
+			}
+		}
+		garrison = {
+			need = {
+			   	infantry_equipment = -3
+				horse_equipment = -1
+			}
+		}
+		truck_infantry = {
+			need = {
+				infantry_equipment = -5
+				motorized_equipment = -1
+			}
+		}
+		truck_garrison = {
+			need = {
+			   	infantry_equipment = -3
+				motorized_equipment = -1
+			}
+		}
+		bicycle_battalion = {
+			need = {
+			   	infantry_equipment = -5
+				support_equipment = -1
+			}
+		}
+		motorized = {
+			need = {
+			   	infantry_equipment = -5
+				motorized_equipment = -2
+			}
+		}
+		ss_motorized = {
+			need = {
+			   	infantry_equipment = -5
+				motorized_equipment = -2
+			}
+		}
+		mechanized = {
+			need = {
+			   	infantry_equipment = -5
+				mechanized_equipment = -2
+			}
+		}
+		ss_mechanized = {
+			need = {
+			   	infantry_equipment = -5
+				mechanized_equipment = -2
+			}
+		}
+		marine = {
+			need = {
+			   	infantry_equipment = -7
+				special_equipment = -3
+			}
+		}
+		mountaineers = {
+			need = {
+			   	infantry_equipment = -7
+				special_equipment = -3
+			}
+		}
+		light_infantry = {
+			need = {
+			   	infantry_equipment = -7
+				special_equipment = -3
+			}
+		}
+		paratrooper = {
+			need = {
+			   	infantry_equipment = -7
+				special_equipment = -5
+			}
+		}
+		commando_unit = {
+			need = {
+			   	special_equipment = -5
+			}
+		}
+		artillery_brigade = {
+			need = {
+			   	artillery_equipment = -1
+			}
+		}
+		artillery_brigade_mot = {
+			need = {
+			   	artillery_equipment = -1
+			}
+		}
+		mountain_artillery_brigade = {
+			need = {
+			   	artillery_equipment = -1
+			}
+		}
+		mountain_gun_brigade = {
+			need = {
+			   	pack_artillery_equipment = -1
+			}
+		}
+		pack_artillery_brigade = {
+			need = {
+			   	pack_artillery_equipment = -1
+			}
+		}
+		pack_artillery_brigade_mot = {
+			need = {
+			   	pack_artillery_equipment = -1
+			}
+		}
+		artillery_heavy = {
+			need = {
+				heavy_artillery_equipment = -1
+			}
+		}
+		artillery_heavy_mot = {
+			need = {
+			   	heavy_artillery_equipment = -1
+			}
+		}
+		rocket_artillery_brigade = {
+			need = {
+			   	rocket_artillery_equipment = -1
+			}
+		}
+		motorized_rocket_brigade = {
+			need = {
+			   	rocket_artillery_equipment = -1
+			}
+		}
+		field_gun_brigade = {
+			need = {
+			   	field_gun_equipment = -1
+			}
+		}
+		field_gun_brigade_mot = {
+			need = {
+			   	field_gun_equipment = -1
+			}
+		}
+		artillery = {
+			need = {
+				artillery_equipment = -1
+			}
+		}
+		rocket_artillery = {
+			need = {
+				rocket_artillery_equipment = -1
+			}
+		}
+		pack_artillery = {
+			need = {
+				pack_artillery_equipment = -1
+			}
+		}
+		artillery_heavy_support = {
+			need = {
+				heavy_artillery_equipment = -1
+			}
+		}
+		field_gun_support = {
+			need = {
+				field_gun_equipment = -1
+			}
+		}
+		anti_tank_brigade = {
+			need = {
+				anti_tank_equipment = -1
+			}
+		}
+		anti_tank_brigade_mot = {
+			need = {
+				anti_tank_equipment = -1
+			}
+		}
+		anti_tank = {
+			need = {
+				anti_tank_equipment = -1
+			}
+		}
+		anti_air = {
+			need = {
+				anti_air_equipment = -1
+			}
+		}
+		anti_air_mot = {
+			need = {
+				anti_air_equipment = -1
+			}
+		}
+		anti_air_company = {
+			need = {
+				anti_air_equipment = -1
+			}
+		}
+		anti_air_heavy = {
+			need = {
+				heavy_anti_air_equipment = -1
+			}
+		}
+		anti_air_heavy_mot = {
+			need = {
+				heavy_anti_air_equipment = -1
+			}
+		}
+		anti_air_heavy_support = {
+			need = {
+				heavy_anti_air_equipment = -1
+			}
+		}
+		on_research_complete = {
+			custom_effect_tooltip = quantity_3_tt
+		}
+		research_cost = 1.8
+		
+		folder = {
+			name = industry_folder
+			position = { x = 7 y = 11 }
+		}
+		start_year = 1944
+		ai_will_do = {
+			factor = 10
+		}
+		
+		categories = {
+			industry
+		}
+		
+	}
+	###more quality
+	quality1 = {
+		category_army = { 
+			soft_attack = 0.04
+			hard_attack = 0.04
+			defense = 0.04
+			breakthrough = 0.04
+		}
+		light_tank_destroyer_brigade = {
+			need = {
+			   	light_tank_destroyer_chassis = 1
+			}
+		}
+		medium_tank_destroyer_brigade = {
+			need = {
+			   	medium_tank_destroyer_chassis = 1
+			}
+		}
+		heavy_tank_destroyer_brigade = {
+			need = {
+			   	heavy_tank_destroyer_chassis = 1
+			}
+		}
+		super_heavy_tank_destroyer_brigade = {
+			need = {
+			   	super_heavy_tank_destroyer_chassis = 1
+			}
+		}
+		light_sp_artillery_brigade = {
+			need = {
+			   	light_tank_artillery_chassis = 1
+			}
+		}
+		medium_sp_artillery_brigade = {
+			need = {
+			   	medium_tank_artillery_chassis = 1
+			}
+		}
+		heavy_sp_artillery_brigade = {
+			need = {
+			   	heavy_tank_artillery_chassis = 1
+			}
+		}
+		super_heavy_sp_artillery_brigade = {
+			need = {
+			   	super_heavy_tank_artillery_chassis = 1
+			}
+		}
+		light_sp_anti_air_brigade = {
+			need = {
+			   	light_tank_aa_chassis = 1
+			}
+		}
+		medium_sp_anti_air_brigade = {
+			need = {
+			   	medium_tank_aa_chassis = 1
+			}
+		}
+		heavy_sp_anti_air_brigade = {
+			need = {
+			   	heavy_tank_aa_chassis = 1
+			}
+		}
+		super_heavy_sp_anti_air_brigade = {
+			need = {
+			   	super_heavy_tank_aa_chassis = 1
+			}
+		}
+		light_sp_anti_air_company = {
+			need = {
+			   	light_tank_aa_chassis = 1
+			}
+		}
+		medium_sp_anti_air_company = {
+			need = {
+			   	medium_tank_aa_chassis = 1
+			}
+		}
+		heavy_sp_anti_air_company = {
+			need = {
+			   	heavy_tank_aa_chassis = 1
+			}
+		}
+		super_heavy_sp_anti_air_company = {
+			need = {
+			   	super_heavy_tank_aa_chassis = 1
+			}
+		}
+		signal_company = {
+			need = {
+			   	support_equipment = 1
+				motorized_equipment = 1
+				radio_equipment = 1
+			}
+		}
+		recon = {
+			need = {
+			   	infantry_equipment = 2
+				horse_equipment = 1
+				support_equipment = 1
+			}
+		}
+		recon_ac = {
+			need = {
+			   	armored_cars_equipment = 1
+				support_equipment = 1
+			}
+		}
+		light_armor_recon = {
+			need = {
+			   	light_tank_chassis = 1
+				support_equipment = 1
+			}
+		}
+		military_police = {
+			need = {
+			   	infantry_equipment = 1
+				support_equipment = 1
+			}
+		}
+		maintenance_company = {
+			need = {
+			   	motorized_equipment = 1
+				support_equipment = 1
+			}
+		}
+		salvage_company = {
+			need = {
+			   	motorized_equipment = 2
+				support_equipment = 2
+			}
+		}
+		logistics_company = {
+			need = {
+			   	horse_equipment = 1
+				support_equipment = 1
+			}
+		}
+		logistics_company_mot = {
+			need = {
+			   	motorized_equipment = 1
+				support_equipment = 1
+			}
+		}
+		logistics_company_mech = {
+			need = {
+			   	mechanized_equipment = 1
+				support_equipment = 1
+			}
+		}
+		field_hospital = {
+			need = {
+			   	motorized_equipment = 1
+				support_equipment = 1
+			}
+		}
+		engineer = {
+			need = {
+			   	infantry_equipment = 1
+				support_equipment = 3
+			}
+		}
+		mobile_engineer = {
+			need = {
+			   	infantry_equipment = 4
+				support_equipment = 2
+			}
+		}
+		construction_engineer = {
+			need = {
+			   	infantry_equipment = 2
+				support_equipment = 4
+			}
+		}
+	
+		light_flame_tank = {
+			need = {
+				light_tank_flame_chassis = 1
+			}
+		}
+		medium_flame_tank = {
+			need = {
+				medium_tank_flame_chassis = 1
+			}
+		}
+		heavy_flame_tank = {
+			need = {
+				heavy_tank_flame_chassis = 1
+			}
+		}
+		super_heavy_flame_tank = {
+			need = {
+				super_heavy_tank_flame_chassis = 1
+			}
+		}
+		medium_armor = {
+			need = {
+			   	medium_tank_chassis = 2
+			}
+		}
+		ss_panzer_iii = {
+			need = {
+			   	medium_tank_chassis = 2
+			}
+		}
+		guards_medium = {
+			need = {
+			   	medium_tank_chassis = 2
+			}
+		}
+		guards_heavy = {
+			need = {
+			   	heavy_tank_chassis = 2
+			}
+		}
+		guards_mech = {
+			need = {
+			   	infantry_equipment = 5
+				mechanized_equipment = 2
+			}
+		}
+		light_armor = {
+			need = {
+			   	light_tank_chassis = 2
+			}
+		}
+		light_armor_para = {
+			need = {
+			   	light_tank_chassis = 1
+				special_equipment = 5
+			}
+		}
+		heavy_armor = {
+			need = {
+			   	heavy_tank_chassis = 2
+			}
+		}
+		ss_panzer_vi = {
+			need = {
+			   	heavy_tank_chassis = 2
+			}
+		}
+		super_heavy_armor = {
+			need = {
+			   	super_heavy_tank_chassis = 2
+			}
+		}
+		light_assault_gun_brigade = {
+			need = {
+			   	light_tank_rocket_chassis = 1
+			}
+		}
+		medium_assault_gun_brigade = {
+			need = {
+			   	medium_tank_rocket_chassis = 1
+			}
+		}
+		heavy_assaut_gun_brigade = {
+			need = {
+			   	heavy_tank_rocket_chassis = 1
+			}
+		}
+		super_heavy_assault_gun_brigade = {
+			need = {
+			   	super_heavy_tank_rocket_chassis = 1
+			}
+		}
+		light_assault_gun_company = {
+			need = {
+			   	light_tank_rocket_chassis = 1
+			}
+		}
+		medium_assault_gun_company = {
+			need = {
+			   	medium_tank_rocket_chassis = 1
+			}
+		}
+		heavy_assaut_gun_company = {
+			need = {
+			   	heavy_tank_rocket_chassis = 1
+			}
+		}
+		super_heavy_assault_gun_company = {
+			need = {
+			   	super_heavy_tank_rocket_chassis = 1
+			}
+		}
+		cavalry = {
+			need = {
+			   	horse_equipment = 2
+				infantry_equipment = 5
+			}
+		}
+		armored_car = {
+			need = {
+			   	armored_cars_equipment = 2
+			}
+		}
+		amphibious_mechanized = {
+			need = {
+			   	amphibious_mechanized_equipment = 2
+				infantry_equipment = 6
+			}
+		}
+		amphibious_armor = {
+			need = {
+			   	amphibious_tank_chassis = 2
+			}
+		}
+		amphibious_light_armor = {
+			need = {
+				light_tank_amphibious_chassis = 2
+			}
+		}
+		amphibious_medium_armor = {
+			need = {
+				medium_tank_amphibious_chassis = 2
+			}
+		}
+		amphibious_heavy_armor = {
+			need = {
+				heavy_tank_amphibious_chassis = 2
+			}
+		}
+		amphibious_super_heavy_armor = {
+			need = {
+				super_heavy_tank_amphibious_chassis = 2
+			}
+		}
+		infantry = {
+			need = {
+			   	infantry_equipment = 5
+				horse_equipment = 1
+			}
+		}
+		ss_infantry = {
+			need = {
+			   	infantry_equipment = 5
+				horse_equipment = 1
+			}
+		}
+		militia = {
+			need = {
+				infantry_equipment = 5
+			}
+		}
+		volkssturm_infantry = {
+			need = {
+			   	infantry_equipment = 4
+				horse_equipment = 1
+			}
+		}
+		infantry_spain = {
+			need = {
+			   	infantry_equipment = 4
+				horse_equipment = 1
+			}
+		}
+		garrison = {
+			need = {
+			   	infantry_equipment = 3
+				horse_equipment = 1
+			}
+		}
+		truck_infantry = {
+			need = {
+					infantry_equipment = 5
+				motorized_equipment = 1
+			}
+		}
+		truck_garrison = {
+			need = {
+			   	infantry_equipment = 3
+			}
+		}
+		bicycle_battalion = {
+			need = {
+			   	infantry_equipment = 5
+				support_equipment = 1
+			}
+		}
+		motorized = {
+			need = {
+			   	infantry_equipment = 5
+				motorized_equipment = 2
+			}
+		}
+		ss_motorized = {
+			need = {
+			   	infantry_equipment = 5
+				motorized_equipment = 2
+			}
+		}
+		mechanized = {
+			need = {
+			   	infantry_equipment = 5
+				mechanized_equipment = 2
+			}
+		}
+		ss_mechanized = {
+			need = {
+			   	infantry_equipment = 5
+				mechanized_equipment = 2
+			}
+		}
+		marine = {
+			need = {
+			   	infantry_equipment = 7
+				special_equipment = 3
+			}
+		}
+		mountaineers = {
+			need = {
+			   	infantry_equipment = 7
+				special_equipment = 3
+			}
+		}
+		light_infantry = {
+			need = {
+			   	infantry_equipment = 7
+				special_equipment = 3
+			}
+		}
+		paratrooper = {
+			need = {
+			   	infantry_equipment = 7
+				special_equipment = 6
+			}
+		}
+		commando_unit = {
+			need = {
+			   	special_equipment = 5
+			}
+		}
+		artillery_brigade = {
+			need = {
+			   	artillery_equipment = 1
+			}
+		}
+		artillery_brigade_mot = {
+			need = {
+			   	artillery_equipment = 1
+			}
+		}
+		mountain_artillery_brigade = {
+			need = {
+			   	artillery_equipment = 1
+			}
+		}
+		mountain_gun_brigade = {
+			need = {
+			   	pack_artillery_equipment = 1
+			}
+		}
+		pack_artillery_brigade = {
+			need = {
+			   	pack_artillery_equipment = 1
+			}
+		}
+		pack_artillery_brigade_mot = {
+			need = {
+			   	pack_artillery_equipment = 1
+			}
+		}
+		artillery_heavy = {
+			need = {
+				heavy_artillery_equipment = 1
+			}
+		}
+		artillery_heavy_mot = {
+			need = {
+			   	heavy_artillery_equipment = 1
+			}
+		}
+		rocket_artillery_brigade = {
+			need = {
+			   	rocket_artillery_equipment = 1
+			}
+		}
+		motorized_rocket_brigade = {
+			need = {
+			   	rocket_artillery_equipment = 1
+			}
+		}
+		field_gun_brigade = {
+			need = {
+			   	field_gun_equipment = 1
+			}
+		}
+		field_gun_brigade_mot = {
+			need = {
+			   	field_gun_equipment = 1
+			}
+		}
+		artillery = {
+			need = {
+				artillery_equipment = 1
+			}
+		}
+		rocket_artillery = {
+			need = {
+				rocket_artillery_equipment = 1
+			}
+		}
+		pack_artillery = {
+			need = {
+				pack_artillery_equipment = 1
+			}
+		}
+		artillery_heavy_support = {
+			need = {
+				heavy_artillery_equipment = 1
+			}
+		}
+		field_gun_support = {
+			need = {
+				field_gun_equipment = 1
+			}
+		}
+		anti_tank_brigade = {
+			need = {
+				anti_tank_equipment = 1
+			}
+		}
+		anti_tank_brigade_mot = {
+			need = {
+				anti_tank_equipment = 1
+			}
+		}
+		anti_tank = {
+			need = {
+				anti_tank_equipment = 1
+			}
+		}
+		anti_air = {
+			need = {
+				anti_air_equipment = 1
+			}
+		}
+		anti_air_mot = {
+			need = {
+				anti_air_equipment = 1
+			}
+		}
+		anti_air_company = {
+			need = {
+				anti_air_equipment = 1
+			}
+		}
+		anti_air_heavy = {
+			need = {
+				heavy_anti_air_equipment = 1
+			}
+		}
+		anti_air_heavy_mot = {
+			need = {
+				heavy_anti_air_equipment = 1
+			}
+		}
+		anti_air_heavy_support = {
+			need = {
+				heavy_anti_air_equipment = 1
+			}
+		}
+		on_research_complete = {
+			custom_effect_tooltip = quality_1_tt
+		}
+		
+		path = {
+			leads_to_tech = quality2 
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.8
+		start_year = 1940
+		
+		folder = {
+			name = industry_folder
+			position = { x = 5 y = 7 }
+		}
+		xor = {
+			massed1
+		}
+		
+		ai_will_do = {
+			factor = 10
+
+			modifier = {
+				factor = 50
+				tag = USA 
+			}
+			modifier = {
+				factor = 0
+				has_tech = massed1
+			}
+			
+			modifier = {
+				factor = 0
+				is_researching_technology = massed1
+			}
+			
+		}
+		
+		categories = {
+			industry
+		}
+		
+		
+	}
+	quality2 = {
+		category_army = { 
+			soft_attack = 0.04
+			hard_attack = 0.04
+			defense = 0.04
+			breakthrough = 0.04
+		}
+		light_tank_destroyer_brigade = {
+			need = {
+			   	light_tank_destroyer_chassis = 2
+			}
+		}
+		medium_tank_destroyer_brigade = {
+			need = {
+			   	medium_tank_destroyer_chassis = 2
+			}
+		}
+		heavy_tank_destroyer_brigade = {
+			need = {
+			   	heavy_tank_destroyer_chassis = 2
+			}
+		}
+		super_heavy_tank_destroyer_brigade = {
+			need = {
+			   	super_heavy_tank_destroyer_chassis = 2
+			}
+		}
+		light_sp_artillery_brigade = {
+			need = {
+			   	light_tank_artillery_chassis = 2
+			}
+		}
+		medium_sp_artillery_brigade = {
+			need = {
+			   	medium_tank_artillery_chassis = 2
+			}
+		}
+		heavy_sp_artillery_brigade = {
+			need = {
+			   	heavy_tank_artillery_chassis = 2
+			}
+		}
+		super_heavy_sp_artillery_brigade = {
+			need = {
+			   	super_heavy_tank_artillery_chassis = 2
+			}
+		}
+		light_sp_anti_air_brigade = {
+			need = {
+			   	light_tank_aa_chassis = 2
+			}
+		}
+		medium_sp_anti_air_brigade = {
+			need = {
+			   	medium_tank_aa_chassis = 2
+			}
+		}
+		heavy_sp_anti_air_brigade = {
+			need = {
+			   	heavy_tank_aa_chassis = 2
+			}
+		}
+		super_heavy_sp_anti_air_brigade = {
+			need = {
+			   	super_heavy_tank_aa_chassis = 2
+			}
+		}
+		guards_medium = {
+			need = {
+			   	medium_tank_chassis = 2
+			}
+		}
+		guards_heavy = {
+			need = {
+			   	heavy_tank_chassis = 2
+			}
+		}
+		guards_mech = {
+			need = {
+			   	infantry_equipment = 5
+				mechanized_equipment = 2
+			}
+		}
+		light_sp_anti_air_company = {
+			need = {
+			   	light_tank_aa_chassis = 2
+			}
+		}
+		medium_sp_anti_air_company = {
+			need = {
+			   	medium_tank_aa_chassis = 2
+			}
+		}
+		heavy_sp_anti_air_company = {
+			need = {
+			   	heavy_tank_aa_chassis = 2
+			}
+		}
+		super_heavy_sp_anti_air_company = {
+			need = {
+			   	super_heavy_tank_aa_chassis = 2
+			}
+		}
+		signal_company = {
+			need = {
+			   	support_equipment = 1
+				motorized_equipment = 2
+				radio_equipment = 1
+			}
+		}
+		recon = {
+			need = {
+			   	infantry_equipment = 2
+			}
+		}
+		recon_ac = {
+			need = {
+			   	armored_cars_equipment = 1
+			}
+		}
+		light_armor_recon = {
+			need = {
+			   	light_tank_chassis = 1
+			}
+		}
+		military_police = {
+			need = {
+			   	infantry_equipment = 1
+				support_equipment = 1
+			}
+		}
+		maintenance_company = {
+			need = {
+			   	motorized_equipment = 1
+				support_equipment = 1
+			}
+		}
+		salvage_company = {
+			need = {
+			   	motorized_equipment = 1
+				support_equipment = 1
+			}
+		}
+		logistics_company = {
+			need = {
+			   	horse_equipment = 1
+				support_equipment = 1
+			}
+		}
+		logistics_company_mot = {
+			need = {
+			   	motorized_equipment = 1
+				support_equipment = 1
+			}
+		}
+		logistics_company_mech = {
+			need = {
+				support_equipment = 1
+			}
+		}
+		field_hospital = {
+			need = {
+			   	motorized_equipment = 1
+				support_equipment = 1
+			}
+		}
+		engineer = {
+			need = {
+			   	infantry_equipment = 1
+				support_equipment = 2
+			}
+		}
+		mobile_engineer = {
+			need = {
+			   	infantry_equipment = 4
+				support_equipment = 2
+			}
+		}
+		construction_engineer = {
+			need = {
+			   	infantry_equipment = 2
+				support_equipment = 4
+			}
+		}
+	
+		light_flame_tank = {
+			need = {
+				light_tank_flame_chassis = 2
+			}
+		}
+		medium_flame_tank = {
+			need = {
+				medium_tank_flame_chassis = 2
+			}
+		}
+		heavy_flame_tank = {
+			need = {
+				heavy_tank_flame_chassis = 2
+			}
+		}
+		super_heavy_flame_tank = {
+			need = {
+				super_heavy_tank_flame_chassis = 2
+			}
+		}
+		medium_armor = {
+			need = {
+			   	medium_tank_chassis = 1
+			}
+		}
+		ss_panzer_iii = {
+			need = {
+			   	medium_tank_chassis = 1
+			}
+		}
+		light_armor = {
+			need = {
+			   	light_tank_chassis = 1
+			}
+		}
+		light_armor_para = {
+			need = {
+			   	light_tank_chassis = 1
+				special_equipment = 5
+			}
+		}
+		heavy_armor = {
+			need = {
+			   	heavy_tank_chassis = 1
+			}
+		}
+		ss_panzer_vi = {
+			need = {
+			   	heavy_tank_chassis = 1
+			}
+		}
+		super_heavy_armor = {
+			need = {
+			   	super_heavy_tank_chassis = 1
+			}
+		}
+		light_assault_gun_brigade = {
+			need = {
+			   	light_tank_rocket_chassis = 2
+			}
+		}
+		medium_assault_gun_brigade = {
+			need = {
+			   	medium_tank_rocket_chassis = 2
+			}
+		}
+		heavy_assaut_gun_brigade = {
+			need = {
+			   	heavy_tank_rocket_chassis = 2
+			}
+		}
+		super_heavy_assault_gun_brigade = {
+			need = {
+			   	super_heavy_tank_rocket_chassis = 2
+			}
+		}
+		light_assault_gun_company = {
+			need = {
+			   	light_tank_rocket_chassis = 2
+			}
+		}
+		medium_assault_gun_company = {
+			need = {
+			   	medium_tank_rocket_chassis = 2
+			}
+		}
+		heavy_assaut_gun_company = {
+			need = {
+			   	heavy_tank_rocket_chassis = 2
+			}
+		}
+		super_heavy_assault_gun_company = {
+			need = {
+			   	super_heavy_tank_rocket_chassis = 2
+			}
+		}
+		cavalry = {
+			need = {
+			   	horse_equipment = 1
+				infantry_equipment = 5
+			}
+		}
+		armored_car = {
+			need = {
+			   	armored_cars_equipment = 1
+			}
+		}
+		amphibious_mechanized = {
+			need = {
+			   	amphibious_mechanized_equipment = 2
+				infantry_equipment = 5
+			}
+		}
+		amphibious_armor = {
+			need = {
+			   	amphibious_tank_chassis = 1
+			}
+		}
+		amphibious_light_armor = {
+			need = {
+				light_tank_amphibious_chassis = 1
+			}
+		}
+		amphibious_medium_armor = {
+			need = {
+				medium_tank_amphibious_chassis = 1
+			}
+		}
+		amphibious_heavy_armor = {
+			need = {
+				heavy_tank_amphibious_chassis = 1
+			}
+		}
+		amphibious_super_heavy_armor = {
+			need = {
+				super_heavy_tank_amphibious_chassis = 1
+			}
+		}
+		infantry = {
+			need = {
+			   	infantry_equipment = 5
+				horse_equipment = 1
+			}
+		}
+		ss_infantry = {
+			need = {
+			   	infantry_equipment = 5
+				horse_equipment = 1
+			}
+		}
+		militia = {
+			need = {
+				infantry_equipment = 4
+			}
+		}
+		volkssturm_infantry = {
+			need = {
+			   	infantry_equipment = 4
+			}
+		}
+		infantry_spain = {
+			need = {
+			   	infantry_equipment = 4
+			}
+		}
+		garrison = {
+			need = {
+			   	infantry_equipment = 4
+			}
+		}
+		truck_infantry = {
+			need = {
+				infantry_equipment = 5
+			}
+		}
+		truck_garrison = {
+			need = {
+			   	infantry_equipment = 4
+			}
+		}
+		bicycle_battalion = {
+			need = {
+			   	infantry_equipment = 5
+			}
+		}
+		motorized = {
+			need = {
+			   	infantry_equipment = 5
+				motorized_equipment = 2
+			}
+		}
+		ss_motorized = {
+			need = {
+			   	infantry_equipment = 5
+				motorized_equipment = 2
+			}
+		}
+		mechanized = {
+			need = {
+			   	infantry_equipment = 5
+				mechanized_equipment = 2
+			}
+		}
+		ss_mechanized = {
+			need = {
+			   	infantry_equipment = 5
+				mechanized_equipment = 2
+			}
+		}
+		marine = {
+			need = {
+			   	infantry_equipment = 7
+				special_equipment = 2
+			}
+		}
+		mountaineers = {
+			need = {
+			   	infantry_equipment = 7
+				special_equipment = 2
+			}
+		}
+		light_infantry = {
+			need = {
+			   	infantry_equipment = 7
+				special_equipment = 2
+			}
+		}
+		paratrooper = {
+			need = {
+			   	infantry_equipment = 7
+				special_equipment = 6
+			}
+		}
+		commando_unit = {
+			need = {
+			   	special_equipment = 5
+			}
+		}
+		artillery_brigade = {
+			need = {
+				horse_equipment = 3
+			}
+		}
+		artillery_brigade_mot = {
+			need = {
+				motorized_equipment = 4
+			}
+		}
+		pack_artillery_brigade = {
+			need = {
+				horse_equipment = 3
+			}
+		}
+		pack_artillery_brigade_mot = {
+			need = {
+				motorized_equipment = 3
+			}
+		}
+		artillery_heavy = {
+			need = {
+				horse_equipment = 6
+			}
+		}
+		artillery_heavy_mot = {
+			need = {
+				motorized_equipment = 6
+			}
+		}
+		mountain_artillery_brigade = {
+			need = {
+			   	special_equipment = 7
+			}
+		}
+		mountain_gun_brigade = {
+			need = {
+			   	special_equipment = 6
+			}
+		}
+		rocket_artillery_brigade = {
+			need = {
+				horse_equipment = 3
+			}
+		}
+		motorized_rocket_brigade = {
+			need = {
+				motorized_equipment = 4
+			}
+		}
+		field_gun_brigade = {
+			need = {
+			   	horse_equipment = 3
+			}
+		}
+		field_gun_brigade_mot = {
+			need = {
+			   	motorized_equipment = 4
+			}
+		}
+		anti_tank_brigade = {
+			need = {
+				horse_equipment = 3
+			}
+		}
+		anti_tank_brigade_mot = {
+			need = {
+				motorized_equipment = 4
+			}
+		}
+		anti_air = {
+			need = {
+				horse_equipment = 3
+			}
+		}
+		anti_air_mot = {
+			need = {
+				motorized_equipment = 3
+			}
+		}
+		anti_air_heavy = {
+			need = {
+				motorized_equipment = 3
+			}
+		}
+		anti_air_heavy_mot = {
+			need = {
+				motorized_equipment = 6
+			}
+		}
+		on_research_complete = {
+			custom_effect_tooltip = quality_2_tt
+		}
+		path = {
+			leads_to_tech = quality3 
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.8
+		
+		start_year = 1942
+		folder = {
+			name = industry_folder
+			position = { x = 5 y = 9 }
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		categories = {
+			industry
+		}
+		
+		
+	}
+	quality3 = {
+		category_army = { 
+			soft_attack = 0.04
+			hard_attack = 0.04
+			defense = 0.04
+			breakthrough = 0.04
+		}
+		light_tank_destroyer_brigade = {
+			need = {
+			   	light_tank_destroyer_chassis = 1
+			}
+		}
+		guards_medium = {
+			need = {
+			   	medium_tank_chassis = 2
+			}
+		}
+		guards_heavy = {
+			need = {
+			   	heavy_tank_chassis = 2
+			}
+		}
+		guards_mech = {
+			need = {
+			   	infantry_equipment = 5
+				mechanized_equipment = 2
+			}
+		}
+		medium_tank_destroyer_brigade = {
+			need = {
+			   	medium_tank_destroyer_chassis = 1
+			}
+		}
+		heavy_tank_destroyer_brigade = {
+			need = {
+			   	heavy_tank_destroyer_chassis = 1
+			}
+		}
+		super_heavy_tank_destroyer_brigade = {
+			need = {
+			   	super_heavy_tank_destroyer_chassis = 1
+			}
+		}
+		light_sp_artillery_brigade = {
+			need = {
+			   	light_tank_artillery_chassis = 1
+			}
+		}
+		medium_sp_artillery_brigade = {
+			need = {
+			   	medium_tank_artillery_chassis = 1
+			}
+		}
+		heavy_sp_artillery_brigade = {
+			need = {
+			   	heavy_tank_artillery_chassis = 1
+			}
+		}
+		super_heavy_sp_artillery_brigade = {
+			need = {
+			   	super_heavy_tank_artillery_chassis = 1
+			}
+		}
+		light_sp_anti_air_brigade = {
+			need = {
+			   	light_tank_aa_chassis = 1
+			}
+		}
+		medium_sp_anti_air_brigade = {
+			need = {
+			   	medium_tank_aa_chassis = 1
+			}
+		}
+		heavy_sp_anti_air_brigade = {
+			need = {
+			   	heavy_tank_aa_chassis = 1
+			}
+		}
+		super_heavy_sp_anti_air_brigade = {
+			need = {
+			   	super_heavy_tank_aa_chassis = 1
+			}
+		}
+		light_sp_anti_air_company = {
+			need = {
+			   	light_tank_aa_chassis = 1
+			}
+		}
+		medium_sp_anti_air_company = {
+			need = {
+			   	medium_tank_aa_chassis = 1
+			}
+		}
+		heavy_sp_anti_air_company = {
+			need = {
+			   	heavy_tank_aa_chassis = 1
+			}
+		}
+		super_heavy_sp_anti_air_company = {
+			need = {
+			   	super_heavy_tank_aa_chassis = 1
+			}
+		}
+		signal_company = {
+			need = {
+			   	support_equipment = 1
+				motorized_equipment = 1
+				radio_equipment = 1
+			}
+		}
+		recon = {
+			need = {
+			   	infantry_equipment = 1
+				support_equipment = 1
+				horse_equipment = 1
+			}
+		}
+		recon_ac = {
+			need = {
+				support_equipment = 1
+			}
+		}
+		light_armor_recon = {
+			need = {
+				support_equipment = 1
+			}
+		}
+		military_police = {
+			need = {
+			   	infantry_equipment = 1
+			}
+		}
+		maintenance_company = {
+			need = {
+			   	motorized_equipment = 1
+				support_equipment = 1
+			}
+		}
+		salvage_company = {
+			need = {
+			   	motorized_equipment = 2
+				support_equipment = 2
+			}
+		}
+		logistics_company = {
+			need = {
+			   	horse_equipment = 1
+				support_equipment = 1
+			}
+		}
+		logistics_company_mot = {
+			need = {
+				support_equipment = 1
+			}
+		}
+		logistics_company_mech = {
+			need = {
+			   	mechanized_equipment = 1
+				support_equipment = 1
+			}
+		}
+		field_hospital = {
+			need = {
+			   	motorized_equipment = 1
+				support_equipment = 1
+			}
+		}
+		engineer = {
+			need = {
+			   	infantry_equipment = 1
+				support_equipment = 3
+			}
+		}
+		mobile_engineer = {
+			need = {
+			   	infantry_equipment = 4
+				support_equipment = 2
+			}
+		}
+		construction_engineer = {
+			need = {
+			   	infantry_equipment = 2
+				support_equipment = 4
+			}
+		}
+		
+		light_flame_tank = {
+			need = {
+				light_tank_flame_chassis = 1
+			}
+		}
+		medium_flame_tank = {
+			need = {
+				medium_tank_flame_chassis = 1
+			}
+		}
+		heavy_flame_tank = {
+			need = {
+				heavy_tank_flame_chassis = 1
+			}
+		}
+		super_heavy_flame_tank = {
+			need = {
+				super_heavy_tank_flame_chassis = 1
+			}
+		}
+		medium_armor = {
+			need = {
+			   	medium_tank_chassis = 2
+			}
+		}
+		ss_panzer_iii = {
+			need = {
+			   	medium_tank_chassis = 2
+			}
+		}
+		light_armor = {
+			need = {
+			   	light_tank_chassis = 2
+			}
+		}
+		light_armor_para = {
+			need = {
+			   	light_tank_chassis = 1
+				special_equipment = 5
+			}
+		}
+		heavy_armor = {
+			need = {
+			   	heavy_tank_chassis = 2
+			}
+		}
+		ss_panzer_vi = {
+			need = {
+			   	heavy_tank_chassis = 2
+			}
+		}
+		super_heavy_armor = {
+			need = {
+			   	super_heavy_tank_chassis = 2
+			}
+		}
+		light_assault_gun_brigade = {
+			need = {
+			   	light_tank_rocket_chassis = 1
+			}
+		}
+		medium_assault_gun_brigade = {
+			need = {
+			   	medium_tank_rocket_chassis = 1
+			}
+		}
+		heavy_assaut_gun_brigade = {
+			need = {
+			   	heavy_tank_rocket_chassis = 1
+			}
+		}
+		super_heavy_assault_gun_brigade = {
+			need = {
+			   	super_heavy_tank_rocket_chassis = 1
+			}
+		}
+		light_assault_gun_company = {
+			need = {
+			   	light_tank_rocket_chassis = 1
+			}
+		}
+		medium_assault_gun_company = {
+			need = {
+			   	medium_tank_rocket_chassis = 1
+			}
+		}
+		heavy_assaut_gun_company = {
+			need = {
+			   	heavy_tank_rocket_chassis = 1
+			}
+		}
+		super_heavy_assault_gun_company = {
+			need = {
+			   	super_heavy_tank_rocket_chassis = 1
+			}
+		}
+		cavalry = {
+			need = {
+			   	horse_equipment = 2
+				infantry_equipment = 5
+			}
+		}
+		armored_car = {
+			need = {
+			   	armored_cars_equipment = 2
+			}
+		}
+		amphibious_mechanized = {
+			need = {
+			   	amphibious_mechanized_equipment = 2
+				infantry_equipment = 6
+			}
+		}
+		amphibious_armor = {
+			need = {
+			   	amphibious_tank_chassis = 2
+			}
+		}
+		amphibious_light_armor = {
+			need = {
+				light_tank_amphibious_chassis = 2
+			}
+		}
+		amphibious_medium_armor = {
+			need = {
+				medium_tank_amphibious_chassis = 2
+			}
+		}
+		amphibious_heavy_armor = {
+			need = {
+				heavy_tank_amphibious_chassis = 2
+			}
+		}
+		amphibious_super_heavy_armor = {
+			need = {
+				super_heavy_tank_amphibious_chassis = 2
+			}
+		}
+		infantry = {
+			need = {
+			   	infantry_equipment = 5
+			}
+		}
+		ss_infantry = {
+			need = {
+			   	infantry_equipment = 5
+			}
+		}
+		militia = {
+			need = {
+				infantry_equipment = 5
+			}
+		}
+		volkssturm_infantry = {
+			need = {
+			   	infantry_equipment = 4
+				horse_equipment = 1
+			}
+		}
+		infantry_spain = {
+			need = {
+			   	infantry_equipment = 4
+				horse_equipment = 1
+			}
+		}
+		garrison = {
+			need = {
+			   	infantry_equipment = 3
+				horse_equipment = 1
+			}
+		}
+		truck_infantry = {
+			need = {
+				infantry_equipment = 5
+				motorized_equipment = 1
+			}
+		}
+		truck_garrison = {
+			need = {
+			   	infantry_equipment = 3
+				motorized_equipment = 1
+			}
+		}
+		bicycle_battalion = {
+			need = {
+			   	infantry_equipment = 5
+				support_equipment = 1
+			}
+		}
+		motorized = {
+			need = {
+			   	infantry_equipment = 5
+				motorized_equipment = 2
+			}
+		}
+		ss_motorized = {
+			need = {
+			   	infantry_equipment = 5
+				motorized_equipment = 2
+			}
+		}
+		mechanized = {
+			need = {
+			   	infantry_equipment = 5
+				mechanized_equipment = 2
+			}
+		}
+		ss_mechanized = {
+			need = {
+			   	infantry_equipment = 5
+				mechanized_equipment = 2
+			}
+		}
+		marine = {
+			need = {
+			   	infantry_equipment = 7
+				special_equipment = 3
+			}
+		}
+		mountaineers = {
+			need = {
+			   	infantry_equipment = 7
+				special_equipment = 3
+			}
+		}
+		light_infantry = {
+			need = {
+			   	infantry_equipment = 7
+				special_equipment = 3
+			}
+		}
+		paratrooper = {
+			need = {
+			   	infantry_equipment = 7
+				special_equipment = 5
+			}
+		}
+		commando_unit = {
+			need = {
+			   	special_equipment = 5
+			}
+		}
+		artillery_brigade = {
+			need = {
+			   	artillery_equipment = 1
+			}
+		}
+		artillery_brigade_mot = {
+			need = {
+			   	artillery_equipment = 1
+			}
+		}
+		mountain_artillery_brigade = {
+			need = {
+			   	artillery_equipment = 1
+			}
+		}
+		mountain_gun_brigade = {
+			need = {
+			   	pack_artillery_equipment = 1
+			}
+		}
+		pack_artillery_brigade = {
+			need = {
+			   	pack_artillery_equipment = 1
+			}
+		}
+		pack_artillery_brigade_mot = {
+			need = {
+			   	pack_artillery_equipment = 1
+			}
+		}
+		artillery_heavy = {
+			need = {
+				heavy_artillery_equipment = 1
+			}
+		}
+		artillery_heavy_mot = {
+			need = {
+			   	heavy_artillery_equipment = 1
+			}
+		}
+		rocket_artillery_brigade = {
+			need = {
+			   	rocket_artillery_equipment = 1
+			}
+		}
+		motorized_rocket_brigade = {
+			need = {
+			   	rocket_artillery_equipment = 1
+			}
+		}
+		field_gun_brigade = {
+			need = {
+			   	field_gun_equipment = 1
+			}
+		}
+		field_gun_brigade_mot = {
+			need = {
+			   	field_gun_equipment = 1
+			}
+		}
+		artillery = {
+			need = {
+				artillery_equipment = 1
+			}
+		}
+		rocket_artillery = {
+			need = {
+				rocket_artillery_equipment = 1
+			}
+		}
+		pack_artillery = {
+			need = {
+				pack_artillery_equipment = 1
+			}
+		}
+		artillery_heavy_support = {
+			need = {
+				heavy_artillery_equipment = 1
+			}
+		}
+		field_gun_support = {
+			need = {
+				field_gun_equipment = 1
+			}
+		}
+		anti_tank_brigade = {
+			need = {
+				anti_tank_equipment = 1
+			}
+		}
+		anti_tank_brigade_mot = {
+			need = {
+				anti_tank_equipment = 1
+			}
+		}
+		anti_tank = {
+			need = {
+				anti_tank_equipment = 1
+			}
+		}
+		anti_air = {
+			need = {
+				anti_air_equipment = 1
+			}
+		}
+		anti_air_mot = {
+			need = {
+				anti_air_equipment = 1
+			}
+		}
+		anti_air_company = {
+			need = {
+				anti_air_equipment = 1
+			}
+		}
+		anti_air_heavy = {
+			need = {
+				heavy_anti_air_equipment = 1
+			}
+		}
+		anti_air_heavy_mot = {
+			need = {
+				heavy_anti_air_equipment = 1
+			}
+		}
+		anti_air_heavy_support = {
+			need = {
+				heavy_anti_air_equipment = 1
+			}
+		}
+		on_research_complete = {
+			custom_effect_tooltip = quality_3_tt
+		}
+		
+		research_cost = 1.8
+		
+		start_year = 1944
+		folder = {
+			name = industry_folder
+			position = { x = 5 y = 11 }
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		categories = {
+			industry
+		}		
+	}
+	starting_industry = {
+
+		industrial_capacity_factory = 0.05
+		industrial_capacity_dockyard = 0.05
+		global_building_slots_factor = 0.4
+		repair_speed_arms_factory_factor = 1
+		repair_speed_industrial_complex_factor = 1
+		
+		path = {
+			leads_to_tech = concentrated_industry 
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = dispersed_industry
+			research_cost_coeff = 1
+		}
+		enable_building = {
+			building = infrastructure
+			level = 7
+		}
+		research_cost = 2
+		
+		folder = {
+			name = industry_folder
+			position = { x = 5 y = 0 }
+		}
+		
+		ai_will_do = {
+			factor = 500	
+		}
+		
+		categories = {
+			industry
+		}
+		enable_building = {
+			building = bunker
+			level = 5
+		}
+		enable_building = {
+			building = coastal_bunker
+			level = 6
+		}
+		ai_research_weights = {
+			offensive = -1.0
 		}
 	}
-
 	###############
 	concentrated_industry = {
 
-		industrial_capacity_factory = 0.15
-		industrial_capacity_dockyard = 0.1
-		global_building_slots_factor = 0.20
-		
+		industrial_capacity_factory = 0.12
+		industrial_capacity_dockyard = 0.12
+		production_speed_industrial_complex_factor = 0.025
+		global_building_slots_factor = 0.35
+		repair_speed_arms_factory_factor = -0.05
+		repair_speed_industrial_complex_factor = -0.05
+		on_research_complete = {
+			custom_effect_tooltip = railwagun_ic_fix_tt2
+			hidden_effect = {
+				if = {
+					limit = {
+						OR = {
+							has_idea = railway_gun_idea
+							has_idea = railway_gun_idea2
+							has_idea = railway_gun_idea3
+							has_idea = railway_gun_idea4
+							has_idea = railway_gun_idea5
+						}
+					}
+					remove_ideas = railway_gun_idea
+					remove_ideas = railway_gun_idea2
+					remove_ideas = railway_gun_idea3
+					remove_ideas = railway_gun_idea4
+					remove_ideas = railway_gun_idea5
+
+				}
+			}
+		}
 		path = {
 			leads_to_tech = concentrated_industry2 
 			research_cost_coeff = 1
@@ -306,6 +4139,26 @@ technologies = {
 			factor = 25
 
 			modifier = {
+				factor = 50
+				tag = GER 
+			}
+			
+			modifier = {
+				factor = 50
+				tag = USA
+			}
+			
+			modifier = {
+				factor = 50
+				tag = ENG
+			}
+			
+			modifier = {
+				factor = 20
+				tag = JAP
+			}
+
+			modifier = {
 				factor = 0
 				has_tech = dispersed_industry
 			}
@@ -315,10 +4168,6 @@ technologies = {
 				is_researching_technology = dispersed_industry
 			}
 						
-			modifier = {
-				factor = 5
-				date > "1937.1.1"
-			}
 		}
 		
 		categories = {
@@ -334,9 +4183,11 @@ technologies = {
 	concentrated_industry2 = {
 
 		industrial_capacity_factory = 0.15
-		industrial_capacity_dockyard = 0.1
-		global_building_slots_factor = 0.20
-		
+		industrial_capacity_dockyard = 0.15
+		production_speed_industrial_complex_factor = 0.025
+		global_building_slots_factor = 0.35
+		repair_speed_arms_factory_factor = -0.05
+		repair_speed_industrial_complex_factor = -0.05
 		path = {
 			leads_to_tech = concentrated_industry3 
 			research_cost_coeff = 1
@@ -351,12 +4202,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 20
-						
-			modifier = {
-				factor = 10
-				date > "1937.1.1"
-			}
+			factor = 10
 			
 		}
 		
@@ -372,10 +4218,12 @@ technologies = {
 	
 	concentrated_industry3 = {
 
-		industrial_capacity_factory = 0.15
-		industrial_capacity_dockyard = 0.1
-		global_building_slots_factor = 0.20
-		
+		industrial_capacity_factory = 0.17
+		industrial_capacity_dockyard = 0.17
+		production_speed_industrial_complex_factor = 0.025
+		global_building_slots_factor = 0.35
+		repair_speed_arms_factory_factor = -0.05
+		repair_speed_industrial_complex_factor = -0.05
 		path = {
 			leads_to_tech = concentrated_industry4 
 			research_cost_coeff = 1
@@ -390,12 +4238,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 15
-			
-			modifier = {
-				factor = 10
-				date > "1939.1.1"
-			}			
+			factor = 10		
 		}
 		
 		categories = {
@@ -410,10 +4253,12 @@ technologies = {
 	
 	concentrated_industry4 = {
 
-		industrial_capacity_factory = 0.15
-		industrial_capacity_dockyard = 0.1
-		global_building_slots_factor = 0.20
-		
+		industrial_capacity_factory = 0.17
+		industrial_capacity_dockyard = 0.17
+		production_speed_industrial_complex_factor = 0.025
+		global_building_slots_factor = 0.35
+		repair_speed_arms_factory_factor = -0.05
+		repair_speed_industrial_complex_factor = -0.05
 		path = {
 			leads_to_tech = concentrated_industry5
 			research_cost_coeff = 1
@@ -428,12 +4273,8 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 15
-						
-			modifier = {
-				factor = 10
-				date > "1941.1.1"
-			}
+			factor = 10
+					
 		}
 		
 		categories = {
@@ -448,10 +4289,12 @@ technologies = {
 	
 	concentrated_industry5 = {
 
-		industrial_capacity_factory = 0.15
-		industrial_capacity_dockyard = 0.1
-		global_building_slots_factor = 0.20
-		
+		industrial_capacity_factory = 0.17
+		industrial_capacity_dockyard = 0.17
+		production_speed_industrial_complex_factor = 0.025
+		global_building_slots_factor = 0.35
+		repair_speed_arms_factory_factor = -0.05
+		repair_speed_industrial_complex_factor = -0.05
 		research_cost = 2
 		start_year = 1943
 		
@@ -461,17 +4304,8 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 4
-			
-			modifier = {
-				factor = 5
-				date > "1942.1.9"
-			}
-			
-			modifier = {
-				factor = 20
-				date > "1943.1.1"
-			}			
+			factor = 10
+		
 		}
 		
 		categories = {
@@ -486,12 +4320,21 @@ technologies = {
 	
 	dispersed_industry = {
 
-		industrial_capacity_factory = 0.1
-		industrial_capacity_dockyard = 0.1
-		line_change_production_efficiency_factor = 0.1
+		industrial_capacity_factory = 0.06
+		industrial_capacity_dockyard = 0.12
+	
 		production_factory_start_efficiency_factor = 0.05
-		industry_air_damage_factor = -0.15
-		global_building_slots_factor = 0.2
+		line_change_production_efficiency_factor = 0.07
+		global_building_slots_factor = 0.35
+		repair_speed_arms_factory_factor = 0.05
+		repair_speed_industrial_complex_factor = 0.05
+
+		on_research_complete = {
+			custom_effect_tooltip = railwagun_ic_fix_tt
+			hidden_effect = {
+				add_ideas = railway_gun_idea
+			}	
+		}
 		
 		path = {
 			leads_to_tech = dispersed_industry2 
@@ -510,7 +4353,27 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 25
+			factor = 10
+
+			modifier = {
+				factor = 0
+				tag = GER
+			}
+			
+			modifier = {
+				factor = 0
+				tag = USA
+			}
+			
+			modifier = {
+				factor = 0
+				tag = ENG
+			}
+			
+			modifier = {
+				factor = 0
+				tag = JAP
+			}
 
 			modifier = {
 				factor = 0
@@ -522,10 +4385,6 @@ technologies = {
 				is_researching_technology = concentrated_industry
 			}
 
-			modifier = {
-				factor = 5
-				date > "1937.1.1"
-			}
 		}
 		
 		categories = {
@@ -540,12 +4399,24 @@ technologies = {
 	
 	dispersed_industry2 = {
 
-		industrial_capacity_factory = 0.1
-		industrial_capacity_dockyard = 0.1
-		line_change_production_efficiency_factor = 0.1
+		industrial_capacity_factory = 0.09
+		industrial_capacity_dockyard = 0.15
+
 		production_factory_start_efficiency_factor = 0.05
-		industry_air_damage_factor = -0.10
-		global_building_slots_factor = 0.2
+		line_change_production_efficiency_factor = 0.07
+		repair_speed_arms_factory_factor = 0.05
+		repair_speed_industrial_complex_factor = 0.05
+		global_building_slots_factor = 0.35
+
+		on_research_complete = {
+			custom_effect_tooltip = railwagun_ic_fix_tt
+			hidden_effect = {
+				swap_ideas = {
+					remove_idea = railway_gun_idea
+					add_idea = railway_gun_idea2
+				}	
+			}	
+		}
 		
 		path = {
 			leads_to_tech = dispersed_industry3 
@@ -561,12 +4432,8 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 20
+			factor = 10
 						
-			modifier = {
-				factor = 10
-				date > "1937.1.1"
-			}
 		}
 		
 		categories = {
@@ -581,12 +4448,23 @@ technologies = {
 	
 	dispersed_industry3 = {
 
-		industrial_capacity_factory = 0.1
-		industrial_capacity_dockyard = 0.1
-		line_change_production_efficiency_factor = 0.1
+		industrial_capacity_factory = 0.11
+		industrial_capacity_dockyard = 0.17
+
 		production_factory_start_efficiency_factor = 0.05
-		industry_air_damage_factor = -0.10
-		global_building_slots_factor = 0.2
+		line_change_production_efficiency_factor = 0.07
+		repair_speed_arms_factory_factor = 0.05
+		repair_speed_industrial_complex_factor = 0.05
+		global_building_slots_factor = 0.35
+		on_research_complete = {
+			custom_effect_tooltip = railwagun_ic_fix_tt
+			hidden_effect = {
+				swap_ideas = {
+					remove_idea = railway_gun_idea2
+					add_idea = railway_gun_idea3
+				}
+			}		
+		}
 		
 		path = {
 			leads_to_tech = dispersed_industry4 
@@ -602,12 +4480,8 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 15
-						
-			modifier = {
-				factor = 10
-				date > "1939.1.1"
-			}			
+			factor = 10
+								
 		}
 		
 		categories = {
@@ -622,12 +4496,23 @@ technologies = {
 	
 	dispersed_industry4 = {
 
-		industrial_capacity_factory = 0.1
-		industrial_capacity_dockyard = 0.1
-		line_change_production_efficiency_factor = 0.1
+		industrial_capacity_factory = 0.11
+		industrial_capacity_dockyard = 0.17
+
 		production_factory_start_efficiency_factor = 0.05
-		industry_air_damage_factor = -0.10
-		global_building_slots_factor = 0.2
+		line_change_production_efficiency_factor = 0.07
+		repair_speed_arms_factory_factor = 0.05
+		repair_speed_industrial_complex_factor = 0.05
+		global_building_slots_factor = 0.35
+		on_research_complete = {
+			custom_effect_tooltip = railwagun_ic_fix_tt
+			hidden_effect = {
+				swap_ideas = {
+					remove_idea = railway_gun_idea3
+					add_idea = railway_gun_idea4
+				}
+			}		
+		}
 		
 		path = {
 			leads_to_tech = dispersed_industry5 
@@ -643,12 +4528,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 15
-						
-			modifier = {
-				factor = 10
-				date > "1941.1.1"
-			}
+			factor = 10
 		}
 		
 		categories = {
@@ -663,12 +4543,24 @@ technologies = {
 	
 	dispersed_industry5 = {
 
-		industrial_capacity_factory = 0.1
-		industrial_capacity_dockyard = 0.1
-		line_change_production_efficiency_factor = 0.1
+		industrial_capacity_factory = 0.11
+		industrial_capacity_dockyard = 0.17
+
 		production_factory_start_efficiency_factor = 0.05
-		industry_air_damage_factor = -0.10
-		global_building_slots_factor = 0.2
+		line_change_production_efficiency_factor = 0.07
+		repair_speed_arms_factory_factor = 0.05
+		repair_speed_industrial_complex_factor = 0.05
+		global_building_slots_factor = 0.35
+
+		on_research_complete = {
+			custom_effect_tooltip = railwagun_ic_fix_tt
+			hidden_effect = {
+				swap_ideas = {
+					remove_idea = railway_gun_idea4
+					add_idea = railway_gun_idea5
+				}
+			}		
+		}
 		
 		
 		research_cost = 2
@@ -680,13 +4572,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 15
-			
-			
-			modifier = {
-				factor = 10
-				date > "1943.1.1"
-			}
+			factor = 10
 		}
 		
 		categories = {
@@ -698,347 +4584,12 @@ technologies = {
 			defensive = -1.0
 		}
 	}
-
-	fuel_silos = {
-
-		enable_building = {
-			building = fuel_silo
-			level = 3
-		}
-				
-		path = {
-			leads_to_tech = synth_oil_experiments 
-			research_cost_coeff = 1
-		}
-		path = {
-			leads_to_tech = fuel_refining 
-			research_cost_coeff = 1
-		}
-		
-		research_cost = 1
-		start_year = 1936
-		folder = {
-			name = industry_folder
-			position = { x = 1 y = 0 }
-		}
-		
-		categories = {
-			industry
-			synth_resources
-		}
-		
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 2
-				oil > 10
-			}
-			modifier = {
-				factor = 3
-				oil > 20
-			}	
-			modifier = {
-				factor = 4
-				oil > 30
-			}	
-			
-			modifier = {
-				factor = 2
-				num_of_military_factories > 10
-			}	
-			modifier = {
-				factor = 3
-				num_of_military_factories > 20
-			}	
-			modifier = {
-				factor = 4
-				num_of_military_factories > 30
-			}	
-			modifier = {
-				factor = 4
-				num_of_military_factories > 40
-			}	
-			modifier = {
-				factor = 4
-				num_of_military_factories > 50
-			}	
-
-			modifier = {
-				factor = 2
-				num_of_naval_factories > 10
-			}	
-			modifier = {
-				factor = 3
-				num_of_naval_factories > 20
-			}	
-			modifier = {
-				factor = 4
-				num_of_naval_factories > 30
-			}	
-			modifier = {
-				factor = 4
-				num_of_naval_factories > 40
-			}
-			modifier = {
-				factor = 4
-				num_of_naval_factories > 50
-			}
-			
-			modifier = {
-				factor = 0.2
-				date < "1937.1.1"
-			}
-			modifier = {
-				factor = 0.4
-				date < "1938.1.1"
-			}
-		}
-	}
-
-	fuel_refining = {
-
-		fuel_gain_factor = 0.2
-		fuel_gain_factor_from_states = 0.1
-					
-		path = {
-			leads_to_tech = fuel_refining2 
-			research_cost_coeff = 1
-		}
-		
-		research_cost = 3
-		start_year = 1936
-		folder = {
-			name = industry_folder
-			position = { x = 3 y = 2 }
-		}
-		
-		categories = {
-			industry
-			synth_resources
-		}
-		
-		ai_will_do = {
-			factor = 5
-			modifier = {
-				has_war = yes
-				factor = 2
-			}
-			modifier = {
-				is_major = no
-				factor = 0.25
-			}
-			modifier = {
-				factor = 1.5
-				num_of_military_factories > 10
-			}	
-			modifier = {
-				factor = 1.5
-				num_of_military_factories > 20
-			}	
-			modifier = {
-				factor = 1.5
-				num_of_military_factories > 30
-			}	
-
-			modifier = {
-				factor = 1.5
-				num_of_naval_factories > 10
-			}	
-			modifier = {
-				factor = 1.5
-				num_of_naval_factories > 20
-			}	
-			modifier = {
-				factor = 1.5
-				num_of_naval_factories > 30
-			}
-		}
-		
-	}
-
-	fuel_refining2 = {
-		
-		fuel_gain_factor = 0.2
-		fuel_gain_factor_from_states = 0.1
-
-		path = {
-			leads_to_tech = fuel_refining3 
-			research_cost_coeff = 1
-		}
-		
-		research_cost = 3
-		start_year = 1937
-		folder = {
-			name = industry_folder
-			position = { x = 3 y = 4 }
-		}
-		
-		categories = {
-			industry
-			synth_resources
-		}
-		
-		ai_will_do = {
-			factor = 5
-			modifier = {
-				has_war = yes
-				factor = 2
-			}
-			modifier = {
-				is_major = no
-				factor = 0.25
-			}
-			modifier = {
-				factor = 1.5
-				num_of_military_factories > 20
-			}	
-			modifier = {
-				factor = 1.5
-				num_of_military_factories > 30
-			}	
-
-			modifier = {
-				factor = 1.5
-				num_of_naval_factories > 20
-			}	
-			modifier = {
-				factor = 1.5
-				num_of_naval_factories > 30
-			}			
-		}
-		
-	}
-
-	fuel_refining3 = {
-		
-		fuel_gain_factor = 0.2
-		fuel_gain_factor_from_states = 0.1
-
-		path = {
-			leads_to_tech = fuel_refining4 
-			research_cost_coeff = 1
-		}
-		research_cost = 3
-		start_year = 1939
-		folder = {
-			name = industry_folder
-			position = { x = 3 y = 6 }
-		}
-		
-		categories = {
-			industry
-			synth_resources
-		}
-		
-		ai_will_do = {
-			factor = 5
-			modifier = {
-				has_war = yes
-				factor = 2
-			}
-			modifier = {
-				is_major = no
-				factor = 0.25
-			}
-			modifier = {
-				factor = 1.5
-				num_of_military_factories > 30
-			}	
-
-			modifier = {
-				factor = 1.5
-				num_of_naval_factories > 30
-			}				
-		}		
-	}
-
-	fuel_refining4 = {
-		
-		fuel_gain_factor = 0.20
-		fuel_gain_factor_from_states = 0.1
-
-		path = {
-			leads_to_tech = fuel_refining5
-			research_cost_coeff = 1
-		}
-		research_cost = 3
-		start_year = 1941
-		folder = {
-			name = industry_folder
-			position = { x = 3 y = 8 }
-		}
-		
-		categories = {
-			industry
-			synth_resources
-		}
-		
-		ai_will_do = {
-			factor = 5
-			modifier = {
-				has_war = yes
-				factor = 2
-			}
-			modifier = {
-				is_major = no
-				factor = 0.25
-			}
-			modifier = {
-				factor = 1.5
-				num_of_military_factories > 30
-			}	
-
-			modifier = {
-				factor = 1.5
-				num_of_naval_factories > 30
-			}				
-		}		
-	}
-
-	fuel_refining5 = {
-		
-		fuel_gain_factor = 0.20
-		fuel_gain_factor_from_states = 0.1
-
-		research_cost = 3
-		start_year = 1943
-		folder = {
-			name = industry_folder
-			position = { x = 3 y = 10 }
-		}
-		
-		categories = {
-			industry
-			synth_resources
-		}
-		
-		ai_will_do = {
-			factor = 5
-			modifier = {
-				has_war = yes
-				factor = 2
-			}
-			modifier = {
-				is_major = no
-				factor = 0.25
-			}
-			modifier = {
-				factor = 1.5
-				num_of_military_factories > 40
-			}	
-
-			modifier = {
-				factor = 1.5
-				num_of_naval_factories > 40
-			}				
-		}		
-	}
 	
 	synth_oil_experiments = {
 
 		enable_building = {
 			building = synthetic_refinery
-			level = 3
+			level = 1
 		}
 				
 		path = {
@@ -1054,29 +4605,20 @@ technologies = {
 		start_year = 1936
 		folder = {
 			name = industry_folder
-			position = { x = 0 y = 2 }
+			position = { x = 7 y = 2 }
 		}
 		
 		categories = {
 			industry
 			synth_resources
-			cat_synth_oil
 		}
 		
 		ai_will_do = {
 			factor = 5
 			modifier = {
-				factor = 0.5
-				oil > 10
-			}
-			modifier = {
-				factor = 0.5
-				oil > 20
-			}	
-			modifier = {
-				factor = 0.5
-				oil > 30
-			}			
+				factor = 100
+				tag = JAP 
+			}		
 		}
 		
 		ai_research_weights = {
@@ -1086,7 +4628,10 @@ technologies = {
 	
 	oil_processing = {
 		
-		fuel_gain_factor_from_states = 0.5
+		enable_building = {
+			building = synthetic_refinery
+			level = 2
+		}
 
 		start_year = 1937
 
@@ -1099,28 +4644,24 @@ technologies = {
 		
 		folder = {
 			name = industry_folder
-			position = { x = -1 y = 4 }
+			position = { x = 6 y = 4 }
 		}
 		
 		categories = {
 			industry
 			synth_resources
-			cat_synth_oil
 		}
 		
-		ai_will_do = {
-			factor = 1
+		ai_will_do = { 
+			factor = 0.5
+			
 			modifier = {
-				factor = 0.5
-				oil > 10
+				factor = 100
+				tag = GER 
 			}
 			modifier = {
-				factor = 0.5
-				oil > 20
-			}	
-			modifier = {
-				factor = 0.5
-				oil > 30
+				factor = 100
+				tag = JAP 
 			}			
 		}
 		
@@ -1133,7 +4674,10 @@ technologies = {
 	
 	improved_oil_processing = {
 		
-		fuel_gain_factor_from_states = 0.5
+		enable_building = {
+			building = synthetic_refinery
+			level = 4
+		}
 
 		path = {
 			leads_to_tech = advanced_oil_processing
@@ -1145,29 +4689,24 @@ technologies = {
 		
 		folder = {
 			name = industry_folder
-			position = { x = -1 y = 6 }
+			position = { x = 6 y = 6 }
 		}
 		
 		categories = {
 			industry
 			synth_resources
-			cat_synth_oil
 		}
 		
 		ai_will_do = {
-			factor = 1
+			factor = 0.5
 			modifier = {
-				factor = 0.5
-				oil > 10
+				factor = 100
+				tag = GER 
 			}
 			modifier = {
-				factor = 0.5
-				oil > 20
-			}	
-			modifier = {
-				factor = 0.5
-				oil > 30
-			}	
+				factor = 100
+				tag = JAP 
+			}		
 		}
 		
 		ai_research_weights = {
@@ -1179,7 +4718,15 @@ technologies = {
 	
 	advanced_oil_processing = {
 
-		fuel_gain_factor_from_states = 0.5
+		fuel_gain_factor_from_states = 0.25
+
+		on_research_complete = {
+			modify_building_resources = {
+				building = synthetic_rubber_refinery
+				resource = rubber
+				amount = 1
+			}
+		}
 
 		path = {
 			leads_to_tech = modern_oil_processing
@@ -1191,28 +4738,23 @@ technologies = {
 		
 		folder = {
 			name = industry_folder
-			position = { x = -1 y = 8 }
+			position = { x = 6 y = 8 }
 		}
 		
 		categories = {
 			industry
 			synth_resources
-			cat_synth_oil
 		}
 		
 		ai_will_do = {
-			factor = 1
+			factor = 0.5
 			modifier = {
-				factor = 0.5
-				rubber > 10
+				factor = 100
+				tag = GER 
 			}
 			modifier = {
-				factor = 0.5
-				rubber > 20
-			}	
-			modifier = {
-				factor = 0.5
-				rubber > 30
+				factor = 100
+				tag = JAP 
 			}			
 		}
 		
@@ -1224,37 +4766,39 @@ technologies = {
 	}
 
 	modern_oil_processing = {
+		on_research_complete = {
+			modify_building_resources = {
+				building = synthetic_rubber_refinery
+				resource = rubber
+				amount = 1
+			}
+		}
 
-		fuel_gain_factor_from_states = 0.5
+		fuel_gain_factor_from_states = 0.25
 		
 		research_cost = 1.5
 		start_year = 1943
 		
 		folder = {
 			name = industry_folder
-			position = { x = -1 y = 10 }
+			position = { x = 6 y = 10 }
 		}
 		
 		categories = {
 			industry
 			synth_resources
-			cat_synth_oil
 		}
 		
 		ai_will_do = {
 			factor = 0.5
 			modifier = {
-				factor = 0.5
-				oil > 10
+				factor = 100
+				tag = GER 
 			}
 			modifier = {
-				factor = 0.5
-				oil > 20
-			}	
-			modifier = {
-				factor = 0.5
-				oil > 30
-			}			
+				factor = 100
+				tag = JAP 
+			}		
 		}
 		
 		ai_research_weights = {
@@ -1267,12 +4811,9 @@ technologies = {
 	#####################################
 	rubber_processing = {
 
-		on_research_complete = {
-			modify_building_resources = {
-				building = synthetic_refinery
-				resource = rubber
-				amount = 1
-			}
+		enable_building = {
+			building = synthetic_rubber_refinery
+			level = 2
 		}
 
 		path = {
@@ -1285,29 +4826,28 @@ technologies = {
 		
 		folder = {
 			name = industry_folder
-			position = { x = 1 y = 4 }
+			position = { x = 8 y = 4 }
 		}
 		
 		categories = {
 			industry
 			synth_resources
-			cat_synth_rubber
 		}
 		
 		ai_will_do = {
-			factor = 1
+			factor = 0.5
 			modifier = {
-				factor = 0.5
-				rubber > 10
+				factor = 100
+				tag = GER 
 			}
 			modifier = {
-				factor = 0.5
-				rubber > 20
-			}	
+				factor = 100
+				tag = USA 
+			}
 			modifier = {
-				factor = 0.5
-				rubber > 30
-			}			
+				factor = 100
+				tag = ENG 
+			}
 		}
 		
 		ai_research_weights = {
@@ -1321,10 +4861,15 @@ technologies = {
 
 		on_research_complete = {
 			modify_building_resources = {
-				building = synthetic_refinery
+				building = synthetic_rubber_refinery
 				resource = rubber
-				amount = 1
+				amount = 2
 			}
+		}
+
+		enable_building = {
+			building = synthetic_rubber_refinery
+			level = 4
 		}
 
 		path = {
@@ -1337,29 +4882,21 @@ technologies = {
 		
 		folder = {
 			name = industry_folder
-			position = { x = 1 y = 6 }
+			position = { x = 8 y = 6 }
 		}
 		
 		categories = {
 			industry
 			synth_resources
-			cat_synth_rubber
 		}
 		
 		ai_will_do = {
-			factor = 1
+			factor = 0.5
 			modifier = {
-				factor = 0.5
-				rubber > 10
+				factor = 100
+				tag = GER 
 			}
-			modifier = {
-				factor = 0.5
-				rubber > 20
-			}	
-			modifier = {
-				factor = 0.5
-				rubber > 30
-			}			
+		
 		}
 		
 		ai_research_weights = {
@@ -1373,9 +4910,9 @@ technologies = {
 
 		on_research_complete = {
 			modify_building_resources = {
-				building = synthetic_refinery
+				building = synthetic_rubber_refinery
 				resource = rubber
-				amount = 1
+				amount = 3
 			}
 		}
 
@@ -1389,29 +4926,20 @@ technologies = {
 		
 		folder = {
 			name = industry_folder
-			position = { x = 1 y = 8 }
+			position = { x = 8 y = 8 }
 		}
 		
 		categories = {
 			industry
 			synth_resources
-			cat_synth_rubber
 		}
 		
 		ai_will_do = {
-			factor = 1
+			factor = 0.5
 			modifier = {
-				factor = 0.5
-				rubber > 10
-			}
-			modifier = {
-				factor = 0.5
-				rubber > 20
-			}	
-			modifier = {
-				factor = 0.5
-				rubber > 30
-			}			
+				factor = 100
+				tag = GER 
+			}		
 		}
 		
 		ai_research_weights = {
@@ -1425,9 +4953,9 @@ technologies = {
 
 		on_research_complete = {
 			modify_building_resources = {
-				building = synthetic_refinery
+				building = synthetic_rubber_refinery
 				resource = rubber
-				amount = 1
+				amount = 4
 			}
 		}
 		
@@ -1436,28 +4964,19 @@ technologies = {
 		
 		folder = {
 			name = industry_folder
-			position = { x = 1 y = 10 }
+			position = { x = 8 y = 10 }
 		}
 		
 		categories = {
 			industry
 			synth_resources
-			cat_synth_rubber
 		}
 		
 		ai_will_do = {
 			factor = 0.5
 			modifier = {
-				factor = 0.5
-				rubber > 10
-			}
-			modifier = {
-				factor = 0.5
-				rubber > 20
-			}	
-			modifier = {
-				factor = 0.5
-				rubber > 30
+				factor = 100
+				tag = GER 
 			}			
 		}
 		
@@ -1471,8 +4990,8 @@ technologies = {
 	
 	construction1 = {
 		
-		production_speed_buildings_factor = 0.10
-		industry_repair_factor = 0.10
+		production_speed_buildings_factor = 0.05
+		industry_repair_factor = 0.05
 
 		path = {
 			leads_to_tech = construction2
@@ -1489,7 +5008,10 @@ technologies = {
 			industry
 			construction_tech
 		}
-		
+		enable_building = {
+			building = air_base
+			level = 6
+		}
 		folder = {
 			name = industry_folder
 			position = { x = 0 y = 0 }
@@ -1497,10 +5019,9 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 50
-			
 			modifier = {
-				factor = 5
-				date > "1937.1.1"
+				tag = SOV
+				factor = 30
 			}
 		}
 	}
@@ -1527,38 +5048,14 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 1
-			
-			modifier = {
-				factor = 5.0
-				OR = {
-					oil > 0
-					aluminium > 0
-					rubber > 0
-					tungsten > 0
-					steel > 0
-					chromium > 0
-				}
-			}
-			
-			modifier = {
-				factor = 1.5
-				OR = {
-					oil > 8
-					aluminium > 8
-					rubber > 8
-					tungsten > 8
-					steel > 8
-					chromium > 8
-				}
-			}
+			factor = 5
 		}
 	}
 	
 	construction2 = {
 
-		production_speed_buildings_factor = 0.10
-		industry_repair_factor = 0.10
+		production_speed_buildings_factor = 0.075
+		industry_repair_factor = 0.075
 		
 		path = {
 			leads_to_tech = construction3 
@@ -1583,12 +5080,11 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 4
-			
+			factor = 10
 			modifier = {
-				factor = 10
-				date > "1937.1.1"
-			}			
+				tag = SOV
+				factor = 30
+			}	
 		}
 	}
 
@@ -1615,38 +5111,15 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 1
-			
-			modifier = {
-				factor = 5.0
-				OR = {
-					oil > 0
-					aluminium > 0
-					rubber > 0
-					tungsten > 0
-					steel > 0
-					chromium > 0
-				}
-			}
-			
-			modifier = {
-				factor = 1.5
-				OR = {
-					oil > 8
-					aluminium > 8
-					rubber > 8
-					tungsten > 8
-					steel > 8
-					chromium > 8
-				}
-			}
+			factor = 5
 		}
 	}	
 	
 	construction3 = {
 
-		production_speed_buildings_factor = 0.10
+		production_speed_buildings_factor = 0.125
 		industry_repair_factor = 0.10
+
 		
 		path = {
 			leads_to_tech = construction4 
@@ -1657,7 +5130,10 @@ technologies = {
 			leads_to_tech = excavation3
 			research_cost_coeff = 1
 		}
-		
+		enable_building = {
+			building = infrastructure
+			level = 8
+		}
 		research_cost = 2
 		start_year = 1939
 		
@@ -1673,20 +5149,9 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 10
-			
 			modifier = {
-				factor = 1.5
-				has_war = yes
-			}
-			
-			modifier = {
-				factor = 0.5
-				has_war = no
-			}
-			
-			modifier = {
-				factor = 3
-				date > "1940.1.1"
+				tag = SOV
+				factor = 50
 			}
 		}
 	}
@@ -1716,37 +5181,17 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
-			
 			modifier = {
-				factor = 5.0
-				OR = {
-					oil > 0
-					aluminium > 0
-					rubber > 0
-					tungsten > 0
-					steel > 0
-					chromium > 0
-				}
-			}
-			
-			modifier = {
-				factor = 1.5
-				OR = {
-					oil > 8
-					aluminium > 8
-					rubber > 8
-					tungsten > 8
-					steel > 8
-					chromium > 8
-				}
+				tag = SOV
+				factor = 50
 			}
 		}
 	}		
 	
 	construction4 = {
 
-		production_speed_buildings_factor = 0.10
-		industry_repair_factor = 0.10
+		production_speed_buildings_factor = 0.175
+		industry_repair_factor = 0.125
 		
 		path = {
 			leads_to_tech = construction5 
@@ -1756,7 +5201,10 @@ technologies = {
 			leads_to_tech = excavation4
 			research_cost_coeff = 1
 		}
-		
+		enable_building = {
+			building = infrastructure
+			level = 9
+		}
 		research_cost = 2
 		start_year = 1941
 		
@@ -1771,18 +5219,13 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 4
-			
-			modifier = {
-				factor = 10
-				date > "1941.1.1"
-			}
+			factor = 10
 		}
 	}
 
 	excavation4 = {
 		
-		local_resources_factor = 0.10
+		local_resources_factor = 0.15
 		
 		path = {
 			research_cost_coeff = 1
@@ -1804,44 +5247,23 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
-			
-			modifier = {
-				factor = 5.0
-				OR = {
-					oil > 0
-					aluminium > 0
-					rubber > 0
-					tungsten > 0
-					steel > 0
-					chromium > 0
-				}
-			}
-			
-			modifier = {
-				factor = 1.5
-				OR = {
-					oil > 8
-					aluminium > 8
-					rubber > 8
-					tungsten > 8
-					steel > 8
-					chromium > 8
-				}
-			}
 		}
 	}			
 	
 	construction5 = {
 
-		production_speed_buildings_factor = 0.10
-		industry_repair_factor = 0.10
+		production_speed_buildings_factor = 0.25
+		industry_repair_factor = 0.15
 		
 		path = {
 			leads_to_tech = excavation5
 			research_cost_coeff = 1
 		}
 
-		
+		enable_building = {
+			building = infrastructure
+			level = 10
+		}
 		research_cost = 2
 		start_year = 1943
 		
@@ -1856,19 +5278,15 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 4
-			
-			modifier = {
-				factor = 10
-				date > "1943.1.1"
-			}
+			factor = 10
+
 		}
 	}
 
 
 	excavation5 = {
 		
-		local_resources_factor = 0.10
+		local_resources_factor = 0.15
 		
 		path = {
 			research_cost_coeff = 1
@@ -1890,30 +5308,7 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 2
-			
-			modifier = {
-				factor = 5.0
-				OR = {
-					oil > 0
-					aluminium > 0
-					rubber > 0
-					tungsten > 0
-					steel > 0
-					chromium > 0
-				}
-			}
-			
-			modifier = {
-				factor = 1.5
-				OR = {
-					oil > 8
-					aluminium > 8
-					rubber > 8
-					tungsten > 8
-					steel > 8
-					chromium > 8
-				}
-			}
 		}
-	}			
+	}	
+   
 }

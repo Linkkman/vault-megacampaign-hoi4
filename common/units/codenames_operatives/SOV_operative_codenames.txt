@@ -1,11 +1,12 @@
-SOV_OPERATIVE_CODENAME_HISTORICAL = {
+﻿SOV_OPERATIVE_CODENAME_HISTORICAL = {
 	name = SOV_OPERATIVE_CODENAME_HISTORICAL
 
-	for_countries = { }
+	for_countries = { SOV }
 
 	type = codename
 
 	fallback_name = "Agent %d"
+
 	unique = {
 		"Perseus"
 		"Farewell"

@@ -1,4 +1,4 @@
-ROM_OPERATIVE_CODENAME_HISTORICAL = {
+﻿ROM_OPERATIVE_CODENAME_HISTORICAL = {
 	name = ROM_OPERATIVE_CODENAME_HISTORICAL
 
 	for_countries = { ROM }
@@ -6,6 +6,7 @@ ROM_OPERATIVE_CODENAME_HISTORICAL = {
 	type = codename
 
 	fallback_name = "Agent %d"
+
 	unique = {
 		"Tepes"
 		"Corvinus"
