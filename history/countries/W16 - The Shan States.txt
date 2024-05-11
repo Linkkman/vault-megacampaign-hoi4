@@ -68,17 +68,17 @@ set_popularities = {
 	democratic = 100
 }
 
-add_opinion_modifier = { target = ARG modifier = positive_20 }
-add_opinion_modifier = { target = GER modifier = positive_7 }
-add_opinion_modifier = { target = ITA modifier = positive_40 }
-add_opinion_modifier = { target = SOV modifier = positive_115 }
-add_opinion_modifier = { target = SPR modifier = negative_10 }
-add_opinion_modifier = { target = TIB modifier = negative_10 }
-add_opinion_modifier = { target = AST modifier = negative_10 }
-add_opinion_modifier = { target = W52 modifier = negative_10 }
-add_opinion_modifier = { target = W57 modifier = negative_10 }
-add_opinion_modifier = { target = W59 modifier = positive_5 }
-add_opinion_modifier = { target = X14 modifier = negative_40 }
+
+
+
+
+
+
+
+
+
+
+
 
 
 add_ideas = {

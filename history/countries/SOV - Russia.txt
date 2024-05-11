@@ -385,30 +385,30 @@ set_popularities = {
 	neutrality = 0
 }
 
-add_opinion_modifier = { target = ARG modifier = negative_1 }
-add_opinion_modifier = { target = BRA modifier = positive_108 }
-add_opinion_modifier = { target = ENG modifier = negative_18 }
-add_opinion_modifier = { target = FRA modifier = positive_66 }
-add_opinion_modifier = { target = GER modifier = positive_192 }
-add_opinion_modifier = { target = HAI modifier = positive_19 }
-add_opinion_modifier = { target = HOL modifier = negative_20 }
-add_opinion_modifier = { target = ITA modifier = negative_15 }
-add_opinion_modifier = { target = JAP modifier = positive_18 }
-add_opinion_modifier = { target = MOR modifier = positive_4 }
-add_opinion_modifier = { target = PER modifier = positive_172 }
-add_opinion_modifier = { target = SPR modifier = negative_100 }
-add_opinion_modifier = { target = SWI modifier = positive_105 }
-add_opinion_modifier = { target = TIB modifier = negative_8 }
-add_opinion_modifier = { target = W12 modifier = positive_200 }
-add_opinion_modifier = { target = W16 modifier = positive_115 }
-add_opinion_modifier = { target = AST modifier = negative_187 }
-add_opinion_modifier = { target = W52 modifier = positive_142 }
-add_opinion_modifier = { target = W57 modifier = negative_52 }
-add_opinion_modifier = { target = W59 modifier = negative_192 }
-add_opinion_modifier = { target = X14 modifier = negative_20 }
-add_opinion_modifier = { target = X72 modifier = negative_192 }
-add_opinion_modifier = { target = CAN modifier = negative_200 }
-add_opinion_modifier = { target = YUG modifier = positive_35 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 create_faction = SOV_comintern
 add_to_faction = SOV

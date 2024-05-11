@@ -69,11 +69,11 @@ set_popularities = {
 	neutrality = 21
 }
 
-add_opinion_modifier = { target = SPR modifier = negative_10 }
-add_opinion_modifier = { target = AST modifier = negative_15 }
-add_opinion_modifier = { target = W52 modifier = negative_10 }
-add_opinion_modifier = { target = W57 modifier = negative_10 }
-add_opinion_modifier = { target = W59 modifier = positive_26 }
+
+
+
+
+
 
 
 add_ideas = {

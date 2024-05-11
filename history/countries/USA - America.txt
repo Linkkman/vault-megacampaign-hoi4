@@ -72,27 +72,27 @@ set_popularities = {
 	neutrality = 6
 }
 
-add_opinion_modifier = { target = ARG modifier = positive_20 }
-add_opinion_modifier = { target = BRA modifier = negative_40 }
-add_opinion_modifier = { target = ENG modifier = negative_20 }
-add_opinion_modifier = { target = FRA modifier = positive_36 }
-add_opinion_modifier = { target = GER modifier = negative_190 }
-add_opinion_modifier = { target = HAI modifier = positive_105 }
-add_opinion_modifier = { target = HOL modifier = negative_60 }
-give_military_access = HOL
-add_opinion_modifier = { target = ITA modifier = negative_15 }
-add_opinion_modifier = { target = JAP modifier = negative_10 }
-add_opinion_modifier = { target = MOR modifier = positive_5 }
-add_opinion_modifier = { target = SOV modifier = positive_34 }
-add_opinion_modifier = { target = SPR modifier = negative_15 }
-add_opinion_modifier = { target = SWI modifier = positive_20 }
-add_opinion_modifier = { target = AST modifier = positive_45 }
-add_opinion_modifier = { target = W52 modifier = positive_99 }
-add_opinion_modifier = { target = W57 modifier = negative_200 }
-add_opinion_modifier = { target = W59 modifier = negative_10 }
-add_opinion_modifier = { target = X14 modifier = positive_52 }
-add_opinion_modifier = { target = X72 modifier = positive_9 }
-add_opinion_modifier = { target = CAN modifier = negative_200 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 add_ideas = {

@@ -68,12 +68,12 @@ set_popularities = {
 	neutrality = 100
 }
 
-add_opinion_modifier = { target = ARG modifier = negative_30 }
-add_opinion_modifier = { target = ENG modifier = positive_32 }
-add_opinion_modifier = { target = ITA modifier = positive_42 }
-give_military_access = ITA
-add_opinion_modifier = { target = W57 modifier = negative_30 }
-add_opinion_modifier = { target = W59 modifier = negative_10 }
+
+
+
+
+
+
 
 
 add_ideas = {

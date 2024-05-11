@@ -88,19 +88,19 @@ if = {
 	diplomatic_relation = { country = FRA relation = non_aggression_pact }
 }
 
-add_opinion_modifier = { target = ENG modifier = negative_199 }
-add_opinion_modifier = { target = FRA modifier = positive_43 }
-add_opinion_modifier = { target = GER modifier = negative_72 }
-add_opinion_modifier = { target = HOL modifier = positive_15 }
-add_opinion_modifier = { target = ITA modifier = positive_77 }
-add_opinion_modifier = { target = SOV modifier = positive_172 }
-add_opinion_modifier = { target = SPR modifier = negative_100 }
-add_opinion_modifier = { target = AST modifier = negative_200 }
-add_opinion_modifier = { target = W52 modifier = negative_12 }
-add_opinion_modifier = { target = W57 modifier = negative_125 }
-add_opinion_modifier = { target = W59 modifier = positive_55 }
-add_opinion_modifier = { target = X14 modifier = negative_199 }
-add_opinion_modifier = { target = CAN modifier = negative_200 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 add_ideas = {

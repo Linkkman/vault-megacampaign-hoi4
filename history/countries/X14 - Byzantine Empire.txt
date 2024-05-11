@@ -113,34 +113,34 @@ if = {
     }
 }
 
-add_opinion_modifier = { target = ARG modifier = positive_153 }
-add_opinion_modifier = { target = BRA modifier = positive_105 }
-add_opinion_modifier = { target = ENG modifier = positive_199 }
-add_opinion_modifier = { target = FRA modifier = negative_145 }
-add_opinion_modifier = { target = HAI modifier = positive_111 }
-add_opinion_modifier = { target = HOL modifier = positive_113 }
-add_opinion_modifier = { target = HUN modifier = positive_15 }
-add_opinion_modifier = { target = ITA modifier = negative_179 }
-add_opinion_modifier = { target = JAP modifier = negative_200 }
-add_opinion_modifier = { target = MOR modifier = positive_17 }
-add_opinion_modifier = { target = PER modifier = negative_199 }
-add_opinion_modifier = { target = SOV modifier = negative_20 }
-add_opinion_modifier = { target = SPR modifier = positive_193 }
-give_military_access = SPR
-add_opinion_modifier = { target = SWI modifier = positive_102 }
-add_opinion_modifier = { target = UKR modifier = positive_200 }
-add_opinion_modifier = { target = W16 modifier = negative_40 }
-add_opinion_modifier = { target = AST modifier = negative_24 }
-add_opinion_modifier = { target = W52 modifier = positive_172 }
-give_military_access = W52
-add_opinion_modifier = { target = W57 modifier = negative_117 }
-add_opinion_modifier = { target = W59 modifier = positive_177 }
-add_opinion_modifier = { target = X72 modifier = negative_121 }
-add_opinion_modifier = { target = CAN modifier = negative_199 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 create_faction = GRE_argos_alliance
 add_to_faction = X14
-add_to_faction = SPR
+add_to_faction = FRA
+add_to_faction = GER
+add_to_faction = SCA
 
 set_global_flag = KIEL_CANAL_UNBUILT
 add_ideas = {

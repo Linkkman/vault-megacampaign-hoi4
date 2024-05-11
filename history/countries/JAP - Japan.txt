@@ -304,25 +304,27 @@ if = {
 	diplomatic_relation = { country = ITA relation = non_aggression_pact }
 }
 
-add_opinion_modifier = { target = ARG modifier = positive_10 }
-add_opinion_modifier = { target = BRA modifier = negative_10 }
-add_opinion_modifier = { target = ENG modifier = negative_200 }
-add_opinion_modifier = { target = FRA modifier = negative_200 }
-add_opinion_modifier = { target = GER modifier = negative_200 }
-add_opinion_modifier = { target = HAI modifier = negative_10 }
-add_opinion_modifier = { target = HOL modifier = negative_10 }
-add_opinion_modifier = { target = ITA modifier = positive_200 }
-give_military_access = ITA
-add_opinion_modifier = { target = SOV modifier = positive_18 }
-add_opinion_modifier = { target = SPR modifier = negative_200 }
-add_opinion_modifier = { target = SWI modifier = negative_100 }
-add_opinion_modifier = { target = AST modifier = negative_10 }
-add_opinion_modifier = { target = W52 modifier = negative_10 }
-add_opinion_modifier = { target = W59 modifier = negative_198 }
-add_opinion_modifier = { target = X14 modifier = negative_200 }
-add_opinion_modifier = { target = X72 modifier = negative_10 }
-add_opinion_modifier = { target = CAN modifier = negative_10 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+create_faction = JAP_geacps
+add_to_faction = JAP
 
 add_ideas = {
 	limited_conscription

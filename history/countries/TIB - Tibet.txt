@@ -20,13 +20,13 @@ set_popularities = {
 	democratic = 100
 }
 
-add_opinion_modifier = { target = ARG modifier = positive_20 }
-add_opinion_modifier = { target = SOV modifier = negative_8 }
-add_opinion_modifier = { target = W16 modifier = negative_10 }
-add_opinion_modifier = { target = AST modifier = negative_10 }
-add_opinion_modifier = { target = W52 modifier = negative_10 }
-add_opinion_modifier = { target = W57 modifier = negative_10 }
-add_opinion_modifier = { target = W59 modifier = negative_200 }
+
+
+
+
+
+
+
 
 
 add_ideas = {

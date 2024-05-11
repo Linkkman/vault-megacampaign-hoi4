@@ -105,28 +105,28 @@ if = {
 	diplomatic_relation = { country = JAP relation = non_aggression_pact }
 }
 
-add_opinion_modifier = { target = ARG modifier = positive_20 }
-add_opinion_modifier = { target = BRA modifier = negative_119 }
-add_opinion_modifier = { target = ENG modifier = negative_195 }
-add_opinion_modifier = { target = FRA modifier = negative_195 }
-add_opinion_modifier = { target = GER modifier = negative_175 }
-add_opinion_modifier = { target = HAI modifier = positive_17 }
-add_opinion_modifier = { target = HOL modifier = negative_41 }
-add_opinion_modifier = { target = JAP modifier = positive_200 }
-give_military_access = JAP
-add_opinion_modifier = { target = MOR modifier = positive_40 }
-add_opinion_modifier = { target = PER modifier = positive_77 }
-add_opinion_modifier = { target = SOV modifier = negative_15 }
-add_opinion_modifier = { target = SPR modifier = negative_195 }
-add_opinion_modifier = { target = SWI modifier = negative_70 }
-add_opinion_modifier = { target = W16 modifier = positive_40 }
-add_opinion_modifier = { target = AST modifier = positive_5 }
-add_opinion_modifier = { target = W52 modifier = positive_20 }
-add_opinion_modifier = { target = W57 modifier = positive_48 }
-add_opinion_modifier = { target = W59 modifier = positive_146 }
-add_opinion_modifier = { target = X14 modifier = negative_179 }
-add_opinion_modifier = { target = X72 modifier = positive_5 }
-add_opinion_modifier = { target = CAN modifier = positive_111 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 add_ideas = {

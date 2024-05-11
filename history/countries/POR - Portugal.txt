@@ -21,19 +21,19 @@ set_popularities = {
 	neutrality = 8
 }
 
-add_opinion_modifier = { target = BRA modifier = positive_5 }
-add_opinion_modifier = { target = FRA modifier = positive_5 }
-add_opinion_modifier = { target = GER modifier = positive_20 }
-add_opinion_modifier = { target = HAI modifier = positive_5 }
-add_opinion_modifier = { target = HOL modifier = positive_5 }
-add_opinion_modifier = { target = ITA modifier = positive_10 }
-add_opinion_modifier = { target = SOV modifier = positive_4 }
-add_opinion_modifier = { target = AST modifier = positive_5 }
-add_opinion_modifier = { target = W52 modifier = positive_5 }
-add_opinion_modifier = { target = W57 modifier = negative_15 }
-add_opinion_modifier = { target = X14 modifier = positive_12 }
-add_opinion_modifier = { target = X72 modifier = positive_5 }
-add_opinion_modifier = { target = CAN modifier = negative_15 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 add_ideas = {
