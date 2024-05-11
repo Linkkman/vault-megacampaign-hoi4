@@ -1,5 +1,5 @@
 ﻿capital = 391
-set_research_slots = 3
+set_research_slots = 4
 
 oob = "PER_OOB"
 if = {

@@ -4,13 +4,13 @@ state={
 	name="STATE_235"
 
 	history={
-		owner = W74
+		owner = FRA
 		victory_points = {
 			4879 0 
 		}
 		buildings = {
-			infrastructure = 3
-			industrial_complex = 0
+			infrastructure = 5
+			industrial_complex = 3
 			arms_factory = 0
 			12921 = {
 				naval_base = 4

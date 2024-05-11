@@ -4,7 +4,7 @@ state={
 	name="STATE_58"
 
 	history={
-		owner = X14
+		owner = JAP
 		victory_points = {
 			13025 0 
 		}
@@ -15,10 +15,10 @@ state={
 			13025 = {
 				naval_base = 1
 			}
-			air_base = 0
+			air_base = 1
 
 		}
-		add_core_of = W32
+		add_core_of = JAP
 	}
 
 	provinces={

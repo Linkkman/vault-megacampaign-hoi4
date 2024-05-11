@@ -5,7 +5,7 @@ state={
 	impassable = yes
 
 	history={
-		owner = W71
+		owner = ENG
 		add_core_of = W71
 		add_claim_by = W20
 	}

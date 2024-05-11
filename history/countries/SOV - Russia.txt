@@ -1,7 +1,7 @@
 ﻿capital = 422
 set_major = yes
 set_cosmetic_tag = SOV_union
-set_research_slots = 4
+set_research_slots = 5
 
 oob = "SOV_OOB"
 if = {
@@ -72,6 +72,7 @@ set_technology = { #player
 	fleet_in_being = 1
 	############## economy ###########
 	basic_machine_tools = 1
+	concentrated_industry = 1
 	starting_industry = 1
 	SOV_light_infantry = 1
 	tech_light_infantry = 1

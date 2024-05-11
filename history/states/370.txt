@@ -4,7 +4,7 @@ state={
 	name="STATE_370"
 
 	history={
-		owner = W80
+		owner = HOL
 		victory_points = {
 			13041 10 
 		}
@@ -13,6 +13,21 @@ state={
 			industrial_complex = 0
 			arms_factory = 0
 			1002 = {
+				naval_base = 1
+			}
+			13039 = {
+				naval_base = 1
+			}
+			13040 = {
+				naval_base = 1
+			}
+			13042 = {
+				naval_base = 1
+			}
+			13045 = {
+				naval_base = 1
+			}
+			13046 = {
 				naval_base = 1
 			}
 			air_base = 5

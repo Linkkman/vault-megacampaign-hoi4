@@ -4,7 +4,7 @@ state={
 	name="STATE_350"
 
 	history={
-		owner = W76
+		owner = HOL
 		victory_points = {
 			12240 0 
 		}
@@ -14,6 +14,9 @@ state={
 			arms_factory = 0
 			12237 = {
 				naval_base = 2
+			}
+			7339 = {
+				naval_base = 1
 			}
 			air_base = 0
 

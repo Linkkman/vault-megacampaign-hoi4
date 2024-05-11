@@ -4,7 +4,7 @@ state={
 	name="STATE_487"
 
 	history={
-		owner = W84
+		owner = SPR
 		victory_points = {
 			2038 10 
 		}
@@ -28,7 +28,7 @@ state={
 	}
 	manpower=1163084
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=large_city
 
 	local_supplies=10.0
 }

@@ -1,6 +1,6 @@
 ﻿capital = 37
 set_major = yes
-set_research_slots = 4
+set_research_slots = 5
 add_named_threat = { threat = 2.322 name = infamy }
 
 oob = "X14_OOB"

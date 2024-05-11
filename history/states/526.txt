@@ -18,6 +18,9 @@ state={
 			4247 = {
 				naval_base = 8
 			}
+			4268 = {
+				naval_base = 1
+			}
 			air_base = 0
 
 		}
