@@ -9,15 +9,15 @@ state={
 	history={
 		owner = ENG
 		victory_points = {
-			3369 7 
+			3369 15
 		}
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 6
 			arms_factory = 3
 			dockyard = 3
-			540 = {
-				naval_base = 10
+			3369 = {
+				naval_base = 2
 
 			}
 			air_base = 4

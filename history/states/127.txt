@@ -18,7 +18,6 @@ state={
 			dockyard = 3
 			11374 = {
 				naval_base = 10
-
 			}
 			air_base = 10
 
@@ -32,7 +31,7 @@ state={
 	provinces={
 		6103 9239 11333 11374 
 	}
-	manpower=6875168
+	manpower=5942168
 	buildings_max_level_factor=1.000
 	state_category=industrial_heartland
 	local_supplies=10.000

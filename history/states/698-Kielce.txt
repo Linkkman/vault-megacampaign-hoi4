@@ -10,10 +10,16 @@ state={
 		add_core_of = GER
 		add_core_of = POL
 		add_claim_by = W20
+		victory_points = {
+			6416 1 
+		}
+		buildings = {
+			infrastructure = 1
+		}
 
 	}
-	state_category=enclave
-	manpower=10
+	state_category=rural
+	manpower=168010
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }

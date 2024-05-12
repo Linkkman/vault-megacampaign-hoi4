@@ -8,18 +8,15 @@ state={
 		owner = SOV
 		add_core_of = SOV
 		victory_points = {
-			3336 1 
+			4690 1
 		}
 		buildings = {
 			infrastructure = 2
-			industrial_complex = 1
-			arms_factory = 0
-			air_base = 0
 
 		}
 	}
-	state_category=enclave
-	manpower=10
+	state_category=rural
+	manpower=834010
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }

@@ -6,7 +6,7 @@ state={
 	history={
 		owner = SOV
 		victory_points = {
-			9417 4 
+			9417 10
 		}
 		buildings = {
 			infrastructure = 4
@@ -15,7 +15,6 @@ state={
 			dockyard = 1
 			9417 = {
 				naval_base = 8
-
 			}
 			air_base = 2
 
@@ -29,7 +28,7 @@ state={
 	provinces={
 		426 449 484 585 3417 3464 6417 6445 9417 9430 11403 11418 11434 11450 11559 
 	}
-	manpower=3745148
+	manpower=3045148
 	buildings_max_level_factor=1.000
 	state_category=city
 	local_supplies=10.000
