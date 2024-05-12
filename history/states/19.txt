@@ -6,7 +6,7 @@ state={
 	history={
 		owner = ARG
 		victory_points = {
-			10959 0 
+			10959 1 
 		}
 		buildings = {
 			infrastructure = 1
