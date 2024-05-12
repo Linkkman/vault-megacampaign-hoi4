@@ -2,13 +2,13 @@
 state={
 	id=461
 	name="STATE_461"
+	resources={
+		steel=220.000
+		tungsten=12.000
+	}
 
 	history={
 		owner = SCA
-		resources={
-			steel=220.000
-			tungsten=12.000
-		}
 		victory_points = {
 			383 25 
 		}

@@ -233,7 +233,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 13307;13296;sea;9009;-1;-1;-1;-1;;Chubut
 12954;13297;sea;5424;-1;-1;-1;-1;;Araucania
 13312;7982;sea;2919;-1;-1;-1;-1;;South Iran
-13313;8051;sea;2961;-1;-1;-1;-1;;Bahrain
+13313;8051;sea;2691;-1;-1;-1;-1;;Bahrain
 761;13315;sea;9092;-1;-1;-1;-1;;Ontario
 13196;13314;sea;9092;-1;-1;-1;-1;;Northern Quebec
 -1;-1;;-1;-1;-1;-1;-1;-1 
