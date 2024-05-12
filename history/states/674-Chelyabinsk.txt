@@ -2,6 +2,9 @@
 state={
 	id=674
 	name="STATE_674"
+	resources={
+		steel=30.000
+	}
 	provinces={
 		1233 1327 4242 4340 7285 9292 10170 10213 10284 12157 12229 12287 
 	}
@@ -12,7 +15,7 @@ state={
 			9292 15
 		}
 		buildings = {
-			infrastructure = 3
+			infrastructure = 7
 		}
 	}
 	state_category=city

@@ -11,12 +11,12 @@ state={
 			10696 20
 		}
 		buildings = {
-			infrastructure = 3
+			infrastructure = 8
 			air_base = 0
 		}
 	}
-	state_category=enclave
-	manpower=213010
+	state_category=metropolis
+	manpower=2130010
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }

@@ -1,6 +1,9 @@
 state={
 	id=677
 	name="STATE_677"
+	resources={
+		steel=40.000
+	}
 	provinces={
 		1229 1276 1363 1391 1418 1694 4309 4369 4850 7357 7741 7874 10312 12115 12185 12257 12285 12619 
 	}
@@ -8,10 +11,10 @@ state={
 		owner = SOV
 		add_core_of = SOV
 		victory_points = {
-			1391 30
+			1391 20
 		}
 		buildings = {
-			infrastructure = 3
+			infrastructure = 7
 			air_base = 0
 		}
 	}

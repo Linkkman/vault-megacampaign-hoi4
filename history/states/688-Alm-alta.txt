@@ -11,7 +11,7 @@ state={
 			1591 5
 		}
 		buildings = {
-			infrastructure = 3
+			infrastructure = 5
 		}
 	}
 	state_category=town

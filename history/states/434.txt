@@ -2,14 +2,19 @@
 state={
 	id=434
 	name="STATE_434"
+	resources={
+		chromium=2.000
+		steel=10.000
+		oil=4.000
+	}
 
 	history={
 		owner = SOV
 		victory_points = {
-			4681 30
+			4681 20
 		}
 		buildings = {
-			infrastructure = 4
+			infrastructure = 9
 			industrial_complex = 9
 			arms_factory = 3
 			air_base = 4

@@ -11,7 +11,7 @@ state={
 			11159 1 
 		}
 		buildings = {
-			infrastructure = 2
+			infrastructure = 4
 		}
 	}
 	manpower=198300

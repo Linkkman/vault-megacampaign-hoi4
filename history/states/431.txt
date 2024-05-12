@@ -3,7 +3,6 @@ state={
 	id=431
 	name="STATE_431"
 	resources={
-		chromium=23.000
 		oil=11.000
 		tungsten=52.000
 	}
@@ -14,7 +13,7 @@ state={
 			3734 15
 		}
 		buildings = {
-			infrastructure = 4
+			infrastructure = 7
 			industrial_complex = 3
 			arms_factory = 1
 			dockyard = 1
