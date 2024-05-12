@@ -2207,7 +2207,7 @@ ideas = {
 		generic_communist_revolutionary = {
 			
 			allowed = {
-				NOT = { OR = { tag = BUL tag = EFR tag = MAN tag = MEX tag = HOL tag = CZE tag = ROM tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = CHI tag = AST tag = RAJ tag = CAN tag = SAF tag = HUN tag = CHI tag = SLO tag = IRE tag = ETH original_tag = SPR is_reichskommissariat_ger = yes tag = POR} }
+				NOT = { OR = { tag = MAN tag = HOL tag = ROM tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = AST tag = RAJ tag = CAN tag = HUN original_tag = SPR} }
 				NOT = {
 					has_available_idea_with_traits = { idea = communist_revolutionary limit = 1 }
 				}
@@ -2230,7 +2230,7 @@ ideas = {
 		generic_democratic_reformer = {
 			
 			allowed = {
-				NOT = { OR = { tag = BUL tag = EFR tag = MAN tag = PRC tag = MEX tag = HOL tag = CZE tag = ROM original_tag = HUN tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = AST tag = RAJ tag = CAN tag = SAF tag = CHI tag = SLO tag = ETH original_tag = SPR is_reichskommissariat_ger = yes } }
+				NOT = { OR = { tag = MAN tag = PRC tag = HOL tag = ROM original_tag = HUN tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = AST tag = RAJ tag = CAN original_tag = SPR } }
 				NOT = {
 					has_available_idea_with_traits = { idea = democratic_reformer limit = 1 }
 				}
@@ -2265,7 +2265,7 @@ ideas = {
 		generic_fascist_demagogue = {
 			
 			allowed = {
-				NOT = { OR = { tag = MAN tag = PRC tag = MEX tag = HOL tag = CZE tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = AST tag = RAJ tag = CAN tag = SAF tag = ROM tag = CHI tag = IRE original_tag = SPR is_reichskommissariat_ger = yes tag = POR } }
+				NOT = { OR = { tag = MAN tag = PRC tag = HOL tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = AST tag = RAJ tag = CAN tag = ROM original_tag = SPR } }
 				NOT = {
 					has_available_idea_with_traits = { idea = fascist_demagogue limit = 1 }
 				}
@@ -2342,13 +2342,13 @@ ideas = {
 #			picture = generic_tank_manufacturer_1
 			
 #			allowed = {
-#				NOT = { OR ={ tag = MEX tag = HUN tag = RAJ tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = BEL tag = CZE tag = SWE tag = PRC tag = CHI tag = SLO tag = IRE is_reichskommissariat_ger = yes } }
+#				NOT = { OR ={ tag = HUN tag = RAJ tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = BEL tag = SWE tag = PRC } }
 #				NOT = {
 #					has_available_idea_with_traits = { idea = tank_manufacturer limit = 1 }
 #				}
 #				NOT = {
 #					AND = {
-#						OR = { tag = AST tag = SAF tag = NZL tag = CAN }
+#						OR = { tag = AST tag = NZL tag = CAN }
 #						has_dlc = "Together for Victory"
 #					}
 #				}
@@ -2366,7 +2366,7 @@ ideas = {
 			picture = generic_tank_manufacturer_1
 			
 			allowed = {
-				NOT = { OR= { tag = GER tag = ENG tag = SOV tag = CAN tag = ITA tag = JAP tag = USA tag = AST  tag = ROM tag = POL  is_reichskommissariat_ger = yes } }
+				NOT = { OR= { tag = GER tag = ENG tag = SOV tag = CAN tag = ITA tag = JAP tag = AST  tag = ROM tag = POL  } }
 			}
 			
 			cost = 150
@@ -2386,7 +2386,7 @@ ideas = {
 			picture = generic_naval_manufacturer_1
 
 			allowed = {
-				NOT = { OR= { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = SWE tag = HUN tag = CZE tag = SWE tag = PRC tag = CHI tag = POL is_reichskommissariat_ger = yes } }
+				NOT = { OR= { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = SWE tag = HUN tag = SWE tag = PRC tag = POL } }
 				NOT = {
 					has_available_idea_with_traits = { idea = naval_manufacturer limit = 1 }
 				}
@@ -2413,7 +2413,7 @@ ideas = {
 			picture = generic_air_manufacturer_1
 
 			allowed = {
-				NOT = { OR ={ tag = MAN tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = SWE tag = PRC tag = CHI tag = SLO is_reichskommissariat_ger = yes } }
+				NOT = { OR ={ tag = MAN tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = SWE tag = PRC } }
 				NOT = {
 					has_available_idea_with_traits = { idea = light_aircraft_manufacturer limit = 1 }
 				}
@@ -2435,7 +2435,7 @@ ideas = {
 			picture = generic_air_manufacturer_3
 
 			allowed = {
-				NOT = { OR ={ tag = MAN tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = ROM tag = POL tag = SWE tag = PRC tag = CHI is_reichskommissariat_ger = yes } }
+				NOT = { OR ={ tag = MAN tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = ROM tag = POL tag = SWE tag = PRC } }
 				NOT = {
 					has_available_idea_with_traits = { idea = medium_aircraft_manufacturer limit = 1 }
 				}
@@ -2457,7 +2457,7 @@ ideas = {
 			picture = generic_air_manufacturer_2
 			
 			allowed = {
-				NOT = { OR ={ tag = MAN tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = CAN tag = ROM tag = SWE tag = PRC tag = CHI is_reichskommissariat_ger = yes } }
+				NOT = { OR ={ tag = MAN tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = CAN tag = ROM tag = SWE tag = PRC } }
 				NOT = {
 					has_available_idea_with_traits = { idea = heavy_aircraft_manufacturer limit = 1 }
 				}
@@ -2479,7 +2479,7 @@ ideas = {
 			picture = generic_naval_manufacturer_2
 
 			allowed = {
-				NOT = { OR ={ tag = MAN tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = HUN tag = AST tag = CAN tag = RAJ tag = CHI is_reichskommissariat_ger = yes } }
+				NOT = { OR ={ tag = MAN tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = HUN tag = AST tag = CAN tag = RAJ } }
 				NOT = {
 					has_available_idea_with_traits = { idea = naval_aircraft_manufacturer limit = 1 }
 				}
@@ -2497,7 +2497,7 @@ ideas = {
 			picture = generic_naval_manufacturer_1
 
 			allowed = {
-				NOT = { OR ={ tag = GER tag = ENG tag = SOV tag = ITA tag = JAP tag = USA tag = HUN tag = AST tag = CAN tag = RAJ tag = ROM tag = POL is_reichskommissariat_ger = yes  } }
+				NOT = { OR ={ tag = GER tag = ENG tag = SOV tag = ITA tag = JAP tag = HUN tag = AST tag = CAN tag = RAJ tag = ROM tag = POL  } }
 	
 			}
 			
@@ -2518,7 +2518,7 @@ ideas = {
 			picture = generic_air_manufacturer_1
 
 			allowed = {
-				NOT = { OR ={ tag = RAJ tag = GER tag = ENG tag = SOV tag = ITA tag = JAP tag = USA tag = CAN tag = ROM  tag = HUN tag = AST tag = POL is_reichskommissariat_ger = yes } }
+				NOT = { OR ={ tag = RAJ tag = GER tag = ENG tag = SOV tag = ITA tag = JAP tag = CAN tag = ROM  tag = HUN tag = AST tag = POL } }
 	
 			}
 			
@@ -2535,7 +2535,7 @@ ideas = {
 			picture = generic_electronics_concern_1
 
 			allowed = {
-				NOT = { OR ={ tag = CZE tag = RAJ tag = GER tag = ENG tag = SOV tag = ITA tag = JAP tag = USA tag = HUN tag = AST tag = CAN tag = RAJ tag = ROM tag = CHI is_reichskommissariat_ger = yes } }
+				NOT = { OR ={ tag = RAJ tag = GER tag = ENG tag = SOV tag = ITA tag = JAP tag = HUN tag = AST tag = CAN tag = RAJ tag = ROM } }
 				NOT = {
 					has_available_idea_with_traits = { idea = electronics_concern limit = 1 }
 				}
@@ -2554,7 +2554,7 @@ ideas = {
 			picture = generic_industrial_concern_1
 
 			allowed = {
-				NOT = { OR ={ tag = ROM tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = HUN tag = AST tag = CAN tag = SLO tag = POL is_reichskommissariat_ger = yes } }
+				NOT = { OR ={ tag = ROM tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = HUN tag = AST tag = CAN tag = POL } }
 
 			}
 			
@@ -2571,7 +2571,7 @@ ideas = {
 			picture = generic_industrial_concern_1
 
 			allowed = {
-				NOT = { OR ={ tag = SPR tag = MAN tag = RAJ tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = HUN tag = PRC tag = CHI tag = SLO is_reichskommissariat_ger = yes } }
+				NOT = { OR ={ tag = SPR tag = MAN tag = RAJ tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = HUN tag = PRC } }
 				NOT = {
 					has_available_idea_with_traits = { idea = industrial_concern limit = 1 }
 				}
@@ -2593,7 +2593,7 @@ ideas = {
 			picture = generic_motorized_equipment_manufacturer_3
 
 			allowed = {
-				NOT = { OR ={ tag = SAF tag = AST tag = CAN tag = RAJ tag = HUN tag = MAN tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = PRC tag = CHI original_tag = SPR is_reichskommissariat_ger = yes } }
+				NOT = { OR ={ tag = AST tag = CAN tag = RAJ tag = HUN tag = MAN tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = PRC original_tag = SPR } }
 				NOT = {
 					has_available_idea_with_traits = { idea = motorized_equipment_manufacturer limit = 1 }
 				}
@@ -2609,7 +2609,7 @@ ideas = {
 			picture = generic_infantry_equipment_manufacturer_2
 
 			allowed = {
-				NOT = { OR ={ tag = SAF tag = HUN tag = MAN tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = HUN tag = PRC tag = CHI original_tag = SPR is_reichskommissariat_ger = yes } }
+				NOT = { OR ={ tag = HUN tag = MAN tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = HUN tag = PRC original_tag = SPR } }
 				NOT = {
 					has_available_idea_with_traits = { idea = infantry_equipment_manufacturer limit = 1 }
 				}
@@ -2625,7 +2625,7 @@ ideas = {
 			picture = generic_artillery_manufacturer_2
 
 			allowed = {
-				NOT = { OR ={ tag = SAF tag = AST tag = CAN tag = HUN tag = MAN tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = PRC tag = CHI tag = POL original_tag = SPR is_reichskommissariat_ger = yes } }
+				NOT = { OR ={ tag = AST tag = CAN tag = HUN tag = MAN tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = PRC tag = POL original_tag = SPR } }
 				NOT = {
 					has_available_idea_with_traits = { idea = artillery_manufacturer limit = 1 }
 				}
@@ -2643,7 +2643,7 @@ ideas = {
 			picture = generic_motorized_equipment_manufacturer_3
 
 			allowed = {
-				NOT = { OR ={ tag = HUN tag = GER tag = ENG tag = SOV tag = ITA tag = JAP tag = USA tag = HUN tag = AST tag = CAN tag = RAJ tag = ROM tag = PRC tag = POL is_reichskommissariat_ger = yes } }
+				NOT = { OR ={ tag = HUN tag = GER tag = ENG tag = SOV tag = ITA tag = JAP tag = HUN tag = AST tag = CAN tag = RAJ tag = ROM tag = PRC tag = POL } }
 
 			}
 			
@@ -2660,7 +2660,7 @@ ideas = {
 			picture = generic_infantry_equipment_manufacturer_2
 
 			allowed = {
-				NOT = { OR ={ tag = HUN tag = GER tag = ENG tag = SOV tag = ITA tag = JAP tag = USA tag = HUN tag = AST tag = CAN tag = RAJ tag = ROM tag = POL is_reichskommissariat_ger = yes } }
+				NOT = { OR ={ tag = HUN tag = GER tag = ENG tag = SOV tag = ITA tag = JAP tag = HUN tag = AST tag = CAN tag = RAJ tag = ROM tag = POL } }
 			
 			}
 			
@@ -2676,7 +2676,7 @@ ideas = {
 			picture = generic_artillery_manufacturer_2
 
 			allowed = {
-				NOT = { OR ={ tag = HUN tag = GER tag = ENG tag = SOV tag = ITA tag = JAP tag = USA tag = HUN tag = AST tag = CAN tag = RAJ tag = ROM tag = PRC tag = POL is_reichskommissariat_ger = yes } }
+				NOT = { OR ={ tag = HUN tag = GER tag = ENG tag = SOV tag = ITA tag = JAP tag = HUN tag = AST tag = CAN tag = RAJ tag = ROM tag = PRC tag = POL } }
 				
 			}
 			
@@ -2711,7 +2711,7 @@ ideas = {
 		generic_war_industrialist = {
 
 			allowed = {
-				OR = { original_tag = ETH original_tag = BEL original_tag = NOR original_tag = BUL original_tag = YUG original_tag = SWE original_tag = KOR original_tag = LEB original_tag = EGY  original_tag = INS   }
+				OR = { original_original_tag = BEL original_tag = NOR original_original_tag = YUG original_tag = SWE original_tag = KOR original_tag = LEB original_tag = EGY  original_tag = INS   }
 			}
 			
 			traits = { war_industrialist }
