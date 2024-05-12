@@ -274,26 +274,6 @@ if = {
         freedom_level = 0.4
     }
     set_autonomy = {
-        target = W65
-        autonomous_state = autonomy_colony
-        freedom_level = 0.4
-    }
-    set_autonomy = {
-        target = W66
-        autonomous_state = autonomy_colony
-        freedom_level = 0.4
-    }
-    set_autonomy = {
-        target = W67
-        autonomous_state = autonomy_integrated_puppet
-        freedom_level = 0.4
-    }
-    set_autonomy = {
-        target = W68
-        autonomous_state = autonomy_colony
-        freedom_level = 0.4
-    }
-    set_autonomy = {
         target = W69
         autonomous_state = autonomy_colony
         freedom_level = 0.4
@@ -303,20 +283,10 @@ if = {
         autonomous_state = autonomy_dominion
         freedom_level = 0.4
     }
-    set_autonomy = {
-        target = W71
-        autonomous_state = autonomy_integrated_puppet
-        freedom_level = 0.4
-    }
     else = {
         puppet = AST
-        puppet = W65
-        puppet = W66
-        puppet = W67
-        puppet = W68
         puppet = W69
         puppet = W70
-        puppet = W71
     }
 }
 

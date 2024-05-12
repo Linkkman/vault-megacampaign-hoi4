@@ -11,7 +11,7 @@ state={
 			industrial_complex = 1
 		}
 		victory_points = {
-			9506 3 
+			9506 10
 		}
 		add_core_of = SOV
 	}

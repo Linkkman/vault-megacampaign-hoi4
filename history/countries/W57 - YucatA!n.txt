@@ -248,48 +248,13 @@ set_popularities = {
 }
 
 # DIPLOMACY
-if = {
-    limit = {
-        has_dlc = "Together for Victory"
-    }
-    set_autonomy = {
-        target = W85
-        autonomous_state = autonomy_colony
-        freedom_level = 0.4
-    }
-    else = {
-        puppet = W85
-    }
-}
+
 
 if = {
     limit = {has_dlc = "Together for Victory" }
 
     add_to_tech_sharing_group = W57_research
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 add_ideas = {
 	great_power
