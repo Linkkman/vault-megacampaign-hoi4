@@ -187,6 +187,15 @@ ideologies = {
 			anarchism = {
 				can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
 			}
+			absolute_monarchy_neutral = {
+				can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
+			}
+			dictatorship_neutral = {
+			}
+			prussian_const_neutral = {
+			}
+			minarchism_neutral = {
+			}
 		}
 
 		dynamic_faction_names = {
