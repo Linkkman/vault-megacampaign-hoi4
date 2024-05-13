@@ -285,7 +285,7 @@ set_country_flag = conv_japan
 set_convoys = 37
 
 set_politics = {
-    ruling_party = neutrality
+    ruling_party = fascism
     last_election = "1908.6.4"
     election_frequency = 48
     elections_allowed = no
@@ -293,8 +293,8 @@ set_politics = {
 
 set_popularities = {
 	communism = 2
-	democratic = 79
-	fascism = 6
+	democratic = 6
+	fascism = 79
 	neutrality = 13
 }
 
@@ -321,6 +321,7 @@ recruit_character = JAP_kato_kotohito
 recruit_character = JAP_togo_yoshinori
 recruit_character = JAP_katsura_yahachi
 recruit_character = JAP_sotokichi_soroku
+recruit_character = JAP_emperor_jihad
 
 if = {
 	limit = {

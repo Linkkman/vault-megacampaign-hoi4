@@ -10239,4 +10239,9 @@ spriteTypes = {
 		texturefile = "gfx/leaders/SOV/Portrait_SOV_guy3.dds"
 	}
 
+	spriteType = {
+		name = JAP_emperor_jihad
+		texturefile = "gfx/leaders/JAP/Portrait_Japan_emperor_jihad.dds"
+	}
+
 }
