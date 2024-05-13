@@ -2,19 +2,8 @@ on_actions = {
 	#ROOT is new controller #FROM is old controller #FROM.FROM is state ID
 	on_state_control_changed = {
 
-		 ##  #    ##   ## ###     ###   ##   ##  ###  
-		#  # #   #  # #   #       #  # #  # #  # #  # 
-		#    #   #  #  #  ##      ###  #  # #### #  # 
-		#  # #   #  #   # #       #  # #  # #  # #  # 
-		 ##  ###  ##  ##  ###     #  #  ##  #  # ###  
-
 		effect = {
 
-			###  #  # ###  #   #  ##  
-			#  # #  # #  # ## ## #  # 
-			###  #  # ###  # # # #### 
-			#  # #  # #  # #   # #  # 
-			###   ##  #  # #   # #  # 
 			if = {
 				limit = {
 					FROM.FROM = { has_state_flag = CHI_needed_for_burma_road }
@@ -143,11 +132,11 @@ on_actions = {
 
 			}
 
-			### #  # ###     #  # #  # #   # ###  
-			 #  #  # #       #  # #  # ## ## #  # 
-			 #  #### ##      #### #  # # # # ###  
-			 #  #  # #       #  # #  # #   # #    
-			 #  #  # ###     #  #  ##  #   # #    
+			### #  # ###	 #  # #  # #   # ###  
+			 #  #  # #	   #  # #  # ## ## #  # 
+			 #  #### ##	  #### #  # # # # ###  
+			 #  #  # #	   #  # #  # #   # #	
+			 #  #  # ###	 #  #  ##  #   # #	
 			if = {
 				limit = {
 					FROM.FROM = { has_state_flag = CHI_needed_for_the_hump }
@@ -190,30 +179,88 @@ on_actions = {
 			}
 
 
-		###   ##  #   ### ### ###  ##   ##  #        ## ### ###  #  #  ##   ##  #   ### 
-		#  # #  # #    #   #   #  #  # #  # #       #    #  #  # #  # #    #    #   #   
-		###  #  # #    #   #   #  #    #### #        #   #  ###  #  # # ## # ## #   ##  
-		#    #  # #    #   #   #  #  # #  # #         #  #  #  # #  # #  # #  # #   #   
-		#     ##  ### ###  #  ###  ##  #  # ###     ##   #  #  #  ##   ##   ##  ### ### 
+		###   ##  #   ### ### ###  ##   ##  #		## ### ###  #  #  ##   ##  #   ### 
+		#  # #  # #	#   #   #  #  # #  # #	   #	#  #  # #  # #	#	#   #   
+		###  #  # #	#   #   #  #	#### #		#   #  ###  #  # # ## # ## #   ##  
+		#	#  # #	#   #   #  #  # #  # #		 #  #  #  # #  # #  # #  # #   #   
+		#	 ##  ### ###  #  ###  ##  #  # ###	 ##   #  #  #  ##   ##   ##  ### ### 
 					
+			#ROOT is new controller #FROM is old controller #FROM.FROM is state ID
+			if = {
+				limit = {
+					ROOT = {
+						has_country_flag = wtt_political_struggle
+						NOT = { has_country_flag = wtt_political_struggle_paused }
+					}
+				}
+				FROM.FROM = {
+					WTT_make_ROOT_majority_1_point_over_next = yes
+				}
+			}
+			if = {
+				limit = {
+					FROM.FROM = {
+						WTT_is_potential_political_struggle_state = yes
+					}
+				}
+				WTT_political_struggle_recalculate_support = yes
+			}
+
+			# Fall of Tokyo
+			if = {
+				limit = {
+					original_tag = JAP
+					has_government = communism
+					282 = { is_controlled_by = ROOT }
+					FROM = {
+						original_tag = JAP
+						has_government = fascism
+					}
+				}
+				FROM = { save_event_target_as = jap_civ_loser }
+				MAN = { country_event = { id = wtt_japan.121 days = 1 } }
+			}
 		}
 	}
 
 	#FROM is war target
 	on_declare_war = {
 		effect = {
+			#Clear any tribute and support flag if new communists end up at war with SOV
+			if = {
+				limit = { has_country_flag = WTT_support_from_soviet }
+				PRC_soviet_tribute_clear_all = yes
+				clr_country_flag = WTT_support_from_soviet
+			}
+			FROM = {
+				if = {
+					limit = { has_country_flag = WTT_support_from_soviet }
+					PRC_soviet_tribute_clear_all = yes
+					clr_country_flag = WTT_support_from_soviet
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						AND = {
+							tag = GER
+							FROM = { tag = SOV }
+						}
+						AND = {
+							tag = SOV
+							FROM = { tag = GER }
+						}
+					}
+				}
+				hidden_effect = {
+					GER = { 
+						activate_mission = GER_barbarossa_mission
+					}
+				}
+			}
 		}
 	}
 	#FROM is faction leader on join faction requests.
-	on_offer_join_faction = {
-		effect = {
-		}
-	}
-
-	on_leave_faction = {
-		effect = {
-		}
-	}
 
 	#ROOT is subject FROM is overlord
 	on_subject_annexed = {
@@ -223,24 +270,92 @@ on_actions = {
 
 	on_nuke_drop = {
 		effect = {			
+			if = {
+				limit = {
+					tag = JAP
+					FROM = {
+						is_controlled_by = USA
+						is_core_of = USA
+					}
+				}
+				set_country_flag = achievement_tojo_shot_first
+			}
 		}
 	}
 
 	#ROOT is winner #FROM gets annexed - For civil wars on_civil_war_end is also fired
 	on_annex = {
 		effect = {
-		}
-	}
+			if = {
+				limit = {
+					tag = JAP
+					FROM = { tag = MEX }
+					NOT = {
+						any_controlled_state = {						 
+							is_on_continent = europe
+						}
+					}
+				}
+				set_country_flag = achievement_sunrise_invasion_conquered_mexico_first
+			}
 
-	#ROOT is winner #FROM gets annexed - This will also fire on_annex
-	on_civil_war_end = {
-		effect = {
+			if = {
+				limit = {
+					tag = MAN
+					is_in_faction = no
+					FROM = { tag = JAP }
+				}
+				set_country_flag = achievement_the_dragon_swallowed_the_sun		
+			}
+
+			if = {
+				limit = { FROM = { has_country_flag = wtt_refused_giving_leadership } }
+				FROM = { clr_country_flag = wtt_refused_giving_leadership }
+				clr_global_flag = wtt_war_over_national_leadership
+				WTT_restart_political_struggle = yes
+			}
 		}
 	}
 
 	#ROOT is winner #FROM is loser
 	on_peaceconference_ended = {
 		effect = {
+			if = { limit = { has_dlc = "Waking the Tiger" }
+				if = {
+					limit = {
+						event_target:WTT_current_china_leader = { tag = ROOT }
+						FROM = { has_country_flag = wtt_refused_giving_leadership }
+					}
+					FROM = {
+						clr_country_flag = wtt_refused_giving_leadership
+						remove_ideas = CHI_illegal_regime
+					}
+					clr_global_flag = wtt_war_over_national_leadership
+					WTT_restart_political_struggle = yes
+				}
+				else_if = {
+					limit = {
+						has_country_flag = wtt_refused_giving_leadership
+						event_target:WTT_current_china_leader = { tag = FROM }
+					}
+					FROM = {
+						WTT_political_struggle_remove_current_country = yes
+						clear_global_event_target = WTT_current_china_leader
+					}
+					save_global_event_target_as = WTT_current_china_leader
+					remove_ideas = CHI_illegal_regime
+					WTT_restart_political_struggle = yes
+				}
+			}
+			if = {
+				limit = {
+					original_tag = FRA
+					owns_state = 28
+				}
+				28 = { set_state_name = STATE_28 }
+				set_province_name = { id = 9503 name = VICTORY_POINTS_9503 }
+				set_province_name = { id = 678 name = VICTORY_POINTS_678 }
+			}
 		}
 	}
 }

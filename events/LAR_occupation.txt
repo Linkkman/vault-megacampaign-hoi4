@@ -1,52 +1,14 @@
-﻿add_namespace = occupied_countries
+﻿
+add_namespace = occupied_countries
 
-country_event = {
-	id = occupied_countries.1
-	title = occupied_countries.1.title
-	desc = occupied_countries.1.desc
-	picture = GFX_report_event_canadian_soldiers
-
-	is_triggered_only = yes
-
-	option = {
-		name = occupied_countries.1.a
-		ai_chance = {
-			base = 0
-		}
-		if = {
-			limit = {
-				has_core_occupation_modifier = {
-					occupied_country_tag = FROM.FROM
-					modifier = compliance_80
-				}
-				NOT = {
-					any_country_with_original_tag = { #copy of is_available_to_collaboration_government but from from scope because of events
-						original_tag_to_check = FROM.FROM
-						is_puppet_of = PREV # if already created one do not create another
-						has_autonomy_state = autonomy_collaboration_government
-					}
-				}
-			}
-			set_temp_variable = { country_to_initiate = FROM.FROM }
-			instantiate_collaboration_government = yes
-		}
-
-	}
-
-	option = {
-		name = occupied_countries.1.b
-		ai_chance = {
-			base = 100
-		}
-	}
-}
-
+# create uprising
 country_event = {
 	id = occupied_countries.2
-
+	
 	is_triggered_only = yes
+	
 	hidden = yes
-
+	
 	immediate = {
 		FROM = {
 			if = {
@@ -56,10 +18,11 @@ country_event = {
 						modifier = resistance_90
 					}
 				}
+				
 				set_temp_variable = { occupier_country = THIS }
 				set_temp_variable = { occupied_country = FROM }
 				set_temp_variable = { new_occupied_country = FROM }
-
+				
 				set_temp_variable = { civil_war_country_picked = 0 }
 				if = {
 					## pick an existing civil war country
@@ -83,7 +46,7 @@ country_event = {
 				}
 				
 				if = {
-					## create a new country if necessary
+					## create a new country if necesarry
 					limit = {
 						check_variable = { civil_war_country_picked = 0 } 
 						FROM = {
@@ -114,10 +77,10 @@ country_event = {
 					}
 					
 					# booleans that will be allowed to change ideology
-					set_temp_variable = { allowed_party_communism = 1 }
+					set_temp_variable = { allowed_party_neutrality = 1 }
 					set_temp_variable = { allowed_party_democratic = 1 }
 					set_temp_variable = { allowed_party_fascism = 1 }
-					set_temp_variable = { allowed_party_neutrality = 1 }
+					set_temp_variable = { allowed_party_communism = 1 }
 					
 					# do not change ideology of occupier country
 					var:occupier_country = {
@@ -133,32 +96,56 @@ country_event = {
 						}
 					}
 					
-					# change government if necessary
+					# change government if necesarry
 					var:new_occupied_country = {
-						random_list = {
-							allowed_party_communism = {
-								set_popularities = {
-									communism = 100
+						if = {
+							# check if our current ideology is OK
+							limit = { 
+								OR = {
+									AND = {
+										has_government = democratic
+										check_variable = { allowed_party_democratic = 0 }
+									}
+									AND = {
+										has_government = fascism
+										check_variable = { allowed_party_fascism = 0 }
+									}
+									AND = {
+										has_government = communism
+										check_variable = { allowed_party_communism = 0 }
+									}
+									AND = { 
+										has_government = neutrality
+										check_variable = { allowed_party_neutrality = 0 }
+									}
 								}
-								set_politics = { ruling_party = communism elections_allowed = no }
 							}
-							allowed_party_democratic = {
-								set_popularities = {
-									democratic = 100
+							
+							random_list = {
+								allowed_party_democratic = {
+									set_popularities = {
+										democratic = 100
+									}
+									set_politics = { ruling_party = democratic elections_allowed = yes }
 								}
-								set_politics = { ruling_party = democratic elections_allowed = yes }
-							}
-							allowed_party_fascism = {
-								set_popularities = {
-									fascism = 100
+								allowed_party_fascism = {
+									set_popularities = {
+										fascism = 100
+									}
+									set_politics = { ruling_party = fascism elections_allowed = no }
 								}
-								set_politics = { ruling_party = fascism elections_allowed = no }
-							}
-							allowed_party_neutrality = {
-								set_popularities = {
-									neutrality = 100
+								allowed_party_communism = {
+									set_popularities = {
+										communism = 100
+									}
+									set_politics = { ruling_party = communism elections_allowed = no }
 								}
-								set_politics = { ruling_party = neutrality elections_allowed = no }
+								allowed_party_neutrality = {
+									set_popularities = {
+										neutrality = 100
+									}
+									set_politics = { ruling_party = neutrality elections_allowed = no }
+								}
 							}
 						}
 					}
@@ -190,10 +177,7 @@ country_event = {
 				
 				clear_temp_array = checked_neighbours
 				every_controlled_state = {
-					limit = { 
-						occupied_country_tag = occupied_country 
-						impassable = no
-					}
+					limit = { occupied_country_tag = occupied_country }
 					
 					# move our armies to back home
 					teleport_armies = {
@@ -239,7 +223,7 @@ country_event = {
 						}
 					}
 					
-					# also check neighboring core states of the occupier that are not captured yet
+					# also check neighbouring core states of the occupier that are not captured yet
 					# move our armies so they are not surrounded/create pockets
 					every_neighbor_state = {
 						limit = {
@@ -268,7 +252,7 @@ country_event = {
 					}
 				}
 			
-				# create war if necessary
+				# create war if necesarry
 				if = {
 					limit = { NOT = { has_war_with = new_occupied_country } }
 					declare_war_on = { target = new_occupied_country type = annex_everything }

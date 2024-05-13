@@ -1,16 +1,42 @@
 characters={
-	ETH_haile_mikael={
-		name=ETH_haile_mikael
+        ETH_ettore_bastico={
+		name="Ettore Bastico"
 		portraits={
-			civilian={
-				large="GFX_SOM_Haji_Bashir_Ismail_Yusuf"
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/ITA/Portrait_Italy_Ettore_Bastico.dds"
 			}
 		}
-		country_leader={
-			ideology=absolute_monarchy_neutral
-			expire="1965.1.1.1"
-			id=-1
+		corps_commander={
+			traits={ trait_cautious infantry_leader }
+			skill=4
+			attack_skill=4
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=3
+			legacy_id=-1
 		}
 	}
-
-}
+ETH_albert_kesselring={
+		name="Albert Kesselring"
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_GER_albert_kesselring.dds"
+			}
+			army={
+				large="gfx/leaders/GER/Portrait_Germany_Albert_Kesselring.dds"
+			}
+		}
+		field_marshal={
+			traits={ trait_cautious logistics_wizard }
+			skill=4
+			attack_skill=3
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=2
+		}
+	}
+}	
+		

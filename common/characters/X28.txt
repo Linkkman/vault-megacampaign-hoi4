@@ -1,6 +1,0 @@
-characters={
-	X28_nomen_nescio={
-		name=X28_nomen_nescio
-	}
-
-}
