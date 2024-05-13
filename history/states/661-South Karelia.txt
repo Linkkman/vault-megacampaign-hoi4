@@ -24,7 +24,7 @@ state={
 		add_claim_by = W20
 
 	}
-	manpower=110210
+	manpower=1102010
 	state_category=town
 	buildings_max_level_factor=1.000
 	local_supplies=0.000

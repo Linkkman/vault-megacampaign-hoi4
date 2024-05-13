@@ -1,6 +1,5 @@
 ﻿capital = 422
 set_major = yes
-set_cosmetic_tag = SOV_union
 set_research_slots = 5
 
 oob = "SOV_OOB"
@@ -438,6 +437,7 @@ recruit_character = SOV_gunnar_jonsson
 recruit_character = SOV_gunnar_johanesson
 recruit_character = SOV_jon_arnorsson
 recruit_character = SOV_asgeir_hafstein
+recruit_character = SOV_august_spangberg
 
 if = {
 	limit = {

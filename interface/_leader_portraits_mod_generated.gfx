@@ -10219,4 +10219,24 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/idea_r56_generic_operative_europe_1.dds"
 	}
 
+	spriteType = {
+		name = SOV_august_spangberg
+		texturefile = "gfx/interface/leaders/SOV/Portrait_SOV_august_spangberg.dds"
+	}
+
+	spriteType = {
+		name = SOV_august_spangberg
+		texturefile = "gfx/leaders/SOV/Portrait_SOV_august_spangberg.dds"
+	}
+
+	spriteType = {
+		name = SOV_guy2
+		texturefile = "gfx/leaders/SOV/Portrait_SOV_guy2.dds"
+	}
+
+	spriteType = {
+		name = SOV_guy3
+		texturefile = "gfx/leaders/SOV/Portrait_SOV_guy3.dds"
+	}
+
 }

@@ -40,19 +40,19 @@ ideologies = {
 		faction_impact_on_world_tension = 0.5
 		
 		modifiers = {
-			airforce_intel_to_others = 7.5
-			army_intel_to_others = 7.5
-			civilian_intel_to_others = 10.0
+			airforce_intel_to_others = 100
+			army_intel_to_others = 100
+			civilian_intel_to_others = 100
+			navy_intel_to_others = 100
 			embargo_threshold_factor = 0.5
 			hidden_modifier = { join_faction_tension = -0.1 }
 			lend_lease_tension = 0.50
-			navy_intel_to_others = 12.5
 		}
 		
 		faction_modifiers = {
 		}
 
-		can_collaborate = yes
+		can_collaborate = no
 
 		ai_communist = yes
 	}
@@ -102,16 +102,16 @@ ideologies = {
 		faction_impact_on_world_tension = 0.1
 		
 		modifiers = {
-			airforce_intel_to_others = 5
-			army_intel_to_others = 5.0
-			civilian_intel_to_others = 20.0
+			airforce_intel_to_others = 100
+			army_intel_to_others = 100
+			civilian_intel_to_others = 100
+			navy_intel_to_others = 100
 			embargo_cost_factor = -0.5
 			embargo_threshold_factor = -0.5
 			generate_wargoal_tension = 1.00
 			guarantee_tension = 0.25
 			join_faction_tension = 0.80
 			lend_lease_tension = 0.50
-			navy_intel_to_others = 20.0
 			send_volunteers_tension = 0.50
 		}
 		
@@ -166,20 +166,20 @@ ideologies = {
 		faction_impact_on_world_tension = 1
 		
 		modifiers = {
-			airforce_intel_to_others = 10.0
-			army_intel_to_others = 10.0
-			civilian_intel_to_others = 15.0
+			airforce_intel_to_others = 100
+			army_intel_to_others = 100
+			civilian_intel_to_others = 100
+			navy_intel_to_others = 100
 			embargo_cost_factor = 1
 			hidden_modifier = { join_faction_tension = -0.1 }
 			justify_war_goal_when_in_major_war_time = -0.80
 			lend_lease_tension = 0.50
-			navy_intel_to_others = 10.0
 		}
 		
 		faction_modifiers = {
 		}
 
-		can_collaborate = yes
+		can_collaborate = no
 
 		ai_fascist = yes
 	}
@@ -244,15 +244,15 @@ ideologies = {
 		faction_impact_on_world_tension = 0.1
 		
 		modifiers = {
-			airforce_intel_to_others = 10.0
-			army_intel_to_others = 10.0
-			civilian_intel_to_others = 20.0
+			airforce_intel_to_others = 100
+			army_intel_to_others = 100
+			civilian_intel_to_others = 100
+			navy_intel_to_others = 100
 			drift_defence_factor = -0.3
 			generate_wargoal_tension = 0.5
 			guarantee_tension = 0.4
 			join_faction_tension = 0.4
 			lend_lease_tension = 0.6
-			navy_intel_to_others = 20.0
 			send_volunteers_tension = 0.4
 		}
 		

@@ -593,8 +593,6 @@ ideas = {
 				industrial_capacity_dockyard = 0.15
 				production_speed_buildings_factor = 0.15
 				research_speed_factor = 0.05
-				civilian_intel_to_others = 40.0
-				navy_intel_to_others = 20.0				   							   
 			}
 			
 			ai_will_do = {
@@ -626,8 +624,6 @@ ideas = {
 				industrial_capacity_dockyard = 0.1
 				production_speed_buildings_factor = 0.1
 				research_speed_factor = 0.025
-				civilian_intel_to_others = 20.0
-				navy_intel_to_others = 10.0				   							   
 			}
 			
 			ai_will_do = {
@@ -661,8 +657,6 @@ ideas = {
 				industrial_capacity_factory = 0.05
 				industrial_capacity_dockyard = 0.05
 				production_speed_buildings_factor = 0.05
-				civilian_intel_to_others = 10.0
-				navy_intel_to_others = 5				   							
 			}
 			
 			ai_will_do = {
@@ -685,7 +679,6 @@ ideas = {
 			
 			modifier = {
 				min_export = 0.05
-				#civilian_intel_to_others = 0.0
 			}
 			
 			ai_will_do = {
