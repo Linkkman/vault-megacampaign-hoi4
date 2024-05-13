@@ -16,15 +16,15 @@ state={
 
 		}
 		add_core_of = GER
+		add_core_of = HUN
 		add_claim_by = AUS
-		add_claim_by = HUN
 		add_claim_by = W20
 		add_claim_by = X73
 
 	}
 
 	provinces={
-		577 723 744 3728 3741 6584 6706 6729 6747 6761 9548 9701 9716 11534 11652 11655 11672 11689 
+		723 744 3728 3741 6584 6706 6729 6747 6761 9548 9701 9716 11534 11652 11655 11672 11689 
 	}
 	manpower=1208292
 	buildings_max_level_factor=1.000
