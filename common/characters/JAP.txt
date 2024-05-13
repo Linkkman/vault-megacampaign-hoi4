@@ -113,4 +113,18 @@ characters={
 		}
 	}
 
+	JAP_emperor_jihad={
+		name=JAP_emperor_jihad
+		portraits={
+			civilian={
+				large="gfx/leaders/JAP/Portrait_Japan_emperor_jihad.dds"
+			}
+		}
+		country_leader={
+			ideology=fascism_ideology
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
 }

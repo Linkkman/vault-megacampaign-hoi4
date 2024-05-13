@@ -160,10 +160,11 @@ technology_folders = {
 					original_tag = SAF
 					original_tag = AST
 					original_tag = NZL
-					original_tag = USA
+					original_tag = W57
 					original_tag = JAP
 					original_tag = ITA
 					original_tag = HUN
+					original_tag = SCA
 					original_tag = ROM
 					original_tag = SPR
 					original_tag = MAN
@@ -178,6 +179,7 @@ technology_folders = {
 					original_tag = BUL
 					original_tag = MON
 					original_tag = POL
+					original_tag = HOL
 				}
 				has_dlc = "No Step Back"
 			}		
@@ -240,7 +242,7 @@ technology_folders = {
 		available = {
 			AND = {
 				OR = {
-					original_tag = USA
+					original_tag = W57
 					original_tag = MEX
 					original_tag = BRA 
 					original_tag = CHI
@@ -260,7 +262,11 @@ technology_folders = {
 	nsb_pol_armor_folder = {
 		ledger = army
 		available = {
-		   original_tag = POL
+			OR = {
+		   		original_tag = POL
+		   		original_tag = HOL
+
+			}
 			has_dlc = "No Step Back"
 		}
 	}
@@ -280,6 +286,7 @@ technology_folders = {
 		ledger = army
 		available = {
 		   original_tag = HUN
+		   original_tag = SCA
 			has_dlc = "No Step Back"
 		}
 	}
@@ -336,10 +343,11 @@ technology_folders = {
 					original_tag = SAF
 					original_tag = AST
 					original_tag = NZL
-					original_tag = USA
+					original_tag = W57
 					original_tag = JAP
 					original_tag = ITA
 					original_tag = HUN
+					original_tag = SCA
 					original_tag = ROM
 					original_tag = SPR
 					original_tag = MAN
@@ -351,6 +359,7 @@ technology_folders = {
 					original_tag = EFR
 					original_tag = FRA
 					original_tag = POL
+					original_tag = HOL
 				}
 				NOT = {
 					has_dlc = "No Step Back"
@@ -365,6 +374,7 @@ technology_folders = {
 				OR = {
 				original_tag = ITA
 				original_tag = HUN
+				original_tag = SCA
 				original_tag = ROM
 				original_tag = BUL
 				original_tag = FIN
@@ -420,6 +430,7 @@ technology_folders = {
 					original_tag = NZL
 					#original_tag = MEX
 					original_tag = POL
+					original_tag = HOL
 				}
 				NOT = {
 					has_dlc = "No Step Back"
@@ -432,7 +443,7 @@ technology_folders = {
 		available = {
 			AND = {
 				OR = {
-				original_tag = USA
+				original_tag = W57
 				original_tag = MEX
 				original_tag = BRA
 				original_tag = PHI
@@ -479,7 +490,7 @@ technology_folders = {
 			original_tag = GER 
 			original_tag = SOV 
 			original_tag = ENG 
-			original_tag = USA 
+			original_tag = W57 
 			original_tag = CAN
 			original_tag = RAJ 
 			original_tag = SAF
@@ -489,6 +500,7 @@ technology_folders = {
 			original_tag = MEX
 			original_tag = EFR
 			original_tag = POL
+			original_tag = HOL
 		  }
 		}
 	}
@@ -550,12 +562,13 @@ technology_folders = {
 			original_tag = NZL
 			original_tag = MEX
 			original_tag = POL
+			original_tag = HOL
 		   }	
 		}
 	}
 	usa_air_techs_folder = {
 		ledger = air
-		available = { original_tag = USA }
+		available = { original_tag = W57 }
 	}	
 	special_forces_doctrine_folder = {
 		available = {
