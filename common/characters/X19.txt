@@ -1,0 +1,16 @@
+characters={
+	X19_pumi_sopa_canchata={
+		name=X19_pumi_sopa_canchata
+		portraits={
+			civilian={
+				large="gfx/leaders/south_american_native/portrait_nat_south_neutral.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

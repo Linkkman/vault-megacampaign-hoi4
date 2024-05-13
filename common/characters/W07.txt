@@ -1,0 +1,16 @@
+characters={
+	W07_anom_khairuddin={
+		name=W07_anom_khairuddin
+		portraits={
+			civilian={
+				large="GFX_Malaya_Yusof_bin_Ishak"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

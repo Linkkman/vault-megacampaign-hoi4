@@ -1,0 +1,16 @@
+characters={
+	X24_bernardino_garcia_de_la_noceda={
+		name=X24_bernardino_garcia_de_la_noceda
+		portraits={
+			civilian={
+				large="gfx/leaders/NIC/portrait_nic_anastasio_somoza_garcia.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

@@ -1,0 +1,76 @@
+characters={
+	X72_sveinn_johanesson={
+		name=X72_sveinn_johanesson
+		portraits={
+			army={
+				large="GFX_Portrait_Europe_Generic_land_5"
+			}
+			army={
+				small="GFX_Portrait_Europe_Generic_land_5"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=2
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X72_magnus_hansen={
+		name=X72_magnus_hansen
+		portraits={
+			army={
+				large="GFX_portrait_FRA_alphonse_georges"
+			}
+			army={
+				small="GFX_portrait_FRA_alphonse_georges"
+			}
+		}
+		corps_commander={
+			skill=3
+			attack_skill=5
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X72_agnar_thordarson={
+		name=X72_agnar_thordarson
+		portraits={
+			army={
+				large="GFX_portrait_Philippe_Petain"
+			}
+			army={
+				small="GFX_portrait_Philippe_Petain"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=3
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+
+	X72_tryggvi_thurs={
+		name=X72_tryggvi_thurs
+		portraits={
+			civilian={
+				large="gfx/leaders/ICE/portrait_ice_sveinn_bjornsson.dds"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

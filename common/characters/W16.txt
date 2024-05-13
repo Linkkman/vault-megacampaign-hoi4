@@ -1,0 +1,56 @@
+characters={
+	W16_hkam_ya={
+		name=W16_hkam_ya
+		portraits={
+			army={
+				large="GFX_Siam_Charun_Rattanakun_Seriroengri"
+			}
+			army={
+				small="GFX_Siam_Charun_Rattanakun_Seriroengri"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=2
+			defense_skill=3
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+
+	W16_pe_min={
+		name=W16_pe_min
+		portraits={
+			army={
+				large="GFX_Portrait_Asia_Generic_land_5"
+			}
+			army={
+				small="GFX_Portrait_Asia_Generic_land_5"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	W16_hkun_hung={
+		name=W16_hkun_hung
+		portraits={
+			civilian={
+				large="gfx/leaders/PHI/Portrait_Philippines_Manuel_Luis_Quezon.dds"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

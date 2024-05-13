@@ -1,0 +1,16 @@
+characters={
+	W17_kong_peng={
+		name=W17_kong_peng
+		portraits={
+			civilian={
+				large="gfx/leaders/SIK/Portrait_Sinkiang_Sheng_Shicai.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

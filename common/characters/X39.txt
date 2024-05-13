@@ -1,0 +1,16 @@
+characters={
+	X39_bhimsen_bahadur_rana={
+		name=X39_bhimsen_bahadur_rana
+		portraits={
+			civilian={
+				large="GFX_Madras_Periyar_Ramasavy"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

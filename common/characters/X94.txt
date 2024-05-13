@@ -1,0 +1,16 @@
+characters={
+	X94_chen_ye={
+		name=X94_chen_ye
+		portraits={
+			civilian={
+				large="gfx/leaders/XSM/portrait_xsm_ma_bufang.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

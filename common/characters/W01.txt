@@ -1,0 +1,16 @@
+characters={
+	W01_idris_raja_inu={
+		name=W01_idris_raja_inu
+		portraits={
+			civilian={
+				large="GFX_Philippines_Emilio_Aguinaldo"
+			}
+		}
+		country_leader={
+			ideology=minarchism_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

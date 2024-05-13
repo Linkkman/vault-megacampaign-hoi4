@@ -1,0 +1,16 @@
+characters={
+	X01_menkakush_keutoranke={
+		name=X01_menkakush_keutoranke
+		portraits={
+			civilian={
+				large="GFX_Ainu_Ukaji_Takashi"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

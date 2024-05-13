@@ -1,0 +1,16 @@
+characters={
+	W84_antonio_maria_lopez={
+		name=W84_antonio_maria_lopez
+		portraits={
+			civilian={
+				large="gfx/leaders/VEN/Portrait_Venezuela_Elezar_Lopez_Contreras.dds"
+			}
+		}
+		country_leader={
+			ideology=fascism_ideology
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

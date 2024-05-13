@@ -1,0 +1,16 @@
+characters={
+	W13_shijo_kido={
+		name=W13_shijo_kido
+		portraits={
+			civilian={
+				large="gfx/leaders/JAP/Portrait_Japan_Otozo_Yamada.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

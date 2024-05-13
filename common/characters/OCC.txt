@@ -1,0 +1,16 @@
+characters={
+	OCC_espargs_de_carro={
+		name=OCC_espargs_de_carro
+		portraits={
+			civilian={
+				large="gfx/leaders/FIN/Portrait_Finland_Risto_Heikki_Ryti.dds"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

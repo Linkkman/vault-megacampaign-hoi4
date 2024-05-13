@@ -1,0 +1,16 @@
+characters={
+	NAV_damian_echave={
+		name=NAV_damian_echave
+		portraits={
+			civilian={
+				large="gfx/leaders/South America/portrait_south_america_generic_9.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

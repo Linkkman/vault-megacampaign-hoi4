@@ -1,0 +1,56 @@
+characters={
+	TIB_tsepon_tashi={
+		name=TIB_tsepon_tashi
+		portraits={
+			army={
+				large="GFX_Portrait_Asia_Generic_land_5"
+			}
+			army={
+				small="GFX_Portrait_Asia_Generic_land_5"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	TIB_mipham_chophel={
+		name=TIB_mipham_chophel
+		portraits={
+			army={
+				large="GFX_AOG_Generic_1"
+			}
+			army={
+				small="GFX_AOG_Generic_1"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=3
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+
+	TIB_mipham_dzasa={
+		name=TIB_mipham_dzasa
+		portraits={
+			civilian={
+				large="gfx/leaders/Generic/r56_portrait_generic_politician_asia_1_democracy.dds"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

@@ -1,0 +1,16 @@
+characters={
+	W22_fu_xiangying={
+		name=W22_fu_xiangying
+		portraits={
+			civilian={
+				large="GFX_FNG_Zhang_Zuolin"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

@@ -1,0 +1,16 @@
+characters={
+	X05_purandar_singha={
+		name=X05_purandar_singha
+		portraits={
+			civilian={
+				large="GFX_DEH_Sir_Chhotu_Ram"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

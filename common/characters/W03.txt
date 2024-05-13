@@ -1,0 +1,16 @@
+characters={
+	W03_riayat_raja_ahmad={
+		name=W03_riayat_raja_ahmad
+		portraits={
+			civilian={
+				large="GFX_Philippines_Juan_Sumulong"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

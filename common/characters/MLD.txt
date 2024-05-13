@@ -1,0 +1,16 @@
+characters={
+	MLD_dharma_varma={
+		name=MLD_dharma_varma
+		portraits={
+			civilian={
+				large="GFX_Bengal_Lala_Lajpat_Rai"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

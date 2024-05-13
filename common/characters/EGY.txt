@@ -1,0 +1,16 @@
+characters={
+	EGY_abdulhamid_pasha={
+		name=EGY_abdulhamid_pasha
+		portraits={
+			civilian={
+				large="GFX_EGY_Hussein_Al_Shafei"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

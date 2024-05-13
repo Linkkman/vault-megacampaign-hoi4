@@ -1,0 +1,16 @@
+characters={
+	X21_louis_piche={
+		name=X21_louis_piche
+		portraits={
+			civilian={
+				large="GFX_native_north_american_neutral"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}
