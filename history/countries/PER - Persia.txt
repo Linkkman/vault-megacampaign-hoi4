@@ -388,9 +388,9 @@ if = {
 	diplomatic_relation = { country = FRA relation = non_aggression_pact }
 }
 add_ideas = {
-	volunteer_only
-	civilian_economy
-	export_focus
+	limited_conscription
+	low_economic_mobilisation
+	collectivised_economy
 	culture_persian
 }
 set_stability = 0.60
