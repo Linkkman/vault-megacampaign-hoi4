@@ -53,26 +53,6 @@ set_popularities = {
 	neutrality = 4
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 add_ideas = {
 	X42_monarch
 	volunteer_only

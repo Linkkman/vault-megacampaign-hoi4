@@ -76,26 +76,6 @@ if = {
 	diplomatic_relation = { country = HOL relation = non_aggression_pact }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 add_ideas = {
 	volunteer_only
 	civilian_economy

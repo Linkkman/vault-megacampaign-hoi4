@@ -196,29 +196,6 @@ set_popularities = {
 	fascism = 17
 	neutrality = 3
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 add_ideas = {
 	volunteer_only
 	civilian_economy

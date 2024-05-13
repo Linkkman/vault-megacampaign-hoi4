@@ -48,24 +48,6 @@ set_popularities = {
 	democratic = 93
 	neutrality = 7
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 add_ideas = {
 	limited_conscription
 	civilian_economy

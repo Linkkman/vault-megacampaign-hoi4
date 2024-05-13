@@ -47,23 +47,7 @@ set_politics = {
 set_popularities = {
 	democratic = 92
 	neutrality = 8
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-add_ideas = {
+}add_ideas = {
 	uncivilized
 	volunteer_only
 	civilian_economy

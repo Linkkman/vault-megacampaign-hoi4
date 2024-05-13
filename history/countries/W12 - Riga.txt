@@ -65,24 +65,6 @@ set_popularities = {
 	democratic = 93
 	neutrality = 7
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 add_ideas = {
 	W12_monarch
 	volunteer_only

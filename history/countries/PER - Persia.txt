@@ -387,22 +387,6 @@ if = {
 	limit = { NOT = { has_non_aggression_pact_with = FRA } }
 	diplomatic_relation = { country = FRA relation = non_aggression_pact }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 add_ideas = {
 	volunteer_only
 	civilian_economy

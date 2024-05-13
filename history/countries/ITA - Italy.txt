@@ -72,31 +72,6 @@ if = {
 	limit = { NOT = { has_non_aggression_pact_with = JAP } }
 	diplomatic_relation = { country = JAP relation = non_aggression_pact }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 add_ideas = {
 	vittoria_mutilata
 	limited_conscription

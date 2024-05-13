@@ -27,23 +27,7 @@ set_politics = {
 set_popularities = {
 	democratic = 93
 	neutrality = 7
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-add_ideas = {
+}add_ideas = {
 	volunteer_only
 	civilian_economy
 	export_focus

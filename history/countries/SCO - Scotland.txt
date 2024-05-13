@@ -20,24 +20,6 @@ set_popularities = {
 	democratic = 89
 	neutrality = 11
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 add_ideas = {
 	SCO_monarch
 	volunteer_only

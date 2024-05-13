@@ -47,27 +47,7 @@ set_politics = {
 set_popularities = {
 	democratic = 85
 	neutrality = 15
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-add_ideas = {
+}add_ideas = {
 	uncivilized
 	disarmed_nation
 	civilian_economy

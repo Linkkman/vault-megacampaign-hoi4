@@ -79,32 +79,7 @@ if = {
         autonomous_state = autonomy_dominion
         freedom_level = 0.72
     }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-create_faction = GRE_argos_alliance
+}create_faction = GRE_argos_alliance
 add_to_faction = X14
 add_to_faction = FRA
 add_to_faction = GER

@@ -19,27 +19,7 @@ set_politics = {
 set_popularities = {
 	democratic = 89
 	neutrality = 11
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-add_ideas = {
+}add_ideas = {
 	BUL_monarch
 	volunteer_only
 	civilian_economy

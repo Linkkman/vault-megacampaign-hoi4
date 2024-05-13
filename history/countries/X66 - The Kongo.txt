@@ -20,24 +20,6 @@ set_popularities = {
 	democratic = 93
 	neutrality = 7
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 add_ideas = {
 	uncivilized
 	limited_conscription

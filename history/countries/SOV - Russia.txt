@@ -384,31 +384,6 @@ set_popularities = {
 	neutrality = 0
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 create_faction = SOV_comintern
 add_to_faction = SOV
 add_to_faction = PER
@@ -418,12 +393,10 @@ if = {
 	add_ideas = MTG_naval_treaty_adherent
 }
 add_ideas = {
-	great_power
-	SOV_monarch
-	limited_conscription
-	civilian_economy
-	export_focus
 	culture_holmgardr
+	limited_conscription
+	low_economic_mobilisation
+	export_focus
 }
 set_stability = 0.60
 set_war_support = 0.60

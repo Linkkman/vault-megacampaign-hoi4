@@ -20,24 +20,6 @@ set_popularities = {
 	democratic = 89
 	neutrality = 11
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 add_ideas = {
 	X32_monarch
 	volunteer_only

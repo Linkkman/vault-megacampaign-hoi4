@@ -20,24 +20,6 @@ set_popularities = {
 	democratic = 94
 	neutrality = 6
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 add_ideas = {
 	volunteer_only
 	civilian_economy

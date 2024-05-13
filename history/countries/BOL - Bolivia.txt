@@ -49,26 +49,6 @@ set_popularities = {
 	neutrality = 13
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 add_ideas = {
 	limited_conscription
 	civilian_economy

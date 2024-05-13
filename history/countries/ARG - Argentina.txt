@@ -96,29 +96,6 @@ if = {
 	limit = { NOT = { has_non_aggression_pact_with = FRA } }
 	diplomatic_relation = { country = FRA relation = non_aggression_pact }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 if = {
 	limit = { has_dlc = "Man the Guns" }
 	add_ideas = MTG_naval_treaty_adherent

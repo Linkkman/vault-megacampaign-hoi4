@@ -51,30 +51,7 @@ set_popularities = {
 	communism = 1
 	democratic = 85
 	neutrality = 14
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-add_ideas = {
+}add_ideas = {
 	limited_conscription
 	civilian_economy
 	export_focus

@@ -20,26 +20,6 @@ set_popularities = {
 	democratic = 95
 	neutrality = 5
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 add_ideas = {
 	disarmed_nation
 	civilian_economy

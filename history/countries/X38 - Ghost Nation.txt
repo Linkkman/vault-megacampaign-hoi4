@@ -19,31 +19,6 @@ set_politics = {
 set_popularities = {
 	democratic = 100
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 add_ideas = {
 	uncivilized
 	X38_monarch

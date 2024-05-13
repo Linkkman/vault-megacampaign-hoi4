@@ -68,26 +68,6 @@ if = {
 	diplomatic_relation = { country = SOV relation = non_aggression_pact }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 add_ideas = {
 	volunteer_only
 	civilian_economy

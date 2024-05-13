@@ -49,26 +49,6 @@ set_popularities = {
 	neutrality = 20
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 add_ideas = {
 	uncivilized
 	disarmed_nation

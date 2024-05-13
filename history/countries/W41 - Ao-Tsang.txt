@@ -50,32 +50,7 @@ set_popularities = {
 	democratic = 67
 	fascism = 2
 	neutrality = 30
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-add_ideas = {
+}add_ideas = {
 	volunteer_only
 	civilian_economy
 	export_focus

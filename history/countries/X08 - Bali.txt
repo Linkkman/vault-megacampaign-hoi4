@@ -48,26 +48,6 @@ set_popularities = {
 	democratic = 83
 	neutrality = 17
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 add_ideas = {
 	uncivilized
 	volunteer_only

@@ -338,31 +338,6 @@ if = {
     add_to_tech_sharing_group = GER_research
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 add_ideas = {
 	great_power
 	YUG_idea_croatian_opposition

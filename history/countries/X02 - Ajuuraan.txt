@@ -49,26 +49,6 @@ set_popularities = {
 	neutrality = 8
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 add_ideas = {
 	uncivilized
 	limited_conscription

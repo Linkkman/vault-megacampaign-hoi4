@@ -56,22 +56,6 @@ set_popularities = {
 	democratic = 89
 	neutrality = 11
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 add_ideas = {
 	UKR_monarch
 	volunteer_only

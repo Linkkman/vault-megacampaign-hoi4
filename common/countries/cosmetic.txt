@@ -43,9 +43,9 @@ ROM_union= {
 	color_ui = rgb { 200 190 126 }
 }
 
-SOV_union= {
-	color = rgb { 96 131 80 }
-	color_ui = rgb { 96 131 80 }
+SOV_union = {
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 163 17 31 }
 }
 
 SCA_union= {

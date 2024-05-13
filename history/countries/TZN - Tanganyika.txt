@@ -21,26 +21,6 @@ set_popularities = {
 	neutrality = 11
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 add_ideas = {
 	uncivilized
 	volunteer_only

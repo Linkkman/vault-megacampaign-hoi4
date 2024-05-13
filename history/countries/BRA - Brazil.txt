@@ -63,26 +63,6 @@ set_popularities = {
 	neutrality = 3
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 add_ideas = {
 	volunteer_only
 	civilian_economy

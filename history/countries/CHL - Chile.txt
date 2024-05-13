@@ -46,27 +46,7 @@ set_politics = {
 
 set_popularities = {
 	democratic = 100
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-add_ideas = {
+}add_ideas = {
 	volunteer_only
 	civilian_economy
 	export_focus

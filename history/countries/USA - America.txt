@@ -50,32 +50,7 @@ set_popularities = {
 	communism = 0
 	democratic = 94
 	neutrality = 6
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-add_ideas = {
+}add_ideas = {
 	volunteer_only
 	civilian_economy
 	export_focus
