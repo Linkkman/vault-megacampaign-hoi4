@@ -12,5 +12,21 @@ characters={
 			id=-1
 		}
 	}
-
+	SCA_Per_Albin={
+		name=SCA_Per_Albin
+		portraits={
+			civilian={
+				large="gfx/leaders/NOR/portrait_NOR_johan_nygaardsvold.dds"
+			}
+		}
+		cadvisor={
+            cost = 100
+            slot = theorist_production
+            idea_token = SCA_Per_Albin
+                allowed = {
+                    original_tag = SCA
+                }
+                traits = { SCA_Briliant_Theorist }
+        }
+	}
 }

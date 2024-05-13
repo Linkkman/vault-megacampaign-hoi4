@@ -1,0 +1,57 @@
+focus_tree = {
+	id = scandinavia_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = SCA
+		}
+	}
+
+	focus = {
+		id = Tackle_the_crisis
+		icon = GFX_GER_panzerfausts_for_all
+		x = 0
+		y = 0
+		cost = 5
+
+		available_if_capitulated = yes
+
+		completion_reward = { 
+            add_political_power	= 200
+            political_power_factor	= 0.1
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 1
+				always = yes
+			}
+		}
+	}
+    focus = {
+        prerequisite = { focus = Tackle_the_crisis }
+		id = Pers_Industry_reform
+		icon = GFX_GER_panzerfausts_for_all
+		x = 0
+		y = 1
+		cost = 5
+        completion_reward = { 
+            add_advisor_role = {
+                 character = GSA_Character_token
+                 activate = yes
+                 advisor = {
+                    slot = theorist_production
+                    cost = 0
+                    idea_token = SCA_Briliant_Theorist
+
+                 }
+            }
+            activate_advisor = SCA_Per_albin
+
+        }
+    }
+}	
